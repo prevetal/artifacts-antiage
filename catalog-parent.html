@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru" data-zoom="100">
+    <head>
+        <script>
+            const currentTheme = localStorage.getItem('altColorValue')
+            if (currentTheme) {
+                document.documentElement.setAttribute('data-theme', currentTheme)
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <title>Каталог (разводящая) :: Antiage</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+        <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#ffffff">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-config" content="assets/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Description">
+        <meta property="og:url" content="https://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Каталог (разводящая)">
+        <meta property="twitter:title" content="Каталог (разводящая)">
+        <meta property="og:description" content="description">
+        <meta property="twitter:description" content="description">
+        <meta property="og:image" content="assets/share.png">
+        <meta name="robots" content="noindex, nofollow">
+        <script>
+            /* изменяемые настройки скриптов, указаны значения по умолчанию */
+            var appConfig = {
+                templateUrl: '',
+            }
+        </script>
+        <link href="css/critical/catalog-parent.css" rel="stylesheet">
+        <script async type="module" crossorigin src="./js/app.js"></script>
+        <link rel="stylesheet" crossorigin href="./css/rooftopmono.css">
+        <link rel="stylesheet" crossorigin href="./css/common.css">
+        <link rel="stylesheet" crossorigin href="./css/catalog-parent.css">
+    </head>
+    <body class="body header-in-light">
+        <main class="content">
+            <div class="header-wrapper">
+                <header class="header">
+                    <div class="header__inner">
+                        <div class="header__logos">
+                            <svg class="svgsprite _logo-ros header__ros" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                            </svg><a class="header__pbak" href="index.html" title="На главную">
+                                <svg class="svgsprite _logo-pbak" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#logo-pbak" tabindex="-1"></use>
+                                </svg><span class="header__pbak__text">Проектное Бюро Антивозрастной Косметики</span></a>
+                        </div>
+                        <nav class="header__content">
+                            <div class="header__content__header">
+                                <ul class="header__menu _small">
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">О компании</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Новости</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                                <div class="header__content__header__inner"><a class="header__search" href="#"> <span>Поиск</span>
+                                        <svg class="svgsprite _search" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                        </svg></a>
+                                    <ul class="header__lang">
+                                        <li class="header__lang__item"><a class="header__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                        <li class="header__lang__item"><a class="header__lang__link" href="#">EN</a></li>
+                                    </ul><a class="header__tel" href="#">
+                                        <svg class="svgsprite _tel" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#tel" tabindex="-1"></use>
+                                        </svg><span>+7 (343) 305-77-05</span></a>
+                                </div>
+                                <button class="btn-common _size-s _in-light header__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                            <ul class="header__menu">
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Косметическое сырье</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Пигменты</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Контрактное производство</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Товары со склада</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Научные исследования</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Корпоративные подарки</a></li>
+                            </ul>
+                        </nav>
+                        <button class="header__burger js-menu-toggler" type="button" title="Открыть меню">
+                            <svg class="svgsprite _menu header__burger__open" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#menu" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite _close header__burger__close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </header>
+                <div class="breadcrumbs-common-wrapper container">
+                    <div class="breadcrumbs-common">
+                        <a class="btn-common _in-light _size-s breadcrumbs-common__button" href="#">
+                            <svg class="svgsprite _arrow-left" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-left" tabindex="-1"></use>
+                            </svg><span>Назад</span>
+                        </a>
+                        <div class="breadcrumbs-common__inner">
+                            <div class="breadcrumbs-common__item"><span class="breadcrumbs-common__link" aria-hidden="true">Косметическое сырье</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu__overlay js-menu-toggler"></div>
+                <div class="menu__inner">
+                    <div class="menu__scroll-wrapper">
+                        <div class="menu__scroll">
+                            <form class="menu__search js-form" data-native-action>
+                                <div class="menu__search__input js-input">
+                                    <input class="js-input__input" placeholder="Поиск" name="query" data-min-length="3">
+                                    <button class="menu__search__input__clear js-input__clear _hidden" type="submit" title="Очистить">
+                                        <svg class="svgsprite _arrow-long-right" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-long-right" tabindex="-1"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <svg class="svgsprite _search menu__search__icon" tabindex="-1" role="img" aria-hidden="aria-hidden">
+                                    <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                </svg>
+                            </form>
+                            <nav>
+                                <ul class="menu__menu">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Косметическое сырье</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Пигменты</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Контрактное производство</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Товары со склада</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Научные исследования</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Корпоративные подарки</a></li>
+                                </ul>
+                                <ul class="menu__menu _small">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">О компании</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Новости</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                            </nav>
+                            <div class="menu__footer"><a class="menu__tel" href="#">+7 (343) 305-77-05</a>
+                                <ul class="menu__lang">
+                                    <li class="menu__lang__item"><a class="menu__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                    <li class="menu__lang__item"><a class="menu__lang__link" href="#">EN</a></li>
+                                </ul>
+                                <button class="btn-common _size-xm _wide-sm menu__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog container">
+                <div class="catalog__header">
+                    <h1 class="h1">Косметическое сырье</h1>
+                    <p class="catalog__lead">Выберите продукцию из списка категорий или воспользуйтесь поиском </p>
+                </div>
+                <form class="catalog__search js-form" data-native-action="data-native-action">
+                    <div class="catalog__search__input js-input">
+                        <input class="catalog__search__input__input js-input__input" name="query" placeholder="Поиск по активу, назначению, механизму действия" />
+                        <svg class="svgsprite _search catalog__search__input__icon" tabindex="-1" role="img" aria-hidden="true">
+                            <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                        </svg>
+                        <button class="catalog__search__input__clear js-input__clear _hidden" type="button" title="Очистить">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="btn-common catalog__search__button _size-xm _wide-sm" type="submit"><span>Найти</span>
+                    </button>
+                </form>
+                <div class="catalog__parent content-grid">
+                    <div class="content-grid__wrap">
+                        <div class="link-card-list"><a class="link-card" href="#">
+                                <h3 class="link-card__title">Ферментированные масла</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a><a class="link-card" href="#">
+                                <h3 class="link-card__title">Ферментированные активы</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a><a class="link-card" href="#">
+                                <h3 class="link-card__title">Пептиды</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a><a class="link-card" href="#">
+                                <h3 class="link-card__title">Растительные экстракты</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a><a class="link-card" href="#">
+                                <h3 class="link-card__title">Компоненты животного происхождения</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a><a class="link-card" href="#">
+                                <h3 class="link-card__title">Гранулы</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a><a class="link-card" href="#">
+                                <h3 class="link-card__title">Консерванты</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a><a class="link-card" href="#">
+                                <h3 class="link-card__title">UV фильтры</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a><a class="link-card" href="#">
+                                <h3 class="link-card__title">Активы направленного действия</h3>
+                                <div class="arrow-btn _in-white link-card__button">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="content-grid__buttons">
+                            <a class="big-link _in-light _wide-sm" href="#"><span>Перейти в каталог</span><span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                    <div class="content-grid__wrap">
+                        <div class="content-grid__heading">
+                            <h2 class="content-grid__title">Популярные назначения</h2>
+                        </div>
+                        <div class="popular js-filter-form__wrap" data-id="popular_directions">
+                            <form class="js-filter-form" novalidate="novalidate" autocomplete="off"></form>
+                            <div class="popular__body page__content-wrap">
+                                <div class="page__content js-page" aria-live="assertive" aria-atomic="true">
+                                    <div class="popular__body__grid js-page__inner"><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/3.svg" /><span class="popular-card__text">Морщины и упругость/тонус кожи</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/2.svg" /><span class="popular-card__text">Гравитационный птоз</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/1.svg" /><span class="popular-card__text">Темные круги и мешки под глазами</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/4.svg" /><span class="popular-card__text">Осветление и сияние кожи</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/9.svg" /><span class="popular-card__text">Пигментация</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/3.svg" /><span class="popular-card__text">Морщины и упругость/тонус кожи</span></a>
+                                    </div>
+                                    <div class="page-preloader js-filter-form__preloader" role="alert" aria-live="assertive">
+                                        <div class="page-preloader__inner"><span class="screen-reader-only">Идет загрузка</span>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="js-pagination-common__placeholder"></div>
+                            <div class="pagination-common__wrap js-pagination-common__wrap">
+                                <div class="pagination-common__showing">Показано <span class="js-pagination-common__shown" data-decl="вариант|варианта|вариантов">14 вариантов</span> из 67 </div>
+                                <button class="btn-common _size-xl pagination-common__show-more _wide js-pagination-common__show-more" type="button"><span>Показать еще 12</span>
+                                </button>
+                                <ul class="pagination-common js-pagination-common" data-pages="5" data-page="1" data-not-create-pages="data-not-create-pages"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-grid__wrap">
+                        <div class="content-grid__heading">
+                            <h2 class="content-grid__title">Популярные механизмы действия</h2>
+                        </div>
+                        <div class="popular js-filter-form__wrap" data-id="popular_mechanism">
+                            <form class="js-filter-form" novalidate="novalidate" autocomplete="off"></form>
+                            <div class="popular__body page__content-wrap">
+                                <div class="page__content js-page" aria-live="assertive" aria-atomic="true">
+                                    <div class="popular__body__grid js-page__inner"><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/3.svg" /><span class="popular-card__text">Аутофагия</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/2.svg" /><span class="popular-card__text">Защита и репарация ДНК</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/10.svg" /><span class="popular-card__text">Защита стволовых клеток</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/11.svg" /><span class="popular-card__text">Антиоксидантная защита</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/12.svg" /><span class="popular-card__text">Восстановление<br> циркадианных (суточных) ритмов</span></a><a class="popular-card" href="#"><img class="popular-card__icon" src="assets/img/round-svg-icons/3.svg" /><span class="popular-card__text">Аутофагия</span></a>
+                                    </div>
+                                    <div class="page-preloader js-filter-form__preloader" role="alert" aria-live="assertive">
+                                        <div class="page-preloader__inner"><span class="screen-reader-only">Идет загрузка</span>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="js-pagination-common__placeholder"></div>
+                            <div class="pagination-common__wrap js-pagination-common__wrap">
+                                <div class="pagination-common__showing">Показано <span class="js-pagination-common__shown" data-decl="вариант|варианта|вариантов">14 вариантов</span> из 67 </div>
+                                <button class="btn-common _size-xl pagination-common__show-more _wide js-pagination-common__show-more" type="button"><span>Показать еще 12</span>
+                                </button>
+                                <ul class="pagination-common js-pagination-common" data-pages="5" data-page="1" data-not-create-pages="data-not-create-pages"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-footer">
+                <div class="container" id="form">
+                    <form class="form js-form" action="assets/ajax/success.json" novalidate="novalidate" autocomplete="off">
+                        <div class="form__inner">
+                            <div class="form__header">
+                                <h3 class="form__title">Есть вопросы?</h3>
+                                <p class="form__text">Наши менеджеры смогут на все вопросы дать ответ, просто отправьте заявку</p>
+                            </div>
+                            <div class="form__fieldset">
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="form_name">Как вас зовут?</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_name" placeholder="ФИО" data-error-message="Необходимо заполнить поле" type="text" name="name" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_name_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="form_email">Ваш Email</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_email_error" aria-hidden="true">Укажите корректный email</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="form_tel">Ваш телефон</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="form_comment">Что вас интересует?</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_comment" placeholder="Комментарий (необязательно)" type="text" name="comment" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_comment_error" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <button class="btn-common _size-l" type="submit"><span>Отправить заявку</span>
+                                </button>
+                                <p class="form__agree">Отправляя заявку, вы соглашаетесь <a href="#">на обработку персональных данных</a> в соответствии с ФЗ</p>
+                            </div>
+                        </div>
+                        <div class="form-message js-form-common-preloader" role="alert" aria-live="assertive">
+                            <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                                <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                                </svg>
+                            </button>
+                            <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="form-message__content">
+                                <div class="form-message__header">
+                                    <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                    <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                    <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                    <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                    <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <svg class="svgsprite _logo-ros footer__logo__ros" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                    </svg><a class="footer__logo__link" href="index.html"><img class="footer__logo__pbak" src="assets/img/logo-pbak-footer.svg" loading="lazy" alt="ПБАК"></a>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__menu js-common-collapse">
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметическое сырье</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_0" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_0">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные масла</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные активы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пептиды</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Растительные экстракты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Компоненты животного происхождения</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Гранулы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Консерванты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">UV фильтры</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Активы направленного действия</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Научные исследования</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметические пигменты</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_2" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_2">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Перламутр</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Глиттер</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Контрактное производство</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Товары со склада</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_4" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_4">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Готовая косметика</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Сырье</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пигменты</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Корпоративные подарки</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Библиотека</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_6" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_6">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Лекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Публикации</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Видеолекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Исследования</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Бюллетени</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Антистарость</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">О компании</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Новости</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_8" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_8">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Тренды</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__address">
+                            <p class="footer__contacts__address__title">Екатеринбург</p>
+                            <p class="footer__contacts__address__text"> Улица Первомайская, 15, офис 705, бизнес–центр «Вознесенский» </p>
+                        </div>
+                        <div class="footer__contacts__list"><a class="footer__contacts__link" href="#">+7 (343) 305-77-05</a><a class="footer__contacts__link" href="#">site@ros-chimia.ru</a></div>
+                    </div>
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__social"><a class="footer__contacts__social__link" href="#" title="YouTube">
+                                <svg class="svgsprite _youtube" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#youtube" tabindex="-1"></use>
+                                </svg></a><a class="footer__contacts__social__link" href="#" title="Telegram">
+                                <svg class="svgsprite _tg" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#tg" tabindex="-1"></use>
+                                </svg></a></div>
+                        <button class="btn-common _size-xm _wide-sm" data-modal="popup_feedback"><span>Получить консультацию</span>
+                        </button>
+                    </div>
+                </div>
+                <ul class="footer__lab">
+                    <li><a class="footer__lab__link" href="#">Книги А. Ю. Прокопова</a></li>
+                    <li><a class="footer__lab__link" href="#" target="blank">Лаборатория Эстетики цвета <svg class="svgsprite _arrow-link" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-link" tabindex="-1"></use>
+                            </svg></a></li>
+                </ul>
+                <div class="footer__copyright"> <a class="footer__copyright__link" href="#">Политики и юридические документы</a><span>© 2024 Проектное бюро антивозрастной косметики</span></div>
+            </div>
+        </footer>
+        <div class="popup js-popup _order" role="dialog" aria-labelledby="popup_title_feedback" aria-modal="true" aria-hidden="true" id="popup_feedback">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="order-form js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <h3 class="order-form__title">Обратная связь</h3>
+                        <div class="order-form__fieldset">
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_name">Как вас зовут?</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_name" placeholder="ФИО" data-error-message="Необходимо заполнить поле" type="text" name="name" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_name_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_message">Ваш вопрос</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Сообщение" type="text" name="city" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="order-form__footer">
+                            <button class="btn-common _size-l _wide-sm" type="submit"><span>Отправить</span>
+                            </button>
+                            <p class="order-form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup js-popup _publication" role="dialog" aria-labelledby="popup_title_publication" aria-modal="true" aria-hidden="true" id="popup_publication">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="form _in-modal js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <input class="js-publication-id-input js-hidden-input" name="publication_id" type="hidden">
+                        <div class="form__inner">
+                            <div class="form__header">
+                                <h3 class="form__title">Заказать статью</h3>
+                                <p class="form__text">Укажите, пожалуйста, компанию, которую Вы представляете и род деятельности</p>
+                            </div>
+                            <div class="form__fieldset">
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="publication_company">Компания</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="publication_company" placeholder="Название компании" data-error-message="Необходимо заполнить поле" type="text" name="company" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="publication_company_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_message">Сообщение</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Комментарий (необязательно)" type="text" name="message" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <button class="btn-common _size-l" type="submit"><span>Отправить заявку</span>
+                                </button>
+                                <p class="form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

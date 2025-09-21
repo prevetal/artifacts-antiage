@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o}from"./vue.pug.js";/* empty css                    *//* empty css      *//* empty css         */import"./app.js";const r={},c={style:{"font-size":"2rem"}};function s(n,_){return t(),o("div",c,"тестовая страница на vue")}const d=e(r,[["render",s]]);export{d as default};

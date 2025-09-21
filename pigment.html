@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="ru" data-zoom="100">
+    <head>
+        <script>
+            const currentTheme = localStorage.getItem('altColorValue')
+            if (currentTheme) {
+                document.documentElement.setAttribute('data-theme', currentTheme)
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <title>Пигмент :: Antiage</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+        <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#ffffff">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-config" content="assets/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Description">
+        <meta property="og:url" content="https://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Пигмент">
+        <meta property="twitter:title" content="Пигмент">
+        <meta property="og:description" content="description">
+        <meta property="twitter:description" content="description">
+        <meta property="og:image" content="assets/share.png">
+        <meta name="robots" content="noindex, nofollow">
+        <script>
+            /* изменяемые настройки скриптов, указаны значения по умолчанию */
+            var appConfig = {
+                templateUrl: '',
+            }
+        </script>
+        <link href="css/critical/pigment.css" rel="stylesheet">
+        <script async type="module" crossorigin src="./js/app.js"></script>
+        <link rel="stylesheet" crossorigin href="./css/rooftopmono.css">
+        <link rel="stylesheet" crossorigin href="./css/common.css">
+        <link rel="stylesheet" crossorigin href="./css/pigment.css">
+    </head>
+    <body class="body header-abs">
+        <main class="content">
+            <div class="header-wrapper">
+                <header class="header">
+                    <div class="header__inner">
+                        <div class="header__logos">
+                            <svg class="svgsprite _logo-ros header__ros" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                            </svg><a class="header__pbak" href="index.html" title="На главную">
+                                <svg class="svgsprite _logo-pbak" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#logo-pbak" tabindex="-1"></use>
+                                </svg><span class="header__pbak__text">Проектное Бюро Антивозрастной Косметики</span></a>
+                        </div>
+                        <nav class="header__content">
+                            <div class="header__content__header">
+                                <ul class="header__menu _small">
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">О компании</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Новости</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                                <div class="header__content__header__inner"><a class="header__search" href="#"> <span>Поиск</span>
+                                        <svg class="svgsprite _search" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                        </svg></a>
+                                    <ul class="header__lang">
+                                        <li class="header__lang__item"><a class="header__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                        <li class="header__lang__item"><a class="header__lang__link" href="#">EN</a></li>
+                                    </ul><a class="header__tel" href="#">
+                                        <svg class="svgsprite _tel" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#tel" tabindex="-1"></use>
+                                        </svg><span>+7 (343) 305-77-05</span></a>
+                                </div>
+                                <button class="btn-common _size-s _in-light header__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                            <ul class="header__menu">
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Косметическое сырье</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Пигменты</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Контрактное производство</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Товары со склада</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Научные исследования</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Корпоративные подарки</a></li>
+                            </ul>
+                        </nav>
+                        <button class="header__burger js-menu-toggler" type="button" title="Открыть меню">
+                            <svg class="svgsprite _menu header__burger__open" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#menu" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite _close header__burger__close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </header>
+                <div class="breadcrumbs-common-wrapper container">
+                    <div class="breadcrumbs-common">
+                        <a class="btn-common _in-light _size-s breadcrumbs-common__button" href="#">
+                            <svg class="svgsprite _arrow-left" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-left" tabindex="-1"></use>
+                            </svg><span>Назад</span>
+                        </a>
+                        <div class="breadcrumbs-common__inner">
+                            <div class="breadcrumbs-common__item"><a class="breadcrumbs-common__link" href="#">Косметические пигменты</a>
+                            </div>
+                            <div class="breadcrumbs-common__item"><a class="breadcrumbs-common__link" href="#">Перламутровые пигменты</a>
+                            </div>
+                            <div class="breadcrumbs-common__item"><span class="breadcrumbs-common__link" aria-hidden="true">Серебристо-белый</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu__overlay js-menu-toggler"></div>
+                <div class="menu__inner">
+                    <div class="menu__scroll-wrapper">
+                        <div class="menu__scroll">
+                            <form class="menu__search js-form" data-native-action>
+                                <div class="menu__search__input js-input">
+                                    <input class="js-input__input" placeholder="Поиск" name="query" data-min-length="3">
+                                    <button class="menu__search__input__clear js-input__clear _hidden" type="submit" title="Очистить">
+                                        <svg class="svgsprite _arrow-long-right" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-long-right" tabindex="-1"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <svg class="svgsprite _search menu__search__icon" tabindex="-1" role="img" aria-hidden="aria-hidden">
+                                    <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                </svg>
+                            </form>
+                            <nav>
+                                <ul class="menu__menu">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Косметическое сырье</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Пигменты</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Контрактное производство</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Товары со склада</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Научные исследования</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Корпоративные подарки</a></li>
+                                </ul>
+                                <ul class="menu__menu _small">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">О компании</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Новости</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                            </nav>
+                            <div class="menu__footer"><a class="menu__tel" href="#">+7 (343) 305-77-05</a>
+                                <ul class="menu__lang">
+                                    <li class="menu__lang__item"><a class="menu__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                    <li class="menu__lang__item"><a class="menu__lang__link" href="#">EN</a></li>
+                                </ul>
+                                <button class="btn-common _size-xm _wide-sm menu__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-grid">
+                <div class="p-intro">
+                    <div class="js-intro-slider">
+                        <div class="p-intro__inner">
+                            <div class="p-intro__content"><span class="p-intro__article">SHC-96115S</span>
+                                <h1 class="p-intro__title h1">Серебристо-белый</h1>
+                                <p class="p-intro__lead">Серебристо-белый пигмент</p>
+                                <a class="btn-common _size-xm p-intro__button" href="#"><span>Заказать образец</span>
+                                </a>
+                            </div>
+                            <!-- не выводить, если один слайд-->
+                            <div class="p-intro__slider-buttons">
+                                <div class="swiper-button-prev">
+                                    <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                                <div class="swiper-button-next">
+                                    <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-intro__slider swiper-wrapper">
+                            <div class="swiper-slide">
+                                <video class="cover-pic" src="assets/video.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="auto" poster="assets/img/poster.jpg" playsinline="playsinline"></video>
+                            </div>
+                            <picture class="swiper-slide">
+                                <source srcset="assets/img/pigments/slide-1.jpg 1x, assets/img/pigments/slide-1.jpg 2x" media="(min-width: 1920px)" width="1920" height="1000" />
+                                <source srcset="assets/img/pigments/slide-1.jpg 1x, assets/img/pigments/slide-1.jpg 2x" media="(min-width: 768px)" width="1199" height="568" />
+                                <source srcset="assets/img/pigments/slide-1.jpg 1x, assets/img/pigments/slide-1.jpg 2x" media="(min-width: 400px)" width="767" height="596" />
+                                <source srcset="assets/img/pigments/slide-1.jpg 1x, assets/img/pigments/slide-1.jpg 2x" width="399" height="596" /><img class="cover-pic" src="assets/img/pigments/slide-1.jpg" width="399" height="596" loading="lazy" alt="" />
+                            </picture>
+                            <picture class="swiper-slide">
+                                <source srcset="assets/img/pigments/slide-2.jpg 1x, assets/img/pigments/slide-2.jpg 2x" media="(min-width: 1920px)" width="1920" height="1000" />
+                                <source srcset="assets/img/pigments/slide-2.jpg 1x, assets/img/pigments/slide-2.jpg 2x" media="(min-width: 768px)" width="1199" height="568" />
+                                <source srcset="assets/img/pigments/slide-2.jpg 1x, assets/img/pigments/slide-2.jpg 2x" media="(min-width: 400px)" width="767" height="596" />
+                                <source srcset="assets/img/pigments/slide-2.jpg 1x, assets/img/pigments/slide-2.jpg 2x" width="399" height="596" /><img class="cover-pic" src="assets/img/pigments/slide-2.jpg" width="399" height="596" loading="lazy" alt="" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="p-intro__data-wrapper">
+                        <div class="p-intro__data">
+                            <div class="p-intro__data__block">
+                                <div class="p-intro__data__title">Выбрать размер частиц</div>
+                                <div class="data-radios _in-light-lg _pigment">
+                                    <div class="data-radios__item">
+                                        <input type="radio" name="size" checked="checked" id="size_0" value="10-60" />
+                                        <label for="size_0"><span class="data-radios__item__text">10-60</span></label>
+                                    </div>
+                                    <div class="data-radios__item">
+                                        <input type="radio" name="size" id="size_1" value="20-100" />
+                                        <label for="size_1"><span class="data-radios__item__text">20-100</span></label>
+                                    </div>
+                                    <div class="data-radios__item">
+                                        <input type="radio" name="size" id="size_2" value="50-250" />
+                                        <label for="size_2"><span class="data-radios__item__text">50-250</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-intro__data__block">
+                                <div class="p-intro__data__title">Выбрать цвет</div>
+                                <div class="data-radios _color _in-light-lg">
+                                    <div class="data-radios__item" style="--color-from: #019798; --color-to: #BB29BA">
+                                        <input type="radio" name="color" checked="checked" id="color_0" value="Зелено-пурпурный" />
+                                        <label for="color_0"><span class="data-radios__item__text">Зелено-пурпурный</span></label>
+                                    </div>
+                                    <div class="data-radios__item" style="--color-from: #DA5BD9; --color-to: #CCDC6A">
+                                        <input type="radio" name="color" id="color_1" value="Бирюзовый" />
+                                        <label for="color_1"><span class="data-radios__item__text">Бирюзовый</span></label>
+                                    </div>
+                                    <div class="data-radios__item" style="--color-from: #BCD5F1; --color-to: #DC936A">
+                                        <input type="radio" name="color" id="color_2" value="Серебристо-белый" />
+                                        <label for="color_2"><span class="data-radios__item__text">Серебристо-белый</span></label>
+                                    </div>
+                                    <div class="data-radios__item" style="--color-from: #D5A2F5; --color-to: #B8DC6A">
+                                        <input type="radio" name="color" id="color_3" value="Красный" />
+                                        <label for="color_3"><span class="data-radios__item__text">Красный</span></label>
+                                    </div>
+                                    <div class="data-radios__item" style="--color-from: #DFF5A2; --color-to: #6AC7DC">
+                                        <input type="radio" name="color" id="color_4" value="Зелено-пурпурный" />
+                                        <label for="color_4"><span class="data-radios__item__text">Зелено-пурпурный</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-intro__data__block _span">
+                                <div class="p-intro__data__title">Состав</div>
+                                <div class="p-intro__data__text">Алюминий, Диоксид кремния, Оксид железа</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-grid__wrap">
+                    <div class="content-grid__heading container">
+                        <h2 class="content-grid__title">Высокая степень блеска и цвета</h2>
+                        <div class="content-grid__lead">
+                            <p>На видео ниже мы хотим продемонстрировать вам как выглядит пигмент при нанесении</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <figure class="video-common js-common-video">
+                            <div class="video-common__inner">
+                                <video class="js-common-video__video _hidden" src="assets/video.mp4" poster="assets/img/pigments/poster.jpg"></video>
+                                <button class="video-common__overlay js-common-video__play" type="button" title="Воспроизвести видео">
+                                    <picture aria-hidden="true" alt="">
+                                        <source srcset="assets/img/pigments/poster.jpg 1x, assets/img/pigments/poster.jpg 2x" media="(min-width: 768px)" width="1231" height="597" />
+                                        <source srcset="assets/img/pigments/poster.jpg 1x, assets/img/pigments/poster.jpg 2x" media="(min-width: 400px)" width="735" height="357" />
+                                        <source srcset="assets/img/pigments/poster.jpg 1x, assets/img/pigments/poster.jpg 2x" width="367" height="178" /><img class="cover-pic" src="assets/img/pigments/poster.jpg" width="367" height="178" loading="lazy" alt="" />
+                                    </picture><span class="video-common__play" aria-hidden="true">
+                                        <svg class="svgsprite _play" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#play" tabindex="-1"></use>
+                                        </svg></span>
+                                </button>
+                            </div>
+                            <figcaption class="video-common__data js-common-video__data">
+                                <div class="video-common__data__inner">
+                                    <div class="video-common__data__block"><span class="video-common__data__caption">Видео</span><span class="video-common__data__text" title="Бирюзово-пурпурный цветной глиттер">Бирюзово-пурпурный цветной глиттер</span>
+                                        <ul class="video-common__tags">
+                                            <li class="tag _in-transparent-md">Кожа</li>
+                                            <li class="tag _in-transparent-md">Старение</li>
+                                            <li class="tag _in-transparent-md">14 апреля 2024</li>
+                                        </ul>
+                                    </div>
+                                    <div class="video-common__data__block _duration"><span class="video-common__data__caption">Длительность</span><span class="video-common__data__duration">02<span class="video-common__data__duration__muted">:40</span></span></div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <!-- max 4 row-->
+                <div class="shorts _pigments"><img class="shorts__bg" src="./assets/img/shorts-bg.svg" width="2592" height="3460" loading="lazy">
+                    <div class="shorts__noise"></div>
+                    <div class="container">
+                        <div class="shorts__content">
+                            <div class="shorts__list">
+                                <div class="short-card shorts__item">
+                                    <div class="short-card__pictures">
+                                        <picture class="cover-pic">
+                                            <source srcset="assets/img/pigments/shorts/1.jpg 1x, assets/img/pigments/shorts/1.jpg 2x" media="(min-width: 1920px)" width="612" height="763" />
+                                            <source srcset="assets/img/pigments/shorts/1.jpg 1x, assets/img/pigments/shorts/1.jpg 2x" media="(min-width: 1280px)" width="659" height="822" />
+                                            <source srcset="assets/img/pigments/shorts/1.jpg 1x, assets/img/pigments/shorts/1.jpg 2x" media="(min-width: 768px)" width="561" height="699" />
+                                            <source srcset="assets/img/pigments/shorts/1.jpg 1x, assets/img/pigments/shorts/1.jpg 2x" media="(min-width: 400px)" width="735" height="916" />
+                                            <source srcset="assets/img/pigments/shorts/1.jpg 1x, assets/img/pigments/shorts/1.jpg 2x" width="367" height="458" /><img class="cover-pic" src="assets/img/pigments/shorts/1.jpg" width="367" height="458" loading="lazy" alt="" />
+                                        </picture>
+                                    </div>
+                                    <div class="short-card__content">
+                                        <h6 class="short-card__title">Низкая цена</h6>
+                                        <div class="short-card__text">
+                                            <p>Это обусловлено тем, что Китай является крупнейшим поставщиком хорошего качества, что позволяет снизить себестоимость за счет массового производства</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="short-card shorts__item">
+                                    <div class="short-card__pictures">
+                                        <picture class="cover-pic">
+                                            <source srcset="assets/img/pigments/shorts/2.jpg 1x, assets/img/pigments/shorts/2.jpg 2x" media="(min-width: 1920px)" width="612" height="763" />
+                                            <source srcset="assets/img/pigments/shorts/2.jpg 1x, assets/img/pigments/shorts/2.jpg 2x" media="(min-width: 1280px)" width="659" height="822" />
+                                            <source srcset="assets/img/pigments/shorts/2.jpg 1x, assets/img/pigments/shorts/2.jpg 2x" media="(min-width: 768px)" width="561" height="699" />
+                                            <source srcset="assets/img/pigments/shorts/2.jpg 1x, assets/img/pigments/shorts/2.jpg 2x" media="(min-width: 400px)" width="735" height="916" />
+                                            <source srcset="assets/img/pigments/shorts/2.jpg 1x, assets/img/pigments/shorts/2.jpg 2x" width="367" height="458" /><img class="cover-pic" src="assets/img/pigments/shorts/2.jpg" width="367" height="458" loading="lazy" alt="" />
+                                        </picture>
+                                    </div>
+                                    <div class="short-card__content">
+                                        <h6 class="short-card__title">Приятное ощущение на коже</h6>
+                                        <div class="short-card__text">
+                                            <p>Это обусловлено тем, что Китай является крупнейшим поставщиком хорошего качества, что позволяет снизить себестоимость за счет массового производства</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="short-card shorts__item">
+                                    <div class="short-card__pictures _double">
+                                        <picture class="cover-pic">
+                                            <source srcset="assets/img/pigments/shorts/3.jpg 1x, assets/img/pigments/shorts/3.jpg 2x" media="(min-width: 1920px)" width="428" height="544" />
+                                            <source srcset="assets/img/pigments/shorts/3.jpg 1x, assets/img/pigments/shorts/3.jpg 2x" media="(min-width: 1280px)" width="460" height="585" />
+                                            <source srcset="assets/img/pigments/shorts/3.jpg 1x, assets/img/pigments/shorts/3.jpg 2x" media="(min-width: 768px)" width="320" height="406" />
+                                            <source srcset="assets/img/pigments/shorts/3.jpg 1x, assets/img/pigments/shorts/3.jpg 2x" media="(min-width: 400px)" width="419" height="532" />
+                                            <source srcset="assets/img/pigments/shorts/3.jpg 1x, assets/img/pigments/shorts/3.jpg 2x" width="209" height="266" /><img class="cover-pic" src="assets/img/pigments/shorts/3.jpg" width="209" height="266" loading="lazy" alt="" />
+                                        </picture>
+                                        <picture class="cover-pic">
+                                            <source srcset="assets/img/pigments/shorts/4.jpg 1x, assets/img/pigments/shorts/4.jpg 2x" media="(min-width: 1920px)" width="428" height="544" />
+                                            <source srcset="assets/img/pigments/shorts/4.jpg 1x, assets/img/pigments/shorts/4.jpg 2x" media="(min-width: 1280px)" width="460" height="585" />
+                                            <source srcset="assets/img/pigments/shorts/4.jpg 1x, assets/img/pigments/shorts/4.jpg 2x" media="(min-width: 768px)" width="320" height="406" />
+                                            <source srcset="assets/img/pigments/shorts/4.jpg 1x, assets/img/pigments/shorts/4.jpg 2x" media="(min-width: 400px)" width="419" height="532" />
+                                            <source srcset="assets/img/pigments/shorts/4.jpg 1x, assets/img/pigments/shorts/4.jpg 2x" width="209" height="266" /><img class="cover-pic" src="assets/img/pigments/shorts/4.jpg" width="209" height="266" loading="lazy" alt="" />
+                                        </picture>
+                                    </div>
+                                    <div class="short-card__content">
+                                        <h6 class="short-card__title">Высокая укрывистость</h6>
+                                        <div class="short-card__text">
+                                            <p>Это обусловлено тем, что Китай является крупнейшим поставщиком хорошего качества, что позволяет снизить себестоимость за счет массового производства</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="short-card shorts__item">
+                                    <div class="short-card__pictures">
+                                        <picture class="cover-pic">
+                                            <source srcset="assets/img/pigments/shorts/5.jpg 1x, assets/img/pigments/shorts/5.jpg 2x" media="(min-width: 1920px)" width="612" height="763" />
+                                            <source srcset="assets/img/pigments/shorts/5.jpg 1x, assets/img/pigments/shorts/5.jpg 2x" media="(min-width: 1280px)" width="659" height="822" />
+                                            <source srcset="assets/img/pigments/shorts/5.jpg 1x, assets/img/pigments/shorts/5.jpg 2x" media="(min-width: 768px)" width="561" height="699" />
+                                            <source srcset="assets/img/pigments/shorts/5.jpg 1x, assets/img/pigments/shorts/5.jpg 2x" media="(min-width: 400px)" width="735" height="916" />
+                                            <source srcset="assets/img/pigments/shorts/5.jpg 1x, assets/img/pigments/shorts/5.jpg 2x" width="367" height="458" /><img class="cover-pic" src="assets/img/pigments/shorts/5.jpg" width="367" height="458" loading="lazy" alt="" />
+                                        </picture>
+                                    </div>
+                                    <div class="short-card__content">
+                                        <h6 class="short-card__title">Размеры частиц <br>от 5-20 до 20-100 мкн.</h6>
+                                        <div class="short-card__text">
+                                            <p>Это обусловлено тем, что Китай является крупнейшим поставщиком хорошего качества, что позволяет снизить себестоимость за счет массового производства</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="form">
+                    <form class="form js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <div class="form__inner">
+                            <div class="form__header">
+                                <h3 class="form__title">Оставить заявку</h3>
+                                <p class="form__text">После отправки заявки с вами свяжется менеджер чтобы уточнить данные и закончить оформление заказа.</p>
+                            </div>
+                            <div class="form__fieldset">
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="form_name">Как вас зовут?</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_name" placeholder="ФИО" data-error-message="Необходимо заполнить поле" type="text" name="name" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_name_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="form_email">Ваш Email</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_email_error" aria-hidden="true">Укажите корректный email</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="form_tel">Ваш телефон</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="form_comment">Что вас интересует?</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_comment" placeholder="Комментарий (необязательно)" type="text" name="comment" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_comment_error" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <button class="btn-common _size-l" type="submit"><span>Отправить</span>
+                                </button>
+                                <p class="form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                            </div>
+                        </div>
+                        <div class="form-message js-form-common-preloader" role="alert" aria-live="assertive">
+                            <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                                <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                                </svg>
+                            </button>
+                            <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="form-message__content">
+                                <div class="form-message__header">
+                                    <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                    <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                    <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                    <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                    <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="content-grid__wrap">
+                    <div class="content-grid__heading container">
+                        <h2 class="content-grid__title _center-up-md">Ответы на вопросы</h2>
+                    </div>
+                    <div class="container">
+                        <div class="faq js-common-collapse">
+                            <div class="accordion-item js-common-collapse__item">
+                                <button class="accordion-item-visible js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="faq_0" aria-expanded="false">
+                                    <h5 class="accordion-item-title">Можно ли заказать партию меньше?</h5><span class="accordion-item-ico"><span></span><span></span></span>
+                                </button>
+                                <div class="accordion-item-hidden _height-null js-common-collapse__item__toggle-container" id="faq_0">
+                                    <div class="accordion-item-content rte">
+                                        <p>Текстовый блок. Заголовки не предусмотрены. Списки не предусмотрены. Ссылки не предусмотрены.</p>
+                                        <p>Насладитесь высококачественными компонентами, прямиком из сердца креативности и передовых технологий. Откройте для себя уникальные текстуры, ароматы и эффективность корейских материалов, которые помогут воплотить ваши косметические мечты в жизнь. Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item js-common-collapse__item">
+                                <button class="accordion-item-visible js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="faq_1" aria-expanded="false">
+                                    <h5 class="accordion-item-title">С какой упаковкой вы работаете?</h5><span class="accordion-item-ico"><span></span><span></span></span>
+                                </button>
+                                <div class="accordion-item-hidden _height-null js-common-collapse__item__toggle-container" id="faq_1">
+                                    <div class="accordion-item-content rte">
+                                        <p>Текстовый блок. Заголовки не предусмотрены. Списки не предусмотрены. Ссылки не предусмотрены.</p>
+                                        <p>Насладитесь высококачественными компонентами, прямиком из сердца креативности и передовых технологий. Откройте для себя уникальные текстуры, ароматы и эффективность корейских материалов, которые помогут воплотить ваши косметические мечты в жизнь. Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item js-common-collapse__item">
+                                <button class="accordion-item-visible js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="faq_2" aria-expanded="false">
+                                    <h5 class="accordion-item-title">Помогаете ли вы получить декларацию о соответствии на продукцию?</h5><span class="accordion-item-ico"><span></span><span></span></span>
+                                </button>
+                                <div class="accordion-item-hidden _height-null js-common-collapse__item__toggle-container" id="faq_2">
+                                    <div class="accordion-item-content rte">
+                                        <p>Текстовый блок. Заголовки не предусмотрены. Списки не предусмотрены. Ссылки не предусмотрены.</p>
+                                        <p>Насладитесь высококачественными компонентами, прямиком из сердца креативности и передовых технологий. Откройте для себя уникальные текстуры, ароматы и эффективность корейских материалов, которые помогут воплотить ваши косметические мечты в жизнь. Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item js-common-collapse__item">
+                                <button class="accordion-item-visible js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="faq_3" aria-expanded="false">
+                                    <h5 class="accordion-item-title">Сколько единиц продукции вы можете выпустить в месяц?</h5><span class="accordion-item-ico"><span></span><span></span></span>
+                                </button>
+                                <div class="accordion-item-hidden _height-null js-common-collapse__item__toggle-container" id="faq_3">
+                                    <div class="accordion-item-content rte">
+                                        <p>Текстовый блок. Заголовки не предусмотрены. Списки не предусмотрены. Ссылки не предусмотрены.</p>
+                                        <p>Насладитесь высококачественными компонентами, прямиком из сердца креативности и передовых технологий. Откройте для себя уникальные текстуры, ароматы и эффективность корейских материалов, которые помогут воплотить ваши косметические мечты в жизнь. Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item js-common-collapse__item">
+                                <button class="accordion-item-visible js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="faq_4" aria-expanded="false">
+                                    <h5 class="accordion-item-title">Можно ли сотрудничать с вами, если я живу не в Екатеринбурге?</h5><span class="accordion-item-ico"><span></span><span></span></span>
+                                </button>
+                                <div class="accordion-item-hidden _height-null js-common-collapse__item__toggle-container" id="faq_4">
+                                    <div class="accordion-item-content rte">
+                                        <p>Текстовый блок. Заголовки не предусмотрены. Списки не предусмотрены. Ссылки не предусмотрены.</p>
+                                        <p>Насладитесь высококачественными компонентами, прямиком из сердца креативности и передовых технологий. Откройте для себя уникальные текстуры, ароматы и эффективность корейских материалов, которые помогут воплотить ваши косметические мечты в жизнь. Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item js-common-collapse__item">
+                                <button class="accordion-item-visible js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="faq_5" aria-expanded="false">
+                                    <h5 class="accordion-item-title">Оказываете ли вы услуги фулфилмента для маркетплейсов?</h5><span class="accordion-item-ico"><span></span><span></span></span>
+                                </button>
+                                <div class="accordion-item-hidden _height-null js-common-collapse__item__toggle-container" id="faq_5">
+                                    <div class="accordion-item-content rte">
+                                        <p>Текстовый блок. Заголовки не предусмотрены. Списки не предусмотрены. Ссылки не предусмотрены.</p>
+                                        <p>Насладитесь высококачественными компонентами, прямиком из сердца креативности и передовых технологий. Откройте для себя уникальные текстуры, ароматы и эффективность корейских материалов, которые помогут воплотить ваши косметические мечты в жизнь. Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item js-common-collapse__item">
+                                <button class="accordion-item-visible js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="faq_6" aria-expanded="false">
+                                    <h5 class="accordion-item-title">Сколько денег нужно на запуск одного продукта?</h5><span class="accordion-item-ico"><span></span><span></span></span>
+                                </button>
+                                <div class="accordion-item-hidden _height-null js-common-collapse__item__toggle-container" id="faq_6">
+                                    <div class="accordion-item-content rte">
+                                        <p>Текстовый блок. Заголовки не предусмотрены. Списки не предусмотрены. Ссылки не предусмотрены.</p>
+                                        <p>Насладитесь высококачественными компонентами, прямиком из сердца креативности и передовых технологий. Откройте для себя уникальные текстуры, ароматы и эффективность корейских материалов, которые помогут воплотить ваши косметические мечты в жизнь. Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item js-common-collapse__item">
+                                <button class="accordion-item-visible js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="faq_7" aria-expanded="false">
+                                    <h5 class="accordion-item-title">Могу ли я заказать у вас только производство косметического продукта? <br>Хочу расфасовать его самостоятельно на своем производстве.</h5><span class="accordion-item-ico"><span></span><span></span></span>
+                                </button>
+                                <div class="accordion-item-hidden _height-null js-common-collapse__item__toggle-container" id="faq_7">
+                                    <div class="accordion-item-content rte">
+                                        <p>Текстовый блок. Заголовки не предусмотрены. Списки не предусмотрены. Ссылки не предусмотрены.</p>
+                                        <p>Насладитесь высококачественными компонентами, прямиком из сердца креативности и передовых технологий. Откройте для себя уникальные текстуры, ароматы и эффективность корейских материалов, которые помогут воплотить ваши косметические мечты в жизнь. Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-grid__wrap">
+                    <div class="content-grid__heading container">
+                        <h2 class="content-grid__title">Похожие пигменты по типу</h2>
+                    </div>
+                    <div class="container">
+                        <div class="similar">
+                            <div class="swiper js-tablet-slider">
+                                <div class="similar__list swiper-wrapper"><a class="component-card swiper-slide" href="#">
+                                        <div class="component-card__header">
+                                            <!-- оставлять враппер, если нет картинки-->
+                                            <div class="component-card__picture-wrapper">
+                                                <picture class="component-card__picture" aria-hidden="true">
+                                                    <source srcset="assets/img/pigments/rounded/2.jpg 1x, assets/img/pigments/rounded/2.jpg 2x" media="(min-width: 1920px)" width="110" height="110" />
+                                                    <source srcset="assets/img/pigments/rounded/2.jpg 1x, assets/img/pigments/rounded/2.jpg 2x" width="80" height="80" /><img class="cover-pic" src="assets/img/pigments/rounded/2.jpg" width="80" height="80" loading="lazy" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div class="component-card__content">
+                                                <p class="component-card__title">U-Ferment® Oil Olive</p>
+                                                <p class="component-card__desc">Ферментированное оливковое масло</p>
+                                                <ul class="component-card__tags">
+                                                    <li class="component-card__tag">Хит</li>
+                                                    <li class="component-card__tag _in-green">В наличии</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="component-card__footer">
+                                            <ul class="component-card__feats">
+                                                <li class="component-card__feat"><span class="component-card__feat__num">01</span><span class="component-card__feat__text">Противовоспалительный эффект</span></li>
+                                                <li class="component-card__feat"><span class="component-card__feat__num">02</span><span class="component-card__feat__text">Увлажнение кожи</span></li>
+                                                <li class="component-card__feat"><span class="component-card__feat__num">03</span><span class="component-card__feat__text">Уход за молодой и стареющей кожей</span></li>
+                                            </ul>
+                                            <picture class="component-card__logo" aria-hidden="true">
+                                                <source srcset="assets/img/united-active.png 1x, assets/img/united-active.png 2x" /><img class="contain-pic" src="assets/img/united-active.png" loading="lazy" alt="" />
+                                            </picture>
+                                        </div>
+                                    </a><a class="component-card swiper-slide" href="#">
+                                        <div class="component-card__header">
+                                            <!-- оставлять враппер, если нет картинки-->
+                                            <div class="component-card__picture-wrapper">
+                                                <picture class="component-card__picture" aria-hidden="true">
+                                                    <source srcset="assets/img/pigments/rounded/3.jpg 1x, assets/img/pigments/rounded/3.jpg 2x" media="(min-width: 1920px)" width="110" height="110" />
+                                                    <source srcset="assets/img/pigments/rounded/3.jpg 1x, assets/img/pigments/rounded/3.jpg 2x" width="80" height="80" /><img class="cover-pic" src="assets/img/pigments/rounded/3.jpg" width="80" height="80" loading="lazy" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div class="component-card__content">
+                                                <p class="component-card__title">U-Ferment® Oil Canola</p>
+                                                <p class="component-card__desc">Оливковое масло</p>
+                                                <ul class="component-card__tags">
+                                                    <li class="component-card__tag _in-green">В наличии</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="component-card__footer">
+                                            <ul class="component-card__feats">
+                                                <li class="component-card__feat"><span class="component-card__feat__num">01</span><span class="component-card__feat__text">Противовоспалительный эффект</span></li>
+                                                <li class="component-card__feat"><span class="component-card__feat__num">02</span><span class="component-card__feat__text">Увлажнение кожи</span></li>
+                                            </ul>
+                                            <picture class="component-card__logo" aria-hidden="true">
+                                                <source srcset="assets/img/united-active.png 1x, assets/img/united-active.png 2x" /><img class="contain-pic" src="assets/img/united-active.png" loading="lazy" alt="" />
+                                            </picture>
+                                        </div>
+                                    </a><a class="component-card swiper-slide" href="#">
+                                        <div class="component-card__header">
+                                            <!-- оставлять враппер, если нет картинки-->
+                                            <div class="component-card__picture-wrapper">
+                                                <picture class="component-card__picture" aria-hidden="true">
+                                                    <source srcset="assets/img/pigments/rounded/4.jpg 1x, assets/img/pigments/rounded/4.jpg 2x" media="(min-width: 1920px)" width="110" height="110" />
+                                                    <source srcset="assets/img/pigments/rounded/4.jpg 1x, assets/img/pigments/rounded/4.jpg 2x" width="80" height="80" /><img class="cover-pic" src="assets/img/pigments/rounded/4.jpg" width="80" height="80" loading="lazy" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div class="component-card__content">
+                                                <p class="component-card__title">Multiex™ Humid-Max Plus</p>
+                                                <p class="component-card__desc">Ферментированное оливковое масло</p>
+                                                <ul class="component-card__tags">
+                                                    <li class="component-card__tag">Хит</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="component-card__footer">
+                                            <ul class="component-card__feats">
+                                                <li class="component-card__feat"><span class="component-card__feat__num">01</span><span class="component-card__feat__text">Противовоспалительный эффект</span></li>
+                                            </ul>
+                                            <picture class="component-card__logo" aria-hidden="true">
+                                                <source srcset="assets/img/united-active.png 1x, assets/img/united-active.png 2x" /><img class="contain-pic" src="assets/img/united-active.png" loading="lazy" alt="" />
+                                            </picture>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-grid__buttons container">
+                        <a class="big-link _in-light _wide-sm" href="#"><span>Смотреть все</span><span class="big-link__icon" aria-hidden="true">
+                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                </svg>
+                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                </svg></span></a>
+                    </div>
+                </div>
+                <div class="content-grid__wrap">
+                    <div class="content-grid__heading container">
+                        <h2 class="content-grid__title">Похожие пигменты по цвету</h2>
+                    </div>
+                    <div class="container">
+                        <div class="similar">
+                            <div class="swiper js-tablet-slider">
+                                <div class="similar__list swiper-wrapper"><a class="component-card swiper-slide" href="#">
+                                        <div class="component-card__header">
+                                            <!-- оставлять враппер, если нет картинки-->
+                                            <div class="component-card__picture-wrapper">
+                                                <picture class="component-card__picture" aria-hidden="true">
+                                                    <source srcset="assets/img/pigments/rounded/2.jpg 1x, assets/img/pigments/rounded/2.jpg 2x" media="(min-width: 1920px)" width="110" height="110" />
+                                                    <source srcset="assets/img/pigments/rounded/2.jpg 1x, assets/img/pigments/rounded/2.jpg 2x" width="80" height="80" /><img class="cover-pic" src="assets/img/pigments/rounded/2.jpg" width="80" height="80" loading="lazy" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div class="component-card__content">
+                                                <p class="component-card__title">U-Ferment® Oil Olive</p>
+                                                <p class="component-card__desc">Ферментированное оливковое масло</p>
+                                                <ul class="component-card__tags">
+                                                    <li class="component-card__tag">Хит</li>
+                                                    <li class="component-card__tag _in-green">В наличии</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="component-card__footer">
+                                            <ul class="component-card__feats">
+                                                <li class="component-card__feat"><span class="component-card__feat__num">01</span><span class="component-card__feat__text">Противовоспалительный эффект</span></li>
+                                                <li class="component-card__feat"><span class="component-card__feat__num">02</span><span class="component-card__feat__text">Увлажнение кожи</span></li>
+                                                <li class="component-card__feat"><span class="component-card__feat__num">03</span><span class="component-card__feat__text">Уход за молодой и стареющей кожей</span></li>
+                                            </ul>
+                                            <picture class="component-card__logo" aria-hidden="true">
+                                                <source srcset="assets/img/united-active.png 1x, assets/img/united-active.png 2x" /><img class="contain-pic" src="assets/img/united-active.png" loading="lazy" alt="" />
+                                            </picture>
+                                        </div>
+                                    </a><a class="component-card swiper-slide" href="#">
+                                        <div class="component-card__header">
+                                            <!-- оставлять враппер, если нет картинки-->
+                                            <div class="component-card__picture-wrapper">
+                                                <picture class="component-card__picture" aria-hidden="true">
+                                                    <source srcset="assets/img/pigments/rounded/3.jpg 1x, assets/img/pigments/rounded/3.jpg 2x" media="(min-width: 1920px)" width="110" height="110" />
+                                                    <source srcset="assets/img/pigments/rounded/3.jpg 1x, assets/img/pigments/rounded/3.jpg 2x" width="80" height="80" /><img class="cover-pic" src="assets/img/pigments/rounded/3.jpg" width="80" height="80" loading="lazy" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div class="component-card__content">
+                                                <p class="component-card__title">U-Ferment® Oil Canola</p>
+                                                <p class="component-card__desc">Оливковое масло</p>
+                                                <ul class="component-card__tags">
+                                                    <li class="component-card__tag _in-green">В наличии</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="component-card__footer">
+                                            <ul class="component-card__feats">
+                                                <li class="component-card__feat"><span class="component-card__feat__num">01</span><span class="component-card__feat__text">Противовоспалительный эффект</span></li>
+                                                <li class="component-card__feat"><span class="component-card__feat__num">02</span><span class="component-card__feat__text">Увлажнение кожи</span></li>
+                                            </ul>
+                                            <picture class="component-card__logo" aria-hidden="true">
+                                                <source srcset="assets/img/united-active.png 1x, assets/img/united-active.png 2x" /><img class="contain-pic" src="assets/img/united-active.png" loading="lazy" alt="" />
+                                            </picture>
+                                        </div>
+                                    </a><a class="component-card swiper-slide" href="#">
+                                        <div class="component-card__header">
+                                            <!-- оставлять враппер, если нет картинки-->
+                                            <div class="component-card__picture-wrapper">
+                                                <picture class="component-card__picture" aria-hidden="true">
+                                                    <source srcset="assets/img/pigments/rounded/4.jpg 1x, assets/img/pigments/rounded/4.jpg 2x" media="(min-width: 1920px)" width="110" height="110" />
+                                                    <source srcset="assets/img/pigments/rounded/4.jpg 1x, assets/img/pigments/rounded/4.jpg 2x" width="80" height="80" /><img class="cover-pic" src="assets/img/pigments/rounded/4.jpg" width="80" height="80" loading="lazy" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div class="component-card__content">
+                                                <p class="component-card__title">Multiex™ Humid-Max Plus</p>
+                                                <p class="component-card__desc">Ферментированное оливковое масло</p>
+                                                <ul class="component-card__tags">
+                                                    <li class="component-card__tag">Хит</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="component-card__footer">
+                                            <ul class="component-card__feats">
+                                                <li class="component-card__feat"><span class="component-card__feat__num">01</span><span class="component-card__feat__text">Противовоспалительный эффект</span></li>
+                                            </ul>
+                                            <picture class="component-card__logo" aria-hidden="true">
+                                                <source srcset="assets/img/united-active.png 1x, assets/img/united-active.png 2x" /><img class="contain-pic" src="assets/img/united-active.png" loading="lazy" alt="" />
+                                            </picture>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-grid__buttons container">
+                        <a class="big-link _in-light _wide-sm" href="#"><span>Смотреть все</span><span class="big-link__icon" aria-hidden="true">
+                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                </svg>
+                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                </svg></span></a>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo__container">
+                        <div class="promo__inner">
+                            <h3 class="promo__title">Исследования от научной лаборатории РОС‑Химия</h3>
+                            <p class="promo__text">Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков. </p>
+                            <a class="big-link promo__button" href="#"><span>Про заказ исследований</span><span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                    <picture class="promo__picture" aria-hidden="true">
+                        <source srcset="assets/img/promo/1.jpg 1x, assets/img/promo/1.jpg 2x" media="(min-width: 1920px)" width="1920" height="900" />
+                        <source srcset="assets/img/promo/1.jpg 1x, assets/img/promo/1.jpg 2x" media="(min-width: 768px)" width="1199" height="563" />
+                        <source srcset="assets/img/promo/1.jpg 1x, assets/img/promo/1.jpg 2x" media="(min-width: 400px)" width="767" height="531" />
+                        <source srcset="assets/img/promo/1.jpg 1x, assets/img/promo/1.jpg 2x" width="400" height="531" /><img class="cover-pic" src="assets/img/promo/1.jpg" width="400" height="531" loading="lazy" alt="" />
+                    </picture>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <svg class="svgsprite _logo-ros footer__logo__ros" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                    </svg><a class="footer__logo__link" href="index.html"><img class="footer__logo__pbak" src="assets/img/logo-pbak-footer.svg" loading="lazy" alt="ПБАК"></a>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__menu js-common-collapse">
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметическое сырье</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_0" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_0">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные масла</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные активы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пептиды</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Растительные экстракты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Компоненты животного происхождения</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Гранулы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Консерванты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">UV фильтры</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Активы направленного действия</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Научные исследования</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметические пигменты</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_2" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_2">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Перламутр</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Глиттер</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Контрактное производство</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Товары со склада</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_4" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_4">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Готовая косметика</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Сырье</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пигменты</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Корпоративные подарки</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Библиотека</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_6" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_6">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Лекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Публикации</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Видеолекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Исследования</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Бюллетени</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Антистарость</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">О компании</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Новости</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_8" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_8">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Тренды</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__address">
+                            <p class="footer__contacts__address__title">Екатеринбург</p>
+                            <p class="footer__contacts__address__text"> Улица Первомайская, 15, офис 705, бизнес–центр «Вознесенский» </p>
+                        </div>
+                        <div class="footer__contacts__list"><a class="footer__contacts__link" href="#">+7 (343) 305-77-05</a><a class="footer__contacts__link" href="#">site@ros-chimia.ru</a></div>
+                    </div>
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__social"><a class="footer__contacts__social__link" href="#" title="YouTube">
+                                <svg class="svgsprite _youtube" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#youtube" tabindex="-1"></use>
+                                </svg></a><a class="footer__contacts__social__link" href="#" title="Telegram">
+                                <svg class="svgsprite _tg" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#tg" tabindex="-1"></use>
+                                </svg></a></div>
+                        <button class="btn-common _size-xm _wide-sm" data-modal="popup_feedback"><span>Получить консультацию</span>
+                        </button>
+                    </div>
+                </div>
+                <ul class="footer__lab">
+                    <li><a class="footer__lab__link" href="#">Книги А. Ю. Прокопова</a></li>
+                    <li><a class="footer__lab__link" href="#" target="blank">Лаборатория Эстетики цвета <svg class="svgsprite _arrow-link" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-link" tabindex="-1"></use>
+                            </svg></a></li>
+                </ul>
+                <div class="footer__copyright"> <a class="footer__copyright__link" href="#">Политики и юридические документы</a><span>© 2024 Проектное бюро антивозрастной косметики</span></div>
+            </div>
+        </footer>
+        <div class="popup js-popup _order" role="dialog" aria-labelledby="popup_title_feedback" aria-modal="true" aria-hidden="true" id="popup_feedback">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="order-form js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <h3 class="order-form__title">Обратная связь</h3>
+                        <div class="order-form__fieldset">
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_name">Как вас зовут?</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_name" placeholder="ФИО" data-error-message="Необходимо заполнить поле" type="text" name="name" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_name_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_message">Ваш вопрос</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Сообщение" type="text" name="city" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="order-form__footer">
+                            <button class="btn-common _size-l _wide-sm" type="submit"><span>Отправить</span>
+                            </button>
+                            <p class="order-form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup js-popup _publication" role="dialog" aria-labelledby="popup_title_publication" aria-modal="true" aria-hidden="true" id="popup_publication">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="form _in-modal js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <input class="js-publication-id-input js-hidden-input" name="publication_id" type="hidden">
+                        <div class="form__inner">
+                            <div class="form__header">
+                                <h3 class="form__title">Заказать статью</h3>
+                                <p class="form__text">Укажите, пожалуйста, компанию, которую Вы представляете и род деятельности</p>
+                            </div>
+                            <div class="form__fieldset">
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="publication_company">Компания</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="publication_company" placeholder="Название компании" data-error-message="Необходимо заполнить поле" type="text" name="company" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="publication_company_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_message">Сообщение</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Комментарий (необязательно)" type="text" name="message" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <button class="btn-common _size-l" type="submit"><span>Отправить заявку</span>
+                                </button>
+                                <p class="form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

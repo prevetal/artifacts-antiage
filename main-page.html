@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="ru" data-zoom="100">
+    <head>
+        <script>
+            const currentTheme = localStorage.getItem('altColorValue')
+            if (currentTheme) {
+                document.documentElement.setAttribute('data-theme', currentTheme)
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <title>Главная :: Antiage</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+        <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#ffffff">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-config" content="assets/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Description">
+        <meta property="og:url" content="https://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Главная">
+        <meta property="twitter:title" content="Главная">
+        <meta property="og:description" content="description">
+        <meta property="twitter:description" content="description">
+        <meta property="og:image" content="assets/share.png">
+        <meta name="robots" content="noindex, nofollow">
+        <script>
+            /* изменяемые настройки скриптов, указаны значения по умолчанию */
+            var appConfig = {
+                templateUrl: '',
+            }
+        </script>
+        <link href="css/critical/main-page.css" rel="stylesheet">
+        <script async type="module" crossorigin src="./js/app.js"></script>
+        <link rel="stylesheet" crossorigin href="./css/rooftopmono.css">
+        <link rel="stylesheet" crossorigin href="./css/common.css">
+        <link rel="stylesheet" crossorigin href="./css/main-page.css">
+    </head>
+    <body class="body header-abs">
+        <main class="content">
+            <div class="header-wrapper">
+                <header class="header">
+                    <div class="header__inner">
+                        <div class="header__logos">
+                            <svg class="svgsprite _logo-ros header__ros" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                            </svg><a class="header__pbak" href="index.html" title="На главную">
+                                <svg class="svgsprite _logo-pbak" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#logo-pbak" tabindex="-1"></use>
+                                </svg><span class="header__pbak__text">Проектное Бюро Антивозрастной Косметики</span></a>
+                        </div>
+                        <nav class="header__content">
+                            <div class="header__content__header">
+                                <ul class="header__menu _small">
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">О компании</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Новости</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                                <div class="header__content__header__inner"><a class="header__search" href="#"> <span>Поиск</span>
+                                        <svg class="svgsprite _search" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                        </svg></a>
+                                    <ul class="header__lang">
+                                        <li class="header__lang__item"><a class="header__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                        <li class="header__lang__item"><a class="header__lang__link" href="#">EN</a></li>
+                                    </ul><a class="header__tel" href="#">
+                                        <svg class="svgsprite _tel" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#tel" tabindex="-1"></use>
+                                        </svg><span>+7 (343) 305-77-05</span></a>
+                                </div>
+                                <button class="btn-common _size-s _in-light header__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                            <ul class="header__menu">
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Косметическое сырье</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Пигменты</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Контрактное производство</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Товары со склада</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Научные исследования</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Корпоративные подарки</a></li>
+                            </ul>
+                        </nav>
+                        <button class="header__burger js-menu-toggler" type="button" title="Открыть меню">
+                            <svg class="svgsprite _menu header__burger__open" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#menu" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite _close header__burger__close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </header>
+            </div>
+            <div class="menu">
+                <div class="menu__overlay js-menu-toggler"></div>
+                <div class="menu__inner">
+                    <div class="menu__scroll-wrapper">
+                        <div class="menu__scroll">
+                            <form class="menu__search js-form" data-native-action>
+                                <div class="menu__search__input js-input">
+                                    <input class="js-input__input" placeholder="Поиск" name="query" data-min-length="3">
+                                    <button class="menu__search__input__clear js-input__clear _hidden" type="submit" title="Очистить">
+                                        <svg class="svgsprite _arrow-long-right" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-long-right" tabindex="-1"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <svg class="svgsprite _search menu__search__icon" tabindex="-1" role="img" aria-hidden="aria-hidden">
+                                    <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                </svg>
+                            </form>
+                            <nav>
+                                <ul class="menu__menu">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Косметическое сырье</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Пигменты</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Контрактное производство</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Товары со склада</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Научные исследования</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Корпоративные подарки</a></li>
+                                </ul>
+                                <ul class="menu__menu _small">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">О компании</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Новости</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                            </nav>
+                            <div class="menu__footer"><a class="menu__tel" href="#">+7 (343) 305-77-05</a>
+                                <ul class="menu__lang">
+                                    <li class="menu__lang__item"><a class="menu__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                    <li class="menu__lang__item"><a class="menu__lang__link" href="#">EN</a></li>
+                                </ul>
+                                <button class="btn-common _size-xm _wide-sm menu__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-grid">
+                <div class="main-intro swiper js-intro-slider">
+                    <div class="swiper-wrapper">
+                        <div class="main-intro__slide swiper-slide">
+                            <div class="main-intro__slide__inner container">
+                                <div class="main-intro__slide__header">
+                                    <h2 class="main-intro__title">Косметическое сырьё</h2>
+                                    <div class="main-intro__slide__content">
+                                        <p class="main-intro__lead">Предоставляем проверенные на безопасность и эффективность активные ингредиенты против старения кожи:</p>
+                                        <ul class="main-intro__feats">
+                                            <li class="main-intro__feats__item">Востребованная и актуальная база активных компонентов от корейских партнеров и собственного производства;</li>
+                                            <li class="main-intro__feats__item">Для применения в производстве косметики. Нога в ногу с трендами и требованиями рынка.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="big-link main-intro__big-link _in-light _wide-sm" href="#"><span>Подобрать продукцию</span><span class="big-link__icon" aria-hidden="true">
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg></span></a>
+                            </div>
+                            <picture class="main-intro__slide__picture">
+                                <source srcset="assets/img/index/intro/lg.jpg 1x, assets/img/index/intro/lg.jpg 2x" media="(min-width: 1920px)" width="1920" height="1000" />
+                                <source srcset="assets/img/index/intro/lg.jpg 1x, assets/img/index/intro/lg.jpg 2x" media="(min-width: 1280px)" width="1919" height="667" />
+                                <source srcset="assets/img/index/intro/md.jpg 1x, assets/img/index/intro/md.jpg 2x" media="(min-width: 768px)" width="1279" height="598" />
+                                <source srcset="assets/img/index/intro/sm.jpg 1x, assets/img/index/intro/sm.jpg 2x" media="(min-width: 400px)" width="767" height="634" />
+                                <source srcset="assets/img/index/intro/sm.jpg 1x, assets/img/index/intro/sm.jpg 2x" width="399" height="634" /><img class="cover-pic" src="assets/img/index/intro/sm.jpg" width="399" height="634" loading="lazy" alt="Косметическое сырьё" />
+                            </picture>
+                        </div>
+                        <div class="main-intro__slide swiper-slide">
+                            <div class="main-intro__slide__inner container">
+                                <div class="main-intro__slide__header">
+                                    <h2 class="main-intro__title">Косметическое сырьё</h2>
+                                    <div class="main-intro__slide__content">
+                                        <p class="main-intro__lead">Предоставляем проверенные на безопасность и эффективность активные ингредиенты против старения кожи:</p>
+                                        <ul class="main-intro__feats">
+                                            <li class="main-intro__feats__item">Востребованная и актуальная база активных компонентов от корейских партнеров и собственного производства;</li>
+                                            <li class="main-intro__feats__item">Для применения в производстве косметики. Нога в ногу с трендами и требованиями рынка.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="big-link main-intro__big-link _in-light _wide-sm" href="#"><span>Подобрать продукцию</span><span class="big-link__icon" aria-hidden="true">
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg></span></a>
+                            </div>
+                            <picture class="main-intro__slide__picture">
+                                <source srcset="assets/img/index/intro/lg.jpg 1x, assets/img/index/intro/lg.jpg 2x" media="(min-width: 1920px)" width="1920" height="1000" />
+                                <source srcset="assets/img/index/intro/lg.jpg 1x, assets/img/index/intro/lg.jpg 2x" media="(min-width: 1280px)" width="1919" height="667" />
+                                <source srcset="assets/img/index/intro/md.jpg 1x, assets/img/index/intro/md.jpg 2x" media="(min-width: 768px)" width="1279" height="598" />
+                                <source srcset="assets/img/index/intro/sm.jpg 1x, assets/img/index/intro/sm.jpg 2x" media="(min-width: 400px)" width="767" height="634" />
+                                <source srcset="assets/img/index/intro/sm.jpg 1x, assets/img/index/intro/sm.jpg 2x" width="399" height="634" /><img class="cover-pic" src="assets/img/index/intro/sm.jpg" width="399" height="634" loading="lazy" alt="Косметическое сырьё" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="main-intro__slider-buttons">
+                        <div class="swiper-button-prev">
+                            <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="slogan">
+                        <h3 class="slogan__title">Разрабатываем косметику, замедляющую старение кожи</h3>
+                        <p class="slogan__text">Более 25 лет компания предоставляет научные рекомендации производителям косметики для создания эффективных anti-age косметических продуктов</p>
+                    </div>
+                </div>
+                <div class="main-partners">
+                    <div class="main-partners__inner container">
+                        <div class="main-partners__content">
+                            <h4 class="main-partners__title">Наши партнеры</h4>
+                            <p class="main-partners__text">Помогаем ведущим производителям косметики создавать косметические anti-age продукты.<br>На рынке с 1994 года, работаем с брендами-лидерами отрасли.</p>
+                        </div>
+                        <!-- data-delay - задежка между сменами лого (мс)-->
+                        <div class="main-partners__grid js-partners" data-delay="3000">
+                            <div class="main-partners__partner js-partners__block">
+                                <div class="main-partners__partner__picture-wrapper">
+                                    <picture class="_current main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/oriflame.svg" alt="Oriflame" title="Oriflame"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/siberian-wellness.svg" alt="Siberian Wellness" title="Siberian Wellness"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/libre-derm.svg" alt="Libre Derm" title="Libre Derm"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/unilever.svg" alt="Uniliver" title="Uniliver"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/wella.svg" alt="Wella" title="Wella"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/belita.svg" alt="Biolita Вiтэкс" title="Biolita Вiтэкс"></picture>
+                                </div>
+                            </div>
+                            <div class="main-partners__partner js-partners__block">
+                                <div class="main-partners__partner__picture-wrapper">
+                                    <picture class="_current main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/siberian-wellness.svg" alt="Siberian Wellness" title="Siberian Wellness"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/libre-derm.svg" alt="Libre Derm" title="Libre Derm"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/unilever.svg" alt="Uniliver" title="Uniliver"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/wella.svg" alt="Wella" title="Wella"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/belita.svg" alt="Biolita Вiтэкс" title="Biolita Вiтэкс"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/oriflame.svg" alt="Oriflame" title="Oriflame"></picture>
+                                </div>
+                            </div>
+                            <div class="main-partners__partner js-partners__block">
+                                <div class="main-partners__partner__picture-wrapper">
+                                    <picture class="_current main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/libre-derm.svg" alt="Libre Derm" title="Libre Derm"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/unilever.svg" alt="Uniliver" title="Uniliver"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/wella.svg" alt="Wella" title="Wella"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/belita.svg" alt="Biolita Вiтэкс" title="Biolita Вiтэкс"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/oriflame.svg" alt="Oriflame" title="Oriflame"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/siberian-wellness.svg" alt="Siberian Wellness" title="Siberian Wellness"></picture>
+                                </div>
+                            </div>
+                            <div class="main-partners__partner js-partners__block">
+                                <div class="main-partners__partner__picture-wrapper">
+                                    <picture class="_current main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/unilever.svg" alt="Uniliver" title="Uniliver"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/wella.svg" alt="Wella" title="Wella"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/belita.svg" alt="Biolita Вiтэкс" title="Biolita Вiтэкс"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/oriflame.svg" alt="Oriflame" title="Oriflame"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/siberian-wellness.svg" alt="Siberian Wellness" title="Siberian Wellness"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/libre-derm.svg" alt="Libre Derm" title="Libre Derm"></picture>
+                                </div>
+                            </div>
+                            <div class="main-partners__partner js-partners__block">
+                                <div class="main-partners__partner__picture-wrapper">
+                                    <picture class="_current main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/wella.svg" alt="Wella" title="Wella"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/belita.svg" alt="Biolita Вiтэкс" title="Biolita Вiтэкс"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/oriflame.svg" alt="Oriflame" title="Oriflame"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/siberian-wellness.svg" alt="Siberian Wellness" title="Siberian Wellness"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/libre-derm.svg" alt="Libre Derm" title="Libre Derm"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/unilever.svg" alt="Uniliver" title="Uniliver"></picture>
+                                </div>
+                            </div>
+                            <div class="main-partners__partner js-partners__block">
+                                <div class="main-partners__partner__picture-wrapper">
+                                    <picture class="_current main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/belita.svg" alt="Biolita Вiтэкс" title="Biolita Вiтэкс"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/oriflame.svg" alt="Oriflame" title="Oriflame"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/siberian-wellness.svg" alt="Siberian Wellness" title="Siberian Wellness"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/libre-derm.svg" alt="Libre Derm" title="Libre Derm"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/unilever.svg" alt="Uniliver" title="Uniliver"></picture>
+                                    <picture class="main-partners__partner__picture js-partners__block__item"><img class="contain-pic" src="assets/img/index/partners/wella.svg" alt="Wella" title="Wella"></picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="benefit-list _scroll-magic js-scroll-magic">
+                        <div class="benefit-card js-scroll-magic__slide _0">
+                            <div class="benefit-card__inner"><span class="benefit-card__number">01</span>
+                                <div class="benefit-card__content">
+                                    <h4 class="benefit-card__title">Научная экспертиза<br>и исследования</h4>
+                                    <p class="benefit-card__text">Выполняем большой комплекс научных исследований: от изучения биологии кожи до свойств косметического сырья. Создаём косметологические компоненты и формулы с доказанной эффективностью. Весь комплекс исследовательских работ проводится на современном лабораторном оборудовании и новейшими приборами</p>
+                                </div>
+                            </div>
+                            <picture class="benefit-card__picture">
+                                <source srcset="assets/img/index/benefits/1.jpg 1x, assets/img/index/benefits/1.jpg 2x" media="(min-width: 1280px)" width="1816" height="800" />
+                                <source srcset="assets/img/index/benefits/1.jpg 1x, assets/img/index/benefits/1.jpg 2x" media="(min-width: 768px)" width="1231" height="913" />
+                                <source srcset="assets/img/index/benefits/1.jpg 1x, assets/img/index/benefits/1.jpg 2x" media="(min-width: 400px)" width="765" height="545" />
+                                <source srcset="assets/img/index/benefits/1.jpg 1x, assets/img/index/benefits/1.jpg 2x" width="367" height="272" /><img class="cover-pic" src="assets/img/index/benefits/1.jpg" width="367" height="272" loading="lazy" alt="Научная экспертиза&lt;br&gt;и исследования" />
+                            </picture>
+                        </div>
+                        <div class="benefit-card js-scroll-magic__slide _1">
+                            <div class="benefit-card__inner"><span class="benefit-card__number">02</span>
+                                <div class="benefit-card__content">
+                                    <h4 class="benefit-card__title">Передовые стандарты<br>разработки</h4>
+                                    <p class="benefit-card__text">Постоянно работаем над улучшением формулы и степени эффективности косметических продуктов. Разрабатываем новые компоненты и рекомендации по их применению. Создана авторская методология для выпуска продукции любого класса и качества.</p>
+                                </div>
+                            </div>
+                            <picture class="benefit-card__picture">
+                                <source srcset="assets/img/index/benefits/2.jpg 1x, assets/img/index/benefits/2.jpg 2x" media="(min-width: 1280px)" width="1816" height="800" />
+                                <source srcset="assets/img/index/benefits/2.jpg 1x, assets/img/index/benefits/2.jpg 2x" media="(min-width: 768px)" width="1231" height="913" />
+                                <source srcset="assets/img/index/benefits/2.jpg 1x, assets/img/index/benefits/2.jpg 2x" media="(min-width: 400px)" width="765" height="545" />
+                                <source srcset="assets/img/index/benefits/2.jpg 1x, assets/img/index/benefits/2.jpg 2x" width="367" height="272" /><img class="cover-pic" src="assets/img/index/benefits/2.jpg" width="367" height="272" loading="lazy" alt="Передовые стандарты&lt;br&gt;разработки" />
+                            </picture>
+                        </div>
+                        <div class="benefit-card js-scroll-magic__slide _2">
+                            <div class="benefit-card__inner"><span class="benefit-card__number">03</span>
+                                <div class="benefit-card__content">
+                                    <h4 class="benefit-card__title">Современные методы<br>производства</h4>
+                                    <p class="benefit-card__text">Выпускаем собственные активные косметические ингредиенты, а также готовые косметические формулы на технологических мощностях в Екатеринбурге и Южной Корее.</p>
+                                </div>
+                            </div>
+                            <picture class="benefit-card__picture">
+                                <source srcset="assets/img/index/benefits/3.jpg 1x, assets/img/index/benefits/3.jpg 2x" media="(min-width: 1280px)" width="1816" height="800" />
+                                <source srcset="assets/img/index/benefits/3.jpg 1x, assets/img/index/benefits/3.jpg 2x" media="(min-width: 768px)" width="1231" height="913" />
+                                <source srcset="assets/img/index/benefits/3.jpg 1x, assets/img/index/benefits/3.jpg 2x" media="(min-width: 400px)" width="765" height="545" />
+                                <source srcset="assets/img/index/benefits/3.jpg 1x, assets/img/index/benefits/3.jpg 2x" width="367" height="272" /><img class="cover-pic" src="assets/img/index/benefits/3.jpg" width="367" height="272" loading="lazy" alt="Современные методы&lt;br&gt;производства" />
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-grid__wrap">
+                    <div class="content-grid__heading container">
+                        <h2 class="content-grid__title">Направления деятельности</h2>
+                    </div>
+                    <div class="directions js-directions">
+                        <div class="directions__inner container">
+                            <div class="directions__slider js-tablet-slider">
+                                <div class="directions__content swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="directions__card">
+                                            <button class="directions__card__button js-directions__toggler _active" type="button" aria-controls="direction_anim_0" aria-expanded="true"><span class="directions__card__title">Косметическое <br>сырье</span><span class="directions__card__dropdown js-directions__toggler__dropdown"><span class="directions__card__text">Перламутровые и металлические пигменты, а также глиттеры от ведущих поставщиков Китая и Южно-Азиатского региона.</span></span></button>
+                                            <a class="arrow-btn directions__card__link" href="#">
+                                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                                </svg>
+                                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="directions__card">
+                                            <button class="directions__card__button js-directions__toggler" type="button" aria-controls="direction_anim_1" aria-expanded="false"><span class="directions__card__title">Косметические <br>пигменты</span><span class="directions__card__dropdown js-directions__toggler__dropdown"><span class="directions__card__text">Перламутровые и металлические пигменты, а также глиттеры от ведущих поставщиков Китая и Южно-Азиатского региона.</span></span></button>
+                                            <a class="arrow-btn directions__card__link" href="#">
+                                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                                </svg>
+                                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="directions__card">
+                                            <button class="directions__card__button js-directions__toggler" type="button" aria-controls="direction_anim_2" aria-expanded="false"><span class="directions__card__title">Косметика <br>со склада</span><span class="directions__card__dropdown js-directions__toggler__dropdown"><span class="directions__card__text">Микропартии высокотехнологичной готовой косметики для самостоятельного брендирования.</span></span></button>
+                                            <a class="arrow-btn directions__card__link" href="#">
+                                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                                </svg>
+                                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="directions__card">
+                                            <button class="directions__card__button js-directions__toggler" type="button" aria-controls="direction_anim_3" aria-expanded="false"><span class="directions__card__title">Контрактное производство</span><span class="directions__card__dropdown js-directions__toggler__dropdown"><span class="directions__card__text">Микропартии высокотехнологичной готовой косметики</span></span></button>
+                                            <a class="arrow-btn directions__card__link" href="#">
+                                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                                </svg>
+                                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img" aria-hidden="true">
+                                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="directions__anim" style="--marquee-duration: 50s">
+                            <div class="directions__anim__block js-directions__anim _active" id="direction_anim_0">
+                                <div class="directions__anim__marquee-wrapper">
+                                    <div class="directions__anim__marquee js-marquee">
+                                        <div class="directions__anim__marquee__scroll js-marquee__scroll">
+                                            <div class="directions__anim__marquee__block js-marquee__block"><span>Пигменты</span><span>Глиттеры</span><span>Металлик</span><span>Перламутровые</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="directions__anim__marquee _reverse js-marquee">
+                                        <div class="directions__anim__marquee__scroll js-marquee__scroll">
+                                            <div class="directions__anim__marquee__block js-marquee__block"><span>Косметические</span><span>Пигменты</span><span>Глиттеры</span><span>От ведущих поставщиков</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="directions__anim__block__picture-wrapper">
+                                    <picture class="directions__anim__block__picture">
+                                        <source srcset="assets/img/index/directions/1.jpg 1x, assets/img/index/directions/1.jpg 2x" media="(min-width: 1920px)" width="481" height="481" />
+                                        <source srcset="assets/img/index/directions/1.jpg 1x, assets/img/index/directions/1.jpg 2x" media="(min-width: 1280px)" width="320" height="320" />
+                                        <source srcset="assets/img/index/directions/1.jpg 1x, assets/img/index/directions/1.jpg 2x" media="(min-width: 768px)" width="260" height="260" />
+                                        <source srcset="assets/img/index/directions/1.jpg 1x, assets/img/index/directions/1.jpg 2x" width="175" height="175" /><img class="cover-pic" src="assets/img/index/directions/1.jpg" width="175" height="175" loading="lazy" alt="Косметическое &lt;br&gt;сырье" />
+                                    </picture>
+                                    <picture class="directions__anim__block__picture">
+                                        <source srcset="assets/img/index/directions/2.jpg 1x, assets/img/index/directions/2.jpg 2x" media="(min-width: 1920px)" width="481" height="481" />
+                                        <source srcset="assets/img/index/directions/2.jpg 1x, assets/img/index/directions/2.jpg 2x" media="(min-width: 1280px)" width="320" height="320" />
+                                        <source srcset="assets/img/index/directions/2.jpg 1x, assets/img/index/directions/2.jpg 2x" media="(min-width: 768px)" width="260" height="260" />
+                                        <source srcset="assets/img/index/directions/2.jpg 1x, assets/img/index/directions/2.jpg 2x" width="175" height="175" /><img class="cover-pic" src="assets/img/index/directions/2.jpg" width="175" height="175" loading="lazy" alt="Косметическое &lt;br&gt;сырье" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="directions__anim__block js-directions__anim" id="direction_anim_1">
+                                <div class="directions__anim__marquee-wrapper">
+                                    <div class="directions__anim__marquee js-marquee">
+                                        <div class="directions__anim__marquee__scroll js-marquee__scroll">
+                                            <div class="directions__anim__marquee__block js-marquee__block"><span>Lorem</span><span>Ipsum</span><span>Dolor Sit Amen</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="directions__anim__marquee _reverse js-marquee">
+                                        <div class="directions__anim__marquee__scroll js-marquee__scroll">
+                                            <div class="directions__anim__marquee__block js-marquee__block"><span>Быстрее</span><span>Выше</span><span>Сильнее</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="directions__anim__block__picture-wrapper">
+                                    <picture class="directions__anim__block__picture">
+                                        <source srcset="assets/img/index/directions/3.jpg 1x, assets/img/index/directions/3.jpg 2x" media="(min-width: 1920px)" width="481" height="481" />
+                                        <source srcset="assets/img/index/directions/3.jpg 1x, assets/img/index/directions/3.jpg 2x" media="(min-width: 1280px)" width="320" height="320" />
+                                        <source srcset="assets/img/index/directions/3.jpg 1x, assets/img/index/directions/3.jpg 2x" media="(min-width: 768px)" width="260" height="260" />
+                                        <source srcset="assets/img/index/directions/3.jpg 1x, assets/img/index/directions/3.jpg 2x" width="175" height="175" /><img class="cover-pic" src="assets/img/index/directions/3.jpg" width="175" height="175" loading="lazy" alt="Косметические &lt;br&gt;пигменты" />
+                                    </picture>
+                                    <picture class="directions__anim__block__picture">
+                                        <source srcset="assets/img/index/directions/4.jpg 1x, assets/img/index/directions/4.jpg 2x" media="(min-width: 1920px)" width="481" height="481" />
+                                        <source srcset="assets/img/index/directions/4.jpg 1x, assets/img/index/directions/4.jpg 2x" media="(min-width: 1280px)" width="320" height="320" />
+                                        <source srcset="assets/img/index/directions/4.jpg 1x, assets/img/index/directions/4.jpg 2x" media="(min-width: 768px)" width="260" height="260" />
+                                        <source srcset="assets/img/index/directions/4.jpg 1x, assets/img/index/directions/4.jpg 2x" width="175" height="175" /><img class="cover-pic" src="assets/img/index/directions/4.jpg" width="175" height="175" loading="lazy" alt="Косметические &lt;br&gt;пигменты" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="directions__anim__block js-directions__anim" id="direction_anim_2">
+                                <div class="directions__anim__marquee-wrapper">
+                                    <div class="directions__anim__marquee js-marquee">
+                                        <div class="directions__anim__marquee__scroll js-marquee__scroll">
+                                            <div class="directions__anim__marquee__block js-marquee__block"><span>Пигменты</span><span>Глиттеры</span><span>Металлик</span><span>Перламутровые</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="directions__anim__marquee _reverse js-marquee">
+                                        <div class="directions__anim__marquee__scroll js-marquee__scroll">
+                                            <div class="directions__anim__marquee__block js-marquee__block"><span>Косметические</span><span>Пигменты</span><span>Глиттеры</span><span>От ведущих поставщиков</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="directions__anim__block__picture-wrapper">
+                                    <picture class="directions__anim__block__picture">
+                                        <source srcset="assets/img/index/directions/1.jpg 1x, assets/img/index/directions/1.jpg 2x" media="(min-width: 1920px)" width="481" height="481" />
+                                        <source srcset="assets/img/index/directions/1.jpg 1x, assets/img/index/directions/1.jpg 2x" media="(min-width: 1280px)" width="320" height="320" />
+                                        <source srcset="assets/img/index/directions/1.jpg 1x, assets/img/index/directions/1.jpg 2x" media="(min-width: 768px)" width="260" height="260" />
+                                        <source srcset="assets/img/index/directions/1.jpg 1x, assets/img/index/directions/1.jpg 2x" width="175" height="175" /><img class="cover-pic" src="assets/img/index/directions/1.jpg" width="175" height="175" loading="lazy" alt="Косметика &lt;br&gt;со склада" />
+                                    </picture>
+                                    <picture class="directions__anim__block__picture">
+                                        <source srcset="assets/img/index/directions/2.jpg 1x, assets/img/index/directions/2.jpg 2x" media="(min-width: 1920px)" width="481" height="481" />
+                                        <source srcset="assets/img/index/directions/2.jpg 1x, assets/img/index/directions/2.jpg 2x" media="(min-width: 1280px)" width="320" height="320" />
+                                        <source srcset="assets/img/index/directions/2.jpg 1x, assets/img/index/directions/2.jpg 2x" media="(min-width: 768px)" width="260" height="260" />
+                                        <source srcset="assets/img/index/directions/2.jpg 1x, assets/img/index/directions/2.jpg 2x" width="175" height="175" /><img class="cover-pic" src="assets/img/index/directions/2.jpg" width="175" height="175" loading="lazy" alt="Косметика &lt;br&gt;со склада" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="directions__anim__block js-directions__anim" id="direction_anim_3">
+                                <div class="directions__anim__marquee-wrapper">
+                                    <div class="directions__anim__marquee js-marquee">
+                                        <div class="directions__anim__marquee__scroll js-marquee__scroll">
+                                            <div class="directions__anim__marquee__block js-marquee__block"><span>Lorem</span><span>Ipsum</span><span>Dolor Sit Amen</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="directions__anim__marquee _reverse js-marquee">
+                                        <div class="directions__anim__marquee__scroll js-marquee__scroll">
+                                            <div class="directions__anim__marquee__block js-marquee__block"><span>Быстрее</span><span>Выше</span><span>Сильнее</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="directions__anim__block__picture-wrapper">
+                                    <picture class="directions__anim__block__picture">
+                                        <source srcset="assets/img/index/directions/3.jpg 1x, assets/img/index/directions/3.jpg 2x" media="(min-width: 1920px)" width="481" height="481" />
+                                        <source srcset="assets/img/index/directions/3.jpg 1x, assets/img/index/directions/3.jpg 2x" media="(min-width: 1280px)" width="320" height="320" />
+                                        <source srcset="assets/img/index/directions/3.jpg 1x, assets/img/index/directions/3.jpg 2x" media="(min-width: 768px)" width="260" height="260" />
+                                        <source srcset="assets/img/index/directions/3.jpg 1x, assets/img/index/directions/3.jpg 2x" width="175" height="175" /><img class="cover-pic" src="assets/img/index/directions/3.jpg" width="175" height="175" loading="lazy" alt="Контрактное производство" />
+                                    </picture>
+                                    <picture class="directions__anim__block__picture">
+                                        <source srcset="assets/img/index/directions/4.jpg 1x, assets/img/index/directions/4.jpg 2x" media="(min-width: 1920px)" width="481" height="481" />
+                                        <source srcset="assets/img/index/directions/4.jpg 1x, assets/img/index/directions/4.jpg 2x" media="(min-width: 1280px)" width="320" height="320" />
+                                        <source srcset="assets/img/index/directions/4.jpg 1x, assets/img/index/directions/4.jpg 2x" media="(min-width: 768px)" width="260" height="260" />
+                                        <source srcset="assets/img/index/directions/4.jpg 1x, assets/img/index/directions/4.jpg 2x" width="175" height="175" /><img class="cover-pic" src="assets/img/index/directions/4.jpg" width="175" height="175" loading="lazy" alt="Контрактное производство" />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo">
+                    <div class="promo__container">
+                        <div class="promo__inner">
+                            <h3 class="promo__title">Научный сервис</h3>
+                            <p class="promo__text">Полный спектр современных технологий анализа геномных, транскриптомных и метиломных данных для решения любой исследовательской задачи. Сильная команда биоинформатиков.</p>
+                            <a class="big-link promo__button" href="#"><span>Про заказ исследований</span><span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                    <picture class="promo__picture" aria-hidden="true">
+                        <source srcset="assets/img/promo/2.jpg 1x, assets/img/promo/2.jpg 2x" media="(min-width: 1920px)" width="1920" height="900" />
+                        <source srcset="assets/img/promo/2.jpg 1x, assets/img/promo/2.jpg 2x" media="(min-width: 768px)" width="1199" height="563" />
+                        <source srcset="assets/img/promo/2.jpg 1x, assets/img/promo/2.jpg 2x" media="(min-width: 400px)" width="767" height="531" />
+                        <source srcset="assets/img/promo/2.jpg 1x, assets/img/promo/2.jpg 2x" width="400" height="531" /><img class="cover-pic" src="assets/img/promo/2.jpg" width="400" height="531" loading="lazy" alt="" />
+                    </picture>
+                </div>
+                <div class="content-grid__wrap">
+                    <div class="content-grid__heading container">
+                        <h2 class="content-grid__title">Тренды</h2>
+                        <p class="content-grid__lead">Знаем тренды косметического рынка. Исследуем рынок и задаем тренды сами</p>
+                    </div>
+                    <div class="container">
+                        <div class="news-slider swiper js-tablet-slider">
+                            <div class="news-slider__list swiper-wrapper">
+                                <div class="swiper-slide"><a class="news-card" href="#">
+                                        <picture class="news-card__picture" aria-hidden="true">
+                                            <source srcset="assets/img/news-page/1.jpg 1x, assets/img/news-page/1.jpg 2x" media="(min-width: 1920px)" width="592" height="754" />
+                                            <source srcset="assets/img/news-page/1.jpg 1x, assets/img/news-page/1.jpg 2x" media="(min-width: 1280px)" width="393" height="501" />
+                                            <source srcset="assets/img/news-page/1.jpg 1x, assets/img/news-page/1.jpg 2x" media="(min-width: 768px)" width="352" height="448" />
+                                            <source srcset="assets/img/news-page/1.jpg 1x, assets/img/news-page/1.jpg 2x" width="328" height="428" /><img class="cover-pic" src="assets/img/news-page/1.jpg" width="328" height="428" loading="lazy" alt="" />
+                                        </picture>
+                                        <div class="news-card__tags-wrapper">
+                                            <ul class="news-card__tags">
+                                                <div class="card-tag">Старение</div>
+                                                <div class="card-tag">Иммунология кожи</div>
+                                            </ul>
+                                            <div class="card-tag _in-light">14 апреля</div>
+                                        </div>
+                                        <div class="news-card__text" title="Витамин D снова в тренде: добавляйте его в косметику">Витамин D снова в тренде: добавляйте его в косметику</div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide"><a class="news-card" href="#">
+                                        <picture class="news-card__picture" aria-hidden="true">
+                                            <source srcset="assets/img/news-page/2.jpg 1x, assets/img/news-page/2.jpg 2x" media="(min-width: 1920px)" width="592" height="754" />
+                                            <source srcset="assets/img/news-page/2.jpg 1x, assets/img/news-page/2.jpg 2x" media="(min-width: 1280px)" width="393" height="501" />
+                                            <source srcset="assets/img/news-page/2.jpg 1x, assets/img/news-page/2.jpg 2x" media="(min-width: 768px)" width="352" height="448" />
+                                            <source srcset="assets/img/news-page/2.jpg 1x, assets/img/news-page/2.jpg 2x" width="328" height="428" /><img class="cover-pic" src="assets/img/news-page/2.jpg" width="328" height="428" loading="lazy" alt="" />
+                                        </picture>
+                                        <div class="news-card__tags-wrapper">
+                                            <ul class="news-card__tags">
+                                                <div class="card-tag">Старение</div>
+                                                <div class="card-tag">Иммунология кожи</div>
+                                            </ul>
+                                            <div class="card-tag _in-light">10 апреля</div>
+                                        </div>
+                                        <div class="news-card__text" title="Митохондрии и преждевременное старение кожи">Митохондрии и преждевременное старение кожи</div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide"><a class="news-card" href="#">
+                                        <picture class="news-card__picture" aria-hidden="true">
+                                            <source srcset="assets/img/news-page/3.jpg 1x, assets/img/news-page/3.jpg 2x" media="(min-width: 1920px)" width="592" height="754" />
+                                            <source srcset="assets/img/news-page/3.jpg 1x, assets/img/news-page/3.jpg 2x" media="(min-width: 1280px)" width="393" height="501" />
+                                            <source srcset="assets/img/news-page/3.jpg 1x, assets/img/news-page/3.jpg 2x" media="(min-width: 768px)" width="352" height="448" />
+                                            <source srcset="assets/img/news-page/3.jpg 1x, assets/img/news-page/3.jpg 2x" width="328" height="428" /><img class="cover-pic" src="assets/img/news-page/3.jpg" width="328" height="428" loading="lazy" alt="" />
+                                        </picture>
+                                        <div class="news-card__tags-wrapper">
+                                            <ul class="news-card__tags">
+                                                <div class="card-tag">Старение</div>
+                                                <div class="card-tag">Иммунология кожи</div>
+                                            </ul>
+                                            <div class="card-tag _in-light">8 апреля</div>
+                                        </div>
+                                        <div class="news-card__text" title="Теории старения. Часть вторая">Теории старения. Часть вторая</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-grid__buttons container">
+                        <a class="big-link _in-light _wide-sm" href="#"><span>Все статьи</span><span class="big-link__icon" aria-hidden="true">
+                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                </svg>
+                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                </svg></span></a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="person">
+                        <div class="person__inner">
+                            <picture class="person__picture">
+                                <source srcset="assets/img/person/person.jpg 1x, assets/img/person/person.jpg 2x" media="(min-width: 1920px)" width="1816" height="920" />
+                                <source srcset="assets/img/person/person.jpg 1x, assets/img/person/person.jpg 2x" media="(min-width: 1280px)" width="1470" height="615" />
+                                <source srcset="assets/img/person/person.jpg 1x, assets/img/person/person.jpg 2x" media="(min-width: 768px)" width="915" height="464" />
+                                <source srcset="assets/img/person/person.jpg 1x, assets/img/person/person.jpg 2x" media="(min-width: 400px)" width="900" height="456" />
+                                <source srcset="assets/img/person/person.jpg 1x, assets/img/person/person.jpg 2x" width="532" height="270" /><img class="cover-pic" src="assets/img/person/person.jpg" width="532" height="270" loading="lazy" alt="Алексей Юрьевич Прокопов" />
+                            </picture>
+                            <div class="person__about">
+                                <h4 class="person__title">Алексей Юрьевич Прокопов</h4>
+                                <ul class="person__post">
+                                    <li class="person__post__item">Основатель и директор компании «РОС-Химия»</li>
+                                    <li class="person__post__item">Кандидат медицинских наук</li>
+                                </ul>
+                            </div>
+                            <div class="person__quote">
+                                <blockquote class="person__quote__text">«Мы находимся на пороге взрывного роста косметики третьей генерации. Ее основа — уход за кожей в синергии с микробиотой кожи. А применение косметики нового поколения приведёт не только к продлению здоровья и молодости кожи, но и к замедлению процессов старения всего организма.»</blockquote>
+                                <p class="person__quote__author">А.Ю. Прокопов</p>
+                            </div><a class="person__link" href="#">
+                                <p class="person__link__title">Новая лекция</p>
+                                <div class="person__link__inner">
+                                    <picture class="person__link__inner__picture">
+                                        <source srcset="assets/img/person/poster-lg.jpg 1x, assets/img/person/poster-lg.jpg 2x" media="(min-width: 1920px)" width="415" height="260" />
+                                        <source srcset="assets/img/person/poster-lg.jpg 1x, assets/img/person/poster-lg.jpg 2x" media="(min-width: 1280px)" width="324" height="203" />
+                                        <source srcset="assets/img/person/poster-sm.jpg 1x, assets/img/person/poster-sm.jpg 2x" media="(min-width: 768px)" width="72" height="72" />
+                                        <source srcset="assets/img/person/poster-sm.jpg 1x, assets/img/person/poster-sm.jpg 2x" width="56" height="56" /><img class="cover-pic" src="assets/img/person/poster-sm.jpg" width="56" height="56" loading="lazy" alt="Алексей Юрьевич Прокопов" />
+                                    </picture>
+                                    <svg class="svgsprite _play-filled" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#play-filled" tabindex="-1"></use>
+                                    </svg>
+                                    <p class="person__link__text">SKIN BIOLOGY: Эпизод 4. Ферментированные масла. Про эпидермис, доставку активных веществ и микробиоту</p>
+                                </div>
+                            </a>
+                        </div>
+                        <p class="person__desc">Алексей Прокопов — участник международной научной группы, специализирующейся на исследованиях в области биологии кожи, разработке современных косметических субстанций (anti-age) и средств их доставки в кожу. Он является автором патентов, научных и научно-популярных статей, а также разработчиком лекционного курса по прикладной (косметической) биологии кожи.</p>
+                    </div>
+                </div>
+                <div class="content-grid__wrap">
+                    <div class="content-grid__heading container">
+                        <h2 class="content-grid__title">Лекции</h2>
+                        <div class="content-grid__lead">
+                            <p>Лекции, которые мы проводим для специалистов-технологов из различных областей прикладной косметологии</p>
+                        </div>
+                    </div>
+                    <div class="library-grid container">
+                        <a class="library-card" href="#">
+                            <div class="library-card__picture-wrapper">
+                                <picture class="library-card__picture">
+                                    <source srcset="assets/img/library/5.jpg 1x, assets/img/library/5.jpg 2x" media="(min-width: 1920px)" width="898" height="568" />
+                                    <source srcset="assets/img/library/5.jpg 1x, assets/img/library/5.jpg 2x" media="(min-width: 1280px)" width="918" height="580" />
+                                    <source srcset="assets/img/library/5.jpg 1x, assets/img/library/5.jpg 2x" media="(min-width: 768px)" width="1231" height="779" />
+                                    <source srcset="assets/img/library/5.jpg 1x, assets/img/library/5.jpg 2x" media="(min-width: 400px)" width="735" height="464" />
+                                    <source srcset="assets/img/library/5.jpg 1x, assets/img/library/5.jpg 2x" width="367" height="232" /><img class="cover-pic" src="assets/img/library/5.jpg" width="367" height="232" loading="lazy" alt="SKIN BIOLOGY: Эпизод 4. Ферментированные масла. Про эпидермис, доставку активных веществ и микробиоту" />
+                                </picture>
+                                <svg class="svgsprite _play" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#play" tabindex="-1"></use>
+                                </svg>
+                            </div>
+                            <div class="library-card__info">
+                                <div class="library-card__info__header"><span class="library-card__label">Видео</span>
+                                    <p class="library-card__text" title="SKIN BIOLOGY: Эпизод 4. Ферментированные масла. Про эпидермис, доставку активных веществ и микробиоту">SKIN BIOLOGY: Эпизод 4. Ферментированные масла. Про эпидермис, доставку активных веществ и микробиоту</p>
+                                    <ul class="library-card__tags">
+                                        <li class="card-tag _in-light-sm">Аэрофагия</li>
+                                        <li class="card-tag _in-light-sm">Видеолекция</li>
+                                    </ul>
+                                </div>
+                                <div class="library-card__info__footer"><span class="library-card__label">Длительность</span><span class="library-card__time">27<span class="library-card__time__muted">:39</span></span></div>
+                            </div>
+                        </a>
+                        <a class="library-card" href="#">
+                            <div class="library-card__picture-wrapper">
+                                <picture class="library-card__picture">
+                                    <source srcset="assets/img/library/1.jpg 1x, assets/img/library/1.jpg 2x" media="(min-width: 1920px)" width="898" height="568" />
+                                    <source srcset="assets/img/library/1.jpg 1x, assets/img/library/1.jpg 2x" media="(min-width: 1280px)" width="918" height="580" />
+                                    <source srcset="assets/img/library/1.jpg 1x, assets/img/library/1.jpg 2x" media="(min-width: 768px)" width="1231" height="779" />
+                                    <source srcset="assets/img/library/1.jpg 1x, assets/img/library/1.jpg 2x" media="(min-width: 400px)" width="735" height="464" />
+                                    <source srcset="assets/img/library/1.jpg 1x, assets/img/library/1.jpg 2x" width="367" height="232" /><img class="cover-pic" src="assets/img/library/1.jpg" width="367" height="232" loading="lazy" alt="Кожа. Строение. Функция. Биологическая роль." />
+                                </picture>
+                            </div>
+                            <div class="library-card__info">
+                                <div class="library-card__info__header"><span class="library-card__label">Лекция</span>
+                                    <p class="library-card__text" title="Кожа. Строение. Функция. Биологическая роль.">Кожа. Строение. Функция. Биологическая роль.</p>
+                                    <ul class="library-card__tags">
+                                        <li class="card-tag _in-light-sm">Иммунология кожи</li>
+                                        <li class="card-tag _in-light-sm">Лекции</li>
+                                    </ul>
+                                </div>
+                                <div class="library-card__info__footer"><span class="library-card__label">Часть</span><span class="library-card__time">#2</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content-grid__buttons container">
+                        <a class="big-link _in-light _wide-sm" href="#"><span>Все лекции</span><span class="big-link__icon" aria-hidden="true">
+                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                </svg>
+                                <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                </svg></span></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <svg class="svgsprite _logo-ros footer__logo__ros" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                    </svg><a class="footer__logo__link" href="index.html"><img class="footer__logo__pbak" src="assets/img/logo-pbak-footer.svg" loading="lazy" alt="ПБАК"></a>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__menu js-common-collapse">
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметическое сырье</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_0" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_0">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные масла</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные активы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пептиды</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Растительные экстракты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Компоненты животного происхождения</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Гранулы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Консерванты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">UV фильтры</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Активы направленного действия</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Научные исследования</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметические пигменты</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_2" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_2">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Перламутр</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Глиттер</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Контрактное производство</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Товары со склада</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_4" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_4">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Готовая косметика</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Сырье</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пигменты</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Корпоративные подарки</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Библиотека</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_6" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_6">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Лекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Публикации</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Видеолекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Исследования</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Бюллетени</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Антистарость</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">О компании</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Новости</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_8" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_8">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Тренды</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__address">
+                            <p class="footer__contacts__address__title">Екатеринбург</p>
+                            <p class="footer__contacts__address__text"> Улица Первомайская, 15, офис 705, бизнес–центр «Вознесенский» </p>
+                        </div>
+                        <div class="footer__contacts__list"><a class="footer__contacts__link" href="#">+7 (343) 305-77-05</a><a class="footer__contacts__link" href="#">site@ros-chimia.ru</a></div>
+                    </div>
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__social"><a class="footer__contacts__social__link" href="#" title="YouTube">
+                                <svg class="svgsprite _youtube" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#youtube" tabindex="-1"></use>
+                                </svg></a><a class="footer__contacts__social__link" href="#" title="Telegram">
+                                <svg class="svgsprite _tg" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#tg" tabindex="-1"></use>
+                                </svg></a></div>
+                        <button class="btn-common _size-xm _wide-sm" data-modal="popup_feedback"><span>Получить консультацию</span>
+                        </button>
+                    </div>
+                </div>
+                <ul class="footer__lab">
+                    <li><a class="footer__lab__link" href="#">Книги А. Ю. Прокопова</a></li>
+                    <li><a class="footer__lab__link" href="#" target="blank">Лаборатория Эстетики цвета <svg class="svgsprite _arrow-link" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-link" tabindex="-1"></use>
+                            </svg></a></li>
+                </ul>
+                <div class="footer__copyright"> <a class="footer__copyright__link" href="#">Политики и юридические документы</a><span>© 2024 Проектное бюро антивозрастной косметики</span></div>
+            </div>
+        </footer>
+        <div class="popup js-popup _order" role="dialog" aria-labelledby="popup_title_feedback" aria-modal="true" aria-hidden="true" id="popup_feedback">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="order-form js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <h3 class="order-form__title">Обратная связь</h3>
+                        <div class="order-form__fieldset">
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_name">Как вас зовут?</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_name" placeholder="ФИО" data-error-message="Необходимо заполнить поле" type="text" name="name" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_name_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_message">Ваш вопрос</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Сообщение" type="text" name="city" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="order-form__footer">
+                            <button class="btn-common _size-l _wide-sm" type="submit"><span>Отправить</span>
+                            </button>
+                            <p class="order-form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup js-popup _publication" role="dialog" aria-labelledby="popup_title_publication" aria-modal="true" aria-hidden="true" id="popup_publication">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="form _in-modal js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <input class="js-publication-id-input js-hidden-input" name="publication_id" type="hidden">
+                        <div class="form__inner">
+                            <div class="form__header">
+                                <h3 class="form__title">Заказать статью</h3>
+                                <p class="form__text">Укажите, пожалуйста, компанию, которую Вы представляете и род деятельности</p>
+                            </div>
+                            <div class="form__fieldset">
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="publication_company">Компания</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="publication_company" placeholder="Название компании" data-error-message="Необходимо заполнить поле" type="text" name="company" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="publication_company_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_message">Сообщение</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Комментарий (необязательно)" type="text" name="message" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <button class="btn-common _size-l" type="submit"><span>Отправить заявку</span>
+                                </button>
+                                <p class="form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
