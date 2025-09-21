@@ -72,4 +72,85 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             })
         })
+
+
+	initProductsSliders()
 })
+
+
+window.addEventListener('resize', function () {
+	initProductsSliders()
+})
+
+
+let productsSliders = []
+
+function initProductsSliders() {
+  const windowWidth = window.innerWidth
+  const productsSections = document.querySelectorAll('.production_what .products')
+
+  if (windowWidth < 1279) {
+    productsSections.forEach(section => {
+      const row = section.querySelector('.row')
+      if (row) {
+        Array.from(row.children).forEach(child => child.classList.add('swiper-slide'))
+
+        row.classList.add('swiper-wrapper')
+        row.classList.remove('row')
+
+        const swipers = section.querySelectorAll('.swiper')
+        swipers.forEach((swiperEl, i) => {
+          swiperEl.classList.add('products_s' + i)
+
+          const options = {
+            loop: false,
+            speed: 500,
+            watchSlidesProgress: true,
+            slideActiveClass: 'active',
+            slideVisibleClass: 'visible',
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            on: {
+              init: swiper => {
+                setHeight(swiper.el.querySelectorAll('.item'))
+              },
+              resize: swiper => {
+                const items = swiper.el.querySelectorAll('.v')
+                items.forEach(el => el.style.height = 'auto')
+
+                setHeight(items)
+              }
+            }
+          }
+
+          productsSliders.push(new Swiper('.products_s' + i, options))
+        })
+      }
+    })
+  } else {
+    productsSliders.forEach(slider => slider.destroy(true, true))
+    productsSliders = []
+
+    productsSections.forEach(section => {
+      const wrapper = section.querySelector('.swiper-wrapper')
+      if (wrapper) {
+        wrapper.classList.add('row')
+        wrapper.classList.remove('swiper-wrapper')
+
+        Array.from(wrapper.children).forEach(child => child.classList.remove('swiper-slide'))
+      }
+    })
+  }
+}
+
+
+
+const setHeight = items => {
+	let maxheight = 0
+
+	items.forEach(el => {
+		if (el.offsetHeight > maxheight) maxheight = el.offsetHeight
+	})
+
+	items.forEach(el => el.style.height = maxheight + 'px')
+}

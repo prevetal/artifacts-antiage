@@ -651,6 +651,23 @@
 }
 
 
+.production_steps .accordion-item-visible .arr
+{
+    display: block;
+
+    width: 2.6rem;
+    height: 1.6rem;
+
+    transition: transform .2s linear;
+}
+
+
+.production_steps .accordion_item[data-open] .accordion-item-visible .arr
+{
+    transform: rotate(180deg);
+}
+
+
 .production_steps .accordion_item[data-open] .accordion-item-title
 {
     color: #18181e;
@@ -681,6 +698,68 @@
     width: calc(100% - 26.8rem);
 
     gap: 1rem;
+}
+
+
+.production_steps .text .tooltip
+{
+    position: relative;
+
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+
+.production_steps .text .tooltip .icon
+{
+    display: block;
+
+    width: 16px;
+    height: 16px;
+    padding-top: 1px;
+    padding-left: 1px;
+
+    font-size: 12px;
+    line-height: 1;
+
+    text-align: center;
+
+    color: rgba(24, 24, 30, .6);
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+.production_steps .text .tooltip .hover
+{
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+
+    display: none;
+
+    width: 30.4rem;
+    margin-left: 3px;
+    padding: .6rem 1.4rem;
+
+    font-size: 1rem;
+    font-weight: 375;
+    line-height: 100%;
+
+    z-index: 9;
+    letter-spacing: .01rem;
+
+    color: rgba(24, 24, 30, .64);
+    border: 1px solid rgba(24, 24, 30, .64);
+    border-radius: 2rem;
+    background: #fff;
+}
+
+
+.production_steps .text .tooltip:hover .hover
+{
+    display: block;
 }
 
 
@@ -1050,15 +1129,43 @@
 
 .production_what .products
 {
+    margin-top: 4.5rem;
+}
+
+
+.production_what .products .swiper
+{
+    overflow: visible !important;
+}
+
+
+.production_what .products .swiper-slide
+{
+    width: 30.8rem;
+}
+
+
+.production_what .products .row
+{
     display: flex;
     align-content: stretch;
     align-items: stretch;
     flex-wrap: wrap;
     justify-content: flex-start;
 
-    margin-top: 4.5rem;
     margin-bottom: -2rem;
     margin-left: -2rem;
+}
+
+
+.production_what .products .row > *
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(25% - 2rem);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
 
@@ -1067,11 +1174,8 @@
     position: relative;
 
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
-
-    width: calc(25% - 2rem);
-    margin-bottom: 2rem;
-    margin-left: 2rem;
 
     perspective: 1000px;
 }
@@ -1128,7 +1232,7 @@
     padding-block: 3rem;
     padding-inline: 4rem 3rem;
 
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 375;
     line-height: 120%;
 
@@ -1542,6 +1646,12 @@
 }
 
 
+.production_FAQ .btn.mob
+{
+    display: none;
+}
+
+
 .production_FAQ .btn span
 {
     width: calc(100% - 8rem);
@@ -1846,6 +1956,9 @@
     display: flex;
     flex-direction: column;
 
+    width: 90.6rem;
+    max-width: 100%;
+
     font-size: 1.6rem;
     font-weight: 375;
     line-height: 120%;
@@ -1861,6 +1974,68 @@
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 100%;
+}
+
+
+.case_info .text .tooltip
+{
+    position: relative;
+
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+
+.case_info .text .tooltip .icon
+{
+    display: block;
+
+    width: 16px;
+    height: 16px;
+    padding-top: 1px;
+    padding-left: 1px;
+
+    font-size: 12px;
+    line-height: 1;
+
+    text-align: center;
+
+    color: rgba(24, 24, 30, .6);
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+.case_info .text .tooltip .hover
+{
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+
+    display: none;
+
+    width: 30.4rem;
+    margin-left: 3px;
+    padding: .6rem 1.4rem;
+
+    font-size: 1rem;
+    font-weight: 375;
+    line-height: 100%;
+
+    z-index: 9;
+    letter-spacing: .01rem;
+
+    color: rgba(24, 24, 30, .64);
+    border: 1px solid rgba(24, 24, 30, .64);
+    border-radius: 2rem;
+    background: #fff;
+}
+
+
+.case_info .text .tooltip:hover .hover
+{
+    display: block;
 }
 
 
@@ -2074,6 +2249,13 @@
     .production_steps .accordion
     {
         width: calc(100% - 44rem);
+    }
+
+
+    .production_steps .accordion-item-visible .arr
+    {
+        width: 2.2rem;
+        height: 1.2rem;
     }
 
 
@@ -2954,12 +3136,6 @@
 
 
 
-    .production_what .products .item
-    {
-        width: calc(50% - 2rem);
-    }
-
-
     .production_what .products .name
     {
         font-size: 2.5rem;
@@ -3016,10 +3192,22 @@
     }
 
 
+    .production_FAQ .col .btn
+    {
+        display: none;
+    }
+
+
     .production_FAQ .btn
     {
         width: 40rem;
         margin-top: 2.4rem;
+    }
+
+
+    .production_FAQ .btn.mob
+    {
+        display: flex;
     }
 
 
@@ -3153,6 +3341,7 @@
     {
         width: 100%;
     }
+
 
 
     .production_what .data .row > *
@@ -3355,6 +3544,13 @@
     }
 
 
+    .production_steps .accordion-item-visible .arr
+    {
+        width: 2rem;
+        height: 1rem;
+    }
+
+
     .production_steps .text
     {
         width: 100%;
@@ -3439,19 +3635,6 @@
         margin-left: 0;
     }
 
-
-
-    .production_what .products
-    {
-        margin-left: 0;
-    }
-
-
-    .production_what .products .item
-    {
-        width: 100%;
-        margin-left: 0;
-    }
 
 
     .production_what .products .item .back .text
@@ -3563,6 +3746,12 @@
         padding-inline: 2.4rem 1rem;
 
         font-size: 1.8rem;
+    }
+
+
+    .production_FAQ .btn.mob
+    {
+        font-size: 1.6rem;
     }
 
 
