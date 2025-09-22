@@ -75,72 +75,154 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 	initProductsSliders()
+
+	initCasesSliders()
 })
 
 
 window.addEventListener('resize', function () {
 	initProductsSliders()
+
+	initCasesSliders()
 })
 
 
 let productsSliders = []
 
 function initProductsSliders() {
-  const windowWidth = window.innerWidth
-  const productsSections = document.querySelectorAll('.production_what .products')
+	const windowWidth = window.innerWidth
+	const productsSections = document.querySelectorAll('.production_what .products')
 
-  if (windowWidth < 1279) {
-    productsSections.forEach(section => {
-      const row = section.querySelector('.row')
-      if (row) {
-        Array.from(row.children).forEach(child => child.classList.add('swiper-slide'))
+	if (windowWidth < 1279) {
+		productsSections.forEach(section => {
+			const row = section.querySelector('.row')
 
-        row.classList.add('swiper-wrapper')
-        row.classList.remove('row')
+			if (row) {
+				Array.from(row.children).forEach(child => child.classList.add('swiper-slide'))
 
-        const swipers = section.querySelectorAll('.swiper')
-        swipers.forEach((swiperEl, i) => {
-          swiperEl.classList.add('products_s' + i)
+				row.classList.add('swiper-wrapper')
+				row.classList.remove('row')
 
-          const options = {
-            loop: false,
-            speed: 500,
-            watchSlidesProgress: true,
-            slideActiveClass: 'active',
-            slideVisibleClass: 'visible',
-            slidesPerView: 'auto',
-            spaceBetween: 20,
-            on: {
-              init: swiper => {
-                setHeight(swiper.el.querySelectorAll('.item'))
-              },
-              resize: swiper => {
-                const items = swiper.el.querySelectorAll('.v')
-                items.forEach(el => el.style.height = 'auto')
+				const swipers = section.querySelectorAll('.swiper')
 
-                setHeight(items)
-              }
-            }
-          }
+				swipers.forEach((swiperEl, i) => {
+					swiperEl.classList.add('products_s' + i)
 
-          productsSliders.push(new Swiper('.products_s' + i, options))
-        })
-      }
-    })
-  } else {
-    productsSliders.forEach(slider => slider.destroy(true, true))
-    productsSliders = []
+					const options = {
+						loop: true,
+						speed: 500,
+						watchSlidesProgress: true,
+						slideActiveClass: 'active',
+						slideVisibleClass: 'visible',
+						slidesPerView: 'auto',
+						spaceBetween: 20,
+						navigation: {
+							nextEl: '.swiper-button-next',
+							prevEl: '.swiper-button-prev'
+						},
+						on: {
+							init: swiper => {
+								setHeight(swiper.el.querySelectorAll('.item'))
+							},
+							resize: swiper => {
+								const items = swiper.el.querySelectorAll('.item')
 
-    productsSections.forEach(section => {
-      const wrapper = section.querySelector('.swiper-wrapper')
-      if (wrapper) {
-        wrapper.classList.add('row')
-        wrapper.classList.remove('swiper-wrapper')
+								items.forEach(el => el.style.height = 'auto')
 
-        Array.from(wrapper.children).forEach(child => child.classList.remove('swiper-slide'))
-      }
-    })
-  }
+								setHeight(items)
+							}
+						}
+					}
+
+					productsSliders.push(new Swiper('.products_s' + i, options))
+				})
+			}
+		})
+	} else {
+		productsSliders.forEach(slider => slider.destroy(true, true))
+		productsSliders = []
+
+		productsSections.forEach(section => {
+			const wrapper = section.querySelector('.swiper-wrapper')
+
+			if (wrapper) {
+				wrapper.classList.add('row')
+				wrapper.classList.remove('swiper-wrapper')
+
+				Array.from(wrapper.children).forEach(child => child.classList.remove('swiper-slide'))
+			}
+		})
+	}
+}
+
+
+
+let casesSliders = []
+
+function initCasesSliders() {
+	const windowWidth = window.innerWidth
+	const casesSections = document.querySelectorAll('.production_cases')
+
+	if (windowWidth < 767) {
+		casesSections.forEach(section => {
+			const row = section.querySelector('.grid')
+
+			if (row) {
+				Array.from(row.children).forEach(child => child.classList.add('swiper-slide'))
+
+				row.classList.add('swiper-wrapper')
+				row.classList.remove('grid')
+
+				const swipers = section.querySelectorAll('.swiper')
+
+				swipers.forEach((swiperEl, i) => {
+					swiperEl.classList.add('cases_s' + i)
+
+					const options = {
+						loop: true,
+						speed: 500,
+						watchSlidesProgress: true,
+						slideActiveClass: 'active',
+						slideVisibleClass: 'visible',
+						slidesPerView: 'auto',
+						spaceBetween: 20,
+						navigation: {
+							nextEl: '.swiper-button-next',
+							prevEl: '.swiper-button-prev'
+						},
+						on: {
+							init: swiper => {
+								setHeight(swiper.el.querySelectorAll('.case'))
+							},
+							resize: swiper => {
+								const items = swiper.el.querySelectorAll('.case')
+
+								items.forEach(el => el.style.height = 'auto')
+
+								setHeight(items)
+							}
+						}
+					}
+
+					casesSliders.push(new Swiper('.cases_s' + i, options))
+				})
+			}
+		})
+	} else {
+		casesSliders.forEach(slider => slider.destroy(true, true))
+		casesSliders = []
+
+		casesSections.forEach(section => {
+			const wrapper = section.querySelector('.swiper-wrapper')
+
+			if (wrapper) {
+				wrapper.classList.add('grid')
+				wrapper.classList.remove('swiper-wrapper')
+
+				Array.from(wrapper.children).forEach(child => child.classList.remove('swiper-slide'))
+			}
+		})
+	}
 }
 
 

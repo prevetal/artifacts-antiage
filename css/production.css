@@ -1139,6 +1139,42 @@
 }
 
 
+.production_what .products .swiper-buttons
+{
+    display: none;
+
+    margin-bottom: 2rem;
+    margin-left: auto;
+}
+
+
+.production_what .products .swiper-button-next,
+.production_what .products .swiper-button-prev
+{
+    width: 4rem !important;
+    height: 4rem !important;
+
+    border-radius: 0;
+    background: none;
+}
+
+
+.production_what .products .swiper-button-next .svgsprite,
+.production_what .products .swiper-button-prev .svgsprite
+{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+.production_what .products .swiper-button-next:hover,
+.production_what .products .swiper-button-prev:hover
+{
+    color: #18181e !important;
+    background: transparent !important;
+}
+
+
 .production_what .products .swiper-slide
 {
     width: 30.8rem;
@@ -1373,6 +1409,57 @@
 }
 
 
+.production_cases .swiper
+{
+    overflow: visible !important;
+}
+
+
+.production_cases .swiper-buttons
+{
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+
+    display: none;
+
+    margin: 0 0 2.2rem;
+}
+
+
+.production_cases .swiper-button-next,
+.production_cases .swiper-button-prev
+{
+    width: 4rem !important;
+    height: 4rem !important;
+
+    border-radius: 0;
+    background: none;
+}
+
+
+.production_cases .swiper-button-next .svgsprite,
+.production_cases .swiper-button-prev .svgsprite
+{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+.production_cases .swiper-button-next:hover,
+.production_cases .swiper-button-prev:hover
+{
+    color: #18181e !important;
+    background: transparent !important;
+}
+
+
+.production_cases .swiper-slide
+{
+    width: 30.8rem;
+}
+
+
 .production_cases .grid
 {
     display: flex;
@@ -1385,15 +1472,24 @@
 }
 
 
+.production_cases .grid > *
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(50% - 1rem);
+}
+
+
 .production_cases .case
 {
     display: flex;
     align-content: stretch;
     align-items: stretch;
+    flex: 1 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
 
-    width: calc(50% - 1rem);
     padding-block: 4rem;
     padding-inline: 2.4rem;
 
@@ -3135,6 +3231,11 @@
     }
 
 
+    .production_what .products .swiper-buttons
+    {
+        display: flex;
+    }
+
 
     .production_what .products .name
     {
@@ -3656,9 +3757,9 @@
     }
 
 
-    .production_cases .case
+    .production_cases .swiper-buttons
     {
-        width: 100%;
+        display: flex;
     }
 
 
