@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="ru" data-zoom="100">
+    <head>
+        <script>
+            const currentTheme = localStorage.getItem('altColorValue')
+            if (currentTheme) {
+                document.documentElement.setAttribute('data-theme', currentTheme)
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <title>Каталог (пептиды) :: Antiage</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+        <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#ffffff">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-config" content="assets/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Description">
+        <meta property="og:url" content="https://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Каталог (пептиды)">
+        <meta property="twitter:title" content="Каталог (пептиды)">
+        <meta property="og:description" content="description">
+        <meta property="twitter:description" content="description">
+        <meta property="og:image" content="assets/share.png">
+        <meta name="robots" content="noindex, nofollow">
+        <script>
+            /* изменяемые настройки скриптов, указаны значения по умолчанию */
+            var appConfig = {
+                templateUrl: '',
+            }
+        </script>
+        <script src="./js/swiper-bundle.min.js"></script>
+        <script async type="module" crossorigin src="./js/app.js"></script>
+        <script src="./js/book_info.js"></script>
+        <link rel="stylesheet" crossorigin href="./css/rooftopmono.css">
+        <link rel="stylesheet" crossorigin href="./css/common.css">
+        <link rel="stylesheet" crossorigin href="./css/catalog.css">
+        <link rel="stylesheet" crossorigin href="./css/book_info.css">
+    </head>
+    <body class="body">
+        <main class="content">
+            <div class="header-wrapper">
+                <header class="header">
+                    <div class="header__inner">
+                        <div class="header__logos">
+                            <svg class="svgsprite _logo-ros header__ros" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                            </svg><a class="header__pbak" href="index.html" title="На главную">
+                                <svg class="svgsprite _logo-pbak" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#logo-pbak" tabindex="-1"></use>
+                                </svg><span class="header__pbak__text">Проектное Бюро Антивозрастной Косметики</span></a>
+                        </div>
+                        <nav class="header__content">
+                            <div class="header__content__header">
+                                <ul class="header__menu _small">
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">О компании</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Новости</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                                <div class="header__content__header__inner"><a class="header__search" href="#"> <span>Поиск</span>
+                                        <svg class="svgsprite _search" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                        </svg></a>
+                                    <ul class="header__lang">
+                                        <li class="header__lang__item"><a class="header__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                        <li class="header__lang__item"><a class="header__lang__link" href="#">EN</a></li>
+                                    </ul><a class="header__tel" href="#">
+                                        <svg class="svgsprite _tel" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#tel" tabindex="-1"></use>
+                                        </svg><span>+7 (343) 305-77-05</span></a>
+                                </div>
+                                <button class="btn-common _size-s _in-light header__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                            <ul class="header__menu">
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Косметическое сырье</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Пигменты</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Контрактное производство</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Товары со склада</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Научные исследования</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Корпоративные подарки</a></li>
+                            </ul>
+                        </nav>
+                        <button class="header__burger js-menu-toggler" type="button" title="Открыть меню">
+                            <svg class="svgsprite _menu header__burger__open" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#menu" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite _close header__burger__close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </header>
+                <div class="breadcrumbs-common-wrapper container">
+                    <div class="breadcrumbs-common">
+                        <a class="btn-common _in-light _size-s breadcrumbs-common__button" href="#">
+                            <svg class="svgsprite _arrow-left" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-left" tabindex="-1"></use>
+                            </svg><span>Назад</span>
+                        </a>
+                        <div class="breadcrumbs-common__inner">
+                            <div class="breadcrumbs-common__item"><span class="breadcrumbs-common__link" aria-hidden="true">Книги А.Ю. Прокопова: Кожа и окружающая среда</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu__overlay js-menu-toggler"></div>
+                <div class="menu__inner">
+                    <div class="menu__scroll-wrapper">
+                        <div class="menu__scroll">
+                            <form class="menu__search js-form" data-native-action>
+                                <div class="menu__search__input js-input">
+                                    <input class="js-input__input" placeholder="Поиск" name="query" data-min-length="3">
+                                    <button class="menu__search__input__clear js-input__clear _hidden" type="submit" title="Очистить">
+                                        <svg class="svgsprite _arrow-long-right" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-long-right" tabindex="-1"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <svg class="svgsprite _search menu__search__icon" tabindex="-1" role="img" aria-hidden="aria-hidden">
+                                    <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                </svg>
+                            </form>
+                            <nav>
+                                <ul class="menu__menu">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Косметическое сырье</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Пигменты</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Контрактное производство</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Товары со склада</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Научные исследования</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Корпоративные подарки</a></li>
+                                </ul>
+                                <ul class="menu__menu _small">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">О компании</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Новости</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                            </nav>
+                            <div class="menu__footer"><a class="menu__tel" href="#">+7 (343) 305-77-05</a>
+                                <ul class="menu__lang">
+                                    <li class="menu__lang__item"><a class="menu__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                    <li class="menu__lang__item"><a class="menu__lang__link" href="#">EN</a></li>
+                                </ul>
+                                <button class="btn-common _size-xm _wide-sm menu__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="book_info">
+                <div class="container">
+                    <div class="info">
+                        <h1 class="title">Трилогия «Кожа<br> и окружающая среда»</h1>
+
+                        <div class="desc">Научная серия книг от Алексея Юрьевича Прокопова — кандидата медицинских наук и основателя РОС-Химии</div>
+                    </div>
+
+                    <picture class="thumb">
+                        <img src="assets/img/books/1.jpg" alt="" loading="lazy">
+                    </picture>
+
+                    <button class="btn btn-common">
+                        <span>Заказать</span>
+                    </button>
+
+                    <div class="items">
+                        <div>
+                            <div class="number"></div>
+
+                            <div>Рекомендации по защите кожи от негативных факторов окружающей среды</div>
+                        </div>
+
+                        <div>
+                            <div class="number"></div>
+
+                            <div>Обзор исследований о взаимодействии кожи с окружающей средой</div>
+                        </div>
+
+                        <div>
+                            <div class="number"></div>
+
+                            <div>Научные обоснования о роли кожи как барьера между телом и внешним миром</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="book_about">
+                <div class="container">
+                    <div class="data">
+                        <div class="info_wrap">
+                            <div class="info info1 active">
+                                <div class="block_title">О книге</div>
+
+                                <button class="annotation_link big-link _in-light" data-modal="popup_annotation">
+                                    <span>Аннотация</span>
+
+                                    <span class="big-link__icon" aria-hidden="true">
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+                                    </span>
+                                </button>
+
+                                <div class="desc">
+                                    <div class="section">
+                                        <div class="name">Том 1</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Экспосом: поллютанты, арилуглеводородный рецептор и старение кожи</div>
+                                            <div><b>Глава 2.</b> Экспосом: циркадный ритм как основа резистентности</div>
+                                            <div><b>Глава 3.</b> Экспосом: солнечный свет, фотостарение и фотозащита</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section">
+                                        <div class="name">Том 2</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Внеклеточный матрикс, протеогликаны и старение кожи</div>
+                                            <div><b>Глава 2.</b> Микробиота, экспосом и старение кожи</div>
+                                            <div><b>Глава 3.</b> Гормезис, старение, кожа</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section">
+                                        <div class="name">Том 3</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Цвет кожи и его старение</div>
+                                            <div><b>Глава 2.</b> Протеостаз, гликирование и старение кожи</div>
+                                            <div><b>Глава 3.</b> Старение (aging), старение (senescence), или «старение заразно!»</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="info info2">
+                                <div class="block_title">О книге</div>
+
+                                <a href="/" class="annotation_link big-link _in-light">
+                                    <span>Аннотация</span>
+
+                                    <span class="big-link__icon" aria-hidden="true">
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <div class="desc">
+                                    <div class="section">
+                                        <div class="name">Том 1</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Экспосом: поллютанты, арилуглеводородный рецептор и старение кожи</div>
+                                            <div><b>Глава 2.</b> Экспосом: циркадный ритм как основа резистентности</div>
+                                            <div><b>Глава 3.</b> Экспосом: солнечный свет, фотостарение и фотозащита</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section">
+                                        <div class="name">Том 2</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Внеклеточный матрикс, протеогликаны и старение кожи</div>
+                                            <div><b>Глава 2.</b> Микробиота, экспосом и старение кожи</div>
+                                            <div><b>Глава 3.</b> Гормезис, старение, кожа</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section">
+                                        <div class="name">Том 3</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Цвет кожи и его старение</div>
+                                            <div><b>Глава 2.</b> Протеостаз, гликирование и старение кожи</div>
+                                            <div><b>Глава 3.</b> Старение (aging), старение (senescence), или «старение заразно!»</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="info info3">
+                                <div class="block_title">О книге</div>
+
+                                <a href="/" class="annotation_link big-link _in-light">
+                                    <span>Аннотация</span>
+
+                                    <span class="big-link__icon" aria-hidden="true">
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <div class="desc">
+                                    <div class="section">
+                                        <div class="name">Том 1</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Экспосом: поллютанты, арилуглеводородный рецептор и старение кожи</div>
+                                            <div><b>Глава 2.</b> Экспосом: циркадный ритм как основа резистентности</div>
+                                            <div><b>Глава 3.</b> Экспосом: солнечный свет, фотостарение и фотозащита</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section">
+                                        <div class="name">Том 2</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Внеклеточный матрикс, протеогликаны и старение кожи</div>
+                                            <div><b>Глава 2.</b> Микробиота, экспосом и старение кожи</div>
+                                            <div><b>Глава 3.</b> Гормезис, старение, кожа</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section">
+                                        <div class="name">Том 3</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Цвет кожи и его старение</div>
+                                            <div><b>Глава 2.</b> Протеостаз, гликирование и старение кожи</div>
+                                            <div><b>Глава 3.</b> Старение (aging), старение (senescence), или «старение заразно!»</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="info info4">
+                                <div class="block_title">О книге</div>
+
+                                <a href="/" class="annotation_link big-link _in-light">
+                                    <span>Аннотация</span>
+
+                                    <span class="big-link__icon" aria-hidden="true">
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+
+                                        <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <div class="desc">
+                                    <div class="section">
+                                        <div class="name">Том 1</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Экспосом: поллютанты, арилуглеводородный рецептор и старение кожи</div>
+                                            <div><b>Глава 2.</b> Экспосом: циркадный ритм как основа резистентности</div>
+                                            <div><b>Глава 3.</b> Экспосом: солнечный свет, фотостарение и фотозащита</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section">
+                                        <div class="name">Том 2</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Внеклеточный матрикс, протеогликаны и старение кожи</div>
+                                            <div><b>Глава 2.</b> Микробиота, экспосом и старение кожи</div>
+                                            <div><b>Глава 3.</b> Гормезис, старение, кожа</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section">
+                                        <div class="name">Том 3</div>
+
+                                        <div class="content">
+                                            <div><b>Глава 1.</b> Цвет кожи и его старение</div>
+                                            <div><b>Глава 2.</b> Протеостаз, гликирование и старение кожи</div>
+                                            <div><b>Глава 3.</b> Старение (aging), старение (senescence), или «старение заразно!»</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bottom">
+                                <div class="btns">
+                                    <button class="btn active">Вся серия книг</button>
+
+                                    <button class="btn">Том 1</button>
+
+                                    <button class="btn">Том 2</button>
+
+                                    <button class="btn">Том 3</button>
+                                </div>
+
+                                <button class="order_btn btn-common">
+                                    <span>Заказать</span>
+                                </button>
+
+                                <div class="price price1 active">15 000 ₽</div>
+
+                                <div class="price price2">16 000 ₽</div>
+
+                                <div class="price price3">17 000 ₽</div>
+
+                                <div class="price price4">18 000 ₽</div>
+                            </div>
+                        </div>
+
+                        <div class="image">
+                            <picture class="picture picture1 active">
+                                <img src="assets/img/books/book_about-1.jpg" alt="" loading="lazy">
+                            </picture>
+
+                            <picture class="picture picture2">
+                                <img src="assets/img/books/book_about-1.jpg" alt="" loading="lazy">
+                            </picture>
+
+                            <picture class="picture picture3">
+                                <img src="assets/img/books/book_about-1.jpg" alt="" loading="lazy">
+                            </picture>
+
+                            <picture class="picture picture4">
+                                <img src="assets/img/books/book_about-1.jpg" alt="" loading="lazy">
+                            </picture>
+
+                            <div class="exp">Возрастное ограничение: 12+</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="book_reviewers">
+                <div class="container">
+                    <div class="block_title">Рецензенты</div>
+
+                    <div class="row">
+                        <div class="person">
+                            <picture class="photo">
+                                <img src="assets/img/books/reviewer-1.jpg" alt="" loading="lazy">
+                            </picture>
+
+                            <div>
+                                <div class="name">Игорь Моисеевич<br> Кветной</div>
+
+                                <div class="desc">Доктор медицинских наук, заслуженный деятель науки РФ, руководитель Центра молекулярной биомедицины Санкт-Петербургского НИИ, профессор кафедры патологии Санкт-Петербургского государственного университета</div>
+                            </div>
+                        </div>
+
+                        <div class="person">
+                            <picture class="photo">
+                                <img src="assets/img/books/reviewer-2.jpg" alt="" loading="lazy">
+                            </picture>
+
+                            <div>
+                                <div class="name">Михаил Александрович<br> Пальцев</div>
+
+                                <div class="desc">Доктор медицинских наук, академик Российской академии наук и Российской академии медицинских наук, лауреат Государственной премии СССР и четырёх премий Правительства РФ, заместитель директора НИЦ «Курчатовский институт»</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="book_fragments tabs_container">
+                <div class="container">
+                    <div class="block_title">Фрагменты книг</div>
+
+                    <div class="tabs">
+                        <button data-content="#tab1" data-level="level1" class="btn active">Том 1</button>
+
+                        <button data-content="#tab2" data-level="level1" class="btn">Том 2</button>
+
+                        <button data-content="#tab3" data-level="level1" class="btn">Том 3</button>
+                    </div>
+
+                    <div class="tab_content level1 active" id="tab1">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-prev">
+                                <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                </svg>
+                            </div>
+
+                            <div class="swiper-button-next">
+                                <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab_content level1" id="tab2">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-prev">
+                                <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                </svg>
+                            </div>
+
+                            <div class="swiper-button-next">
+                                <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab_content level1" id="tab3">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <picture class="image">
+                                        <img src="assets/img/books/book_fragments-1.png" alt="" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-prev">
+                                <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                </svg>
+                            </div>
+
+                            <div class="swiper-button-next">
+                                <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="order_btn btn-common">
+                        <span>Заказать</span>
+                    </button>
+                </div>
+
+                <picture class="bg1">
+                    <img src="assets/img/books/bg_book_fragments-1.png" alt="" loading="lazy">
+                </picture>
+
+                <picture class="bg2">
+                    <img src="assets/img/books/bg_book_fragments-2.png" alt="" loading="lazy">
+                </picture>
+            </section>
+
+
+            <section class="book_founder">
+                <div class="container">
+                    <div class="data">
+                        <div class="name">Алексей Юрьевич Прокопов</div>
+
+                        <div class="desc">Участник международной научной группы, которая специализируется на исследованиях в области биологии кожи, разработке современных антивозрастных косметических средств. Автор патентов, научных статей и курса по прикладной косме­тической биологии кожи</div>
+
+                        <div class="post">Основатель и директор компании «РОС-Химия», кандидат медицинских наук</div>
+
+                        <picture class="bg">
+                            <img src="assets/img/books/book_founder.jpg" alt="" loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="book_terms">
+                <div class="container">
+                    <div class="data">
+                        <div class="block_title">Условия покупки и доставки</div>
+
+                        <div class="row">
+                            <div class="item">
+                                <div class="top">
+                                    <div class="icon">
+                                        <svg width="32" height="30" viewBox="0 0 32 30" xmlns="http://www.w3.org/2000/svg"><path d="M1 4.50977L31 7.88477V28.1348L1 24.7598V4.50977ZM1 4.50977L27.6667 1.13477V7.5093" stroke="currentColor" stroke-width="2" stroke-linecap="square" fill="none"/></svg>
+                                    </div>
+
+                                    <div class="name">Оплата</div>
+                                </div>
+
+                                <div class="desc">
+                                    <ul>
+                                        <li>Мы пришлём ссылку на почту, указанную при оформлении заказа</li>
+
+                                        <li>Принимаем оплату по QR-код через СБП — нужно перейти по ссылке из письма и отсканировать код</li>
+
+                                        <li>Оплатить заказ можно в приложении любого банка</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="top">
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36"><path d="M1 9.23057L16 17.5325M1 9.23057V26.0419L16 34.1362M1 9.23057L16 1.13623L31 9.23057M16 17.5325L31 9.23057M16 17.5325V34.1362M31 9.23057V26.0419L16 34.1362" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                                    </div>
+
+                                    <div class="name">Доставка</div>
+                                </div>
+
+                                <div class="desc">
+                                    <ul>
+                                        <li>Доставляем по России через транспортную компанию DPD до пункта выдачи — до 10 дней</li>
+
+                                        <li>Цена доставки включена в стоимость заказа</li>
+
+                                        <li>Передаём заказ в доставку после оплаты</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="top">
+                                    <div class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="39" viewBox="0 0 32 39"><path d="M20.9995 1.3291L23.101 5.8283C23.101 5.8283 21.7842 5.32837 20.3932 4.90128C18.9667 4.46369 17.4868 4.24158 15.9992 4.24183C7.71492 4.24183 1.00001 10.9967 1.00001 19.3291C0.99749 21.9854 1.6905 24.5926 3.00516 26.8727M11.0005 37.3291L8.89124 32.8283C8.89124 32.8283 10.2158 33.3282 11.6068 33.7569C12.9962 34.184 14.4725 34.4147 16.0008 34.4147C24.2851 34.4147 31 27.6598 31 19.3275C31.0022 16.6718 30.3092 14.0652 28.9948 11.7855" stroke="currentColor" stroke-width="2" stroke-linecap="square" fill="none"/></svg>
+                                    </div>
+
+                                    <div class="name">Возврат</div>
+                                </div>
+
+                                <div class="desc">
+                                    <p>Вы можете отменить заказ до его передачи в доставку и вернуть деньги</p>
+
+                                    <p>Если заказ уже передан в доставку, вернуть деньги не получится. Книги не подлежат возврату и обмену согласно <a href="/">Постановлению Правительства РФ № 2463</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <svg class="svgsprite _logo-ros footer__logo__ros" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                    </svg><a class="footer__logo__link" href="index.html"><img class="footer__logo__pbak" src="assets/img/logo-pbak-footer.svg" loading="lazy" alt="ПБАК"></a>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__menu js-common-collapse">
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметическое сырье</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_0" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_0">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные масла</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные активы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пептиды</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Растительные экстракты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Компоненты животного происхождения</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Гранулы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Консерванты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">UV фильтры</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Активы направленного действия</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Научные исследования</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметические пигменты</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_2" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_2">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Перламутр</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Глиттер</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Контрактное производство</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Товары со склада</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_4" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_4">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Готовая косметика</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Сырье</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пигменты</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Корпоративные подарки</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Библиотека</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_6" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_6">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Лекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Публикации</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Видеолекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Исследования</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Бюллетени</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Антистарость</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">О компании</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Новости</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_8" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_8">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Тренды</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__address">
+                            <p class="footer__contacts__address__title">Екатеринбург</p>
+                            <p class="footer__contacts__address__text"> Улица Первомайская, 15, офис 705, бизнес–центр «Вознесенский» </p>
+                        </div>
+                        <div class="footer__contacts__list"><a class="footer__contacts__link" href="#">+7 (343) 305-77-05</a><a class="footer__contacts__link" href="#">site@ros-chimia.ru</a></div>
+                    </div>
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__social"><a class="footer__contacts__social__link" href="#" title="YouTube">
+                                <svg class="svgsprite _youtube" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#youtube" tabindex="-1"></use>
+                                </svg></a><a class="footer__contacts__social__link" href="#" title="Telegram">
+                                <svg class="svgsprite _tg" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#tg" tabindex="-1"></use>
+                                </svg></a></div>
+                        <button class="btn-common _size-xm _wide-sm" data-modal="popup_feedback"><span>Получить консультацию</span>
+                        </button>
+                    </div>
+                </div>
+                <ul class="footer__lab">
+                    <li><a class="footer__lab__link" href="#">Книги А. Ю. Прокопова</a></li>
+                    <li><a class="footer__lab__link" href="#" target="blank">Лаборатория Эстетики цвета <svg class="svgsprite _arrow-link" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-link" tabindex="-1"></use>
+                            </svg></a></li>
+                </ul>
+                <div class="footer__copyright"> <a class="footer__copyright__link" href="#">Политики и юридические документы</a><span>© 2024 Проектное бюро антивозрастной косметики</span></div>
+            </div>
+        </footer>
+
+
+        <div class="popup js-popup _order case_info" role="dialog" aria-labelledby="popup_title_case1" aria-modal="true" aria-hidden="true" id="popup_case1">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+
+                <div class="popup__content">
+                    <picture class="image">
+                        <img src="assets/img/production/case_img1.jpg" alt="" loading="lazy">
+                    </picture>
+
+                    <div class="title">Премиум-крем для рук в стиле Tamburins</div>
+
+                    <div class="text">
+                        <p>Совместный проект с нашим партнёром с открытой рецептурой</p>
+
+                        <h3>Чего хотел клиент</h3>
+
+                        <p>Создать премиальный уход для рук с эффектом спа-процедуры — трендовый продукт, которого ещё нет в России</p>
+
+                        <h3>Что сделали мы</h3>
+
+                        <p>Разработали уникальный крем на основе ферментированных масел Biolipid FE и Biolipid SHEA CB и активом BSASM (N)™, в котором 7 растительных экстрактов. Адаптировали формулу для лёгкого и быстрого впитывания</p>
+
+                        <h3>Что получилось в итоге</h3>
+
+                        <p>Фокус-группа дала высокую оценку при тестировании продукта. Крем стал популярным решением для корпоративных бьюти-подарков с качественной формулой. Направленность действия:</p>
+
+                        <ul>
+                            <li>Восстановление микробиома кожи за счёт биолипидов</li>
+                            <li>Удержание влаги в роговом слое кожи</li>
+                            <li>Быстрое заживление за счёт актива BSASM™</li>
+                        </ul>
+
+                        <h3>Уникальные активы и свойства продукта</h3>
+
+                        <ul>
+                            <li>Биолипиды схожи на 98% с липидами кожи и обеспечивают глубокое проникновение активов. Также биолипиды содержат много метаболитов, что также помогает восстанавливать микробиом кожи</li>
+
+                            <li><a href="/">BSASM (N)™</a> для улучшения барьерной функции кожи, восстановления и заживления</li>
+
+                            <li>Муссовая текстура, которая легко поглощается кожей без ощущения липкости</li>
+                        </ul>
+                    </div>
+
+                    <button class="btn" data-modal="popup_feedback">
+                        <span>Создать свой крем</span>
+
+                        <span class="icon" aria-hidden>
+                            <svg class="svgsprite" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popup js-popup _order case_info" role="dialog" aria-labelledby="popup_title_case2" aria-modal="true" aria-hidden="true" id="popup_case2">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+
+                <div class="popup__content">
+                    <picture class="image">
+                        <img src="assets/img/production/case_img2.jpg" alt="" loading="lazy">
+                    </picture>
+
+                    <div class="title">Крем для лица с заботой о микробиоме</div>
+
+                    <div class="text">
+                        <h3>Чего хотел клиент</h3>
+
+                        <p>Разработать универсальный крем для лица, шеи, декольте и зоны вокруг глаз, подходящий для дневного и ночного ухода. Подобрать формулу сохранения молодости кожи и SOS-увлажнения, с возможностью вынесения клейма «Microbiome-friendly» <span class="tooltip"><span class="icon">?</span> <span class="hover">Такую отметку получает косметика, содержащая компоненты, которые поддерживают и восстанавливают баланс полезных микроорганизмов на коже и не нарушают естественную барьерную функцию</span></span></p>
+
+                        <h3>Что сделали мы</h3>
+
+                        <p>Создали лёгкий биолипидный крем, в основе состава которого Biolipid FE, U-Active® HAP, обогатили формулу экстрактом камелии японской и Apep CTP™-10 (Copper Tripeptide-1)</p>
+
+                        <h3>Что получилось в итоге</h3>
+
+                        <p>Крем получил высокую оценку врачей дерматологов-косметологов — его рекомендуют для домашнего ухода и продления эффекта после процедур. Разработанная готовая формула подойдёт для быстрого запуска собственного бренда — дерматологам-косметологам, салонам красоты и клиникам эстетической медицины</p>
+
+                        <h3>Уникальные активы и свойства продукта</h3>
+
+                        <ul>
+                            <li><a href="/">Biolipid FE</a> с лёгкой нелипкой текстурой — идеально подходит для кожи лица, выполняет транспортную функцию для остальных активов в составе</li>
+
+                            <li><a href="/">Apep CTP™-10</a> (Copper Tripeptide-1) стимулирует выработку собственного коллагена и гиалуроновой кислоты</li>
+
+                            <li><a href="/">Dongbaelk (Tsubaki) Oil™</a> — масло японской камелии — восполняет липидный состав рогового слоя</li>
+
+                            <li>U-Active® HAP удаляет повреждённый коллаген из матрикса кожи, подавляет образование рубцов</li>
+                        </ul>
+                    </div>
+
+                    <button class="btn" data-modal="popup_feedback">
+                        <span>Создать свой крем</span>
+
+                        <span class="icon" aria-hidden>
+                            <svg class="svgsprite" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popup js-popup _order" role="dialog" aria-labelledby="popup_title_feedback" aria-modal="true" aria-hidden="true" id="popup_feedback">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="order-form js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <h3 class="order-form__title">Обратная связь</h3>
+                        <div class="order-form__fieldset">
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_name">Как вас зовут?</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_name" placeholder="ФИО" data-error-message="Необходимо заполнить поле" type="text" name="name" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_name_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_message">Ваш вопрос</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Сообщение" type="text" name="city" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="order-form__footer">
+                            <button class="btn-common _size-l _wide-sm" type="submit"><span>Отправить</span>
+                            </button>
+                            <p class="order-form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup js-popup _publication" role="dialog" aria-labelledby="popup_title_publication" aria-modal="true" aria-hidden="true" id="popup_publication">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="form _in-modal js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <input class="js-publication-id-input js-hidden-input" name="publication_id" type="hidden">
+                        <div class="form__inner">
+                            <div class="form__header">
+                                <h3 class="form__title">Заказать статью</h3>
+                                <p class="form__text">Укажите, пожалуйста, компанию, которую Вы представляете и род деятельности</p>
+                            </div>
+                            <div class="form__fieldset">
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="publication_company">Компания</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="publication_company" placeholder="Название компании" data-error-message="Необходимо заполнить поле" type="text" name="company" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="publication_company_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_message">Сообщение</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Комментарий (необязательно)" type="text" name="message" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <button class="btn-common _size-l" type="submit"><span>Отправить заявку</span>
+                                </button>
+                                <p class="form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popup js-popup _book_annotation" role="dialog" aria-labelledby="popup_title_annotation" aria-modal="true" aria-hidden="true" id="popup_annotation">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+
+                <div class="popup__content">
+                    <div class="title">Аннотация к книге</div>
+
+                    <div class="text">
+                        <p>Книги Алексея Прокопова «Кожа и окружающая среда: Молекулярные механизмы взаимодействия» — настольные издания для тех, кто связан с кожей, бьюти-миром, косметикой и косметологией. Книги позволяют комплексно взглянуть на биологию кожи и почерпнуть теоретические и практические знания, способные существенно повлиять на развитие современной косметологии и эффективность практических методов омоложения кожи.</p>
+
+                        <p>Кожа — это орган в организме человека. Понимание механизмов жизнедеятельности кожи — это ключ к биологии организма человека. Вот простой пример: витамин D — кожа — ультрафиолет — озон атмосферы. Или вот такой: супермалые дозы растительных экстрактов в косметике как частное явление ксеногормезиса (передачи химического адаптирующего стресс-сигнала от растений животным) в границах локальной экосистемы.</p>
+
+                        <p>В книгах Алексея Прокопова «Кожа и окружающая среда: Молекулярные механизмы взаимодействия» собраны актуальные данные не просто по биологии кожи, а в рамках её непрерывного взаимодействия с окружающей средой (включая образ жизни человека). Рассмотрены позитивные и негативные влияния солнечного света, поллютантов окружающей среды, микробиоты на системном и локальном уровнях. Показана эссенциальная оздоравливающая роль суточных (циркадианных) ритмов. Охарактеризованы процессы в межклеточном матриксе как особой внешней среды для клеток кожи.</p>
+
+                        <p>Подробно разобран феномен гормезиса (дозозависимого ответа биологической системы на воздействие стресс-факторов), что может стать биологической основой эффективных anti-age-мероприятий не только в косметологии, но и в отношении увеличения продолжительности жизни человека.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

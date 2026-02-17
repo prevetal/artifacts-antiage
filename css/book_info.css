@@ -1,0 +1,2790 @@
+.book_info
+{
+    position: relative;
+
+    margin-bottom: 11.6rem;
+    padding-top: 5.5rem;
+}
+
+
+
+.book_info .container
+{
+    position: relative;
+
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    z-index: 3;
+
+    gap: 4rem;
+}
+
+
+.book_info .info
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 99.8rem;
+    max-width: 100%;
+
+    gap: 3.6rem;
+}
+
+
+.book_info .info .title
+{
+    font-size: 9.6rem;
+    font-weight: 300;
+    line-height: 100%;
+
+    letter-spacing: -.096rem;
+
+    color: #18181e;
+}
+
+
+.book_info .info .desc
+{
+    width: 69.2rem;
+    max-width: 100%;
+
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+.book_info .thumb
+{
+    display: block;
+    overflow: hidden;
+
+    width: 38rem;
+    max-width: 100%;
+    margin-inline: auto;
+
+    transform: translateX(-4.8rem);
+
+    border-radius: 50%;
+}
+
+
+.book_info .thumb img
+{
+    display: block;
+
+    width: 100%;
+
+    border-radius: inherit;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.book_info .btn
+{
+    align-self: flex-end;
+
+    width: 41.8rem;
+    height: 10.1rem;
+
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 100%;
+
+    letter-spacing: .024rem;
+}
+
+
+.book_info .items
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    counter-reset: number;
+
+    border-right: 1px solid rgba(24, 24, 30, .10);
+
+    gap: 2.4rem;
+}
+
+
+.book_info .items > *
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 28rem;
+    padding-inline: 2.6rem;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 130%;
+
+    letter-spacing: .02rem;
+
+    color: #18181e;
+    border-left: 1px solid rgba(24, 24, 30, .10);
+
+    gap: 3rem;
+}
+
+
+.book_info .items .number
+{
+    font-family: 'Rooftop Mono', 'GT Eesti Pro Text', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 160%;
+
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+
+    color: #6b6b79;
+}
+
+
+.book_info .items .number:before
+{
+    content: counter(number, decimal-leading-zero);
+    counter-increment: number;
+}
+
+
+
+.book_about
+{
+    margin-bottom: 12rem;
+}
+
+
+.book_about .data
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 4.2rem 2.4rem;
+
+    border-radius: 3.4rem;
+    background: #fff;
+
+    gap: 2.4rem;
+}
+
+
+.book_about .info_wrap
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 83.5rem - 2.4rem);
+    padding-inline: 5.2rem 7.6rem;
+
+    gap: 4.6rem;
+}
+
+
+.book_about .info
+{
+    display: none;
+    flex-direction: column;
+
+    gap: 4rem;
+}
+
+
+.book_about .info.active
+{
+    display: flex;
+}
+
+
+.book_about .block_title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 100%;
+
+    letter-spacing: -.06rem;
+}
+
+
+.book_about .annotation_link
+{
+    width: fit-content;
+    min-width: 0;
+    height: auto;
+    padding: 0;
+
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 130%;
+
+    letter-spacing: .02rem;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 0;
+    background: none;
+
+    gap: 1.2rem;
+}
+
+
+.book_about .annotation_link:before
+{
+    display: none;
+}
+
+
+.book_about .annotation_link .big-link__icon
+{
+    width: 4.1rem;
+    height: 4.19rem;
+}
+
+
+.book_about .annotation_link .big-link__icon .svgsprite
+{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+
+.book_about .desc
+{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 130%;
+
+    letter-spacing: .02rem;
+
+    gap: 4.6rem;
+}
+
+
+.book_about .section,
+.book_about .section .content
+{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.2rem;
+}
+
+
+.book_about .desc .name,
+.book_about .desc b
+{
+    font-weight: 500;
+
+    text-transform: uppercase;
+}
+
+
+.book_about .bottom
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: auto;
+
+    gap: 3.2rem;
+}
+
+
+.book_about .bottom .btns
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    width: 100%;
+}
+
+
+.book_about .bottom .btns .btn
+{
+    padding-block: .4rem;
+    padding-inline: 2rem;
+
+    font-size: 2rem;
+    line-height: 130%;
+
+    transition: .2s linear;
+    letter-spacing: -.02rem;
+
+    color: rgba(24, 24, 30, .50);
+    border-radius: 7.3rem;
+}
+
+
+.book_about .bottom .btns .btn:hover,
+.book_about .bottom .btns .btn.active
+{
+    color: #fff;
+    background: #18181e;
+}
+
+
+.book_about .bottom .order_btn
+{
+    align-self: flex-end;
+
+    width: 31.6rem;
+    height: 6.8rem;
+
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 100%;
+
+    letter-spacing: .024rem;
+}
+
+
+.book_about .bottom .price
+{
+    display: none;
+
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 100%;
+
+    white-space: nowrap;
+    letter-spacing: .036rem;
+    text-transform: uppercase;
+}
+
+
+.book_about .bottom .price.active
+{
+    display: block;
+}
+
+
+.book_about .image
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 83.5rem;
+    min-height: 92.4rem;
+
+    border-radius: 2rem;
+    background: #ddd;
+}
+
+
+.book_about .image .picture
+{
+    display: none;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.book_about .image .picture.active
+{
+    display: block;
+}
+
+
+.book_about .image .picture img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.book_about .image .exp
+{
+    position: absolute;
+    bottom: 2.2rem;
+    left: 4rem;
+
+    font-size: 1.8rem;
+    font-weight: 350;
+    line-height: 150%;
+
+    z-index: 3;
+    letter-spacing: .018rem;
+
+    color: #8c8c8c;
+}
+
+
+
+.book_reviewers
+{
+    margin-bottom: 12.4rem;
+}
+
+
+.book_reviewers .block_title
+{
+    margin-bottom: 5rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 100%;
+
+    letter-spacing: -.06rem;
+
+    color: #18181e;
+}
+
+
+.book_reviewers .row
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 20.4rem;
+}
+
+
+.book_reviewers .row > *
+{
+    width: calc(50% - 10.2rem);
+}
+
+
+.book_reviewers .person
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.book_reviewers .person .photo
+{
+    display: block;
+
+    width: 31.6rem;
+    max-width: 100%;
+
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.book_reviewers .person .photo img
+{
+    display: block;
+
+    width: 100%;
+
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.book_reviewers .person .photo + *
+{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+
+    width: calc(100% - 36.8rem);
+
+    gap: 2.4rem;
+}
+
+
+.book_reviewers .person .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+
+    letter-spacing: -.036rem;
+
+    color: #18181e;
+}
+
+
+.book_reviewers .person .desc
+{
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 130%;
+
+    letter-spacing: .02rem;
+
+    color: #6b6b79;
+}
+
+
+
+.book_fragments
+{
+    position: relative;
+
+    margin-bottom: 20rem;
+}
+
+
+.book_fragments .container
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.book_fragments .block_title
+{
+    margin-bottom: 2.4rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 100%;
+
+    text-align: center;
+    letter-spacing: -.06rem;
+}
+
+
+
+.book_fragments .tabs
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 7.2rem;
+
+    gap: .6rem;
+}
+
+
+.book_fragments .tabs .btn
+{
+    padding-block: 1.6rem 1.4rem;
+    padding-inline: 3.2rem;
+
+    font-size: 2rem;
+    line-height: 130%;
+
+    transition: .2s linear;
+    letter-spacing: -.02rem;
+
+    border-radius: 7.2rem;
+    background: #fff;
+}
+
+
+.book_fragments .tabs .btn:hover,
+.book_fragments .tabs .btn.active
+{
+    color: #fff;
+    background: #18181e;
+}
+
+
+.book_fragments .tab_content
+{
+    position: relative;
+
+    visibility: hidden;
+    overflow: hidden;
+
+    height: 0;
+
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.book_fragments .tab_content.active
+{
+    visibility: visible;
+    overflow: visible;
+
+    height: auto;
+
+    transition: opacity .5s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+
+.book_fragments .swiper
+{
+    overflow: visible;
+}
+
+
+.book_fragments .swiper-slide
+{
+    visibility: hidden;
+
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.book_fragments .swiper-slide.visible
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+.book_fragments .swiper-button-next,
+.book_fragments .swiper-button-prev
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    margin-block: auto;
+
+    z-index: 3;
+}
+
+
+.book_fragments .swiper-button-prev
+{
+    left: 10rem;
+}
+
+
+.book_fragments .swiper-button-next
+{
+    right: 10rem;
+}
+
+
+.book_fragments .image
+{
+    display: block;
+
+    width: 129.2rem;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+
+.book_fragments .image img
+{
+    display: block;
+
+    width: 100%;
+}
+
+
+.book_fragments .order_btn
+{
+    position: relative;
+
+    width: 41.8rem;
+    height: 10.1rem;
+    margin-inline: auto;
+    margin-top: -11rem;
+
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 100%;
+
+    z-index: 3;
+    letter-spacing: .024rem;
+}
+
+
+.book_fragments .bg1
+{
+    position: absolute;
+    top: -48rem;
+    left: 50%;
+
+    display: block;
+
+    width: 167.55rem;
+    height: 138.6rem;
+    margin-left: -143rem;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.book_fragments .bg1 img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.book_fragments .bg2
+{
+    position: absolute;
+    top: -2rem;
+    right: 50%;
+
+    display: block;
+
+    width: 168.2rem;
+    height: 122.45rem;
+    margin-right: -124rem;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.book_fragments .bg2 img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.book_founder
+{
+    position: relative;
+
+    margin-bottom: 12rem;
+
+    z-index: 3;
+}
+
+
+.book_founder .data
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    min-height: 66.1rem;
+    padding-block: 8.9rem 7.7rem;
+    padding-inline: 4.6rem;
+
+    border-radius: 2rem;
+    background: #fff;
+}
+
+
+.book_founder .data > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.book_founder .name
+{
+    width: 64rem;
+    margin-bottom: auto;
+
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 100%;
+
+    letter-spacing: -.06rem;
+}
+
+
+.book_founder .desc
+{
+    width: 57.6rem;
+    max-width: 100%;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 140%;
+
+    color: #000;
+}
+
+
+.book_founder .post
+{
+    margin-top: 1.4rem;
+
+    font-size: 1.8rem;
+    font-weight: 375;
+    line-height: 160%;
+
+    letter-spacing: .018rem;
+
+    color: rgba(24, 24, 30, .50);
+}
+
+
+.book_founder .bg
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.book_founder .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.book_terms
+{
+    margin-bottom: 5.9rem;
+}
+
+
+.book_terms .data
+{
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 7rem 5.2rem;
+
+    border-radius: 3.4rem;
+    background: #fff;
+
+            backdrop-filter: blur(.2rem);
+    -webkit-backdrop-filter: blur(.2rem);
+}
+
+
+.book_terms .data:before
+{
+    position: absolute;
+    top: -14rem;
+    right: 19.5rem;
+
+    display: block;
+
+    width: 88.1rem;
+    height: 20.7rem;
+
+    content: '';
+    z-index: 1;
+    transform: rotate(12.85deg);
+    pointer-events: none;
+
+    border-radius: 88.1rem;
+    background: #ff4242;
+
+    filter: blur(20rem);
+}
+
+
+.book_terms .data:after
+{
+    position: absolute;
+    top: 14rem;
+    right: -5rem;
+
+    display: block;
+
+    width: 57.2rem;
+    height: 15.107rem;
+
+    content: '';
+    z-index: 1;
+    transform: rotate(-91.47deg);
+    pointer-events: none;
+
+    border-radius: 57.2rem;
+    background: #ff4242;
+
+    filter: blur(20rem);
+}
+
+
+.book_terms .data > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.book_terms .block_title
+{
+    margin-bottom: 5.2rem;
+
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 100%;
+
+    letter-spacing: -.06rem;
+
+    color: #18181e;
+}
+
+
+.book_terms .row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 4rem;
+}
+
+
+.book_terms .row > *
+{
+    width: 50rem;
+    max-width: 33.333%;
+}
+
+
+.book_terms .item
+{
+    display: flex;
+    flex-direction: column;
+
+    padding-inline: 3.6rem;
+
+    color: #18181e;
+    border-right: 1px solid rgba(24, 24, 30, .10);
+
+    gap: 5.2rem;
+}
+
+
+.book_terms .item .top
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 1.8rem;
+}
+
+
+.book_terms .item .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 6.4rem;
+
+    border: 2px solid;
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.book_terms .item .icon svg
+{
+    display: block;
+
+    width: 3.2rem;
+}
+
+
+.book_terms .item .name
+{
+    align-self: center;
+
+    width: calc(100% - 8.2rem);
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 140%;
+
+    letter-spacing: .036rem;
+}
+
+
+.book_terms .item .desc
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 40rem;
+    max-width: 100%;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 150%;
+
+    letter-spacing: .02rem;
+
+    gap: 1.2rem;
+}
+
+
+.book_terms .item .desc a
+{
+    text-decoration: underline;
+
+    color: currentColor;
+
+    text-decoration-thickness: 1px;
+}
+
+
+
+.popup._book_annotation .title
+{
+    margin-bottom: 4rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 100%;
+
+    letter-spacing: -.06rem;
+}
+
+
+.popup._book_annotation .text
+{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2.4rem;
+    font-weight: 375;
+    line-height: 140%;
+
+    color: #000;
+
+    gap: 2.4rem;
+}
+
+
+
+@media print,
+(max-width: 1899px)
+{
+    .book_info
+    {
+        margin-bottom: 10rem;
+        padding-top: 4.8rem;
+    }
+
+
+    .book_info .info
+    {
+        width: 80rem;
+
+        gap: 2.8rem;
+    }
+
+
+    .book_info .info .title
+    {
+        font-size: 8rem;
+
+        letter-spacing: -.08rem;
+    }
+
+
+    .book_info .info .desc
+    {
+        width: 52rem;
+
+        font-size: 2rem;
+    }
+
+
+    .book_info .thumb
+    {
+        width: 36rem;
+
+        transform: none;
+    }
+
+
+    .book_info .btn
+    {
+        width: 36rem;
+        height: 8rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .book_info .items > *
+    {
+        width: 26rem;
+        padding-inline: 2.4rem;
+
+        gap: 2.4rem;
+    }
+
+
+
+    .book_about
+    {
+        margin-bottom: 10rem;
+    }
+
+
+    .book_about .data
+    {
+        border-radius: 3rem;
+    }
+
+
+    .book_about .info_wrap
+    {
+        width: calc(100% - 68rem - 2.4rem);
+        padding-inline: 2.4rem;
+
+        gap: 4rem;
+    }
+
+
+    .book_about .block_title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .book_about .annotation_link
+    {
+        font-size: 2rem;
+    }
+
+
+    .book_about .desc
+    {
+        font-size: 1.8rem;
+
+        gap: 4rem;
+    }
+
+
+    .book_about .section,
+    .book_about .section .content
+    {
+        gap: 1rem;
+    }
+
+
+    .book_about .bottom
+    {
+        gap: 2.4rem;
+    }
+
+
+    .book_about .bottom .btns .btn
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .book_about .bottom .order_btn
+    {
+        width: 28rem;
+        height: 6rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .book_about .bottom .price
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: .032rem;
+    }
+
+
+    .book_about .image
+    {
+        width: 68rem;
+        min-height: 80rem;
+    }
+
+
+    .book_about .image .exp
+    {
+        bottom: 2.4rem;
+        left: 2.4rem;
+    }
+
+
+
+    .book_reviewers
+    {
+        margin-bottom: 10rem;
+    }
+
+
+    .book_reviewers .block_title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .book_reviewers .row
+    {
+        gap: 9.6rem;
+    }
+
+
+    .book_reviewers .row > *
+    {
+        width: calc(50% - 4.8rem);
+    }
+
+
+    .book_reviewers .person .photo
+    {
+        width: 26rem;
+    }
+
+
+    .book_reviewers .person .photo + *
+    {
+        width: calc(100% - 28.4rem);
+    }
+
+
+    .book_reviewers .person .name
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .book_reviewers .person .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .book_fragments
+    {
+        margin-bottom: 16rem;
+    }
+
+
+    .book_fragments .block_title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .book_fragments .tabs
+    {
+        margin-bottom: 6rem;
+
+        gap: .8rem;
+    }
+
+
+    .book_fragments .tabs .btn
+    {
+        padding-block: 1.4rem;
+        padding-inline: 2.8rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: -.018rem;
+    }
+
+
+    .book_fragments .image
+    {
+        width: 116rem;
+    }
+
+
+    .book_fragments .swiper-button-prev
+    {
+        left: 0;
+    }
+
+    .book_fragments .swiper-button-next
+    {
+        right: 0;
+    }
+
+
+    .book_fragments .order_btn
+    {
+        width: 36rem;
+        height: 8rem;
+        margin-top: -9.6rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+
+    .book_founder
+    {
+        margin-bottom: 10rem;
+    }
+
+
+    .book_founder .data
+    {
+        min-height: 52rem;
+        padding-block: 8rem 7.2rem;
+        padding-inline: 4.8rem;
+    }
+
+
+    .book_founder .name
+    {
+        width: 52rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .book_founder .desc
+    {
+        width: 52rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .book_founder .post
+    {
+        margin-top: 1.6rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .book_terms
+    {
+        margin-bottom: 6rem;
+    }
+
+
+    .book_terms .data
+    {
+        padding: 6rem 4.8rem;
+    }
+
+
+    .book_terms .block_title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .book_terms .row
+    {
+        gap: 2.4rem;
+    }
+
+
+    .book_terms .row > *
+    {
+        width: 40rem;
+    }
+
+
+    .book_terms .item
+    {
+        padding-inline: 2.4rem;
+
+        gap: 4rem;
+    }
+
+
+    .book_terms .item .top
+    {
+        gap: 2rem;
+    }
+
+
+    .book_terms .item .icon
+    {
+        width: 6rem;
+    }
+
+
+    .book_terms .item .icon svg
+    {
+        width: 3rem;
+    }
+
+
+    .book_terms .item .name
+    {
+        width: calc(100% - 8rem);
+
+        font-size: 3.2rem;
+
+        letter-spacing: .032rem;
+    }
+
+
+    .book_terms .item .desc
+    {
+        width: 100%;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .popup._book_annotation .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .popup._book_annotation .text
+    {
+        font-size: 2rem;
+
+        gap: 2rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .book_info
+    {
+        margin-bottom: 12rem;
+    }
+
+
+    .book_info .container
+    {
+        gap: 5.7rem;
+    }
+
+
+    .book_info .info
+    {
+        width: 60rem;
+
+        gap: 2rem;
+    }
+
+
+    .book_info .info .title
+    {
+        font-size: 6rem;
+
+        letter-spacing: -.06rem;
+    }
+
+
+    .book_info .info .desc
+    {
+        width: 48rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .book_info .thumb
+    {
+        width: 26.3rem;
+    }
+
+
+    .book_info .btn
+    {
+        width: 27.2rem;
+        height: 7.2rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .book_info .items > *
+    {
+        width: 25.2rem;
+        padding-inline: 2.6rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+
+        gap: 3rem;
+    }
+
+
+
+    .book_about .info_wrap
+    {
+        width: calc(100% - 58.9rem - 2.4rem);
+        padding-inline: 2.1rem 0;
+    }
+
+
+    .book_about .block_title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .book_about .annotation_link
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .book_about .desc
+    {
+        gap: 3.2rem;
+    }
+
+
+    .book_about .bottom
+    {
+        gap: 3.4rem;
+    }
+
+
+    .book_about .bottom .btns .btn
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .book_about .bottom .order_btn
+    {
+        width: 27.2rem;
+        height: 7.2rem;
+    }
+
+
+    .book_about .bottom .price
+    {
+        font-size: 2.8rem;
+
+        letter-spacing: .028rem;
+    }
+
+
+    .book_about .image
+    {
+        width: 58.9rem;
+        min-height: 60.4rem;
+    }
+
+
+    .book_about .image .exp
+    {
+        bottom: 2.8rem;
+        left: 2.8rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .book_reviewers .block_title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .book_reviewers .row
+    {
+        gap: 4.8rem;
+    }
+
+
+    .book_reviewers .row > *
+    {
+        width: calc(50% - 2.4rem);
+    }
+
+
+    .book_reviewers .person .photo
+    {
+        width: 21.2rem;
+    }
+
+
+    .book_reviewers .person .photo + *
+    {
+        width: calc(100% - 23.6rem);
+    }
+
+
+    .book_reviewers .person .name
+    {
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+
+    .book_fragments
+    {
+        margin-bottom: 8rem;
+    }
+
+
+    .book_fragments .block_title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .book_fragments .tabs
+    {
+        margin-bottom: 7.2rem;
+
+        gap: .6rem;
+    }
+
+
+    .book_fragments .tabs .btn
+    {
+        padding-block: .8rem;
+        padding-inline: 3.2rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: -.016rem;
+    }
+
+
+    .book_fragments .image
+    {
+        width: 96rem;
+    }
+
+
+    .book_fragments .order_btn
+    {
+        width: 27.2rem;
+        height: 7.2rem;
+        margin-top: 0;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .book_founder
+    {
+        margin-bottom: 8rem;
+    }
+
+
+    .book_founder .data
+    {
+        min-height: 47.5rem;
+        padding-block: 6.6rem 3.3rem;
+        padding-inline: 3.3rem;
+    }
+
+
+    .book_founder .name
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .book_founder .desc
+    {
+        width: 48.2rem;
+
+        line-height: 130%;
+    }
+
+
+    .book_founder .post
+    {
+        width: 37.3rem;
+        max-width: 100%;
+        margin-top: 1.9rem;
+
+        line-height: 110%;
+    }
+
+
+
+    .book_terms
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .book_terms .data
+    {
+        padding: 5rem 3.2rem;
+    }
+
+
+    .book_terms .block_title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .book_terms .row > *
+    {
+        width: calc(33.333% - 1.6rem);
+    }
+
+
+    .book_terms .item
+    {
+        gap: 3.6rem;
+    }
+
+
+    .book_terms .item:first-child
+    {
+        padding-left: 0;
+    }
+
+
+    .book_terms .item:last-child
+    {
+        padding-right: 0;
+
+        border: none;
+    }
+
+
+    .book_terms .item .top
+    {
+        gap: 1.8rem;
+    }
+
+
+    .book_terms .item .icon
+    {
+        width: 5.6rem;
+    }
+
+
+    .book_terms .item .icon svg
+    {
+        width: 2.8rem;
+    }
+
+
+    .book_terms .item .name
+    {
+        width: calc(100% - 7.4rem);
+
+        font-size: 2.8rem;
+
+        letter-spacing: .028rem;
+    }
+
+
+
+    .popup._book_annotation .title
+    {
+        margin-bottom: 3.2rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .popup._book_annotation .text
+    {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1279px)
+{
+    .book_info
+    {
+        margin-bottom: 9.2rem;
+        padding-top: 4rem;
+    }
+
+
+    .book_info .container
+    {
+        gap: 4rem;
+    }
+
+
+    .book_info .btn
+    {
+        order: 3;
+    }
+
+
+
+
+    .book_about .data
+    {
+        padding: 2.4rem;
+    }
+
+
+    .book_about .info_wrap
+    {
+        order: 2;
+
+        width: 100%;
+        padding-inline: 0;
+    }
+
+
+    .book_about .image
+    {
+        width: 100%;
+        min-height: 41.4rem;
+    }
+
+
+
+    .book_reviewers .row
+    {
+        gap: 4.8rem;
+    }
+
+
+    .book_reviewers .row > *
+    {
+        width: 100%;
+    }
+
+
+    .book_reviewers .person .photo
+    {
+        width: 21.2rem;
+    }
+
+
+    .book_reviewers .person .photo + *
+    {
+        width: calc(100% - 26rem);
+    }
+
+
+
+    .book_fragments .image
+    {
+        width: 100%;
+    }
+
+
+    .book_fragments .swiper-button-next,
+    .book_fragments .swiper-button-prev
+    {
+        top: auto;
+        bottom: 0;
+
+        margin: 0;
+    }
+
+
+    .book_fragments .swiper-button-prev
+    {
+        left: 50%;
+
+        transform: translate(calc(-100% - 1.2rem), 100%);
+    }
+
+
+    .book_fragments .swiper-button-next
+    {
+        right: 50%;
+
+        transform: translate(calc(100% + 1.2rem), 100%);
+    }
+
+
+    .book_fragments .order_btn
+    {
+        margin-top: 10rem;
+    }
+
+
+
+    .book_founder .data
+    {
+        padding-block: 6.2rem 2.6rem;
+        padding-inline: 2.6rem;
+    }
+
+
+    .book_founder .bg img
+    {
+        object-position: 25% 50%;
+    }
+
+
+
+    .book_terms .data:before,
+    .book_terms .data:after
+    {
+        scale: .6;
+    }
+
+
+    .book_terms .data:before
+    {
+        right: -7.5rem;
+    }
+
+
+    .book_terms .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1023px)
+{
+    .book_info
+    {
+        margin-bottom: 6rem;
+        padding-top: 2.2rem;
+    }
+
+
+    .book_info .container
+    {
+        gap: 4rem 3.2rem;
+    }
+
+
+    .book_info .info
+    {
+        width: 51rem;
+
+        gap: 1.8rem;
+    }
+
+
+    .book_info .info .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .book_info .info .desc
+    {
+        width: 39.2rem;
+
+        font-size: 1.4rem;
+    }
+
+
+    .book_info .thumb
+    {
+        width: 17.4rem;
+        margin-right: 0;
+    }
+
+
+    .book_info .items
+    {
+        margin-top: 1.2rem;
+    }
+
+
+    .book_info .items > *
+    {
+        width: 22.3rem;
+        padding-inline: 1.6rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+
+        gap: 2.1rem;
+    }
+
+
+    .book_info .btn
+    {
+        width: 21.2rem;
+        height: 5.7rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+
+    .book_about
+    {
+        margin-bottom: 8rem;
+    }
+
+
+    .book_about .data
+    {
+        padding: 2rem 2.4rem;
+    }
+
+
+    .book_about .block_title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .book_about .info
+    {
+        gap: 2.4rem;
+    }
+
+
+    .book_about .annotation_link
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .book_about .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .book_about .bottom .btns .btn
+    {
+        font-size: 1.4rem;
+    }
+
+
+    .book_about .bottom .order_btn
+    {
+        width: 21.2rem;
+        height: 5.7rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .book_about .bottom .price
+    {
+        font-size: 2.1rem;
+
+        letter-spacing: .021rem;
+    }
+
+
+    .book_about .image .exp
+    {
+        bottom: 3rem;
+        left: 3rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+
+    .book_reviewers
+    {
+        margin-bottom: 8rem;
+    }
+
+
+    .book_reviewers .block_title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .book_reviewers .row
+    {
+        gap: 4rem;
+    }
+
+
+    .book_reviewers .person .photo
+    {
+        width: 17rem;
+    }
+
+
+    .book_reviewers .person .photo + *
+    {
+        width: calc(100% - 22rem);
+    }
+
+
+    .book_reviewers .person .name
+    {
+        font-size: 2.1rem;
+
+        letter-spacing: -.021rem;
+    }
+
+
+    .book_reviewers .person .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+
+    .book_fragments .block_title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .book_fragments .order_btn
+    {
+        width: 21.2rem;
+        height: 5.7rem;
+        margin-top: 9.2rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+
+    .book_founder .name
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .book_founder .desc
+    {
+        width: 34.8rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .book_founder .post
+    {
+        width: 33.5rem;
+    }
+
+
+    .book_founder .bg img
+    {
+        object-position: 42% 50%;
+    }
+
+
+
+    .book_terms .data
+    {
+        padding: 3.2rem 5.2rem;
+    }
+
+
+    .book_terms .block_title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .book_terms .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+
+    .book_terms .item
+    {
+        border: none;
+
+        gap: 2rem;
+    }
+
+
+    .book_terms .item + .item
+    {
+        padding-top: 2.4rem;
+
+        border-top: 1px solid rgba(24, 24, 30, .10);
+    }
+
+
+    .book_terms .item .icon
+    {
+        width: 4.2rem;
+
+        border-width: 1px;
+    }
+
+
+    .book_terms .item .icon svg
+    {
+        width: 2rem;
+    }
+
+
+    .book_terms .item .name
+    {
+        width: calc(100% - 6.6rem);
+
+        font-size: 2.1rem;
+
+        letter-spacing: .021rem;
+    }
+
+
+    .book_terms .item .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+
+    .popup._book_annotation .title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .popup._book_annotation .text
+    {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 767px)
+{
+    .book_info
+    {
+        margin-bottom: 4rem;
+        padding-top: 3.6rem;
+    }
+
+
+    .book_info .container
+    {
+        gap: 1.6rem;
+    }
+
+
+    .book_info .info
+    {
+        width: 100%;
+
+        gap: 13.8rem;
+    }
+
+
+    .book_info .info .title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .book_info .info .desc
+    {
+        width: 28.8rem;
+    }
+
+
+    .book_info .thumb
+    {
+        position: absolute;
+        top: 9.6rem;
+        right: 1.6rem;
+
+        width: 13.9rem;
+    }
+
+
+    .book_info .items
+    {
+        margin-top: 0;
+
+        border: none;
+
+        gap: 0;
+    }
+
+
+    .book_info .items > *
+    {
+        width: 100%;
+        padding-block: 2rem;
+        padding-inline: 0;
+
+        border: none;
+
+        gap: 1.6rem;
+    }
+
+
+    .book_info .items > * + *
+    {
+        border-top: 1px solid rgba(24, 24, 30, .10);
+    }
+
+
+    .book_info .btn
+    {
+        order: 0;
+
+        width: 20.9rem;
+    }
+
+
+
+    .book_about
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .book_about .data
+    {
+        padding: 1.2rem;
+    }
+
+
+    .book_about .block_title
+    {
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+    .book_about .annotation_link .big-link__icon
+    {
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+
+
+    .book_about .annotation_link .big-link__icon .svgsprite
+    {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+
+
+    .book_about .info
+    {
+        gap: 2rem;
+    }
+
+
+    .book_about .section,
+    .book_about .section .content
+    {
+        gap: .8rem;
+    }
+
+
+    .book_about .bottom
+    {
+        gap: 2rem;
+    }
+
+
+    .book_about .bottom .btns .btn
+    {
+        padding-inline: 1.6rem;
+    }
+
+
+    .book_about .bottom .order_btn
+    {
+        width: 19.1rem;
+    }
+
+
+    .book_about .image
+    {
+        min-height: 0;
+    }
+
+
+    .book_about .image .exp
+    {
+        bottom: 1.7rem;
+        left: 1.7rem;
+
+        font-size: 1.2rem;
+
+        letter-spacing: .012rem;
+    }
+
+
+
+    .book_reviewers
+    {
+        margin-bottom: 6rem;
+    }
+
+
+    .book_reviewers .block_title
+    {
+        margin-bottom: 3.2rem;
+
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+    .book_reviewers .row
+    {
+        gap: 3.2rem;
+    }
+
+
+    .book_reviewers .person
+    {
+        gap: 2.8rem;
+    }
+
+
+    .book_reviewers .person .photo
+    {
+        width: 12.4rem;
+    }
+
+
+    .book_reviewers .person .photo + *
+    {
+        width: 100%;
+
+        gap: 1.2rem;
+    }
+
+
+
+    .book_fragments
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .book_fragments .block_title
+    {
+        margin-bottom: 1.8rem;
+
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+    .book_fragments .tabs
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .book_fragments .tabs .btn
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: -.014rem;
+    }
+
+
+    .book_fragments .swiper-button-prev
+    {
+        transform: translate(calc(-100% - .6rem), 100%);
+    }
+
+    .book_fragments .swiper-button-next
+    {
+        transform: translate(calc(100% + .6rem), 100%);
+    }
+
+
+    .book_fragments .order_btn
+    {
+        width: 20.9rem;
+        margin-top: 8rem;
+    }
+
+
+
+    .book_founder
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .book_founder .data
+    {
+        justify-content: flex-end;
+
+        min-height: 42.6rem;
+        padding-block: 16rem 2rem;
+        padding-inline: 2rem;
+    }
+
+
+    .book_founder .name
+    {
+        width: 100%;
+        margin-bottom: 0;
+
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+    .book_founder .desc
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 1.6rem;
+    }
+
+
+    .book_founder .post
+    {
+        width: 100%;
+        margin-top: 1rem;
+
+        font-size: 1.3rem;
+
+        letter-spacing: .013rem;
+    }
+
+
+    .book_founder .bg
+    {
+        bottom: auto;
+
+        height: 25rem;
+    }
+
+
+    .book_founder .bg:after
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 182px;
+        max-height: 100%;
+
+        content: '';
+
+        background: linear-gradient(180deg, rgba(255, 255, 255, .00) 0%, rgba(255, 255, 255, .01) 5.51%, rgba(255, 255, 255, .04) 11.03%, rgba(255, 255, 255, .08) 16.54%, rgba(255, 255, 255, .15) 22.05%, rgba(255, 255, 255, .23) 27.56%, rgba(255, 255, 255, .33) 33.08%, rgba(255, 255, 255, .44) 38.59%, rgba(255, 255, 255, .56) 44.1%, rgba(255, 255, 255, .67) 49.62%, rgba(255, 255, 255, .77) 55.13%, rgba(255, 255, 255, .85) 60.64%, rgba(255, 255, 255, .92) 66.15%, rgba(255, 255, 255, .96) 71.67%, rgba(255, 255, 255, .99) 77.18%, #fff 82.69%);
+    }
+
+
+    .book_founder .bg img
+    {
+        object-position: 60% 50%;
+    }
+
+
+
+    .book_terms .data
+    {
+        padding: 2.4rem 2rem;
+    }
+
+
+    .book_terms .data:before
+    {
+        right: -45.5rem;
+    }
+
+    .book_terms .data:after
+    {
+        top: 0rem;
+        right: -16rem;
+    }
+
+
+    .book_terms .block_title
+    {
+        margin-bottom: 3.8rem;
+
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+
+    .popup._book_annotation .title
+    {
+        margin-bottom: 2.8rem;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .popup._book_annotation .text
+    {
+        font-size: 1.4rem;
+    }
+}
