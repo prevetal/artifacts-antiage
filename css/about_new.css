@@ -1,0 +1,2940 @@
+.about_head
+{
+    position: relative;
+
+    margin-bottom: 3rem;
+
+    color: #fff;
+    background: #000;
+}
+
+
+.about_head .container
+{
+    position: relative;
+
+    min-height: 83.9rem;
+    padding-block: 21.5rem 6rem;
+
+    z-index: 3;
+}
+
+
+.about_head .title
+{
+    width: 106rem;
+    max-width: 100%;
+    margin-top: 21.5rem;
+
+    font-size: 9.6rem;
+    font-weight: 300;
+    line-height: 0;
+
+    letter-spacing: -.096rem;
+}
+
+
+.about_head .bg
+{
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+    pointer-events: none;
+
+    opacity: .8;
+}
+
+
+.about_head .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.our_mission
+{
+    position: relative;
+
+    padding-block: 5rem 3rem;
+}
+
+
+.our_mission .container
+{
+    position: relative;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    z-index: 3;
+}
+
+
+.our_mission .info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 59.2rem;
+    max-width: 100%;
+    min-height: 28.8rem;
+    padding: 3.6rem 4rem;
+
+    color: #18181e;
+    border-radius: 2.8rem;
+    background: #fff;
+
+    gap: 2.4rem;
+}
+
+
+.our_mission .info .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.our_mission .info .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.our_mission .stats
+{
+    width: calc(100% - 59.2rem - 5.2rem);
+}
+
+
+.our_mission .stats .row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+}
+
+
+.our_mission .stats .row > *
+{
+    width: calc(25% - 2rem);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+.our_mission .stats .item
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+    color: #18181e;
+    border-radius: 50%;
+    background: #fff;
+
+    gap: 1.8rem;
+    aspect-ratio: 1 / 1;
+}
+
+
+.our_mission .stats .val
+{
+    font-size: 6rem;
+    line-height: 90%;
+
+    letter-spacing: .06rem;
+}
+
+
+.our_mission .stats .name
+{
+    font-size: 2.4rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .024rem;
+}
+
+
+
+.directions
+{
+    position: relative;
+
+    padding-block: 5rem;
+
+    z-index: 3;
+}
+
+
+.directions .block_title
+{
+    margin-bottom: 6rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.directions .grid
+{
+    display: grid;
+
+    counter-reset: number;
+
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.directions .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    min-height: 35.2rem;
+    padding-block: 3.6rem 5rem;
+    padding-inline: 4.2rem;
+
+    border-radius: 3.4rem;
+    background: #fff;
+
+    gap: 2.9rem;
+}
+
+
+.directions .item.big_h
+{
+    justify-content: flex-end;
+
+    padding-block: 3.6rem 2.5rem;
+    padding-inline: 5.2rem;
+
+    color: #fff;
+
+    gap: 1.6rem;
+    grid-row: span 2;
+}
+
+
+.directions .item > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.directions .item .bg
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.directions .item .bg:before
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    content: '';
+    z-index: 1;
+
+    opacity: .1;
+    background: #000;
+}
+
+
+.directions .item .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.directions .item .blur
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: block;
+
+    height: 100%;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.directions .item .blur img
+{
+    display: block;
+
+    height: 100%;
+}
+
+
+.directions .item .blur2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    height: 100%;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.directions .item .blur2 img
+{
+    display: block;
+
+    height: 100%;
+}
+
+
+.directions .item .number
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 160%;
+
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+}
+
+
+.directions .item .number:before
+{
+    content: counter(number, decimal-leading-zero);
+    counter-increment: number;
+}
+
+
+.directions .item .info
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: auto;
+    padding-block: 3rem;
+    padding-inline: 4.2rem;
+
+    border-radius: 2.8rem;
+    background: var(--black-10, rgba(24, 24, 30, .10));
+
+    gap: 3.2rem;
+            backdrop-filter: blur(2.7rem);
+    -webkit-backdrop-filter: blur(2.7rem);
+}
+
+
+.directions .item .name
+{
+    width: 42rem;
+    max-width: 100%;
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 90%;
+}
+
+
+.directions .item .info .name
+{
+    width: 100%;
+}
+
+
+.directions .item .desc
+{
+    width: 53.4rem;
+    max-width: 100%;
+    margin-top: auto;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 150%;
+
+    letter-spacing: .02rem;
+}
+
+
+.directions .item .info .desc
+{
+    width: 100%;
+    margin-top: 0;
+
+    font-weight: 400;
+
+    letter-spacing: 0;
+}
+
+
+.directions .item .link
+{
+    position: absolute;
+    right: 4.8rem;
+    bottom: 3.1rem;
+
+    min-width: 0;
+    height: auto;
+    padding: 0;
+
+    border: none;
+}
+
+
+.directions .item .link .big-link__icon
+{
+    width: 9.5rem;
+    height: 9.5rem;
+}
+
+
+.directions .item .btns
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.directions .item .btns .big-link
+{
+    width: calc(50% - 1.3rem);
+    min-width: 0;
+    height: 10.1rem;
+    padding: 1.8rem 1.8rem 1.8rem 4.4rem;
+
+    font-size: 2.4rem;
+    line-height: 100%;
+
+    letter-spacing: .024rem;
+
+    color: rgba(24, 24, 30, .64);
+}
+
+
+.directions .item .btns .big-link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+
+
+.directions .science_blog_banner
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    margin-top: 5rem;
+    padding-block: 6rem;
+    padding-inline: 5.2rem;
+
+    color: #fff;
+    border-radius: 2.4rem;
+}
+
+
+.directions .science_blog_banner > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.directions .science_blog_banner .title
+{
+    width: 53.8rem;
+    max-width: 100%;
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.036rem;
+}
+
+
+.directions .science_blog_banner .desc
+{
+    width: 63.3rem;
+    max-width: 100%;
+    margin-top: 2.1rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 150%;
+}
+
+
+.directions .science_blog_banner .link
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: fit-content;
+    min-width: 41.8rem;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: 4.4rem;
+    padding-inline: 3rem;
+
+    font-size: 2.4rem;
+    line-height: 1;
+
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .024rem;
+
+    color: #fff;
+    border-radius: 10rem;
+    background: #18181e;
+}
+
+
+.directions .science_blog_banner .bg
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.directions .science_blog_banner .bg:before
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    content: '';
+    z-index: 1;
+
+    opacity: .2;
+    background: #000;
+}
+
+
+.directions .science_blog_banner .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.about_with_us
+{
+    padding-block: 5rem;
+}
+
+
+.about_with_us .data
+{
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 6rem 5.2rem;
+
+    border-radius: 3.4rem;
+    background: #fff;
+
+            backdrop-filter: blur(.2rem);
+    -webkit-backdrop-filter: blur(.2rem);
+}
+
+
+.about_with_us .data:before
+{
+    position: absolute;
+    top: -14rem;
+    right: 19.5rem;
+
+    display: block;
+
+    width: 88.1rem;
+    height: 20.7rem;
+
+    content: '';
+    z-index: 1;
+    transform: rotate(12.85deg);
+    pointer-events: none;
+
+    border-radius: 88.1rem;
+    background: #ff4242;
+
+    filter: blur(20rem);
+}
+
+
+.about_with_us .data:after
+{
+    position: absolute;
+    top: 14rem;
+    right: -5rem;
+
+    display: block;
+
+    width: 57.2rem;
+    height: 15.107rem;
+
+    content: '';
+    z-index: 1;
+    transform: rotate(-91.47deg);
+    pointer-events: none;
+
+    border-radius: 57.2rem;
+    background: #ff4242;
+
+    filter: blur(20rem);
+}
+
+
+.about_with_us .data > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.about_with_us .block_title
+{
+    margin-bottom: 5rem;
+
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 100%;
+
+    letter-spacing: -.06rem;
+
+    color: #18181e;
+}
+
+
+.about_with_us .row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 4rem;
+}
+
+
+.about_with_us .row > *
+{
+    width: 50rem;
+    max-width: 33.333%;
+}
+
+
+.about_with_us .item
+{
+    display: flex;
+    flex-direction: column;
+
+    padding-inline: 3.6rem;
+
+    color: #18181e;
+    border-right: 1px solid rgba(24, 24, 30, .10);
+
+    gap: 5.2rem;
+}
+
+
+.about_with_us .item .top
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 1.8rem;
+}
+
+
+.about_with_us .item .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 6.4rem;
+
+    border: 2px solid;
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.about_with_us .item .icon img
+{
+    display: block;
+}
+
+
+.about_with_us .item .name
+{
+    align-self: center;
+
+    width: calc(100% - 8.2rem);
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 140%;
+
+    letter-spacing: .036rem;
+}
+
+
+.about_with_us .item .desc
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 40rem;
+    max-width: 100%;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 150%;
+
+    letter-spacing: .02rem;
+
+    gap: 1.2rem;
+}
+
+
+
+.about_steps
+{
+    padding-block: 5rem;
+}
+
+
+.about_steps .container
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.about_steps .accordion
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 45.7rem);
+
+    gap: 1rem;
+}
+
+
+.about_steps .accordion_item
+{
+    border: 1px solid rgba(24, 24, 30, .50);
+    border-radius: 1.8rem;
+    background: #fff;
+}
+
+
+.about_steps .accordion-item-visible
+{
+    cursor: pointer;
+}
+
+
+.about_steps .accordion-item-title
+{
+    transition: color .2s linear;
+
+    color: #aeaebe;
+}
+
+
+.about_steps .accordion-item-visible .arr
+{
+    display: block;
+
+    width: 2.6rem;
+    height: 1.6rem;
+
+    transition: transform .2s linear;
+}
+
+
+.about_steps .accordion_item[data-open] .accordion-item-visible .arr
+{
+    transform: rotate(180deg);
+}
+
+
+.about_steps .accordion_item[data-open] .accordion-item-title
+{
+    color: #18181e;
+}
+
+
+.about_steps .accordion-item-title span
+{
+    margin-right: 1rem;
+}
+
+
+.about_steps .accordion-item-content
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.about_steps .text
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 26.8rem);
+
+    gap: 1rem;
+}
+
+
+.about_steps .rte > :not(:last-child)
+{
+    margin-bottom: 0;
+}
+
+
+
+.about_persons
+{
+    padding-block: 5rem;
+}
+
+
+.about_persons .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 6rem;
+}
+
+
+.about_persons .block_title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.about_persons .swiper
+{
+    overflow: visible;
+}
+
+
+.about_persons .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 1.2rem;
+}
+
+
+.about_persons .swiper-button-next,
+.about_persons .swiper-button-prev
+{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+
+    opacity: 1;
+    color: #18181e;
+    border-radius: 0;
+    background: none;
+}
+
+
+.about_persons .swiper-button-next:hover,
+.about_persons .swiper-button-prev:hover
+{
+    color: #18181e;
+    background: none;
+}
+
+
+.about_persons .swiper-slide
+{
+    visibility: hidden;
+
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.about_persons .swiper-slide.visible
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+.about_persons .person
+{
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 2.8rem;
+    background: #fff;
+}
+
+
+.about_persons .person .thumb
+{
+    display: block;
+
+    aspect-ratio: 1 / .932;
+}
+
+
+.about_persons .person .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.about_persons .person .info
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 2.8rem;
+
+    z-index: 3;
+}
+
+
+.about_persons .person .info > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.about_persons .person .info:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 163px;
+
+    content: '';
+    z-index: 1;
+    pointer-events: none;
+
+    background: #fff;
+
+    filter: blur(30.05px);
+}
+
+
+.about_persons .person .name
+{
+    font-size: 2.4rem;
+    line-height: 130%;
+
+    letter-spacing: .024rem;
+}
+
+
+.about_persons .person .post
+{
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 130%;
+
+    letter-spacing: .018rem;
+}
+
+
+.about_persons .person .desc
+{
+    display: none;
+
+    margin-top: auto;
+
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 130%;
+
+    letter-spacing: .024rem;
+}
+
+
+.about_persons .person:hover .info
+{
+    height: 100%;
+
+    background: #fff;
+}
+
+
+.about_persons .person:hover .desc
+{
+    display: block;
+}
+
+
+
+.about_form
+{
+    padding-block: 5rem;
+}
+
+
+.about_form .form__header
+{
+    margin-bottom: 4.8rem !important;
+
+    gap: 1.8rem !important;
+}
+
+
+.about_form .form__title
+{
+    font-size: 6rem !important;
+}
+
+
+.about_form .btn-common._size-l
+{
+    height: 10.1rem !important;
+}
+
+
+.about_form .form__footer
+{
+    margin-top: 3.2rem !important;
+
+    gap: 1.8rem !important;
+}
+
+
+
+.about_FAQ
+{
+    padding-block: 5rem;
+}
+
+
+.about_FAQ .container
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.about_FAQ .col
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 47.5rem;
+    max-width: 100%;
+}
+
+
+.about_FAQ .content-grid__title
+{
+    font-size: 6rem !important;
+}
+
+
+.about_FAQ .accordion
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 52.7rem);
+
+    gap: 1.6rem;
+}
+
+
+.about_FAQ .accordion_item
+{
+    border-radius: 1.8rem;
+    background: #fff;
+}
+
+
+.about_FAQ .accordion-item-visible
+{
+    padding-block: 1.3rem !important;
+
+    cursor: pointer;
+}
+
+
+.about_FAQ .accordion-item-title
+{
+    font-size: 2rem !important;
+    font-weight: 400;
+    line-height: 1 !important;
+
+    letter-spacing: .02rem !important;
+}
+
+
+.about_FAQ .accordion-item-content
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.about_FAQ .text
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 91.4rem;
+    max-width: 100%;
+
+    font-size: 1.8rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .018rem;
+
+    gap: 2rem;
+}
+
+
+.about_FAQ .text ol li,
+.about_FAQ .text ul li
+{
+    padding-left: 2rem;
+}
+
+
+.about_FAQ .accordion .btn
+{
+    width: 35.1rem;
+    max-width: 100%;
+    margin-top: 3.6rem;
+}
+
+
+
+.about_contacts
+{
+    padding-block: 5rem;
+}
+
+
+.about_contacts .grid
+{
+    display: grid;
+
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.about_contacts .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    min-height: 28.8rem;
+    padding: 2.6rem 3.1rem 3.9rem;
+
+    border-radius: 2.8rem;
+    background: #fff;
+}
+
+
+.about_contacts .item.big
+{
+    padding-block: 4.5rem 4.7rem;
+    padding-inline: 5rem;
+
+    background-image: url(../assets/img/contacts-xl.webp);
+
+    grid-column: span 2;
+}
+
+
+.about_contacts .item .title
+{
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.about_contacts .item .desc
+{
+    margin-top: auto;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 160%;
+
+    letter-spacing: .02rem;
+}
+
+
+.about_contacts .item .label
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 160%;
+
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+
+    color: #6b6b79;
+}
+
+
+.about_contacts .item .val
+{
+    margin-top: auto;
+
+    font-size: 3.6rem;
+    font-weight: 375;
+    line-height: 1;
+
+    letter-spacing: -.036rem;
+}
+
+
+.about_contacts .item .val a
+{
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+
+.about_links
+{
+    padding-block: 5rem;
+}
+
+
+.about_links .block_title
+{
+    margin-bottom: 6rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.about_links .items
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 5rem;
+}
+
+
+.about_links .link
+{
+    width: 47.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    padding: 1.8rem 1.8rem 1.8rem 4.4rem;
+
+    font-size: 2.4rem;
+    line-height: 100%;
+
+    letter-spacing: .024rem;
+
+    color: rgba(24, 24, 30, .64);
+}
+
+
+.about_links .link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+
+
+@media print,
+(max-width: 1899px)
+{
+    .about_head .container
+    {
+        min-height: 64rem;
+        padding-block: 14.5rem 6rem;
+    }
+
+
+    .about_head .title
+    {
+        width: 100rem;
+        margin-top: 20rem;
+
+        font-size: 8rem;
+
+        letter-spacing: -.08rem;
+    }
+
+
+
+    .our_mission .info
+    {
+        width: 44rem;
+        min-height: 24rem;
+        padding: 3.2rem 3.6rem;
+
+        gap: 2rem;
+    }
+
+
+    .our_mission .stats
+    {
+        width: calc(100% - 44rem - 4rem);
+    }
+
+
+    .our_mission .info .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .our_mission .stats .val
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: .052rem;
+    }
+
+
+    .our_mission .stats .name
+    {
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+
+    .directions .block_title
+    {
+        margin-bottom: 5.2rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: .052rem;
+    }
+
+
+    .directions .item
+    {
+        min-height: 30rem;
+        padding-block: 3.2rem 4rem;
+        padding-inline: 3.6rem;
+
+        border-radius: 2.8rem;
+
+        gap: 2.4rem;
+    }
+
+
+    .directions .item.big_h
+    {
+        padding-block: 3.2rem 2.4rem;
+        padding-inline: 4rem;
+    }
+
+
+    .directions .item .info
+    {
+        padding-block: 2.4rem;
+        padding-inline: 3.6rem;
+
+        gap: 2.4rem;
+    }
+
+
+    .directions .item .name
+    {
+        width: 40rem;
+
+        font-size: 3.2rem;
+    }
+
+
+    .directions .item .desc
+    {
+        width: 50rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .directions .item .link
+    {
+        right: 3.6rem;
+        bottom: 2.8rem;
+    }
+
+
+    .directions .item .link .big-link__icon
+    {
+        width: 8rem;
+        height: 8rem;
+    }
+
+
+    .directions .item .btns .big-link
+    {
+        width: calc(50% - 1rem);
+        height: 8rem;
+        padding: 1rem 1rem 1rem 4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .directions .item .btns .big-link .big-link__icon
+    {
+        width: 5.4rem;
+        height: 5.4rem;
+    }
+
+
+
+    .directions .science_blog_banner
+    {
+        margin-top: 4.8rem;
+        padding-block: 4.8rem;
+        padding-inline: 4.8rem;
+    }
+
+
+    .directions .science_blog_banner .title
+    {
+        width: 48rem;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .directions .science_blog_banner .desc
+    {
+        width: 56rem;
+        margin-top: 2rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .directions .science_blog_banner .link
+    {
+        min-width: 36rem;
+        height: 8rem;
+        margin-top: 4rem;
+        padding-inline: 2.4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+
+    .about_with_us .data
+    {
+        padding: 6rem 4.8rem;
+    }
+
+
+    .about_with_us .block_title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .about_with_us .row
+    {
+        gap: 2.4rem;
+    }
+
+
+    .about_with_us .row > *
+    {
+        width: 40rem;
+    }
+
+
+    .about_with_us .item
+    {
+        padding-inline: 2.4rem;
+
+        gap: 4rem;
+    }
+
+
+    .about_with_us .item .top
+    {
+        gap: 2rem;
+    }
+
+
+    .about_with_us .item .icon
+    {
+        width: 6rem;
+    }
+
+
+    .about_with_us .item .icon svg
+    {
+        width: 3rem;
+    }
+
+
+    .about_with_us .item .name
+    {
+        width: calc(100% - 8rem);
+
+        font-size: 3.2rem;
+
+        letter-spacing: .032rem;
+    }
+
+
+    .about_with_us .item .desc
+    {
+        width: 100%;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .about_steps .accordion
+    {
+        width: calc(100% - 40rem);
+    }
+
+
+    .about_steps .accordion-item-visible .arr
+    {
+        width: 2.2rem;
+        height: 1.2rem;
+    }
+
+
+    .about_steps .text
+    {
+        width: calc(100% - 22rem);
+    }
+
+
+
+    .about_persons .head
+    {
+        margin-bottom: 5.2rem;
+    }
+
+
+    .about_persons .block_title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .about_persons .person .info
+    {
+        padding: 2.4rem;
+    }
+
+
+    .about_persons .person .post
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .about_persons .person .desc
+    {
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+
+    .about_form .form__header
+    {
+        gap: 1.2rem !important;
+    }
+
+
+    .about_form .form__title
+    {
+        max-width: 80rem !important;
+
+        font-size: 4.8rem !important;
+    }
+
+
+    .about_form .btn-common._size-l
+    {
+        height: 9rem !important;
+    }
+
+
+
+    .about_FAQ .col
+    {
+        width: 40rem;
+    }
+
+
+    .about_FAQ .content-grid__title
+    {
+        font-size: 5.2rem !important;
+    }
+
+
+    .about_FAQ .accordion
+    {
+        width: calc(100% - 44rem);
+
+        gap: 1.2rem;
+    }
+
+
+    .about_FAQ .accordion-item-title
+    {
+        font-size: 1.8rem !important;
+    }
+
+
+    .about_FAQ .text
+    {
+        width: 100%;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .about_contacts .item
+    {
+        min-height: 25rem;
+        padding: 2.4rem;
+    }
+
+
+    .about_contacts .item.big
+    {
+        padding-block: 3.6rem;
+        padding-inline: 4rem;
+    }
+
+
+    .about_contacts .item .title
+    {
+        font-size: 4.8rem;
+    }
+
+
+    .about_contacts .item .desc
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .about_contacts .item .val
+    {
+        font-size: 3rem;
+    }
+
+
+
+    .about_links .block_title
+    {
+        margin-bottom: 5.2rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .about_links .items
+    {
+        gap: 2.4rem;
+    }
+
+
+    .about_links .link
+    {
+        width: 40rem;
+        height: 8rem;
+        padding: 1rem 1rem 1rem 4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .about_links .link .big-link__icon
+    {
+        width: 5.4rem;
+        height: 5.4rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .about_head
+    {
+        margin-bottom: 3.4rem;
+    }
+
+
+    .about_head .container
+    {
+        min-height: 60rem;
+        padding-block: 14rem 4.8rem;
+    }
+
+
+    .about_head .title
+    {
+        width: 82rem;
+        margin-top: 16rem;
+
+        font-size: 7.2rem;
+
+        letter-spacing: -.072rem;
+    }
+
+
+
+    .our_mission
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .our_mission .info
+    {
+        width: 40rem;
+        min-height: 20rem;
+        padding: 2.4rem 3.2rem;
+    }
+
+
+    .our_mission .info .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .our_mission .info .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .our_mission .stats
+    {
+        width: calc(100% - 40rem - 2.4rem);
+    }
+
+
+    .our_mission .stats .item
+    {
+        gap: 1.2rem;
+    }
+
+
+    .our_mission .stats .val
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .our_mission .stats .name
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .directions
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .directions .block_title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .directions .item
+    {
+        min-height: 24rem;
+        padding-block: 2.4rem;
+        padding-inline: 3.2rem;
+
+        border-radius: 2.4rem;
+
+        gap: 2rem;
+    }
+
+
+    .directions .item.big_h
+    {
+        padding-block: 2.4rem;
+        padding-inline: 3.2rem;
+    }
+
+
+    .directions .item .info
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+
+        gap: 2rem;
+    }
+
+
+    .directions .item .name
+    {
+        width: 36rem;
+
+        font-size: 2.8rem;
+    }
+
+
+    .directions .item .desc
+    {
+        width: 40rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .directions .item .link
+    {
+        right: 3.2rem;
+        bottom: 2.4rem;
+    }
+
+
+    .directions .item .link .big-link__icon
+    {
+        width: 6.8rem;
+        height: 6.8rem;
+    }
+
+
+    .directions .item .btns .big-link
+    {
+        width: calc(50% - .8rem);
+        height: 7.2rem;
+        padding: 1rem 1rem 1rem 3.2rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .directions .item .btns .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .directions .science_blog_banner
+    {
+        margin-top: 4rem;
+        padding-block: 4rem;
+        padding-inline: 4rem;
+    }
+
+
+    .directions .science_blog_banner .title
+    {
+        width: 40rem;
+
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+    .directions .science_blog_banner .desc
+    {
+        width: 52rem;
+        margin-top: 1.6rem;
+
+        font-size: 1.6rem;
+    }
+
+
+    .directions .science_blog_banner .link
+    {
+        min-width: 30rem;
+        height: 7.2rem;
+        margin-top: 3.2rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .about_with_us .data
+    {
+        padding: 5rem 3.2rem;
+    }
+
+
+    .about_with_us .block_title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .about_with_us .row > *
+    {
+        width: calc(33.333% - 1.6rem);
+    }
+
+
+    .about_with_us .item
+    {
+        gap: 3.6rem;
+    }
+
+
+    .about_with_us .item:first-child
+    {
+        padding-left: 0;
+    }
+
+
+    .about_with_us .item:last-child
+    {
+        padding-right: 0;
+
+        border: none;
+    }
+
+
+    .about_with_us .item .top
+    {
+        gap: 1.8rem;
+    }
+
+
+    .about_with_us .item .icon
+    {
+        width: 5.6rem;
+    }
+
+
+    .about_with_us .item .icon svg
+    {
+        width: 2.8rem;
+    }
+
+
+    .about_with_us .item .name
+    {
+        width: calc(100% - 7.4rem);
+
+        font-size: 2.8rem;
+
+        letter-spacing: .028rem;
+    }
+
+
+
+    .about_steps
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .about_steps .accordion
+    {
+        width: calc(100% - 32rem);
+    }
+
+
+    .about_steps .text
+    {
+        width: 100%;
+    }
+
+
+
+    .about_persons
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .about_persons .head
+    {
+        margin-bottom: 4.8rem;
+    }
+
+
+    .about_persons .block_title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .about_persons .person .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .about_form
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .about_form .btn-common._size-l
+    {
+        height: 8rem !important;
+    }
+
+
+
+    .about_FAQ
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .about_FAQ .col
+    {
+        width: 37.6rem;
+    }
+
+
+    .about_FAQ .btn
+    {
+        height: 8rem;
+
+        font-size: 2rem;
+    }
+
+
+    .about_FAQ .btn .icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+    .about_FAQ .btn .icon .svgsprite
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    .about_FAQ .accordion
+    {
+        width: calc(100% - 38rem);
+    }
+
+
+    .about_FAQ .text
+    {
+        font-size: 1.6rem;
+    }
+
+
+
+    .about_contacts
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .about_contacts .item
+    {
+        min-height: 24rem;
+    }
+
+
+    .about_contacts .item.big
+    {
+        padding-block: 3.2rem;
+    }
+
+
+    .about_contacts .item .desc
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .about_contacts .item .val
+    {
+        font-size: 2.8rem;
+    }
+
+
+
+    .about_links
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .about_links .block_title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .about_links .link
+    {
+        width: 36rem;
+        height: 7.2rem;
+        padding: 1rem 1rem 1rem 3.2rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .about_links .link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1279px)
+{
+    .about_head .container
+    {
+        min-height: 50rem;
+        padding-block: 12.2rem 2.4rem;
+    }
+
+
+    .about_head .title
+    {
+        width: 72rem;
+        margin-top: 12.8rem;
+
+        font-size: 6.4rem;
+
+        letter-spacing: -.064rem;
+    }
+
+
+
+    .our_mission .info
+    {
+        width: 100%;
+        min-height: 0;
+        margin-bottom: 2.4rem;
+        padding: 3.2rem;
+    }
+
+
+    .our_mission .info .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .our_mission .stats
+    {
+        width: 100%;
+    }
+
+
+
+    .directions .block_title
+    {
+        margin-bottom: 4.4rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .directions .item
+    {
+        padding-inline: 2.4rem;
+    }
+
+
+    .directions .item.big_h
+    {
+        padding-inline: 2.4rem;
+    }
+
+
+    .directions .item .name
+    {
+        width: 100%;
+
+        font-size: 2.6rem;
+    }
+
+
+    .directions .item .desc
+    {
+        width: 35rem;
+    }
+
+
+    .directions .item .link
+    {
+        right: 2.4rem;
+    }
+
+
+    .directions .item .link .big-link__icon
+    {
+        width: 6rem;
+        height: 6rem;
+    }
+
+
+
+    .directions .science_blog_banner
+    {
+        margin-top: 3.2rem;
+        padding-block: 3.2rem;
+        padding-inline: 3.2rem;
+    }
+
+
+    .directions .science_blog_banner .title
+    {
+        width: 35rem;
+
+        font-size: 2.6rem;
+
+        letter-spacing: -.026rem;
+    }
+
+
+
+    .about_with_us .data:before,
+    .about_with_us .data:after
+    {
+        scale: .6;
+    }
+
+
+    .about_with_us .data:before
+    {
+        right: -7.5rem;
+    }
+
+
+    .about_with_us .item .name
+    {
+        font-size: 2.6rem;
+        line-height: 1;
+
+        letter-spacing: .026rem;
+    }
+
+
+
+    .about_steps .content-grid__title br
+    {
+        display: none;
+    }
+
+
+    .about_steps .accordion
+    {
+        width: 100%;
+    }
+
+
+
+    .about_persons .head
+    {
+        margin-bottom: 4.4rem;
+    }
+
+
+    .about_persons .block_title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .about_persons .swiper-slide
+    {
+        visibility: visible;
+
+        width: 40rem;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .about_persons .person .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .about_FAQ .col
+    {
+        width: 100%;
+    }
+
+
+    .about_FAQ .accordion
+    {
+        width: 100%;
+        margin-top: 2.4rem;
+    }
+
+
+
+    .about_contacts .grid
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .about_contacts .item
+    {
+        min-height: 1.6rem;
+    }
+
+
+    .about_contacts .item.big
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .about_contacts .item .desc
+    {
+        margin-top: 1.2rem;
+
+        font-size: 1.5rem;
+    }
+
+
+    .about_contacts .item .val
+    {
+        margin-top: 1.2rem;
+
+        font-size: 2.5rem;
+    }
+
+
+
+    .about_links .block_title
+    {
+        margin-bottom: 4.4rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .about_links .link
+    {
+        width: 30.9rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1023px)
+{
+    .about_head .container
+    {
+        min-height: 45rem;
+    }
+
+
+
+    .directions .grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .directions .item
+    {
+        min-height: 0;
+    }
+
+
+    .directions .item .desc
+    {
+        width: calc(100% - 10rem);
+    }
+
+
+
+    .about_with_us .data
+    {
+        padding: 3.2rem 5.2rem;
+    }
+
+
+    .about_with_us .block_title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .about_with_us .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+
+    .about_with_us .item
+    {
+        border: none;
+
+        gap: 2rem;
+    }
+
+
+    .about_with_us .item + .item
+    {
+        padding-top: 2.4rem;
+
+        border-top: 1px solid rgba(24, 24, 30, .10);
+    }
+
+
+    .about_with_us .item .icon
+    {
+        width: 4.2rem;
+
+        border-width: 1px;
+    }
+
+
+    .about_with_us .item .icon svg
+    {
+        width: 2rem;
+    }
+
+
+    .about_with_us .item .name
+    {
+        width: calc(100% - 6.6rem);
+
+        font-size: 2.1rem;
+
+        letter-spacing: .021rem;
+    }
+
+
+    .about_with_us .item .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+
+    .about_links .link
+    {
+        width: calc(50% - 1.2rem);
+    }
+}
+
+
+
+@media print,
+(max-width: 767px)
+{
+    .about_head .title
+    {
+        width: 100%;
+
+        font-size: 5.6rem;
+    }
+
+
+
+    .our_mission .info
+    {
+        padding: 2.4rem;
+    }
+
+
+    .our_mission .info .title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .our_mission .stats .row > *
+    {
+        width: calc(50% - 2rem);
+    }
+
+
+    .our_mission .stats .val
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+
+    .directions .block_title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .directions .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .directions .item .desc
+    {
+        width: 100%;
+    }
+
+
+    .directions .item .link
+    {
+        top: 2.4rem;
+        bottom: auto;
+    }
+
+
+    .directions .item .btns
+    {
+        gap: 1rem;
+    }
+
+
+    .directions .item .btns .big-link
+    {
+        width: 100%;
+    }
+
+
+    .directions .science_blog_banner
+    {
+        margin-top: 2.4rem;
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .directions .science_blog_banner .link
+    {
+        width: 100%;
+        min-width: 0;
+        height: 6.4rem;
+        margin-top: 2.4rem;
+    }
+
+
+
+    .about_with_us .data
+    {
+        padding: 2.4rem 2rem;
+    }
+
+
+    .about_with_us .data:before
+    {
+        right: -45.5rem;
+    }
+
+    .about_with_us .data:after
+    {
+        top: 0rem;
+        right: -16rem;
+    }
+
+
+    .about_with_us .block_title
+    {
+        margin-bottom: 3.8rem;
+
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+
+    .about_persons .head
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .about_persons .block_title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .about_persons .swiper-controls
+    {
+        margin-inline: auto;
+        margin-top: 1.2rem;
+    }
+
+
+    .about_persons .person .info
+    {
+        padding-block: 1.2rem;
+    }
+
+
+    .about_persons .swiper-slide
+    {
+        width: 31rem;
+    }
+
+
+
+    .about_form .form__header
+    {
+        margin-bottom: 3.6rem !important;
+    }
+
+
+    .about_form .form__title
+    {
+        max-width: 100% !important;
+
+        font-size: 3.6rem !important;
+    }
+
+
+
+    .about_FAQ .content-grid__title
+    {
+        font-size: 3.6rem !important;
+    }
+
+
+    .about_FAQ .text
+    {
+        font-size: 1.4rem;
+    }
+
+
+
+    .about_contacts
+    {
+        padding-block: 4rem;
+    }
+
+
+    .about_contacts .grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .about_contacts .item.big
+    {
+        grid-column: auto;
+    }
+
+
+    .about_contacts .item .title
+    {
+        font-size: 3.6rem;
+    }
+
+
+    .about_contacts .item .desc
+    {
+        font-size: 1.4rem;
+    }
+
+
+    .about_contacts .item .val
+    {
+        font-size: 2.2rem;
+    }
+
+
+
+    .about_links .block_title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .about_links .items
+    {
+        gap: 1.2rem;
+    }
+
+
+    .about_links .link
+    {
+        width: 100%;
+    }
+}

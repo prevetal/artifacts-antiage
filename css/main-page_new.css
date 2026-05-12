@@ -1,0 +1,3560 @@
+.first_section
+{
+    margin-bottom: 10.7rem;
+    padding-inline: 2rem;
+    padding-top: 2rem;
+}
+
+
+.first_section .data_wrap
+{
+    position: relative;
+
+    overflow: hidden;
+
+    min-height: 88rem;
+    padding-block: 22.1rem 3.5rem;
+
+    color: #fff;
+    border-radius: 3rem;
+    background: #ddd;
+}
+
+
+
+.first_section .container
+{
+    position: static;
+
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.first_section .container > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.first_section .data
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 69.2rem;
+    max-width: 100%;
+
+    gap: 3rem;
+}
+
+
+.first_section .data .title
+{
+    font-size: 9.6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.096rem;
+}
+
+
+.first_section .data .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 120%;
+}
+
+
+.first_section .data .big-link
+{
+    margin-top: 11rem;
+}
+
+
+.first_section .info
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 65rem;
+    max-width: 100%;
+}
+
+
+.first_section .image_wrap
+{
+    position: relative;
+
+    width: 34.9rem;
+    max-width: 100%;
+    margin-left: auto;
+    padding: 1.6rem;
+
+    background: url(../assets/img/main-page/bg_first_section_image_wrap.svg) 0 0/100% 100% no-repeat;
+}
+
+
+.first_section .image_wrap .image
+{
+    display: block;
+
+    width: 100%;
+
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.first_section .image_wrap .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.first_section .image_wrap .item
+{
+    position: absolute;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 120%;
+
+    z-index: 2;
+    white-space: nowrap;
+}
+
+
+.first_section .image_wrap .item:after
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+
+    display: block;
+
+    width: 16px;
+    height: 16px;
+    margin-block: auto;
+    margin-left: 2.1rem;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #fff;
+
+    filter: blur(2px);
+}
+
+
+.first_section .image_wrap .item1
+{
+    right: 100%;
+    bottom: 20.7rem;
+
+    margin-right: 2.2rem;
+}
+
+.first_section .image_wrap .item2
+{
+    right: 100%;
+    bottom: 9.3rem;
+
+    margin-right: 1.4rem;
+}
+
+.first_section .image_wrap .item3
+{
+    bottom: -2.1rem;
+    left: -12.9rem;
+}
+
+
+.first_section .image_wrap .item3:after
+{
+    top: -.8rem;
+    bottom: auto;
+
+    margin-block: 0;
+}
+
+
+.first_section .tags
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: 14.9rem;
+
+    gap: .6rem;
+}
+
+
+.first_section .tags > *
+{
+    padding-block: 2rem;
+    padding-inline: 5rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 100%;
+
+    border-radius: 10rem;
+    background: rgba(255, 255, 255, .50);
+}
+
+
+.first_section .bg
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.first_section .bg:before
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    content: '';
+    z-index: 1;
+
+    opacity: .3;
+    background: #000;
+}
+
+
+.first_section .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.information_block
+{
+    padding-block: 0 1rem;
+}
+
+
+.information_block .container
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.information_block .big_image
+{
+    display: block;
+
+    width: 61.2rem;
+    max-width: 100%;
+    min-height: 51.9rem;
+
+    border-radius: 2rem;
+    background: #ddd;
+}
+
+
+.information_block .big_image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.information_block .data
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 61.2rem - 3rem);
+
+    gap: 3rem;
+}
+
+
+.information_block .head
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.information_block .head .content-grid__heading
+{
+    width: calc(100% - 30.6rem - 7.2rem);
+    margin-bottom: 3.5rem;
+}
+
+
+.information_block .head .content-grid__title
+{
+    font-size: 6rem;
+
+    letter-spacing: -.06rem;
+}
+
+
+.information_block .head .content-grid__lead
+{
+    width: 52rem;
+    max-width: 100%;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+}
+
+
+.information_block .head .image
+{
+    display: block;
+
+    width: 30.6rem;
+    max-width: 100%;
+
+    border-radius: 2rem;
+    background: #ddd;
+
+    aspect-ratio: 1 / .794;
+}
+
+
+.information_block .head .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.information_block .images
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: auto;
+
+    gap: 3rem;
+}
+
+
+.information_block .images .image
+{
+    display: block;
+
+    width: 32.6rem;
+    max-width: 100%;
+
+    border-radius: 2rem;
+    background: #ddd;
+
+    aspect-ratio: 1 / .745;
+}
+
+
+.information_block .images .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+
+.clients
+{
+    padding-block: 5rem;
+}
+
+
+.clients .content-grid__lead
+{
+    width: 59.2rem;
+    max-width: 100%;
+}
+
+
+.clients .swiper
+{
+    overflow: visible;
+}
+
+
+.clients .swiper-wrapper
+{
+    transition-timing-function: linear !important;
+
+    gap: 4rem;
+}
+
+
+.clients .swiper-slide
+{
+    width: 27.8rem;
+}
+
+
+.clients .logo
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 16.4rem;
+    padding: 2.4rem;
+
+    border-radius: 2rem;
+    background: #fff;
+}
+
+
+.clients .logo img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.directions
+{
+    padding-block: 5rem;
+}
+
+
+.directions .data
+{
+    position: relative;
+
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: 10rem;
+}
+
+
+.directions .info
+{
+    position: static;
+
+    display: none;
+    flex-direction: column;
+
+    width: 58rem;
+    max-width: 100%;
+    min-height: 68rem;
+    padding-top: 3.6rem;
+
+    gap: 2.8rem;
+}
+
+
+.directions .info .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+.directions .info .desc
+{
+    width: 55.2rem;
+    max-width: 100%;
+
+    font-size: 1.8rem;
+    font-weight: 350;
+    line-height: 120%;
+}
+
+
+.directions .info .big-link
+{
+    min-width: 53.4rem;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 1.8rem 1.8rem 1.8rem 4.4rem;
+
+    font-size: 2.4rem;
+    line-height: 100%;
+
+    letter-spacing: .024rem;
+
+    color: rgba(24, 24, 30, .64);
+    background: rgba(24, 24, 30, .16);
+}
+
+
+.directions .info .big-link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+
+.directions .image
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+
+    width: 68rem;
+
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.directions .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.directions .info.show
+{
+    display: flex;
+
+    animation: fadeIn .5s ease forwards;
+}
+
+
+.directions .info.show .image img
+{
+    animation: spinScale .5s ease forwards;
+}
+
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+
+@keyframes spinScale
+{
+    from
+    {
+        transform: scale(.5) rotate(-180deg);
+    }
+    to
+    {
+        transform: scale(1)  rotate(0deg);
+    }
+}
+
+
+.directions .btns
+{
+    position: absolute;
+    top: 50%;
+    right: -5.2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 60.7rem;
+    max-width: 100%;
+
+    z-index: 3;
+    transform: translateY(-50%);
+
+    gap: 2.2rem;
+}
+
+
+
+.directions .btns .btn
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    padding-block: 1.7rem;
+    padding-inline: 2.5rem 16rem;
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    transition: .2s linear;
+    transform: translateX(8.6rem);
+    text-align: left;
+
+    color: #333;
+    border-radius: 10rem 0 0 10rem;
+    background: #fff;
+}
+
+
+.directions .btns .btn .thumb
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    width: 12.2rem;
+
+    border-radius: 50%;
+    background: #ddd;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.directions .btns .btn .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.directions .btns .btn span
+{
+    width: calc(100% - 12.2rem - 4rem);
+}
+
+
+.directions .btns .btn.active
+{
+    transform: translateX(0);
+
+    color: #fff;
+    background: #6b6b79;
+}
+
+
+
+.why_we
+{
+    padding-block: 5rem;
+}
+
+
+.why_we .data
+{
+    position: relative;
+
+    height: 128rem;
+}
+
+
+.why_we .item
+{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 46rem;
+    max-width: 100%;
+    padding-block: 5.2rem;
+    padding-inline: 2rem;
+
+    z-index: 3;
+    text-align: center;
+
+    border-radius: 2rem;
+    background: #fff;
+
+    gap: 2rem;
+}
+
+
+.why_we .item1
+{
+    top: 10rem;
+    left: 0;
+}
+
+
+.why_we .item2
+{
+    top: 8rem;
+    right: 21.1rem;
+}
+
+
+.why_we .item3
+{
+    right: 0;
+    bottom: 0;
+}
+
+
+.why_we .item .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 11.6rem;
+    max-width: 100%;
+    height: 11.6rem;
+    margin-inline: auto;
+    margin-bottom: 1.2rem;
+
+    border-radius: 50%;
+    background: #eef2f5;
+}
+
+
+.why_we .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.why_we .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+.why_we .item .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.why_we .image
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+
+    width: 168.4rem;
+
+    z-index: 1;
+    transition: .3s linear;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+
+.why_we .image img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.why_we .image_small
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 7.8rem;
+
+    display: block;
+
+    width: 45.2rem;
+
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+.why_we .image_small img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.reviews
+{
+    padding-block: 5rem;
+}
+
+
+.reviews .row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+}
+
+
+.reviews .row > *
+{
+    width: calc(33.333% - 2rem);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+.reviews .review
+{
+    display: flex;
+    flex-direction: column;
+
+    min-height: 55.2rem;
+    padding: 2.8rem;
+
+    border-radius: 2.8rem;
+    background: #fff;
+
+    gap: 2.8rem;
+}
+
+
+.reviews .review .head
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.reviews .review .info
+{
+    width: calc(100% - 22rem - 4rem);
+}
+
+
+.reviews .review .info .title
+{
+    padding-bottom: 1rem;
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+
+    border-bottom: 1px solid;
+}
+
+
+.reviews .review .info .company
+{
+    margin-top: 1rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.reviews .review .photo
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    width: 22rem;
+    max-width: 100%;
+
+    border-radius: 50%;
+    background: #d9d9d9;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.reviews .review .photo img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.reviews .review .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.reviews .review .author
+{
+    margin-top: auto;
+
+    color: rgba(24, 24, 30, .64);
+}
+
+
+.reviews .review .author  .name
+{
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 110%;
+
+    letter-spacing: .024px;
+}
+
+
+.reviews .review .author .post
+{
+    font-size: 1.8rem;
+    font-weight: 350;
+    line-height: 110%;
+
+    letter-spacing: .018rem;
+}
+
+
+
+.how_we_work
+{
+    padding-block: 5rem;
+}
+
+
+.how_we_work .container
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.how_we_work .accordion
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 45.7rem);
+
+    gap: 1rem;
+}
+
+
+.how_we_work .accordion_item
+{
+    overflow: hidden;
+
+    border: 1px solid rgba(24, 24, 30, .50);
+    border-radius: 1.8rem;
+    background: #fff;
+}
+
+
+.how_we_work .accordion_item:before
+{
+    position: absolute;
+    top: 14.2rem;
+    right: -7.7rem;
+
+    display: block;
+
+    width: 35.8rem;
+    height: 8.4rem;
+
+    content: '';
+    z-index: 1;
+    transition: opacity .2s linear;
+    transform: rotate(75.81deg);
+    pointer-events: none;
+
+    opacity: 0;
+    border-radius: 35.8rem;
+    background: #fac3ff;
+
+    filter: blur(9.37rem);
+}
+
+
+.how_we_work .accordion_item:after
+{
+    position: absolute;
+    top: 25.6rem;
+    right: 11.2rem;
+
+    display: block;
+
+    width: 23.2rem;
+    height: 6.1rem;
+
+    content: '';
+    z-index: 1;
+    transition: opacity .2s linear;
+    transform: rotate(167.4deg);
+    pointer-events: none;
+
+    opacity: 0;
+    border-radius: 35.8rem;
+    background: #56baff;
+
+    filter: blur(8.95rem);
+}
+
+
+.how_we_work .accordion_item[data-open]:before,
+.how_we_work .accordion_item[data-open]:after
+{
+    opacity: 1;
+}
+
+
+.how_we_work .accordion-item-visible
+{
+    cursor: pointer;
+}
+
+
+.how_we_work .accordion-item-title
+{
+    transition: color .2s linear;
+
+    color: #aeaebe;
+}
+
+
+.how_we_work .accordion-item-visible .arr
+{
+    display: block;
+
+    width: 2.6rem;
+    height: 1.6rem;
+
+    transition: transform .2s linear;
+}
+
+
+.how_we_work .accordion_item[data-open] .accordion-item-visible .arr
+{
+    transform: rotate(180deg);
+}
+
+
+.how_we_work .accordion_item[data-open] .accordion-item-title
+{
+    color: #18181e;
+}
+
+
+.how_we_work .accordion-item-title span
+{
+    margin-right: 1rem;
+}
+
+
+.how_we_work .accordion-item-content
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.how_we_work .text
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 26.8rem);
+
+    gap: 1rem;
+}
+
+
+.how_we_work .text .tooltip
+{
+    position: relative;
+
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+
+.how_we_work .text .tooltip .icon
+{
+    display: block;
+
+    width: 16px;
+    height: 16px;
+    padding-top: 1px;
+    padding-left: 1px;
+
+    font-size: 12px;
+    line-height: 1;
+
+    text-align: center;
+
+    color: rgba(24, 24, 30, .6);
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+.how_we_work .text .tooltip .hover
+{
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+
+    display: none;
+
+    width: 30.4rem;
+    margin-left: 3px;
+    padding: .6rem 1.4rem;
+
+    font-size: 1rem;
+    font-weight: 375;
+    line-height: 100%;
+
+    z-index: 9;
+    letter-spacing: .01rem;
+
+    color: rgba(24, 24, 30, .64);
+    border: 1px solid rgba(24, 24, 30, .64);
+    border-radius: 2rem;
+    background: #fff;
+}
+
+
+.how_we_work .text .tooltip:hover .hover
+{
+    display: block;
+}
+
+
+.how_we_work .period
+{
+    width: 20.6rem;
+    max-width: 100%;
+    padding-block: 1.1rem;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 120%;
+
+    text-align: center;
+    letter-spacing: .02rem;
+
+    border: 1px solid var(--Black, #18181e);
+    border-radius: 3rem;
+}
+
+
+.how_we_work .rte > :not(:last-child)
+{
+    margin-bottom: 0;
+}
+
+
+
+.action_form
+{
+    padding-block: 5rem;
+}
+
+
+.action_form .form__header
+{
+    margin-bottom: 4.8rem !important;
+
+    gap: 1.8rem !important;
+}
+
+
+.action_form .form__title
+{
+    font-size: 6rem !important;
+}
+
+
+.action_form .btn-common._size-l
+{
+    height: 10.1rem !important;
+}
+
+
+.action_form .form__footer
+{
+    margin-top: 3.2rem !important;
+
+    gap: 1.8rem !important;
+}
+
+
+
+.persons .data
+{
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 3.4rem;
+}
+
+
+.persons .person
+{
+    position: relative;
+
+    display: none;
+    overflow: hidden;
+
+    height: 71.1rem;
+    padding-block: 10rem;
+    padding-inline: 5rem;
+
+    border-radius: 3.4rem;
+}
+
+
+.persons .person > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.persons .person .name
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.persons .person .desc
+{
+    width: 72.2rem;
+    max-width: 100%;
+    margin-top: 6rem;
+
+    font-size: 2.4rem;
+    line-height: 130%;
+
+    transition: .5s linear;
+    transform: translateY(100px);
+
+    opacity: 0;
+}
+
+
+.persons .person .post
+{
+    width: 56rem;
+    max-width: 100%;
+    margin-top: 2rem;
+
+    font-size: 1.8rem;
+    font-weight: 350;
+    line-height: 150%;
+
+    transition: .5s linear;
+    transform: translateY(100px);
+    letter-spacing: .018rem;
+
+    opacity: 0;
+    color: #6b6b79;
+}
+
+
+.persons .person .photo
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.persons .person .photo img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.persons .person.show
+{
+    display: block;
+}
+
+
+.persons .person.show .desc,
+.persons .person.show .post
+{
+    transform: translateY(0);
+
+    opacity: 1;
+}
+
+
+@starting-style
+{
+    .persons .person.show .desc,
+    .persons .person.show .post
+    {
+        transform: translateY(100%);
+
+        opacity: 0;
+    }
+}
+
+
+.persons .btns
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: grid;
+    overflow: auto;
+
+    width: 100%;
+    padding-block: 2rem;
+    padding-inline: 5rem;
+
+    z-index: 3;
+
+    border: none;
+    border-radius: 0;
+    background: none;
+
+    gap: 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    scroll-padding: 0 5rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
+}
+
+
+.persons .btns::-webkit-scrollbar
+{
+    display: none;
+
+    width: 0;
+    height: 0;
+
+    background-color: transparent;
+}
+
+
+.persons .btns::-webkit-scrollbar-thumb
+{
+    background-color: transparent;
+}
+
+
+.persons .btns > *
+{
+    scroll-snap-align: start;
+}
+
+
+.persons .btns .btn
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 10.7rem;
+
+    border-radius: 50%;
+    background: #d9d9d9;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.persons .btns .btn img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+
+.articles
+{
+    margin: 0;
+    padding-block: 5rem;
+}
+
+
+
+.FAQ
+{
+    padding-block: 5rem;
+}
+
+
+.FAQ .container
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.FAQ .col
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 47.5rem;
+    max-width: 100%;
+}
+
+
+.FAQ .content-grid__title
+{
+    font-size: 6rem !important;
+}
+
+
+.FAQ .accordion
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 52.7rem);
+
+    gap: 1.6rem;
+}
+
+
+.FAQ .accordion_item
+{
+    border-radius: 1.8rem;
+    background: #fff;
+}
+
+
+.FAQ .accordion-item-visible
+{
+    padding-block: 1.3rem !important;
+
+    cursor: pointer;
+}
+
+
+.FAQ .accordion-item-title
+{
+    font-size: 2rem !important;
+    font-weight: 400;
+    line-height: 1 !important;
+
+    letter-spacing: .02rem !important;
+}
+
+
+.FAQ .accordion-item-content
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.FAQ .text
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 91.4rem;
+    max-width: 100%;
+
+    font-size: 1.8rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .018rem;
+
+    gap: 2rem;
+}
+
+
+.FAQ .text ol li,
+.FAQ .text ul li
+{
+    padding-left: 2rem;
+}
+
+
+.FAQ .accordion .btn
+{
+    width: 35.1rem;
+    max-width: 100%;
+    margin-top: 3.6rem;
+}
+
+
+
+@media print,
+(max-width: 1899px)
+{
+    .first_section
+    {
+        margin-bottom: 10rem;
+        padding-inline: 1.3rem;
+        padding-top: 1.3rem;
+    }
+
+
+    .first_section .data_wrap
+    {
+        min-height: 77rem;
+        padding-block: 18rem 2.4rem;
+    }
+
+
+    .first_section .data
+    {
+        width: 60rem;
+
+        gap: 2.4rem;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 8rem;
+
+        letter-spacing: -.08rem;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .first_section .data .big-link
+    {
+        margin-top: 10rem;
+    }
+
+
+    .first_section .info
+    {
+        width: 56rem;
+    }
+
+
+    .first_section .image_wrap
+    {
+        width: 32rem;
+    }
+
+
+    .first_section .tags > *
+    {
+        padding-block: 1.6rem;
+        padding-inline: 4rem;
+
+        font-size: 1.8rem;
+    }
+
+
+
+    .information_block .big_image
+    {
+        width: 50rem;
+        min-height: 48rem;
+    }
+
+
+    .information_block .data
+    {
+        width: calc(100% - 50rem - 2.4rem);
+
+        gap: 2.4rem;
+    }
+
+
+    .information_block .head .content-grid__heading
+    {
+        width: calc(100% - 26rem - 4.8rem);
+        margin-bottom: 2.4rem;
+    }
+
+
+    .information_block .head .content-grid__title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .information_block .head .content-grid__lead
+    {
+        width: 100%;
+
+        font-size: 1.8rem;
+    }
+
+
+    .information_block .head .image
+    {
+        width: 26rem;
+    }
+
+
+    .information_block .images .image
+    {
+        width: 28rem;
+    }
+
+
+
+    .clients .content-grid__lead
+    {
+        width: 48rem;
+    }
+
+
+    .clients .swiper-wrapper
+    {
+        gap: 2.4rem;
+    }
+
+
+    .clients .swiper-slide
+    {
+        width: 24rem;
+    }
+
+
+    .clients .logo
+    {
+        height: 14rem;
+    }
+
+
+
+    .directions .data
+    {
+        margin-top: 8rem;
+    }
+
+
+    .directions .info
+    {
+        width: 36rem;
+        min-height: 52rem;
+        padding-top: 2.4rem;
+
+        gap: 2.4rem;
+    }
+
+
+    .directions .info .title
+    {
+        font-size: 5.2rem;
+    }
+
+
+    .directions .info .desc
+    {
+        width: 100%;
+
+        font-size: 1.6rem;
+    }
+
+
+    .directions .image
+    {
+        width: 58rem;
+    }
+
+
+    .directions .info .big-link
+    {
+        min-width: 100%;
+        height: 8rem;
+        padding: 1rem 1rem 1rem 4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .directions .info .big-link .big-link__icon
+    {
+        width: 5.4rem;
+        height: 5.4rem;
+    }
+
+
+    .directions .btns
+    {
+        right: -4rem;
+
+        width: 42.4rem;
+
+        gap: 1.2rem;
+    }
+
+
+    .directions .btns .btn
+    {
+        padding-block: 1.2rem;
+        padding-inline: 1.2rem 12rem;
+
+        font-size: 2.8rem;
+
+        transform: translateX(4rem);
+    }
+
+
+    .directions .btns .btn .thumb
+    {
+        width: 10rem;
+    }
+
+
+    .directions .btns .btn span
+    {
+        width: calc(100% - 10rem - 2.4rem);
+    }
+
+
+
+    .why_we .data
+    {
+        height: 108rem;
+    }
+
+
+    .why_we .item
+    {
+        width: 40rem;
+        padding-block: 4rem;
+    }
+
+
+    .why_we .item2
+    {
+        top: 8rem;
+        right: 8rem;
+    }
+
+
+    .why_we .item .icon
+    {
+        width: 11.2rem;
+        height: 11.2rem;
+    }
+
+
+    .why_we .item .name
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .why_we .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .why_we .image
+    {
+        width: 136rem;
+    }
+
+
+    .why_we .image_small
+    {
+        left: 4rem;
+
+        width: 36rem;
+    }
+
+
+
+    .reviews .review
+    {
+        min-height: 48rem;
+        padding: 2.4rem;
+
+        border-radius: 2.4rem;
+
+        gap: 2.4rem;
+    }
+
+
+    .reviews .review .info
+    {
+        width: calc(100% - 16rem - 2.4rem);
+    }
+
+
+    .reviews .review .info .title
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .reviews .review .info .company
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .reviews .review .photo
+    {
+        width: 16rem;
+    }
+
+
+    .reviews .review .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .reviews .review .author .name
+    {
+        font-size: 2rem;
+
+        letter-spacing: .02px;
+    }
+
+
+    .reviews .review .author .post
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .how_we_work .accordion
+    {
+        width: calc(100% - 40rem);
+    }
+
+
+    .how_we_work .accordion-item-visible .arr
+    {
+        width: 2.2rem;
+        height: 1.2rem;
+    }
+
+
+    .how_we_work .text
+    {
+        width: calc(100% - 22rem);
+    }
+
+
+    .how_we_work .period
+    {
+        width: 18rem;
+
+        font-size: 1.8rem;
+    }
+
+
+
+    .persons .data
+    {
+        border-radius: 2.8rem;
+    }
+
+
+    .persons .person
+    {
+        height: 64rem;
+        padding-block: 8rem;
+        padding-inline: 4rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .persons .person .name
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .persons .person .desc
+    {
+        width: 60rem;
+        margin-top: 4.8rem;
+
+        font-size: 2rem;
+    }
+
+
+    .persons .person .post
+    {
+        width: 48rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .persons .person .photo img
+    {
+        object-position: 0 50%;
+    }
+
+
+    .persons .btns
+    {
+        padding-inline: 4rem;
+    }
+
+
+    .persons .btns .btn
+    {
+        width: 10rem;
+    }
+
+
+
+    .action_form .form__header
+    {
+        gap: 1.2rem !important;
+    }
+
+
+    .action_form .form__title
+    {
+        max-width: 80rem !important;
+
+        font-size: 4.8rem !important;
+    }
+
+
+    .action_form .btn-common._size-l
+    {
+        height: 9rem !important;
+    }
+
+
+
+    .FAQ .col
+    {
+        width: 40rem;
+    }
+
+
+    .FAQ .content-grid__title
+    {
+        font-size: 5.2rem !important;
+    }
+
+
+    .FAQ .accordion
+    {
+        width: calc(100% - 44rem);
+
+        gap: 1.2rem;
+    }
+
+
+    .FAQ .accordion-item-title
+    {
+        font-size: 1.8rem !important;
+    }
+
+
+    .FAQ .text
+    {
+        width: 100%;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .first_section
+    {
+        margin-bottom: 8rem;
+    }
+
+
+    .first_section .data_wrap
+    {
+        min-height: 65rem;
+        padding-block: 15rem 2.4rem;
+    }
+
+
+    .first_section .data
+    {
+        width: 48rem;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 7.2rem;
+
+        letter-spacing: -.072rem;
+    }
+
+
+    .first_section .data .desc
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .first_section .data .big-link
+    {
+        margin-top: 8rem;
+    }
+
+
+    .first_section .info
+    {
+        width: 48rem;
+    }
+
+
+    .first_section .image_wrap
+    {
+        width: 30rem;
+    }
+
+
+    .first_section .image_wrap .item
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .first_section .image_wrap .item1
+    {
+        bottom: 17.7rem;
+
+        margin-right: 2.4rem;
+    }
+
+
+    .first_section .image_wrap .item2
+    {
+        bottom: 7.3rem;
+    }
+
+
+    .first_section .tags
+    {
+        margin-top: 12rem;
+
+        gap: .8rem;
+    }
+
+
+    .first_section .tags > *
+    {
+        padding-block: 1.2rem;
+        padding-inline: 3.2rem;
+
+        font-size: 1.6rem;
+    }
+
+
+
+    .information_block
+    {
+        padding-block: 0 3.4rem;
+    }
+
+
+    .information_block .big_image
+    {
+        width: 40rem;
+        min-height: 36rem;
+    }
+
+
+    .information_block .data
+    {
+        width: calc(100% - 40rem - 2.4rem);
+    }
+
+
+    .information_block .head .content-grid__heading
+    {
+        width: calc(100% - 20rem - 4rem);
+        margin-bottom: 2rem;
+    }
+
+
+    .information_block .head .content-grid__title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .information_block .head .content-grid__lead
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .information_block .head .image
+    {
+        width: 20rem;
+    }
+
+
+    .information_block .images .image
+    {
+        width: 22.4rem;
+    }
+
+
+
+    .clients
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .clients .swiper-slide
+    {
+        width: 22.4rem;
+    }
+
+
+    .clients .logo
+    {
+        height: 12.4rem;
+    }
+
+
+
+    .directions
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .directions .data
+    {
+        margin-top: 6.8rem;
+    }
+
+
+    .directions .info
+    {
+        width: 32rem;
+        min-height: 48rem;
+    }
+
+
+    .directions .info .title
+    {
+        font-size: 4.8rem;
+    }
+
+
+    .directions .image
+    {
+        width: 52rem;
+    }
+
+
+    .directions .btns
+    {
+        width: 40rem;
+
+        gap: 1rem;
+    }
+
+
+    .directions .btns .btn
+    {
+        padding-block: 1rem;
+        padding-inline: 1rem 10rem;
+
+        font-size: 2.4rem;
+    }
+
+
+    .directions .btns .btn .thumb
+    {
+        width: 8rem;
+    }
+
+
+    .directions .btns .btn span
+    {
+        width: calc(100% - 8rem - 2.4rem);
+    }
+
+
+
+    .why_we
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .why_we .data
+    {
+        height: 100rem;
+    }
+
+
+    .why_we .item
+    {
+        padding-block: 3.2rem;
+    }
+
+
+    .why_we .item2
+    {
+        right: 4rem;
+    }
+
+
+    .why_we .item .icon
+    {
+        width: 10rem;
+        height: 10rem;
+        padding: 2.4rem;
+    }
+
+
+    .why_we .item .name
+    {
+        font-size: 3rem;
+    }
+
+
+    .why_we .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .why_we .image
+    {
+        width: 124rem;
+    }
+
+
+    .why_we .image_small
+    {
+        width: 32rem;
+    }
+
+
+
+    .reviews
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .reviews .row
+    {
+        display: grid;
+        overflow: auto;
+
+        width: calc(100% + 3.4rem * 2);
+        margin-inline: -3.4rem;
+        margin-bottom: 0;
+        padding-inline: 3.4rem;
+
+        gap: 2rem;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 3.4rem;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+
+    .reviews .row::-webkit-scrollbar
+    {
+        display: none;
+
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+
+    .reviews .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .reviews .row > *
+    {
+        width: 44rem;
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+
+    .how_we_work
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .how_we_work .accordion
+    {
+        width: calc(100% - 32rem);
+    }
+
+
+    .how_we_work .text
+    {
+        width: calc(100% - 20rem);
+    }
+
+
+    .how_we_work .period
+    {
+        font-size: 1.6rem;
+    }
+
+
+
+    .persons
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .persons .person
+    {
+        height: 56rem;
+        padding-block: 6.4rem;
+        padding-inline: 3.2rem;
+    }
+
+
+    .persons .person .name
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .persons .person .desc
+    {
+        width: 56rem;
+        margin-top: 4rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .persons .person .post
+    {
+        width: 40rem;
+    }
+
+
+    .persons .person .photo img
+    {
+        object-position: 0 50%;
+    }
+
+
+    .persons .btns
+    {
+        padding-inline: 3.2rem;
+    }
+
+
+    .persons .btns .btn
+    {
+        width: 8rem;
+    }
+
+
+
+    .action_form
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .action_form .btn-common._size-l
+    {
+        height: 8rem !important;
+    }
+
+
+
+    .articles
+    {
+        padding-block: 3.4rem;
+    }
+
+
+
+    .FAQ
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .FAQ .col
+    {
+        width: 37.6rem;
+    }
+
+
+    .FAQ .btn
+    {
+        height: 8rem;
+
+        font-size: 2rem;
+    }
+
+
+    .FAQ .btn .icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+    .FAQ .btn .icon .svgsprite
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    .FAQ .accordion
+    {
+        width: calc(100% - 38rem);
+    }
+
+
+    .FAQ .text
+    {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1279px)
+{
+    .first_section
+    {
+        margin-bottom: 6.4rem;
+    }
+
+
+    .first_section .data_wrap
+    {
+        min-height: 60rem;
+    }
+
+
+    .first_section .data
+    {
+        width: 40rem;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 6rem;
+
+        letter-spacing: -.06rem;
+    }
+
+
+    .first_section .data .big-link
+    {
+        margin-top: 6rem;
+    }
+
+
+    .first_section .info
+    {
+        width: 41rem;
+    }
+
+
+    .first_section .image_wrap
+    {
+        width: 28rem;
+    }
+
+
+    .first_section .image_wrap .item
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .first_section .image_wrap .item:after
+    {
+        margin-left: 1.6rem;
+    }
+
+
+    .first_section .image_wrap .item1
+    {
+        bottom: 17.5rem;
+
+        margin-right: 1.6rem;
+    }
+
+
+    .first_section .image_wrap .item2
+    {
+        margin-right: 1.2rem;
+    }
+
+
+    .first_section .image_wrap .item3
+    {
+        bottom: -1.4rem;
+        left: -12.2rem;
+    }
+
+
+    .first_section .tags
+    {
+        margin-top: 10rem;
+    }
+
+
+    .first_section .tags > *
+    {
+        padding-inline: 2rem;
+    }
+
+
+
+    .information_block .big_image
+    {
+        width: 32rem;
+        min-height: 30rem;
+    }
+
+
+    .information_block .data
+    {
+        width: calc(100% - 32rem - 2.4rem);
+    }
+
+
+    .information_block .head .content-grid__heading
+    {
+        width: calc(100% - 18rem - 2.4rem);
+        margin-bottom: 0;
+    }
+
+
+    .information_block .head .content-grid__title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .information_block .head .image
+    {
+        width: 18rem;
+    }
+
+
+    .information_block .images
+    {
+        gap: 2.4rem;
+    }
+
+
+    .information_block .images .image
+    {
+        width: 20rem;
+    }
+
+
+
+    .clients .swiper-slide
+    {
+        width: 20rem;
+    }
+
+
+    .clients .logo
+    {
+        height: 12rem;
+    }
+
+
+
+    .directions .data
+    {
+        margin-top: 0;
+    }
+
+
+    .directions .info
+    {
+        width: 50%;
+        min-height: 0;
+        padding-top: 0;
+    }
+
+
+    .directions .info .title
+    {
+        font-size: 4.4rem;
+    }
+
+
+    .directions .image
+    {
+        position: relative;
+        inset: 0;
+
+        width: 40rem;
+
+        transform: none;
+    }
+
+
+    .directions .btns
+    {
+        width: 44rem;
+    }
+
+
+
+    .why_we .item .name
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .why_we .image
+    {
+        width: 116rem;
+    }
+
+
+    .why_we .image_small
+    {
+        width: 28rem;
+    }
+
+
+
+    .reviews .row > *
+    {
+        width: 42rem;
+    }
+
+
+    .reviews .review
+    {
+        min-height: 44rem;
+    }
+
+
+    .reviews .review .info .title
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .reviews .review .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .how_we_work .content-grid__title br
+    {
+        display: none;
+    }
+
+
+    .how_we_work .accordion
+    {
+        width: 100%;
+    }
+
+
+    .how_we_work .text
+    {
+        width: calc(100% - 22rem);
+    }
+
+
+    .how_we_work .period
+    {
+        font-size: 1.5rem;
+    }
+
+
+
+    .persons .person
+    {
+        height: 50rem;
+    }
+
+
+    .persons .person .name
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .persons .person .desc
+    {
+        width: 52rem;
+        margin-top: 3.2rem;
+
+        font-size: 1.6rem;
+    }
+
+
+
+    .FAQ .col
+    {
+        width: 100%;
+    }
+
+
+    .FAQ .accordion
+    {
+        width: 100%;
+        margin-top: 2.4rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1023px)
+{
+    .first_section .data_wrap
+    {
+        min-height: 55rem;
+    }
+
+
+    .first_section .data
+    {
+        width: 36rem;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .first_section .data .big-link
+    {
+        margin-top: 5.2rem;
+    }
+
+
+    .first_section .info
+    {
+        width: 28rem;
+    }
+
+
+    .first_section .image_wrap
+    {
+        width: 18rem;
+        padding: 1.2rem;
+    }
+
+
+    .first_section .image_wrap .item
+    {
+        font-size: 1.5rem;
+    }
+
+
+    .first_section .image_wrap .item1
+    {
+        bottom: 12.5rem;
+
+        width: 9.2rem;
+        margin-right: .7rem;
+
+        white-space: normal;
+    }
+
+
+    .first_section .image_wrap .item2
+    {
+        bottom: 4.3rem;
+
+        width: 11rem;
+        margin-right: 1.9rem;
+
+        white-space: normal;
+    }
+
+
+    .first_section .image_wrap .item3
+    {
+        bottom: -1.8rem;
+        left: -12rem;
+    }
+
+
+    .first_section .tags
+    {
+        margin-top: 8rem;
+
+        gap: .4rem;
+    }
+
+
+    .first_section .tags > *
+    {
+        padding-inline: 1.6rem;
+
+        font-size: 1.4rem;
+    }
+
+
+
+    .information_block .big_image
+    {
+        width: 100%;
+        height: 28rem;
+        min-height: 0;
+        margin-bottom: 2.4rem;
+    }
+
+
+    .information_block .data
+    {
+        width: 100%;
+    }
+
+
+    .information_block .head .content-grid__heading
+    {
+        width: calc(100% - 20rem - 2.4rem);
+    }
+
+
+    .information_block .head .image
+    {
+        width: 20rem;
+    }
+
+
+    .information_block .images .image
+    {
+        width: 22.4rem;
+    }
+
+
+
+    .directions .info
+    {
+        width: calc(100% - 32rem);
+    }
+
+
+    .directions .info .title
+    {
+        font-size: 4rem;
+    }
+
+
+    .directions .image
+    {
+        width: 36rem;
+    }
+
+
+    .directions .btns
+    {
+        width: 36rem;
+    }
+
+
+
+    .why_we .data
+    {
+        height: 92rem;
+    }
+
+
+    .why_we .item
+    {
+        width: 32rem;
+        padding-block: 2.4rem;
+    }
+
+
+    .why_we .item2
+    {
+        right: 0;
+    }
+
+
+    .why_we .item .icon
+    {
+        width: 9.2rem;
+        height: 9.2rem;
+        margin-bottom: 0;
+    }
+
+
+    .why_we .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .why_we .image
+    {
+        width: 100rem;
+    }
+
+
+    .why_we .image_small
+    {
+        left: 0;
+
+        width: 22.4rem;
+    }
+
+
+
+    .persons .person
+    {
+        height: 42rem;
+        padding-block: 3.2rem;
+    }
+
+
+    .persons .person .name
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .persons .person .desc
+    {
+        width: 40rem;
+    }
+
+
+    .persons .person .post
+    {
+        width: 30rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 767px)
+{
+    .first_section
+    {
+        padding-inline: .8rem;
+        padding-top: 1.2rem;
+    }
+
+
+    .first_section .data_wrap
+    {
+        min-height: 0;
+        padding-block: 14rem 2.4rem;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .data .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .first_section .data .big-link
+    {
+        width: 100%;
+        min-width: 0;
+        margin-top: 2.4rem;
+    }
+
+
+    .first_section .info
+    {
+        width: 100%;
+        margin-top: 4.8rem;
+    }
+
+
+    .first_section .tags
+    {
+        justify-content: center;
+
+        margin-top: 6rem;
+    }
+
+
+
+    .information_block .data
+    {
+        gap: 1.2rem;
+    }
+
+
+    .information_block .head .content-grid__heading
+    {
+        width: 100%;
+    }
+
+
+    .information_block .head .content-grid__title
+    {
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .information_block .head .image
+    {
+        width: 100%;
+        margin-top: 2.4rem;
+    }
+
+
+    .information_block .images
+    {
+        gap: 1.2rem;
+    }
+
+
+    .information_block .images .image
+    {
+        width: calc(50% - .6rem);
+    }
+
+
+
+    .clients .logo
+    {
+        height: 10rem;
+    }
+
+
+
+    .directions .data
+    {
+        padding-top: 8rem;
+    }
+
+
+    .directions .info
+    {
+        width: 100%;
+    }
+
+
+    .directions .info .title
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .directions .image
+    {
+        width: 100%;
+    }
+
+
+    .directions .btns
+    {
+        top: 0;
+        right: auto;
+        left: -1.6rem;
+
+        display: grid;
+        overflow: auto;
+
+        width: calc(100% + 3.2rem);
+        max-width: calc(100% + 3.2rem);
+        padding-inline: 1.6rem;
+
+        transform: none;
+
+        gap: 1.2rem;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 1.2rem;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+
+    .directions .btns::-webkit-scrollbar
+    {
+        display: none;
+
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+
+    .directions .btns::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .directions .btns > *
+    {
+        width: fit-content;
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+    .directions .btns .btn
+    {
+        padding-block: .8rem;
+        padding-inline: .8rem 2rem;
+
+        font-size: 1.6rem;
+
+        transform: none;
+
+        border-radius: 10rem;
+
+        gap: 1.2rem;
+    }
+
+
+    .directions .btns .btn .thumb
+    {
+        width: 4rem;
+    }
+
+
+    .directions .btns .btn span
+    {
+        width: auto;
+    }
+
+
+    .directions .btns .btn br
+    {
+        display: none;
+    }
+
+
+
+    .why_we .data
+    {
+        display: flex;
+        flex-direction: column;
+
+        height: auto;
+
+        gap: 2.4rem;
+    }
+
+
+    .why_we .item
+    {
+        position: relative;
+
+        width: 100%;
+    }
+
+
+    .why_we .item1,
+    .why_we .item2
+    {
+        top: 0;
+    }
+
+
+    .why_we .item .icon
+    {
+        width: 8.8rem;
+        height: 8.8rem;
+    }
+
+
+    .why_we .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+    .why_we .image
+    {
+        position: relative;
+        inset: 0;
+
+        width: 100%;
+        height: 29rem;
+
+        transform: none;
+    }
+
+
+    .why_we .image_small
+    {
+        top: 16rem;
+        left: 0;
+
+        width: 12rem;
+    }
+
+
+
+    .reviews .row > *
+    {
+        width: 30rem;
+    }
+
+
+    .reviews .review
+    {
+        min-height: 40rem;
+    }
+
+
+    .reviews .review .photo
+    {
+        width: 14rem;
+        margin-bottom: 1.2rem;
+    }
+
+
+    .reviews .review .info
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .reviews .review .info .title
+    {
+        font-size: 2.4rem;
+    }
+
+
+
+    .how_we_work .accordion-item-visible .arr
+    {
+        width: 2rem;
+        height: 1rem;
+    }
+
+
+    .how_we_work .text
+    {
+        width: 100%;
+    }
+
+
+    .how_we_work .period
+    {
+        margin-top: 2rem;
+
+        font-size: 1.4rem;
+    }
+
+
+
+    .persons .person
+    {
+        height: 48rem;
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .persons .person .name
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .persons .person .desc
+    {
+        width: calc(100% - 10rem);
+
+        font-size: 1.5rem;
+
+        letter-spacing: .015rem;
+    }
+
+
+    .persons .person .post
+    {
+        width: 20rem;
+
+        font-size: 1.2rem;
+
+        letter-spacing: .012rem;
+    }
+
+
+    .persons .person .photo img
+    {
+        object-position: 49% 50%;
+    }
+
+
+    .persons .btns
+    {
+        padding-inline: 2.4rem;
+    }
+
+
+    .persons .btns .btn
+    {
+        width: 6rem;
+    }
+
+
+
+    .action_form .form__header
+    {
+        margin-bottom: 3.6rem !important;
+    }
+
+
+    .action_form .form__title
+    {
+        max-width: 100% !important;
+
+        font-size: 3.6rem !important;
+    }
+
+
+
+    .FAQ .content-grid__title
+    {
+        font-size: 3.6rem !important;
+    }
+
+
+    .FAQ .text
+    {
+        font-size: 1.4rem;
+    }
+}
