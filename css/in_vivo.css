@@ -1,0 +1,3571 @@
+.in_vivo_head
+{
+    position: relative;
+
+    color: #fff;
+    background: #000;
+}
+
+
+.in_vivo_head .container
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+
+    min-height: 100vh;
+    padding-block: 21.5rem 5rem;
+
+    z-index: 3;
+}
+
+
+.in_vivo_head .title
+{
+    width: 113rem;
+    max-width: 100%;
+    margin-top: 4.4rem;
+
+    font-size: 9.6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.096rem;
+}
+
+
+.in_vivo_head .desc
+{
+    width: 55.1rem;
+    max-width: 100%;
+    margin-bottom: 2.8rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+}
+
+
+.in_vivo_head .big-link
+{
+    width: 53.4rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 2rem 2.2rem 2rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.in_vivo_head .big-link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+.in_vivo_head .bg
+{
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.in_vivo_head .bg:before
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    content: '';
+    z-index: 1;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, .00) -1.83%, rgba(0, 0, 0, .70) 100%);
+
+    mix-blend-mode: multiply;
+}
+
+
+.in_vivo_head .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.in_vivo_about
+{
+    padding-block: 10rem 5rem;
+}
+
+
+.in_vivo_about .data
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-block: 3.8rem;
+    padding-inline: 5.6rem;
+
+    border-radius: 3.4rem;
+    background: #fff;
+
+            backdrop-filter: blur(.2rem);
+    -webkit-backdrop-filter: blur(.2rem);
+}
+
+
+.in_vivo_about .data > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.in_vivo_about .info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+
+    width: 52.2rem;
+    max-width: 100%;
+}
+
+
+.in_vivo_about .info .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.in_vivo_about .info .desc
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.9rem;
+
+    font-size: 2rem;
+    font-weight: 300;
+
+    color: rgba(24, 24, 30, .64);
+}
+
+
+.in_vivo_about .text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 68.4rem;
+    max-width: 100%;
+    margin-right: 12rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 150%;
+
+    letter-spacing: .02rem;
+}
+
+
+.in_vivo_about .text ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.in_vivo_about .text b
+{
+    font-weight: 500;
+}
+
+
+.in_vivo_about .bg
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.in_vivo_about .bg img
+{
+    display: block;
+
+    height: 100%;
+}
+
+
+
+.in_vivo_steps
+{
+    padding-block: 5rem;
+}
+
+
+.in_vivo_steps .swiper
+{
+    overflow: visible;
+}
+
+
+.in_vivo_steps .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.in_vivo_steps .swiper:not(.swiper-initialized) .swiper-slide
+{
+    width: calc(100% / 4 - 2rem);
+}
+
+
+.in_vivo_steps .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+
+
+.in_vivo_steps .swiper-button-next,
+.in_vivo_steps .swiper-button-prev
+{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+
+    opacity: 1;
+    color: #18181e;
+    border-radius: 0;
+    background: none;
+}
+
+
+.in_vivo_steps .swiper-button-next:hover,
+.in_vivo_steps .swiper-button-prev:hover
+{
+    color: #18181e;
+    background: none;
+}
+
+
+.in_vivo_steps .swiper-slide
+{
+    visibility: hidden;
+
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.in_vivo_steps .swiper-slide.visible
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+.in_vivo_steps .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 5.2rem;
+}
+
+
+.in_vivo_steps .head .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.in_vivo_steps .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.in_vivo_steps .item .thumb
+{
+    display: block;
+
+    background: #ddd;
+
+    aspect-ratio: 1 / .533;
+}
+
+
+.in_vivo_steps .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.in_vivo_steps .item .info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    padding-block: 3.8rem;
+    padding-inline: 2.4rem;
+}
+
+
+.in_vivo_steps .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+.in_vivo_steps .item .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.in_vivo_steps .text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 76.5rem;
+    max-width: 100%;
+    margin-top: 4rem;
+    padding-inline: 3.2rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+
+    border-left: .1rem solid #000;
+}
+
+
+
+.in_vivo_allows
+{
+    padding-block: 5rem;
+}
+
+
+.in_vivo_allows .data
+{
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 4rem;
+
+    border-radius: 2rem;
+    background: #fff;
+}
+
+
+.in_vivo_allows .data > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.in_vivo_allows .title
+{
+    width: 91.3rem;
+    max-width: 100%;
+    margin-bottom: 3rem;
+
+    font-size: 3.6rem;
+    font-weight: 375;
+    line-height: 130%;
+
+    letter-spacing: -.036rem;
+}
+
+
+.in_vivo_allows .row
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.in_vivo_allows .desc
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    font-size: 2.4rem;
+    font-weight: 375;
+    line-height: 130%;
+
+    letter-spacing: -.024rem;
+}
+
+
+.in_vivo_allows .desc b
+{
+    font-weight: 500;
+}
+
+
+.in_vivo_allows .action
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+
+    width: 61.7rem;
+    max-width: 100%;
+    margin-right: 9.2rem;
+}
+
+
+.in_vivo_allows .action .exp
+{
+    font-size: 2.4rem;
+    font-weight: 375;
+    line-height: 130%;
+
+    letter-spacing: -.024rem;
+}
+
+
+.in_vivo_allows .big-link
+{
+    width: 46.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 1.8rem 1.8rem 1.8rem 4.4rem;
+
+    font-size: 2.4rem;
+    line-height: 1;
+
+    letter-spacing: .024rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.in_vivo_allows .big-link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+.in_vivo_allows .bg
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.in_vivo_allows .bg img
+{
+    display: block;
+
+    height: 100%;
+}
+
+
+
+.in_vivo_methods
+{
+    padding-block: 5rem;
+}
+
+
+.in_vivo_methods .block_title
+{
+    margin-bottom: 5rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.in_vivo_methods .swiper
+{
+    overflow: visible;
+}
+
+
+.in_vivo_methods .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.in_vivo_methods .swiper-slide
+{
+    visibility: hidden;
+
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.in_vivo_methods .swiper-slide.visible
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+.in_vivo_methods .swiper-pagination
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.7rem;
+
+    width: calc(100% - 82rem);
+    height: 1.9rem;
+    margin-top: 1.2rem;
+    margin-left: auto;
+
+    pointer-events: none;
+}
+
+
+.in_vivo_methods .swiper-pagination-bullet
+{
+    display: block;
+
+    width: 1.9rem;
+    height: 1.9rem;
+
+    transition: background .2s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+    border-radius: 50%;
+    background: rgba(24, 24, 30, .16);
+}
+
+
+.in_vivo_methods .swiper-pagination-bullet:hover,
+.in_vivo_methods .swiper-pagination-bullet.active
+{
+    background: #6b6b79;
+}
+
+
+.in_vivo_methods .item
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.in_vivo_methods .item .data
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    width: 82rem;
+    padding: 4rem;
+
+    border-radius: 3rem;
+    background: #fff;
+}
+
+
+.in_vivo_methods .item .title
+{
+    width: 65.6rem;
+    max-width: 100%;
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+.in_vivo_methods .item .link
+{
+    width: fit-content;
+    min-width: 0;
+    height: auto;
+    margin-top: -1.4rem;
+    padding: 0;
+
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1;
+
+    color: #18181e;
+    border: none;
+    background: none;
+}
+
+
+.in_vivo_methods .item .link:before
+{
+    display: none;
+}
+
+
+.in_vivo_methods .item .link .big-link__icon
+{
+    width: 3.4rem;
+    height: 3.4rem;
+
+    color: #18181e;
+    background: #eef2f5;
+}
+
+
+.in_vivo_methods .item .link .big-link__icon .svgsprite
+{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+
+.in_vivo_methods .item .desc
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+}
+
+
+.in_vivo_methods .item .order_btn
+{
+    width: 46.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 1.8rem 1.8rem 1.8rem 4.4rem;
+
+    font-size: 2.4rem;
+    line-height: 1;
+
+    letter-spacing: .024rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.in_vivo_methods .item .order_btn .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+.in_vivo_methods .item .image
+{
+    display: block;
+    overflow: hidden;
+
+    width: calc(100% - 82rem);
+
+    border-radius: 3rem;
+    background: #ddd;
+}
+
+
+.in_vivo_methods .item .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+
+.in_vivo_results
+{
+    padding-block: 5rem;
+}
+
+
+.in_vivo_results .block_title
+{
+    width: 142.7rem;
+    max-width: 100%;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.in_vivo_results .block_desc
+{
+    width: 103.5rem;
+    max-width: 100%;
+    margin-top: 2.1rem;
+
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 120%;
+
+    letter-spacing: -.02rem;
+}
+
+
+.in_vivo_results .swiper
+{
+    overflow: visible;
+
+    margin-top: 5rem;
+}
+
+
+.in_vivo_results .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.in_vivo_results .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
+
+    margin-top: 3.6rem;
+}
+
+
+.in_vivo_results .swiper-slide
+{
+    visibility: hidden;
+
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.in_vivo_results .swiper-slide.visible
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+.in_vivo_results .grid
+{
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: 1fr 66.7rem;
+}
+
+
+.in_vivo_results .data
+{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    border-radius: 3.4rem;
+    background: #fff;
+
+    grid-row: span 2;
+}
+
+
+.in_vivo_results .data .image
+{
+    display: block;
+
+    background: #ddd;
+
+    aspect-ratio: 1 / .592;
+}
+
+
+.in_vivo_results .data .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.in_vivo_results .data .info
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 4rem;
+}
+
+
+.in_vivo_results .data .info > div:first-child
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    width: calc(100% - 37.1rem - 4.8rem);
+}
+
+
+.in_vivo_results .data .info .name
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 90%;
+}
+
+
+.in_vivo_results .data .info .desc
+{
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 150%;
+}
+
+
+.in_vivo_results .data .info .desc b
+{
+    font-weight: 500;
+}
+
+
+.in_vivo_results .data .order_btn
+{
+    width: 37.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: 2.4rem;
+    padding: 1.8rem 1.8rem 1.8rem 4.4rem;
+
+    font-size: 2.4rem;
+    line-height: 1;
+
+    letter-spacing: .024rem;
+
+    color: rgba(24, 24, 30, .64);
+    background: rgba(24, 24, 30, .16);
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.in_vivo_results .data .order_btn .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+.in_vivo_results .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    min-height: 45.1rem;
+    padding: 4rem;
+
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.in_vivo_results .item.alignend
+{
+    justify-content: flex-end;
+}
+
+
+.in_vivo_results .item > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.in_vivo_results .item .result
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.in_vivo_results .item .result .val
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 90%;
+}
+
+
+.in_vivo_results .item .result .label
+{
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 150%;
+
+    letter-spacing: .02rem;
+}
+
+
+.in_vivo_results .item .desc
+{
+    width: 44rem;
+    max-width: 100%;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 130%;
+
+    letter-spacing: .02rem;
+}
+
+
+.in_vivo_results .item .thumb
+{
+    position: absolute;
+    top: 7.1rem;
+    right: 3.2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+
+    width: 26.3rem;
+    max-width: 100%;
+}
+
+
+.in_vivo_results .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+}
+
+
+.in_vivo_results .item .thumb figcaption
+{
+    font-size: 1.2rem;
+    font-weight: 350;
+    line-height: 130%;
+
+    letter-spacing: .012rem;
+}
+
+
+.in_vivo_results .item .bg
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.in_vivo_results .item .bg img
+{
+    display: block;
+
+    height: 100%;
+}
+
+
+
+.in_vivo_form
+{
+    padding-block: 5rem;
+}
+
+
+.in_vivo_form .form__header
+{
+    gap: 1.8rem !important;
+
+    margin-bottom: 4.8rem !important;
+}
+
+
+.in_vivo_form .form__title
+{
+    max-width: 100%;
+
+    font-size: 6rem !important;
+}
+
+
+.in_vivo_form .btn-common._size-l
+{
+    height: 10.1rem !important;
+}
+
+
+.in_vivo_form .form__footer
+{
+    gap: 1.8rem !important;
+
+    margin-top: 3.2rem !important;
+}
+
+
+
+.in_vivo_FAQ
+{
+    padding-block: 5rem;
+}
+
+
+.in_vivo_FAQ .container
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.in_vivo_FAQ .col
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 47.5rem;
+    max-width: 100%;
+}
+
+
+.in_vivo_FAQ .content-grid__title
+{
+    font-size: 6rem !important;
+}
+
+
+.in_vivo_FAQ .accordion
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    width: calc(100% - 52.7rem);
+}
+
+
+.in_vivo_FAQ .accordion_item
+{
+    border-radius: 1.8rem;
+    background: #fff;
+}
+
+
+.in_vivo_FAQ .accordion-item-visible
+{
+    padding-block: 1.3rem !important;
+
+    cursor: pointer;
+}
+
+
+.in_vivo_FAQ .accordion-item-title
+{
+    font-size: 2rem !important;
+    font-weight: 400;
+    line-height: 1 !important;
+
+    letter-spacing: .02rem !important;
+}
+
+
+.in_vivo_FAQ .accordion-item-content
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.in_vivo_FAQ .text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 91.4rem;
+    max-width: 100%;
+
+    font-size: 1.8rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .018rem;
+}
+
+
+
+.in_vivo_contacts
+{
+    padding-block: 5rem;
+}
+
+
+.in_vivo_contacts .grid
+{
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.in_vivo_contacts .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    min-height: 28.8rem;
+    padding: 2.6rem 3.1rem 3.9rem;
+
+    border-radius: 2.8rem;
+    background: #fff;
+}
+
+
+.in_vivo_contacts .item.big
+{
+    padding-block: 4.5rem 4.7rem;
+    padding-inline: 5rem;
+
+    background-image: url(../assets/img/contacts-xl.webp);
+
+    grid-column: span 2;
+}
+
+
+.in_vivo_contacts .item .title
+{
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.in_vivo_contacts .item .desc
+{
+    margin-top: auto;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 160%;
+
+    letter-spacing: .02rem;
+}
+
+
+.in_vivo_contacts .item .label
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 160%;
+
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+
+    color: #6b6b79;
+}
+
+
+.in_vivo_contacts .item .val
+{
+    margin-top: auto;
+
+    font-size: 3.6rem;
+    font-weight: 375;
+    line-height: 1;
+
+    letter-spacing: -.036rem;
+}
+
+
+.in_vivo_contacts .item .val a
+{
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+
+.popup._method_info .popup__inner
+{
+    max-width: 109.6rem;
+    padding-block: 4rem;
+    padding-inline: 4rem;
+
+    border-radius: 3.4rem;
+    background: #eef2f5;
+}
+
+
+.popup._method_info .popup__content
+{
+    padding: 0;
+}
+
+
+.popup._method_info .title
+{
+    width: 88.9rem;
+    margin-bottom: 2.4rem;
+
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 90%;
+}
+
+
+.popup._method_info .row
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.popup._method_info .row + .row
+{
+    margin-top: 4rem;
+}
+
+
+.popup._method_info .text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: calc(100% - 50.4rem - 2rem);
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+}
+
+
+.popup._method_info .info
+{
+    width: calc(100% - 50.4rem - 2rem);
+}
+
+
+.popup._method_info .info .name
+{
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+.popup._method_info .info .desc
+{
+    margin-top: 1.6rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+}
+
+
+.popup._method_info .info .tags
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: .4rem;
+
+    margin-top: 1.2rem;
+}
+
+
+.popup._method_info .info .tags > *
+{
+    padding-block: 1.3rem;
+    padding-inline: 2.8rem;
+
+    font-size: 1.6rem;
+    font-weight: 350;
+    line-height: 150%;
+
+    letter-spacing: .016rem;
+
+    color: #fff;
+    border-radius: 10rem;
+    background: var(--black-50, rgba(24, 24, 30, .50));
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.popup._method_info .image
+{
+    width: 50.4rem;
+    max-width: 100%;
+
+    border-radius: 2rem;
+}
+
+
+.popup._method_info .image img
+{
+    display: block;
+
+    width: 100%;
+
+    border-radius: inherit;
+}
+
+
+.popup._method_info .big-link
+{
+    width: fit-content;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: 2.8rem;
+    padding: 1.8rem 1.8rem 1.8rem 4.4rem;
+
+    font-size: 2.4rem;
+    line-height: 1;
+
+    letter-spacing: .024rem;
+
+    color: rgba(24, 24, 30, .64);
+    background: rgba(24, 24, 30, .16);
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.popup._method_info .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+
+@media print,
+(max-width: 1899px)
+{
+    .in_vivo_head .container
+    {
+        gap: 2.4rem;
+
+        padding-block: 14.5rem 5rem;
+    }
+
+
+    .in_vivo_head .title
+    {
+        width: 100rem;
+        margin-top: 4rem;
+
+        font-size: 8rem;
+
+        letter-spacing: -.08rem;
+    }
+
+
+    .in_vivo_head .desc
+    {
+        width: 48rem;
+        margin-bottom: 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .in_vivo_about .data
+    {
+        padding-block: 4rem;
+        padding-inline: 4rem;
+
+        border-radius: 3rem;
+    }
+
+
+    .in_vivo_about .info
+    {
+        gap: 3.2rem;
+
+        width: 48rem;
+    }
+
+
+    .in_vivo_about .info .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .in_vivo_about .info .desc
+    {
+        gap: 2.4rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .in_vivo_about .text
+    {
+        width: 60rem;
+        margin-right: 0;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .in_vivo_steps .head
+    {
+        margin-bottom: 4.8rem;
+    }
+
+
+    .in_vivo_steps .head .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .in_vivo_steps .item
+    {
+        border-radius: 3rem;
+    }
+
+
+    .in_vivo_steps .item .info
+    {
+        padding-block: 3.2rem 2.4rem;
+        padding-inline: 2rem;
+    }
+
+
+    .in_vivo_steps .item .name
+    {
+        font-size: 3rem;
+    }
+
+
+    .in_vivo_steps .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .in_vivo_steps .text
+    {
+        width: 68rem;
+        padding-inline: 2.8rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .in_vivo_allows .title
+    {
+        width: 88rem;
+        margin-bottom: 4rem;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .in_vivo_allows .desc
+    {
+        font-size: 2rem;
+
+        letter-spacing: -.02rem;
+    }
+
+
+    .in_vivo_allows .action
+    {
+        gap: 2.4rem;
+
+        width: 60rem;
+        margin-right: 0;
+    }
+
+
+    .in_vivo_allows .action .exp
+    {
+        font-size: 2rem;
+
+        letter-spacing: -.02rem;
+    }
+
+
+
+    .in_vivo_methods .block_title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .in_vivo_methods .item .data
+    {
+        width: 72rem;
+    }
+
+
+    .in_vivo_methods .item .title
+    {
+        width: 60rem;
+
+        font-size: 3.2rem;
+    }
+
+
+    .in_vivo_methods .item .link
+    {
+        margin-top: -1.2rem;
+
+        font-size: 2rem;
+    }
+
+
+    .in_vivo_methods .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .in_vivo_methods .item .image
+    {
+        width: calc(100% - 72rem);
+    }
+
+
+    .in_vivo_methods .swiper-pagination
+    {
+        gap: 1.6rem;
+
+        width: calc(100% - 72rem);
+        height: 1.6rem;
+        margin-top: 1.6rem;
+    }
+
+
+    .in_vivo_methods .swiper-pagination-bullet
+    {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+
+
+    .in_vivo_results .block_title
+    {
+        width: 100rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .in_vivo_results .block_desc
+    {
+        width: 96rem;
+        margin-top: 2rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: -.018rem;
+    }
+
+
+    .in_vivo_results .swiper-controls
+    {
+        gap: 1.6rem;
+
+        margin-top: 3.2rem;
+    }
+
+
+    .in_vivo_results .grid
+    {
+        grid-template-columns: 1fr 60rem;
+    }
+
+
+    .in_vivo_results .data .info > div:first-child
+    {
+        width: 100%;
+    }
+
+
+    .in_vivo_results .data .info .name
+    {
+        font-size: 5.2rem;
+    }
+
+
+    .in_vivo_results .data .info .desc
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .in_vivo_results .item
+    {
+        min-height: 38rem;
+
+        border-radius: 3rem;
+    }
+
+
+    .in_vivo_results .item .result
+    {
+        gap: .8rem;
+    }
+
+
+    .in_vivo_results .item .result .val
+    {
+        font-size: 5.2rem;
+    }
+
+
+    .in_vivo_results .item .result .label
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .in_vivo_results .item .desc
+    {
+        width: 40rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .in_vivo_results .item .thumb
+    {
+        top: 4.8rem;
+        right: 3rem;
+
+        gap: .8rem;
+
+        width: 24rem;
+    }
+
+
+
+    .in_vivo_form .form__header
+    {
+        gap: 1.2rem !important;
+    }
+
+
+    .in_vivo_form .form__title
+    {
+        font-size: 4.8rem !important;
+    }
+
+
+    .in_vivo_form .btn-common._size-l
+    {
+        height: 9rem !important;
+    }
+
+
+
+    .in_vivo_FAQ .col
+    {
+        width: 40rem;
+    }
+
+
+    .in_vivo_FAQ .content-grid__title
+    {
+        font-size: 5.2rem !important;
+    }
+
+
+    .in_vivo_FAQ .accordion
+    {
+        gap: 1.2rem;
+
+        width: calc(100% - 44rem);
+    }
+
+
+    .in_vivo_FAQ .accordion-item-title
+    {
+        font-size: 1.8rem !important;
+    }
+
+
+    .in_vivo_FAQ .text
+    {
+        width: 100%;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .in_vivo_contacts .item
+    {
+        min-height: 25rem;
+        padding: 2.4rem;
+    }
+
+
+    .in_vivo_contacts .item.big
+    {
+        padding-block: 3.6rem;
+        padding-inline: 4rem;
+    }
+
+
+    .in_vivo_contacts .item .title
+    {
+        font-size: 4.8rem;
+    }
+
+
+    .in_vivo_contacts .item .desc
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .in_vivo_contacts .item .val
+    {
+        font-size: 3rem;
+    }
+
+
+
+    .popup._method_info .popup__inner
+    {
+        max-width: 108rem;
+
+        border-radius: 3.2rem;
+    }
+
+
+    .popup._method_info .title
+    {
+        width: 88rem;
+
+        font-size: 3.2rem;
+    }
+
+
+    .popup._method_info .text
+    {
+        width: calc(100% - 48rem - 2rem);
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .popup._method_info .image
+    {
+        width: 48rem;
+    }
+
+
+    .popup._method_info .info
+    {
+        width: calc(100% - 48rem - 2rem);
+    }
+
+
+    .popup._method_info .info .name
+    {
+        font-size: 2.6rem;
+    }
+
+
+    .popup._method_info .info .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .01.8rem;
+    }
+
+
+    .popup._method_info .info .tags > *
+    {
+        padding-block: 1rem;
+        padding-inline: 2rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .in_vivo_head .container
+    {
+        padding-block: 14rem 4.8rem;
+    }
+
+
+    .in_vivo_head .title
+    {
+        width: 82rem;
+
+        font-size: 7.2rem;
+
+        letter-spacing: -.072rem;
+    }
+
+
+    .in_vivo_head .desc
+    {
+        width: 52rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_head .big-link
+    {
+        width: 48rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .in_vivo_head .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .in_vivo_about
+    {
+        padding-block: 6.8rem 3.4rem;
+    }
+
+
+    .in_vivo_about .data
+    {
+        padding-block: 3.2rem;
+        padding-inline: 3.2rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .in_vivo_about .info
+    {
+        gap: 2.4rem;
+
+        width: 40rem;
+    }
+
+
+    .in_vivo_about .info .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .in_vivo_about .info .desc
+    {
+        gap: 2rem;
+
+        font-size: 1.6rem;
+    }
+
+
+    .in_vivo_about .text
+    {
+        gap: 1.6rem;
+
+        width: 56rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_about .text ul
+    {
+        gap: 1.6rem;
+    }
+
+
+
+    .in_vivo_steps
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .in_vivo_steps .head
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .in_vivo_steps .head .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .in_vivo_steps .item
+    {
+        border-radius: 2.4rem;
+    }
+
+
+    .in_vivo_steps .item .info
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2rem;
+    }
+
+
+    .in_vivo_steps .item .name
+    {
+        font-size: 2.6rem;
+    }
+
+
+    .in_vivo_steps .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_steps .text
+    {
+        width: 52rem;
+        margin-top: 3.2rem;
+        padding-inline: 2.4rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .in_vivo_allows
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .in_vivo_allows .data
+    {
+        padding: 3.2rem;
+    }
+
+
+    .in_vivo_allows .title
+    {
+        width: 80rem;
+        margin-bottom: 3.2rem;
+
+        font-size: 2.8rem;
+
+        letter-spacing: -.028rem;
+    }
+
+
+    .in_vivo_allows .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: -.018rem;
+    }
+
+
+    .in_vivo_allows .action
+    {
+        width: 48rem;
+    }
+
+
+    .in_vivo_allows .action .exp
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: -.018rem;
+    }
+
+
+    .in_vivo_allows .big-link
+    {
+        width: 42rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .in_vivo_allows .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .in_vivo_methods
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .in_vivo_methods .block_title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .in_vivo_methods .item .data
+    {
+        width: 60rem;
+        padding: 3.2rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .in_vivo_methods .item .title
+    {
+        width: 100%;
+
+        font-size: 2.8rem;
+    }
+
+
+    .in_vivo_methods .item .link
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .in_vivo_methods .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_methods .item .order_btn
+    {
+        width: 38rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .in_vivo_methods .item .order_btn .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+    .in_vivo_methods .item .image
+    {
+        width: calc(100% - 60rem);
+    }
+
+
+    .in_vivo_methods .swiper-pagination
+    {
+        gap: 1.4rem;
+
+        width: calc(100% - 60rem);
+        height: 1.4rem;
+    }
+
+
+    .in_vivo_methods .swiper-pagination-bullet
+    {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+
+
+    .in_vivo_methods
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .in_vivo_results .block_title
+    {
+        width: 92rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .in_vivo_results .block_desc
+    {
+        width: 92rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: -.016rem;
+    }
+
+
+    .in_vivo_results .swiper-controls
+    {
+        margin-top: 2.8rem;
+    }
+
+
+    .in_vivo_results .grid
+    {
+        grid-template-columns: 1fr 48rem;
+    }
+
+
+    .in_vivo_results .data .info
+    {
+        padding: 3.2rem;
+    }
+
+
+    .in_vivo_results .data .info .name
+    {
+        font-size: 4.8rem;
+    }
+
+
+    .in_vivo_results .data .info .desc
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .in_vivo_results .data .order_btn
+    {
+        width: 32rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .in_vivo_results .data .order_btn .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+    .in_vivo_results .item
+    {
+        min-height: 32rem;
+        padding: 3.2rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .in_vivo_results .item .result .val
+    {
+        font-size: 4.8rem;
+    }
+
+
+    .in_vivo_results .item .result .label
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_results .item .desc
+    {
+        width: 36rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_results .item .thumb
+    {
+        top: auto;
+        right: 2.4rem;
+        bottom: 3.2rem;
+
+        width: 18rem;
+    }
+
+
+
+    .in_vivo_form
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .in_vivo_form .btn-common._size-l
+    {
+        height: 8rem !important;
+    }
+
+
+
+    .in_vivo_FAQ
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .in_vivo_FAQ .col
+    {
+        width: 37.6rem;
+    }
+
+
+    .in_vivo_FAQ .btn
+    {
+        height: 8rem;
+
+        font-size: 2rem;
+    }
+
+
+    .in_vivo_FAQ .btn .icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+    .in_vivo_FAQ .btn .icon .svgsprite
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    .in_vivo_FAQ .accordion
+    {
+        width: calc(100% - 38rem);
+    }
+
+
+    .in_vivo_FAQ .text
+    {
+        font-size: 1.6rem;
+    }
+
+
+
+    .in_vivo_contacts
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .in_vivo_contacts .item
+    {
+        min-height: 24rem;
+    }
+
+
+    .in_vivo_contacts .item.big
+    {
+        padding-block: 3.2rem;
+    }
+
+
+    .in_vivo_contacts .item .desc
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .in_vivo_contacts .item .val
+    {
+        font-size: 2.8rem;
+    }
+
+
+
+    .popup._method_info .popup__inner
+    {
+        max-width: 100rem;
+        padding-block: 3.2rem;
+        padding-inline: 3.2rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .popup._method_info .title
+    {
+        width: 80rem;
+        margin-bottom: 3.2rem;
+
+        font-size: 3rem;
+    }
+
+
+    .popup._method_info .row + .row
+    {
+        margin-top: 3.2rem;
+    }
+
+
+    .popup._method_info .text
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .popup._method_info .info .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .popup._method_info .info .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .popup._method_info .big-link
+    {
+        height: 9.2rem;
+        margin-top: 3.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .popup._method_info .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1279px)
+{
+    .in_vivo_head .container
+    {
+        padding-block: 12.2rem 4rem;
+    }
+
+
+    .in_vivo_head .title
+    {
+        width: 72rem;
+        margin-top: 3.2rem;
+
+        font-size: 6.4rem;
+
+        letter-spacing: -.064rem;
+    }
+
+
+    .in_vivo_head .big-link
+    {
+        width: 40rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+
+    .in_vivo_about .data
+    {
+        padding-block: 2.8rem;
+        padding-inline: 2.8rem;
+    }
+
+
+    .in_vivo_about .info
+    {
+        width: 36rem;
+    }
+
+
+    .in_vivo_about .info .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .in_vivo_about .text
+    {
+        width: 44rem;
+    }
+
+
+
+    .in_vivo_steps .head
+    {
+        margin-bottom: 3.2rem;
+    }
+
+
+    .in_vivo_steps .head .title
+    {
+        max-width: calc(100% - 16rem);
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .in_vivo_steps .swiper:not(.swiper-initialized) .swiper-slide
+    {
+        width: calc(100% / 3 - 2rem);
+    }
+
+
+    .in_vivo_steps .item .info
+    {
+        padding: 2.4rem;
+    }
+
+
+    .in_vivo_steps .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .in_vivo_steps .text
+    {
+        gap: 1.6rem;
+
+        width: 60rem;
+    }
+
+
+
+    .in_vivo_allows .data
+    {
+        padding: 2.8rem;
+    }
+
+
+    .in_vivo_allows .title
+    {
+        width: 68rem;
+        margin-bottom: 2.8rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: -.024rem;
+    }
+
+
+    .in_vivo_allows .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: -.016rem;
+    }
+
+
+    .in_vivo_allows .action
+    {
+        width: 40rem;
+    }
+
+
+    .in_vivo_allows .action .exp
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: -.016rem;
+    }
+
+
+
+    .in_vivo_methods .block_title
+    {
+        margin-bottom: 3.2rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .in_vivo_methods .item .data
+    {
+        width: 52rem;
+        padding: 2.8rem;
+    }
+
+
+    .in_vivo_methods .item .title
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .in_vivo_methods .item .link
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .in_vivo_methods .item .image
+    {
+        width: calc(100% - 52rem);
+    }
+
+
+    .in_vivo_methods .swiper-pagination
+    {
+        gap: 1.2rem;
+
+        width: calc(100% - 52rem);
+        height: 1.2rem;
+    }
+
+
+    .in_vivo_methods .swiper-pagination-bullet
+    {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+
+
+    .in_vivo_results
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .in_vivo_results .block_title
+    {
+        width: 88rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .in_vivo_results .block_desc
+    {
+        width: 88rem;
+    }
+
+
+    .in_vivo_results .swiper-controls
+    {
+        margin-top: 2.4rem;
+    }
+
+
+    .in_vivo_results .grid
+    {
+        grid-template-columns: 1fr 44rem;
+    }
+
+
+    .in_vivo_results .data .info
+    {
+        padding: 2.8rem;
+    }
+
+
+    .in_vivo_results .data .info .name
+    {
+        font-size: 4.4rem;
+    }
+
+
+    .in_vivo_results .item
+    {
+        padding: 2.8rem;
+    }
+
+
+    .in_vivo_results .item .result .val
+    {
+        font-size: 4.4rem;
+    }
+
+
+    .in_vivo_results .item .thumb
+    {
+        right: 0;
+        bottom: 2.8rem;
+
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+        padding-inline: 2.8rem;
+    }
+
+
+    .in_vivo_results .item .thumb img
+    {
+        width: 12rem;
+    }
+
+
+    .in_vivo_results .item .thumb figcaption
+    {
+        width: calc(100% - 12rem - .8rem);
+    }
+
+
+
+    .in_vivo_FAQ .col
+    {
+        width: 100%;
+    }
+
+
+    .in_vivo_FAQ .accordion
+    {
+        width: 100%;
+        margin-top: 2.4rem;
+    }
+
+
+
+    .in_vivo_contacts .grid
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .in_vivo_contacts .item
+    {
+        min-height: 1.6rem;
+    }
+
+
+    .in_vivo_contacts .item.big
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .in_vivo_contacts .item .desc
+    {
+        margin-top: 1.2rem;
+
+        font-size: 1.5rem;
+    }
+
+
+    .in_vivo_contacts .item .val
+    {
+        margin-top: 1.2rem;
+
+        font-size: 2.5rem;
+    }
+
+
+
+    .popup._method_info .popup__inner
+    {
+        padding-block: 2.8rem;
+        padding-inline: 2.8rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .popup._method_info .title
+    {
+        width: 100%;
+        margin-bottom: 2.8rem;
+
+        font-size: 2.8rem;
+    }
+
+
+    .popup._method_info .row + .row
+    {
+        margin-top: 2.8rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1023px)
+{
+    .in_vivo_head .container
+    {
+        min-height: 80rem;
+    }
+
+
+
+    .in_vivo_about .info,
+    .in_vivo_about .text
+    {
+        width: 100%;
+    }
+
+
+
+    .in_vivo_steps .swiper:not(.swiper-initialized) .swiper-slide
+    {
+        width: calc(100% / 2 - 2rem);
+    }
+
+
+
+    .in_vivo_methods .item .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .in_vivo_methods .item .image
+    {
+        width: 100%;
+        min-height: 36rem;
+    }
+
+
+    .in_vivo_methods .swiper-pagination
+    {
+        width: 100%;
+    }
+
+
+
+    .in_vivo_results .block_title,
+    .in_vivo_results .block_desc
+    {
+        width: 100%;
+    }
+
+
+    .in_vivo_results .grid
+    {
+        grid-template-columns: 1fr;
+    }
+
+
+    .in_vivo_results .item
+    {
+        min-height: 0;
+    }
+
+
+    .in_vivo_results .item .result .label br
+    {
+        display: none;
+    }
+
+
+    .in_vivo_results .item .thumb
+    {
+        position: relative;
+        bottom: 0;
+
+        padding: 0;
+    }
+
+
+    .in_vivo_results .item .thumb img
+    {
+        width: 16rem;
+    }
+
+
+    .in_vivo_results .item .thumb figcaption
+    {
+        width: calc(100% - 16rem - .8rem);
+    }
+
+
+
+    .popup._method_info .text,
+    .popup._method_info .info
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .popup._method_info .image
+    {
+        width: 100%;
+        margin-bottom: 2.4rem;
+    }
+
+
+    .popup._method_info .big-link
+    {
+        width: 100%;
+    }
+}
+
+
+
+@media print,
+(max-width: 767px)
+{
+    .in_vivo_head .container
+    {
+        min-height: 0;
+    }
+
+
+    .in_vivo_head .title
+    {
+        width: 100%;
+
+        font-size: 5.2rem;
+    }
+
+
+    .in_vivo_head .big-link
+    {
+        width: 100%;
+        height: 8rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .in_vivo_head .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .in_vivo_about .data
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .in_vivo_about .info .title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .in_vivo_about .info .desc
+    {
+        gap: 1.6rem;
+
+        font-size: 1.4rem;
+    }
+
+
+    .in_vivo_about .text
+    {
+        margin-top: 2.4rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .in_vivo_about .text ul
+    {
+        gap: 1.2rem;
+    }
+
+
+
+    .in_vivo_steps .head
+    {
+        margin-bottom: 2.8rem;
+    }
+
+
+    .in_vivo_steps .head .title
+    {
+        max-width: calc(100% - 10rem);
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .in_vivo_steps .swiper-controls
+    {
+        align-self: flex-end;
+        gap: 0;
+    }
+
+
+    .in_vivo_steps .item .info
+    {
+        padding: 2rem;
+    }
+
+
+    .in_vivo_steps .text
+    {
+        width: 100%;
+        margin-top: 2.4rem;
+        padding-inline: 2rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .in_vivo_steps .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+    .in_vivo_steps .item .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+
+    .in_vivo_allows .data
+    {
+        padding: 2.4rem;
+    }
+
+
+    .in_vivo_allows .title
+    {
+        width: 100%;
+        margin-bottom: 2.4rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: -.022rem;
+    }
+
+
+    .in_vivo_allows .desc
+    {
+        gap: 1.6rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: -.014rem;
+    }
+
+
+    .in_vivo_allows .action
+    {
+        gap: 2rem;
+
+        width: 100%;
+        margin-top: 2.4rem;
+    }
+
+
+    .in_vivo_allows .action .exp
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: -.014rem;
+    }
+
+
+    .in_vivo_allows .big-link
+    {
+        width: 100%;
+        height: 8rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_allows .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .in_vivo_methods .block_title
+    {
+        margin-bottom: 2.8rem;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .in_vivo_methods .item .data
+    {
+        width: 100%;
+        padding: 2.4rem;
+    }
+
+
+    .in_vivo_methods .item .order_btn
+    {
+        width: 100%;
+        height: 8rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_methods .item .order_btn .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .in_vivo_results .block_title
+    {
+        width: 100%;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .in_vivo_results .swiper
+    {
+        margin-top: 3.2rem;
+    }
+
+
+    .in_vivo_results .data .info
+    {
+        padding: 2.4rem;
+    }
+
+
+    .in_vivo_results .data .info .name
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .in_vivo_results .data .info > div:first-child
+    {
+        gap: 2rem;
+    }
+
+
+    .in_vivo_results .data .order_btn
+    {
+        width: 100%;
+        height: 8rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .in_vivo_results .data .order_btn .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .in_vivo_results .item
+    {
+        padding: 2.4rem;
+    }
+
+
+    .in_vivo_results .item .result .val
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .in_vivo_results .item .result .label
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .in_vivo_results .item .desc
+    {
+        width: 100%;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .in_vivo_results .item .thumb img
+    {
+        width: 12rem;
+    }
+
+
+    .in_vivo_results .item .thumb figcaption
+    {
+        width: calc(100% - 12rem - .8rem);
+    }
+
+
+
+    .in_vivo_form .form__header
+    {
+        margin-bottom: 3.6rem !important;
+    }
+
+
+    .in_vivo_form .form__title
+    {
+        max-width: 100% !important;
+
+        font-size: 3.6rem !important;
+    }
+
+
+
+    .in_vivo_FAQ .content-grid__title
+    {
+        font-size: 3.6rem !important;
+    }
+
+
+    .in_vivo_FAQ .text
+    {
+        font-size: 1.4rem;
+    }
+
+
+
+    .in_vivo_contacts
+    {
+        padding-block: 4rem;
+    }
+
+
+    .in_vivo_contacts .grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .in_vivo_contacts .item.big
+    {
+        grid-column: auto;
+    }
+
+
+    .in_vivo_contacts .item .title
+    {
+        font-size: 3.6rem;
+    }
+
+
+    .in_vivo_contacts .item .desc
+    {
+        font-size: 1.4rem;
+    }
+
+
+    .in_vivo_contacts .item .val
+    {
+        font-size: 2.2rem;
+    }
+
+
+
+    .popup._method_info .popup__inner
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .popup._method_info .title
+    {
+        margin-bottom: 2.4rem;
+
+        font-size: 2.4rem;
+    }
+
+
+    .popup._method_info .text
+    {
+        gap: 1.6rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .popup._method_info .image
+    {
+        margin-bottom: 2rem;
+    }
+
+
+    .popup._method_info .info .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .popup._method_info .info .tags > *
+    {
+        padding-block: .8rem;
+        padding-inline: 1.6rem;
+
+        font-size: 1.2rem;
+
+        letter-spacing: .012rem;
+    }
+
+
+    .popup._method_info .big-link
+    {
+        height: 8rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .popup._method_info .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+}
