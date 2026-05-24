@@ -48,12 +48,21 @@ document.addEventListener('DOMContentLoaded', function() {
 	})
 
 
-	// Why we
+	// Parallax
 	const items = [
+		{ el: document.querySelector('.directions .blur1'), speed: -0.2 },
+		{ el: document.querySelector('.directions .blur2'), speed: 0.2 },
+		{ el: document.querySelector('.clients .blur1'), speed: 0.3 },
+		{ el: document.querySelector('.why_we .blur1'), speed: -0.2 },
+		{ el: document.querySelector('.why_we .blur2'), speed: 0.2 },
 		{ el: document.querySelector('.why_we .item1'), speed: -0.2 },
 		{ el: document.querySelector('.why_we .item2'), speed:  0.13  },
 		{ el: document.querySelector('.why_we .item3'), speed: -0.25  },
 		{ el: document.querySelector('.why_we .image_small'), speed: -0.1  },
+		{ el: document.querySelector('.how_we_work .blur1'), speed: -0.2 },
+		{ el: document.querySelector('.how_we_work .blur2'), speed: 0.3 },
+		{ el: document.querySelector('.action_form .blur1'), speed: -0.3 },
+		{ el: document.querySelector('.FAQ .blur1'), speed: 0.15 },
 	]
 
 	function onScroll() {
