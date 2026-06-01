@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="ru" data-zoom="100">
+    <head>
+        <script>
+            const currentTheme = localStorage.getItem('altColorValue')
+            if (currentTheme) {
+                document.documentElement.setAttribute('data-theme', currentTheme)
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <title>Каталог (пептиды) :: Antiage</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+        <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#ffffff">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-config" content="assets/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="Description">
+        <meta property="og:url" content="https://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Каталог (пептиды)">
+        <meta property="twitter:title" content="Каталог (пептиды)">
+        <meta property="og:description" content="description">
+        <meta property="twitter:description" content="description">
+        <meta property="og:image" content="assets/share.png">
+        <meta name="robots" content="noindex, nofollow">
+        <script>
+            /* изменяемые настройки скриптов, указаны значения по умолчанию */
+            var appConfig = {
+                templateUrl: '',
+            }
+        </script>
+        <script src="./js/swiper-bundle.min.js"></script>
+        <script async type="module" crossorigin src="./js/app.js"></script>
+        <script src="./js/pronoun.js"></script>
+        <link rel="stylesheet" crossorigin href="./css/rooftopmono.css">
+        <link rel="stylesheet" crossorigin href="./css/common.css">
+        <link rel="stylesheet" crossorigin href="./css/catalog.css">
+        <link rel="stylesheet" crossorigin href="./css/pronoun.css">
+    </head>
+    <body class="body header-abs">
+        <main class="content">
+            <div class="header-wrapper">
+                <header class="header">
+                    <div class="header__inner">
+                        <div class="header__logos">
+                            <svg class="svgsprite _logo-ros header__ros" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                            </svg><a class="header__pbak" href="index.html" title="На главную">
+                                <svg class="svgsprite _logo-pbak" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#logo-pbak" tabindex="-1"></use>
+                                </svg><span class="header__pbak__text">Проектное Бюро Антивозрастной Косметики</span></a>
+                        </div>
+                        <nav class="header__content">
+                            <div class="header__content__header">
+                                <ul class="header__menu _small">
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">О компании</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Новости</a></li>
+                                    <li class="header__menu__item"><a class="header__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                                <div class="header__content__header__inner"><a class="header__search" href="#"> <span>Поиск</span>
+                                        <svg class="svgsprite _search" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                        </svg></a>
+                                    <ul class="header__lang">
+                                        <li class="header__lang__item"><a class="header__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                        <li class="header__lang__item"><a class="header__lang__link" href="#">EN</a></li>
+                                    </ul><a class="header__tel" href="#">
+                                        <svg class="svgsprite _tel" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#tel" tabindex="-1"></use>
+                                        </svg><span>+7 (343) 305-77-05</span></a>
+                                </div>
+                                <button class="btn-common _size-s _in-light header__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                            <ul class="header__menu">
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Косметическое сырье</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Пигменты</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Контрактное производство</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Товары со склада</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Научные исследования</a></li>
+                                <li class="header__menu__item"><a class="header__menu__link" href="#">Корпоративные подарки</a></li>
+                            </ul>
+                        </nav>
+                        <button class="header__burger js-menu-toggler" type="button" title="Открыть меню">
+                            <svg class="svgsprite _menu header__burger__open" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#menu" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite _close header__burger__close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </header>
+            </div>
+            <div class="menu">
+                <div class="menu__overlay js-menu-toggler"></div>
+                <div class="menu__inner">
+                    <div class="menu__scroll-wrapper">
+                        <div class="menu__scroll">
+                            <form class="menu__search js-form" data-native-action>
+                                <div class="menu__search__input js-input">
+                                    <input class="js-input__input" placeholder="Поиск" name="query" data-min-length="3">
+                                    <button class="menu__search__input__clear js-input__clear _hidden" type="submit" title="Очистить">
+                                        <svg class="svgsprite _arrow-long-right" tabindex="-1" role="img" aria-hidden="true">
+                                            <use xlink:href="assets/img/svgsprite.svg#arrow-long-right" tabindex="-1"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <svg class="svgsprite _search menu__search__icon" tabindex="-1" role="img" aria-hidden="aria-hidden">
+                                    <use xlink:href="assets/img/svgsprite.svg#search" tabindex="-1"></use>
+                                </svg>
+                            </form>
+                            <nav>
+                                <ul class="menu__menu">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Косметическое сырье</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Пигменты</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Контрактное производство</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Товары со склада</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Научные исследования</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Корпоративные подарки</a></li>
+                                </ul>
+                                <ul class="menu__menu _small">
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">О компании</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Новости</a></li>
+                                    <li class="menu__menu__item"><a class="menu__menu__link" href="#">Библиотека</a></li>
+                                </ul>
+                            </nav>
+                            <div class="menu__footer"><a class="menu__tel" href="#">+7 (343) 305-77-05</a>
+                                <ul class="menu__lang">
+                                    <li class="menu__lang__item"><a class="menu__lang__link _active" href="#" tabindex="-1">RU</a></li>
+                                    <li class="menu__lang__item"><a class="menu__lang__link" href="#">EN</a></li>
+                                </ul>
+                                <button class="btn-common _size-xm _wide-sm menu__button" data-modal="popup_feedback"><span>Получить консультацию</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="pronoun_head">
+                <div class="container">
+                    <div class="breadcrumbs-common-wrapper">
+                        <div class="breadcrumbs-common">
+                            <a class="btn-common _in-light _size-s breadcrumbs-common__button" href="#">
+                                <svg class="svgsprite _arrow-left" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#arrow-left" tabindex="-1"></use>
+                                </svg><span>Назад</span>
+                            </a>
+
+                            <div class="breadcrumbs-common__inner">
+                                <div class="breadcrumbs-common__item">
+                                    <span class="breadcrumbs-common__link" aria-hidden="true">Косметика со склада</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 class="title">Место.Имени.Е — готовая косметика малыми партиями для быстрого старта</h1>
+
+                    <div class="desc">Готовая косметика под СТМ для самостоятельного брендирования с идеями для позиционирования. Изготовлена в Южной Корее и на собственном производстве в Екатеринбурге</div>
+
+                    <div class="items">
+                        <div>
+                            <picture class="icon">
+                                <img src="assets/img/pronoun/ic_pronoun_head_items1.svg" alt="" loading="lazy">
+                            </picture>
+
+                            <span>Инновационные<br> ингредиенты из Кореи</span>
+                        </div>
+
+                        <div>
+                            <picture class="icon">
+                                <img src="assets/img/pronoun/ic_pronoun_head_items2.svg" alt="" loading="lazy">
+                            </picture>
+
+                            <span>Активы с научно<br>-доказанным действием</span>
+                        </div>
+
+                        <div>
+                            <picture class="icon">
+                                <img src="assets/img/pronoun/ic_pronoun_head_items3.svg" alt="" loading="lazy">
+                            </picture>
+
+                            <span>Трендовые форматы<br> и текстуры</span>
+                        </div>
+
+                        <div>
+                            <picture class="icon">
+                                <img src="assets/img/pronoun/ic_pronoun_head_items4.svg" alt="" loading="lazy">
+                            </picture>
+
+                            <span>Минимальные партии<br> от 75 штук</span>
+                        </div>
+
+                        <div>
+                            <picture class="icon">
+                                <img src="assets/img/pronoun/ic_pronoun_head_items5.svg" alt="" loading="lazy">
+                            </picture>
+
+                            <span>Своё производство<br> в России</span>
+                        </div>
+                    </div>
+
+                   <a href="/" class="big-link _in-light">
+                        <span>Подобрать продукцию</span>
+
+                        <span class="big-link__icon" aria-hidden="true">
+                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+
+                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+
+                <picture class="bg">
+                    <img src="assets/img/pronoun/bg_pronoun_head.jpg" alt="" fetchpriority="high">
+                </picture>
+            </section>
+
+
+            <section class="pronoun_catalog">
+                <div class="container">
+                    <div class="head">
+                        <h2 class="title">Трендовая косметика под СТМ: каталог решений</h2>
+
+                        <div class="desc">Современные продукты без временных затрат на производство: просто впишите свой бренд!</div>
+                    </div>
+
+                    <div class="grid_row">
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Гидрогелевые патчи для глаз</div>
+
+                                <div class="price">780 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 75 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb1.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>«Отдохнувшие глаза» за 30 минут</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Одноразовые гидрогелевые патчи для кожи вокруг глаз</div>
+
+                                <div class="price">110 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 300 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb2.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>Визажистам и путешественникам</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Микроигольчатые патчи</div>
+
+                                <div class="price">335 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 270 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb3.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>Мезотерапия на дому</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Гидрогелевая маска для лица</div>
+
+                                <div class="price">195 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 320 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb4.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>SOS-помощь при обезвоживании</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Биоцеллюлозная маска для лица</div>
+
+                                <div class="price">180 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 320 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb5.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>Эффект «второй кожи»</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Лимфодренажная тканевая маска</div>
+
+                                <div class="price">110 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 300 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb6.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>Утренняя SOS-помощь от отёков</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Успокаивающая тканевая маска</div>
+
+                                <div class="price">110 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 300 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb7.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>Эффект «Анти-розацеа»</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Биолипидный крем для рук и сухих участков тела</div>
+
+                                <div class="price">700 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 100 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb8.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Биолипидный крем для лица</div>
+
+                                <div class="price">1200 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 50 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb9.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>Липосомированный комплекс с пептидом</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <div class="number"></div>
+
+                                <div class="name">Энзимная пудра</div>
+
+                                <div class="price">1200 ₽/шт <span>с НДС</span></div>
+
+                                <div class="min">От 50 штук</div>
+                            </div>
+
+                            <picture class="thumb">
+                                <img src="assets/img/pronoun/pronoun_catalog_thumb10.jpg" alt="" loading="lazy" class="cover">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="pronoun_small_wholesale">
+                <div class="container">
+                    <div class="swiper">
+                        <div class="head">
+                            <h2 class="title">Косметика мелким оптом для вашего бизнеса</h2>
+
+                            <div class="swiper-controls">
+                                <div class="swiper-button-prev">
+                                    <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+
+                                <div class="swiper-button-next">
+                                    <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="name">Для косметических брендов</div>
+
+                                    <div class="desc">Патчи, маски и кремы «Место.Имени.Е» помогут быстро выпустить новинку, лимитированную линейку и даже организовать коллаборацию. Используйте готовую косметику малыми партиями со склада, чтобы протестировать различные каналы продаж с минимальными затратами.</div>
+
+                                    <picture class="thumb">
+                                        <img src="assets/img/pronoun/pronoun_small_wholesale_thumb1.jpg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <a href="/" class="big-link _in-light">
+                                        <span class="big-link__icon" aria-hidden="true">
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="name">Для СТМ</div>
+
+                                    <div class="desc">Оформите быструю поставку малыми и крупными партиями со склада в Екатеринбурге. <br> Эстетичная упаковка, готовая к нанесению этикетки, позволит легко брендировать продукты. Высокотехнологичная косметика, соответствующая трендам, оправдает ожидания конечного покупателя и завоюет его лояльность к вашей компании.</div>
+
+                                    <picture class="thumb">
+                                        <img src="assets/img/pronoun/pronoun_small_wholesale_thumb2.jpg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <a href="/" class="big-link _in-light">
+                                        <span class="big-link__icon" aria-hidden="true">
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="name">Для корпоративных подарков коллегам и партнёрам</div>
+
+                                    <div class="desc">Закажите готовую косметику «Место.Имени.Е» малыми партиями, наклейте свою фирменную этикетку. Сформируйте наборы красоты и подарите коллегам или партнёрам на профессиональные праздники, Новый год, День рождения, 8 марта, 23 февраля или в честь другой важной даты.</div>
+
+                                    <picture class="thumb">
+                                        <img src="assets/img/pronoun/pronoun_small_wholesale_thumb3.jpg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <a href="/" class="big-link _in-light">
+                                        <span class="big-link__icon" aria-hidden="true">
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="name">Для косметологических клиник и салонов красоты</div>
+
+                                    <div class="desc">Увеличивайте доход за счёт выпуска собственной линии косметики небольшими партиями.<br> Добавьте фирменный логотип на готовые продукты «Место.Имени.Е». Предлагайте их в качестве дополнительного косметического ухода во время / после / между процедурами, чтобы продлить результат от сеансов красоты.</div>
+
+                                    <picture class="thumb">
+                                        <img src="assets/img/pronoun/pronoun_small_wholesale_thumb4.jpg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <a href="/" class="big-link _in-light">
+                                        <span class="big-link__icon" aria-hidden="true">
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="name">Для ярких рекламных кампаний, которые двигают продажи</div>
+
+                                    <div class="desc">Используйте готовую косметику от ПБАК, как маркетинговый инструмент привлечения внимания на промоакциях, выставках и имиджевых мероприятиях.</div>
+
+                                    <picture class="thumb">
+                                        <img src="assets/img/pronoun/pronoun_small_wholesale_thumb5.jpg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <a href="/" class="big-link _in-light">
+                                        <span class="big-link__icon" aria-hidden="true">
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+
+                                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="pronoun_with_us">
+                <div class="container">
+                    <div class="swiper">
+                        <div class="head">
+                            <h2 class="title">Воплощайте идеи с нами</h2>
+
+                            <div class="swiper-controls">
+                                <div class="swiper-button-prev">
+                                    <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+
+                                <div class="swiper-button-next">
+                                    <svg class="svgsprite _arrow-slider" tabindex="-1" role="img" aria-hidden="true">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-slider" tabindex="-1"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <picture class="icon">
+                                        <img src="assets/img/pronoun/ic_pronoun_with1.svg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <div class="name">Минимальная партия<br> от 75 штук</div>
+
+                                    <div class="desc">Подходит для тестирования спроса, пилотных запусков или лимитированных серий</div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <picture class="icon">
+                                        <img src="assets/img/pronoun/ic_pronoun_with2.svg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <div class="name">Собственная лаборатория</div>
+
+                                    <div class="desc">Команда технологов создаёт работающие составы, у которых нет аналогов на косметическом рынке</div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <picture class="icon">
+                                        <img src="assets/img/pronoun/ic_pronoun_with3.svg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <div class="name">Сертификация и маркировка «Честным знаком»</div>
+
+                                    <div class="desc">Готовая косметика имеет пакет необходимых документов</div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <picture class="icon">
+                                        <img src="assets/img/pronoun/ic_pronoun_with4.svg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <div class="name">Готовая косметика имеет пакет необходимых документов</div>
+
+                                    <div class="desc">Мы отбираем только то, что доказало эффективность в исследованиях и продажах</div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <picture class="icon">
+                                        <img src="assets/img/pronoun/ic_pronoun_with5.svg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <div class="name">Премиальное качество</div>
+
+                                    <div class="desc">Создаём бестселлеры с мощным составом — формулы, где каждый ингредиент работает на результат</div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <picture class="icon">
+                                        <img src="assets/img/pronoun/ic_pronoun_with6.svg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <div class="name">Маркетинговое сопровождение</div>
+
+                                    <div class="desc">Анализируем тренды, участвуем в международных выставках и помогаем занять свою нишу</div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <picture class="icon">
+                                        <img src="assets/img/pronoun/ic_pronoun_with7.svg" alt="" loading="lazy" class="cover">
+                                    </picture>
+
+                                    <div class="name">30 лет научного опыта</div>
+
+                                    <div class="desc">Наши эксперты работают в области разработки косметических продуктов и биологии кожи</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="/" class="big-link _in-light">
+                        <span>Получить консультацию</span>
+
+                        <span class="big-link__icon" aria-hidden="true">
+                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+
+                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+
+            <section class="pronoun_large_wholesale">
+                <div class="container">
+                    <div class="data">
+                        <div class="title">Нужны партии крупным оптом?</div>
+
+                        <div class="btns">
+                            <a href="/" class="big-link _in-light">
+                                <span>Контрактное производство в Корее и Китае</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+
+                            <a href="/" class="big-link _in-light">
+                                <span>Контрактное производство в России</span>
+
+                                <span class="big-link__icon" aria-hidden="true">
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+
+                                    <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                        <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <picture class="bg">
+                            <img src="assets/img/pronoun/pronoun_large_wholesale_blur.svg" alt="" loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="pronoun_form">
+                <div class="container" id="form">
+                    <form class="form js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <div class="form__inner">
+                            <div class="form__header">
+                                <h3 class="form__title">Хотите выпустить косметический продукт под своим брендом?</h3>
+                                <p class="form__text">Менеджер свяжется с вами после оформления заявки в течение одного рабочего дня</p>
+                            </div>
+                            <div class="form__fieldset">
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="form_name">Как вас зовут?</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_name" placeholder="ФИО" data-error-message="Необходимо заполнить поле" type="text" name="name" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_name_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="form_email">Ваш Email</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_email_error" aria-hidden="true">Укажите корректный email</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="form_tel">Ваш телефон</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="form_comment">напишите свой вопрос</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="form_comment" placeholder="Если нужно что‑то уточнить" type="text" name="comment" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="form_comment_error" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <button class="btn-common _size-l" type="submit"><span>Отправить заявку</span>
+                                </button>
+                                <p class="form__agree">Отправляя заявку, вы соглашаетесь <a href="/" target="_blank">на обработку персональных данных</a> согласно Федеральному закону № 152 «О персональных данных»</p>
+                            </div>
+                        </div>
+                        <div class="form-message js-form-common-preloader" role="alert" aria-live="assertive">
+                            <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                                <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                    <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                                </svg>
+                            </button>
+                            <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="form-message__content">
+                                <div class="form-message__header">
+                                    <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                    <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                    <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                    <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                    <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+            <section class="pronoun_contacts">
+                <div class="container">
+                    <div class="grid">
+                        <div class="item big">
+                            <div class="title">Не нашли нужного<br> ответа?</div>
+
+                            <div class="desc">Свяжитесь с нами любым удобным способом — расскажем, с чего начать</div>
+                        </div>
+
+                        <div class="item">
+                            <div class="label">Звоните по телефону</div>
+
+                            <div class="val">
+                                <div><a href="tel:+7 (343) 305-77-05">+7 (343) 305-77-05</a></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="label">Пишите на почту</div>
+
+                            <div class="val">
+                                <div><a href="mailto:site@ros-chimia.ru">site@ros-chimia.ru</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <svg class="svgsprite _logo-ros footer__logo__ros" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#logo-ros" tabindex="-1"></use>
+                    </svg><a class="footer__logo__link" href="index.html"><img class="footer__logo__pbak" src="assets/img/logo-pbak-footer.svg" loading="lazy" alt="ПБАК"></a>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__menu js-common-collapse">
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметическое сырье</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_0" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_0">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные масла</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Ферментированные активы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пептиды</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Растительные экстракты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Компоненты животного происхождения</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Гранулы</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Консерванты</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">UV фильтры</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Активы направленного действия</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Научные исследования</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Косметические пигменты</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_2" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_2">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Перламутр</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Глиттер</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Контрактное производство</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Товары со склада</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_4" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_4">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Готовая косметика</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Сырье</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Пигменты</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Корпоративные подарки</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Библиотека</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_6" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_6">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Лекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Публикации</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Видеолекции</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Исследования</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Бюллетени</a></li>
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Антистарость</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">О компании</a>
+                        </li>
+                        <li class="footer__menu__li js-common-collapse__item"><a class="footer__menu__link" href="#">Новости</a>
+                            <button class="footer__menu__toggler js-common-collapse__item__toggle-btn _collapsed" type="button" aria-controls="footer_collapse_8" aria-expanded="false"><span></span><span></span></button>
+                            <ul class="footer__menu _height-null js-common-collapse__item__toggle-container" id="footer_collapse_8">
+                                <li class="footer__menu__li"><a class="footer__menu__link" href="#">Тренды</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__address">
+                            <p class="footer__contacts__address__title">Екатеринбург</p>
+                            <p class="footer__contacts__address__text"> Улица Первомайская, 15, офис 705, бизнес–центр «Вознесенский» </p>
+                        </div>
+                        <div class="footer__contacts__list"><a class="footer__contacts__link" href="#">+7 (343) 305-77-05</a><a class="footer__contacts__link" href="#">site@ros-chimia.ru</a></div>
+                    </div>
+                    <div class="footer__contacts__block">
+                        <div class="footer__contacts__social"><a class="footer__contacts__social__link" href="#" title="YouTube">
+                                <svg class="svgsprite _youtube" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#youtube" tabindex="-1"></use>
+                                </svg></a><a class="footer__contacts__social__link" href="#" title="Telegram">
+                                <svg class="svgsprite _tg" tabindex="-1" role="img">
+                                    <use xlink:href="assets/img/svgsprite.svg#tg" tabindex="-1"></use>
+                                </svg></a></div>
+                        <button class="btn-common _size-xm _wide-sm" data-modal="popup_feedback"><span>Получить консультацию</span>
+                        </button>
+                    </div>
+                </div>
+                <ul class="footer__lab">
+                    <li><a class="footer__lab__link" href="#">Книги А. Ю. Прокопова</a></li>
+                    <li><a class="footer__lab__link" href="#" target="blank">Лаборатория Эстетики цвета <svg class="svgsprite _arrow-link" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-link" tabindex="-1"></use>
+                            </svg></a></li>
+                </ul>
+                <div class="footer__copyright"> <a class="footer__copyright__link" href="#">Политики и юридические документы</a><span>© 2024 Проектное бюро антивозрастной косметики</span></div>
+            </div>
+        </footer>
+
+
+        <div class="popup js-popup _order case_info" role="dialog" aria-labelledby="popup_title_case1" aria-modal="true" aria-hidden="true" id="popup_case1">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+
+                <div class="popup__content">
+                    <picture class="image">
+                        <img src="assets/img/production/case_img1.jpg" alt="" loading="lazy">
+                    </picture>
+
+                    <div class="title">Премиум-крем для рук в стиле Tamburins</div>
+
+                    <div class="text">
+                        <p>Совместный проект с нашим партнёром с открытой рецептурой</p>
+
+                        <h3>Чего хотел клиент</h3>
+
+                        <p>Создать премиальный уход для рук с эффектом спа-процедуры — трендовый продукт, которого ещё нет в России</p>
+
+                        <h3>Что сделали мы</h3>
+
+                        <p>Разработали уникальный крем на основе ферментированных масел Biolipid FE и Biolipid SHEA CB и активом BSASM (N)™, в котором 7 растительных экстрактов. Адаптировали формулу для лёгкого и быстрого впитывания</p>
+
+                        <h3>Что получилось в итоге</h3>
+
+                        <p>Фокус-группа дала высокую оценку при тестировании продукта. Крем стал популярным решением для корпоративных бьюти-подарков с качественной формулой. Направленность действия:</p>
+
+                        <ul>
+                            <li>Восстановление микробиома кожи за счёт биолипидов</li>
+                            <li>Удержание влаги в роговом слое кожи</li>
+                            <li>Быстрое заживление за счёт актива BSASM™</li>
+                        </ul>
+
+                        <h3>Уникальные активы и свойства продукта</h3>
+
+                        <ul>
+                            <li>Биолипиды схожи на 98% с липидами кожи и обеспечивают глубокое проникновение активов. Также биолипиды содержат много метаболитов, что также помогает восстанавливать микробиом кожи</li>
+
+                            <li><a href="/">BSASM (N)™</a> для улучшения барьерной функции кожи, восстановления и заживления</li>
+
+                            <li>Муссовая текстура, которая легко поглощается кожей без ощущения липкости</li>
+                        </ul>
+                    </div>
+
+                    <button class="btn" data-modal="popup_feedback">
+                        <span>Создать свой крем</span>
+
+                        <span class="icon" aria-hidden>
+                            <svg class="svgsprite" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popup js-popup _order case_info" role="dialog" aria-labelledby="popup_title_case2" aria-modal="true" aria-hidden="true" id="popup_case2">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+
+                <div class="popup__content">
+                    <picture class="image">
+                        <img src="assets/img/production/case_img2.jpg" alt="" loading="lazy">
+                    </picture>
+
+                    <div class="title">Крем для лица с заботой о микробиоме</div>
+
+                    <div class="text">
+                        <h3>Чего хотел клиент</h3>
+
+                        <p>Разработать универсальный крем для лица, шеи, декольте и зоны вокруг глаз, подходящий для дневного и ночного ухода. Подобрать формулу сохранения молодости кожи и SOS-увлажнения, с возможностью вынесения клейма «Microbiome-friendly» <span class="tooltip"><span class="icon">?</span> <span class="hover">Такую отметку получает косметика, содержащая компоненты, которые поддерживают и восстанавливают баланс полезных микроорганизмов на коже и не нарушают естественную барьерную функцию</span></span></p>
+
+                        <h3>Что сделали мы</h3>
+
+                        <p>Создали лёгкий биолипидный крем, в основе состава которого Biolipid FE, U-Active® HAP, обогатили формулу экстрактом камелии японской и Apep CTP™-10 (Copper Tripeptide-1)</p>
+
+                        <h3>Что получилось в итоге</h3>
+
+                        <p>Крем получил высокую оценку врачей дерматологов-косметологов — его рекомендуют для домашнего ухода и продления эффекта после процедур. Разработанная готовая формула подойдёт для быстрого запуска собственного бренда — дерматологам-косметологам, салонам красоты и клиникам эстетической медицины</p>
+
+                        <h3>Уникальные активы и свойства продукта</h3>
+
+                        <ul>
+                            <li><a href="/">Biolipid FE</a> с лёгкой нелипкой текстурой — идеально подходит для кожи лица, выполняет транспортную функцию для остальных активов в составе</li>
+
+                            <li><a href="/">Apep CTP™-10</a> (Copper Tripeptide-1) стимулирует выработку собственного коллагена и гиалуроновой кислоты</li>
+
+                            <li><a href="/">Dongbaelk (Tsubaki) Oil™</a> — масло японской камелии — восполняет липидный состав рогового слоя</li>
+
+                            <li>U-Active® HAP удаляет повреждённый коллаген из матрикса кожи, подавляет образование рубцов</li>
+                        </ul>
+                    </div>
+
+                    <button class="btn" data-modal="popup_feedback">
+                        <span>Создать свой крем</span>
+
+                        <span class="icon" aria-hidden>
+                            <svg class="svgsprite" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                            <svg class="svgsprite" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popup js-popup _order" role="dialog" aria-labelledby="popup_title_feedback" aria-modal="true" aria-hidden="true" id="popup_feedback">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="order-form js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <h3 class="order-form__title">Обратная связь</h3>
+                        <div class="order-form__fieldset">
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_name">Как вас зовут?</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_name" placeholder="ФИО" data-error-message="Необходимо заполнить поле" type="text" name="name" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_name_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                            </div>
+                            <div class="input-common  js-inputmask js-input">
+                                <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                            </div>
+                            <div class="input-common  js-input">
+                                <label class="input-common__label js-input__label" for="feedback_message">Ваш вопрос</label>
+                                <div class="input-common__inner">
+                                    <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Сообщение" type="text" name="city" />
+                                </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="order-form__footer">
+                            <button class="btn-common _size-l _wide-sm" type="submit"><span>Отправить</span>
+                            </button>
+                            <p class="order-form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup js-popup _publication" role="dialog" aria-labelledby="popup_title_publication" aria-modal="true" aria-hidden="true" id="popup_publication">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+                <div class="popup__content">
+                    <form class="form _in-modal js-form" action="assets/ajax/success.json" novalidate autocomplete="off">
+                        <input class="js-publication-id-input js-hidden-input" name="publication_id" type="hidden">
+                        <div class="form__inner">
+                            <div class="form__header">
+                                <h3 class="form__title">Заказать статью</h3>
+                                <p class="form__text">Укажите, пожалуйста, компанию, которую Вы представляете и род деятельности</p>
+                            </div>
+                            <div class="form__fieldset">
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="publication_company">Компания</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="publication_company" placeholder="Название компании" data-error-message="Необходимо заполнить поле" type="text" name="company" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="publication_company_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_email">Ваш Email</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_email" placeholder="example@antiage.ru" data-error-message="Укажите корректный email" type="text" name="email2" data-inputmask-alias="email" data-inputmask-inputmode="email" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_email_error" aria-hidden="true">Укажите корректный email</span>
+                                </div>
+                                <div class="input-common  js-inputmask js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_tel">Ваш телефон</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_tel" placeholder="+7 (999) 123-45-67" data-error-message="Необходимо заполнить поле" type="text" name="tel" data-inputmask-alias="tel" data-inputmask-inputmode="tel" required="required" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_tel_error" aria-hidden="true">Необходимо заполнить поле</span>
+                                </div>
+                                <div class="input-common  js-input">
+                                    <label class="input-common__label js-input__label" for="feedback_message">Сообщение</label>
+                                    <div class="input-common__inner">
+                                        <input class="input-common__input  js-input__input" id="feedback_message" placeholder="Комментарий (необязательно)" type="text" name="message" />
+                                    </div><span class="input-common__message _hidden js-input__error-message" id="feedback_message_error" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <button class="btn-common _size-l" type="submit"><span>Отправить заявку</span>
+                                </button>
+                                <p class="form__agree">Отправляя заявку, вы соглашаетесь на обработку персональных данных в соответствии с ФЗ</p>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-message js-form-common-preloader _in-modal" role="alert" aria-live="assertive">
+                        <button class="form-message__close js-form-common-preloader__close" type="button" title="Закрыть уведомление">
+                            <svg class="svgsprite _close" tabindex="-1" role="img" aria-hidden="true">
+                                <use xlink:href="assets/img/svgsprite.svg#close" tabindex="-1"></use>
+                            </svg>
+                        </button>
+                        <div class="form-message__icon _loading"><span class="screen-reader-only">Идет загрузка</span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="form-message__content">
+                            <div class="form-message__header">
+                                <h6 class="form-message__title _success js-form-common-preloader__success-message__title">Спасибо!</h6>
+                                <h6 class="form-message__title _error js-form-common-preloader__error-message__title" title="Произошла ошибка">Произошла ошибка</h6>
+                                <p class="form-message__text _success js-form-common-preloader__success-message__text">Мы свяжемся с вами в ближайшее время</p>
+                                <p class="form-message__text _error js-form-common-preloader__error-message__text">Попробуйте повторить действие чуть позже</p>
+                                <button class="btn-common _size-l _success js-form-common-preloader__close js-popup__close" type="button"><span>Закрыть</span></button>
+                                <button class="btn-common _size-l _primary _error js-form-common-preloader__close" type="button"><span>Попробовать снова</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popup js-popup _book_annotation" role="dialog" aria-labelledby="popup_title_annotation" aria-modal="true" aria-hidden="true" id="popup_annotation">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+
+                <div class="popup__content">
+                    <div class="title">Аннотация к книге</div>
+
+                    <div class="text">
+                        <p>Книги Алексея Прокопова «Кожа и окружающая среда: Молекулярные механизмы взаимодействия» — настольные издания для тех, кто связан с кожей, бьюти-миром, косметикой и косметологией. Книги позволяют комплексно взглянуть на биологию кожи и почерпнуть теоретические и практические знания, способные существенно повлиять на развитие современной косметологии и эффективность практических методов омоложения кожи.</p>
+
+                        <p>Кожа — это орган в организме человека. Понимание механизмов жизнедеятельности кожи — это ключ к биологии организма человека. Вот простой пример: витамин D — кожа — ультрафиолет — озон атмосферы. Или вот такой: супермалые дозы растительных экстрактов в косметике как частное явление ксеногормезиса (передачи химического адаптирующего стресс-сигнала от растений животным) в границах локальной экосистемы.</p>
+
+                        <p>В книгах Алексея Прокопова «Кожа и окружающая среда: Молекулярные механизмы взаимодействия» собраны актуальные данные не просто по биологии кожи, а в рамках её непрерывного взаимодействия с окружающей средой (включая образ жизни человека). Рассмотрены позитивные и негативные влияния солнечного света, поллютантов окружающей среды, микробиоты на системном и локальном уровнях. Показана эссенциальная оздоравливающая роль суточных (циркадианных) ритмов. Охарактеризованы процессы в межклеточном матриксе как особой внешней среды для клеток кожи.</p>
+
+                        <p>Подробно разобран феномен гормезиса (дозозависимого ответа биологической системы на воздействие стресс-факторов), что может стать биологической основой эффективных anti-age-мероприятий не только в косметологии, но и в отношении увеличения продолжительности жизни человека.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popup js-popup _method_info" role="dialog" aria-labelledby="popup_title_method_info" aria-modal="true" aria-hidden="true" id="popup_method_info">
+            <div class="popup__overlay js-popup__close" aria-hidden="true"></div>
+
+            <div class="popup__inner">
+                <button class="popup__close js-popup__close" type="button" title="Закрыть">
+                    <svg class="svgsprite _close-2" tabindex="-1" role="img" aria-hidden="true">
+                        <use xlink:href="assets/img/svgsprite.svg#close-2" tabindex="-1"></use>
+                    </svg>
+                </button>
+
+                <div class="popup__content">
+                    <div class="title">Возможности аппарата Antera 3D CS для диагностики кожи в исследовании in vivo</div>
+
+                    <div class="row">
+                        <div class="text">
+                            <p>Аппарат Antera 3D CS сканирует кожу светом различной длины волны и под разными углами для максимально подробной диагностики выбранных зон лица.</p>
+
+                            <p>Программа выстраивает точную трёхмерную модель поверхности кожи и определяет количественные значения её параметров.</p>
+
+                            <p>Для оценки динамики воздействия исследуемого образца диагностика проводится до и после нанесения продукта, а также несколько раз в течение периода его использования.</p>
+
+                            <p>Изменения параметров фиксируются в таблицах, визуализируются в фото и графиках.</p>
+                        </div>
+
+                        <picture class="image">
+                            <img src="assets/img/in_vivo/method_info_img1.jpg" alt="" loading="lazy">
+                        </picture>
+                    </div>
+
+                    <div class="row">
+                        <picture class="image">
+                            <img src="assets/img/in_vivo/method_info_img2.jpg" alt="" loading="lazy">
+                        </picture>
+
+                        <div class="info">
+                            <div class="name">Измеряемые параметры</div>
+
+                            <div class="desc">Аппарат замеряет 8 оптических показателей кожи</div>
+
+                            <div class="tags">
+                                <div>Текстура поверхности</div>
+                                <div>Состояние пор</div>
+                                <div>Складки</div>
+                                <div>Морщины</div>
+                                <div>Объёмы</div>
+                                <div>Цвет кожи</div>
+                                <div>Пигментация</div>
+                                <div>Степень красноты</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="/" class="big-link _in-light">
+                        <span>Скачать подробную брошюру про Antera 3D CS</span>
+
+                        <span class="big-link__icon" aria-hidden="true">
+                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+
+                            <svg class="svgsprite _arrow-up-right" tabindex="-1" role="img">
+                                <use xlink:href="assets/img/svgsprite.svg#arrow-up-right" tabindex="-1"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
