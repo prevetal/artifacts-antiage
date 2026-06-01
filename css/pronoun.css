@@ -1,0 +1,2246 @@
+.pronoun_head
+{
+    position: relative;
+
+    margin-bottom: 5rem;
+
+    color: #fff;
+    background: #000;
+}
+
+
+.pronoun_head .container
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+
+    min-height: 100vh;
+    padding-block: 21.5rem 5.7rem;
+
+    z-index: 3;
+}
+
+
+.pronoun_head .title
+{
+    width: 133.8rem;
+    max-width: 100%;
+    margin-top: 4rem;
+
+    font-size: 9.6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.096rem;
+}
+
+
+.pronoun_head .desc
+{
+    width: 75.6rem;
+    max-width: 100%;
+
+    font-size: 2.4rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .024rem;
+}
+
+
+.pronoun_head .big-link
+{
+    width: 53.4rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 2rem 2.2rem 2rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.pronoun_head .big-link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+.pronoun_head .items
+{
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    bottom: 5.7rem;
+
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1.6rem;
+
+    width: 99.2rem;
+    margin-right: -92.3rem;
+
+    color: #18181e;
+}
+
+
+.pronoun_head .items > *
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.2rem;
+
+    width: 32rem;
+    max-width: 100%;
+    padding: 2.3rem 2.5rem 2.3rem 1.4rem;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 120%;
+
+    border-radius: 3rem;
+    background: #fff;
+}
+
+
+.pronoun_head .items .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 5.5rem;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.pronoun_head .items .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.pronoun_head .items span
+{
+    width: calc(100% - 6.7rem);
+
+    opacity: .8;
+}
+
+
+.pronoun_head .bg
+{
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.pronoun_head .bg:before
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    content: '';
+    z-index: 1;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -1.83%, rgba(0, 0, 0, .7) 100%);
+
+    mix-blend-mode: multiply;
+}
+
+
+.pronoun_head .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.pronoun_catalog
+{
+    padding-block: 5rem;
+}
+
+
+.pronoun_catalog .head
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+
+    margin-bottom: 2.8rem;
+}
+
+
+.pronoun_catalog .head .title
+{
+    width: 82.8rem;
+    max-width: 100%;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.pronoun_catalog .head .desc
+{
+    width: 85.7rem;
+    max-width: 100%;
+
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 120%;
+
+    letter-spacing: -.02rem;
+}
+
+
+.pronoun_catalog .grid_row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+
+    counter-reset: number;
+}
+
+
+.pronoun_catalog .grid_row > *
+{
+    width: calc(33.333% - 2rem);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+.pronoun_catalog .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    text-decoration: none;
+
+    color: currentColor;
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.pronoun_catalog .item .info
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding-block: 2.6rem 1.3rem;
+    padding-inline: 3.2rem ;
+
+    text-align: center;
+}
+
+
+.pronoun_catalog .item .number
+{
+    position: absolute;
+    top: 2.6rem;
+    left: 3.2rem;
+
+    font-size: 1.2rem;
+    line-height: 160%;
+
+    white-space: nowrap;
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+}
+
+
+.pronoun_catalog .item .number:before
+{
+    content: counter(number, decimal-leading-zero);
+    counter-increment: number;
+}
+
+
+.pronoun_catalog .item .name
+{
+    width: 32.8rem;
+    max-width: 100%;
+
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.pronoun_catalog .item .price
+{
+    font-size: 2.4rem;
+    line-height: 90%;
+}
+
+
+.pronoun_catalog .item .price span
+{
+    margin-left: .4rem;
+
+    font-size: 1.5rem;
+    font-weight: 375;
+    line-height: 140%;
+
+    color: #6b6b79;
+}
+
+
+.pronoun_catalog .item .min
+{
+    margin-top: 1.1rem;
+    padding: .8rem 1.6rem .7rem 1.6rem;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 110%;
+
+    letter-spacing: .014rem;
+    text-transform: uppercase;
+
+    border-radius: 4.8rem;
+    background: rgba(24, 24, 30, .10);
+}
+
+
+.pronoun_catalog .item .thumb
+{
+    display: block;
+
+    background: #ddd;
+
+    aspect-ratio: 1 / .498;
+}
+
+
+.pronoun_catalog .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.pronoun_catalog .item .big-link
+{
+    position: absolute;
+    right: 0;
+    bottom: 1.1rem;
+    left: 0;
+
+    width: calc(100% - 4.2rem);
+    min-width: 0;
+    height: 4.7rem;
+    margin-inline: auto;
+    padding: .5rem .5rem .5rem 4.8rem;
+
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 1;
+
+    z-index: 2;
+
+    border: .1rem solid #fff;
+    border-radius: 3rem;
+    background: rgba(24, 24, 30, .06);
+}
+
+
+.pronoun_catalog .item .big-link:before
+{
+    display: none;
+}
+
+
+.pronoun_catalog .item .big-link span:not(.big-link__icon)
+{
+    margin-inline: auto;
+
+    text-align: center;
+}
+
+
+.pronoun_catalog .item .big-link__icon
+{
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+
+.pronoun_catalog .item .big-link__icon .svgsprite
+{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+
+
+.pronoun_small_wholesale
+{
+    padding-block: 5rem;
+}
+
+
+.pronoun_small_wholesale .swiper
+{
+    overflow: visible;
+}
+
+
+.pronoun_small_wholesale .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.pronoun_small_wholesale .swiper:not(.swiper-initialized) .swiper-slide
+{
+    width: calc(100% / 3 - 2rem);
+}
+
+
+.pronoun_small_wholesale .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+
+
+.pronoun_small_wholesale .swiper-button-next,
+.pronoun_small_wholesale .swiper-button-prev
+{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+
+    opacity: 1;
+    color: #18181e;
+    border-radius: 0;
+    background: none;
+}
+
+
+.pronoun_small_wholesale .swiper-button-next:hover,
+.pronoun_small_wholesale .swiper-button-prev:hover
+{
+    color: #18181e;
+    background: none;
+}
+
+
+.pronoun_small_wholesale .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 2.8rem;
+}
+
+
+.pronoun_small_wholesale .head .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.pronoun_small_wholesale .item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    padding: 3.2rem;
+
+    opacity: .9;
+    border: .1rem solid rgba(24, 24, 30, .16);
+    border-radius: 3.4rem;
+    background: rgba(255, 255, 255, .9);
+}
+
+
+.pronoun_small_wholesale .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.pronoun_small_wholesale .item .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.pronoun_small_wholesale .item .thumb
+{
+    display: block;
+
+    margin-top: auto;
+
+    border-radius: 2.2rem;
+    background: #ddd;
+
+    aspect-ratio: 1 / .623;
+}
+
+
+.pronoun_small_wholesale .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.pronoun_small_wholesale .item .big-link
+{
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
+
+    min-width: 0;
+    height: auto;
+    padding: 0;
+
+    transition: opacity .2s linear;
+
+    opacity: 0;
+    border: none;
+    background: none;
+}
+
+
+.pronoun_small_wholesale .item .big-link:before
+{
+    display: none;
+}
+
+
+.pronoun_small_wholesale .item:hover .big-link
+{
+    opacity: 1;
+}
+
+
+
+.pronoun_with_us
+{
+    padding-block: 5rem;
+}
+
+
+.pronoun_with_us .swiper
+{
+    overflow: visible;
+}
+
+
+.pronoun_with_us .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.pronoun_with_us .swiper:not(.swiper-initialized) .swiper-slide
+{
+    width: calc(100% / 3 - 2rem);
+}
+
+
+.pronoun_with_us .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+
+
+.pronoun_with_us .swiper-button-next,
+.pronoun_with_us .swiper-button-prev
+{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+
+    opacity: 1;
+    color: #18181e;
+    border-radius: 0;
+    background: none;
+}
+
+
+.pronoun_with_us .swiper-button-next:hover,
+.pronoun_with_us .swiper-button-prev:hover
+{
+    color: #18181e;
+    background: none;
+}
+
+
+.pronoun_with_us .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 5.2rem;
+}
+
+
+.pronoun_with_us .head .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.pronoun_with_us .item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    padding-block: 7.3rem 6.2rem;
+    padding-inline: 4rem;
+
+    border-radius: 3.4rem;
+    background: rgba(255, 255, 255, .9);
+}
+
+
+.pronoun_with_us .item .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    height: 8rem;
+    margin-bottom: 2.4rem;
+}
+
+
+.pronoun_with_us .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.pronoun_with_us .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.pronoun_with_us .item .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.pronoun_with_us .big-link
+{
+    width: 53.4rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: 5rem;
+    padding: 2rem 2.2rem 2rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.pronoun_with_us .big-link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+
+.pronoun_large_wholesale
+{
+    padding-block: 5rem;
+}
+
+
+.pronoun_large_wholesale .data
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 4.9rem;
+
+    padding-block: 6.4rem;
+    padding-inline: 4rem;
+
+    border-radius: 2rem;
+    background: #fff;
+}
+
+
+.pronoun_large_wholesale .data > *
+{
+    position: relative;
+
+    z-index: 3;
+}
+
+
+.pronoun_large_wholesale .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.pronoun_large_wholesale .btns
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.3rem;
+}
+
+
+.pronoun_large_wholesale .btns .big-link
+{
+    width: 46.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    padding: 1.8rem 1.8rem 1.8rem 4.4rem;
+
+    font-size: 2.4rem;
+    line-height: 1;
+
+    letter-spacing: .024rem;
+
+    color: rgba(24, 24, 30, .64);
+    background: rgba(24, 24, 30, .16);
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.pronoun_large_wholesale .btns .big-link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+
+    color: #18181e;
+}
+
+
+.pronoun_large_wholesale .bg
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+
+    height: 100%;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.pronoun_large_wholesale .bg img
+{
+    display: block;
+
+    height: 100%;
+}
+
+
+
+.pronoun_form
+{
+    padding-block: 5rem;
+}
+
+
+.pronoun_form .form__header
+{
+    gap: 1.8rem !important;
+
+    margin-bottom: 4.8rem !important;
+}
+
+
+.pronoun_form .form__title
+{
+    font-size: 6rem !important;
+}
+
+
+.pronoun_form .btn-common._size-l
+{
+    height: 10.1rem !important;
+}
+
+
+.pronoun_form .form__footer
+{
+    gap: 1.8rem !important;
+
+    margin-top: 3.2rem !important;
+}
+
+
+
+.pronoun_contacts
+{
+    padding-block: 5rem;
+}
+
+
+.pronoun_contacts .grid
+{
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.pronoun_contacts .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    min-height: 28.8rem;
+    padding: 2.6rem 3.1rem 3.9rem;
+
+    border-radius: 2.8rem;
+    background: #fff;
+}
+
+
+.pronoun_contacts .item.big
+{
+    padding-block: 4.5rem 4.7rem;
+    padding-inline: 5rem;
+
+    background-image: url(../assets/img/contacts-xl.webp);
+
+    grid-column: span 2;
+}
+
+
+.pronoun_contacts .item .title
+{
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.pronoun_contacts .item .desc
+{
+    margin-top: auto;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 160%;
+
+    letter-spacing: .02rem;
+}
+
+
+.pronoun_contacts .item .label
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 160%;
+
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+
+    color: #6b6b79;
+}
+
+
+.pronoun_contacts .item .val
+{
+    margin-top: auto;
+
+    font-size: 3.6rem;
+    font-weight: 375;
+    line-height: 1;
+
+    letter-spacing: -.036rem;
+}
+
+
+.pronoun_contacts .item .val a
+{
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+
+@media print,
+(max-width: 1899px)
+{
+    .pronoun_head .container
+    {
+        gap: 2.4rem;
+
+        height: 100vh;
+        min-height: 90rem;
+        padding-block: 14.5rem 5rem;
+    }
+
+
+    .pronoun_head .title
+    {
+        width: 102rem;
+        margin-top: 4rem;
+
+        font-size: 8rem;
+
+        letter-spacing: -.08rem;
+    }
+
+
+    .pronoun_head .desc
+    {
+        width: 54rem;
+        margin-bottom: 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .pronoun_head .items
+    {
+        right: 3.4rem;
+        bottom: 5rem;
+
+        gap: 1.2rem;
+
+        width: 61.2rem;
+        margin-right: 0;
+    }
+
+
+    .pronoun_head .items > *
+    {
+        width: 30rem;
+        padding: 2rem 2rem 2rem 1.2rem;
+
+        font-size: 1.8rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .pronoun_head .items .icon
+    {
+        width: 4.8rem;
+    }
+
+
+    .pronoun_head .items span
+    {
+        width: calc(100% - 6rem);
+    }
+
+
+
+    .pronoun_catalog .head .title
+    {
+        width: 72.8rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .pronoun_catalog .head .desc
+    {
+        width: 78.7rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: -.018rem;
+    }
+
+
+    .pronoun_catalog .item .info
+    {
+        gap: 1.2rem;
+
+        padding-block: 2.4rem 1.2rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .pronoun_catalog .item .number
+    {
+        top: 2.4rem;
+        left: 2.4rem;
+    }
+
+
+    .pronoun_catalog .item .name
+    {
+        width: 28.8rem;
+
+        font-size: 2.2rem;
+    }
+
+
+    .pronoun_catalog .item .price
+    {
+        font-size: 2.2rem;
+    }
+
+
+    .pronoun_catalog .item .min
+    {
+        margin-top: 1rem;
+
+        font-size: 1.2rem;
+
+        letter-spacing: .012rem;
+    }
+
+
+    .pronoun_catalog .item .big-link
+    {
+        bottom: 1.2rem;
+
+        width: calc(100% - 4rem);
+        height: 4.6rem;
+        padding: .4rem .4rem .4rem 4rem;
+
+        font-size: 1.8rem;
+    }
+
+
+
+    .pronoun_small_wholesale .head .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .pronoun_small_wholesale .item
+    {
+        padding: 2.4rem;
+    }
+
+
+    .pronoun_small_wholesale .item .name
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .pronoun_small_wholesale .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .pronoun_small_wholesale .item .big-link
+    {
+        right: 4.4rem;
+        bottom: 4.4rem;
+    }
+
+
+    .pronoun_small_wholesale .item .big-link__icon
+    {
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+
+
+    .pronoun_with_us .head
+    {
+        margin-bottom: 4.8rem;
+    }
+
+
+    .pronoun_with_us .head .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .pronoun_with_us .item
+    {
+        padding-block: 6rem 5.2rem;
+        padding-inline: 3.2rem;
+    }
+
+
+    .pronoun_with_us .item .icon
+    {
+        height: 6.8rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .pronoun_with_us .item .name
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .pronoun_with_us .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .pronoun_with_us .big-link
+    {
+        margin-top: 4rem;
+    }
+
+
+
+    .pronoun_large_wholesale .data
+    {
+        gap: 4rem;
+
+        padding-block: 5.2rem;
+    }
+
+
+    .pronoun_large_wholesale .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+
+    .pronoun_form .form__header
+    {
+        gap: 1.2rem !important;
+    }
+
+
+    .pronoun_form .form__title
+    {
+        font-size: 4.8rem !important;
+    }
+
+
+    .pronoun_form .btn-common._size-l
+    {
+        height: 9rem !important;
+    }
+
+
+
+    .pronoun_contacts .item
+    {
+        min-height: 25rem;
+        padding: 2.4rem;
+    }
+
+
+    .pronoun_contacts .item.big
+    {
+        padding-block: 3.6rem;
+        padding-inline: 4rem;
+    }
+
+
+    .pronoun_contacts .item .title
+    {
+        font-size: 4.8rem;
+    }
+
+
+    .pronoun_contacts .item .desc
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .pronoun_contacts .item .val
+    {
+        font-size: 3rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .pronoun_head
+    {
+        margin-bottom: 3.4rem;
+    }
+
+
+    .pronoun_head .container
+    {
+        min-height: 82rem;
+        padding-block: 14rem 4.8rem;
+    }
+
+
+    .pronoun_head .title
+    {
+        width: 92rem;
+        margin-top: 3.2rem;
+
+        font-size: 7.2rem;
+
+        letter-spacing: -.072rem;
+    }
+
+
+    .pronoun_head .desc
+    {
+        width: 50rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .pronoun_head .big-link
+    {
+        width: 48rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .pronoun_head .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+    .pronoun_head .items
+    {
+        bottom: 4.8rem;
+
+        width: 57.2rem;
+    }
+
+
+    .pronoun_head .items > *
+    {
+        width: 28rem;
+        padding: 2rem;
+
+        font-size: 1.6rem;
+    }
+
+
+    .pronoun_head .items .icon
+    {
+        width: 4.4rem;
+    }
+
+
+    .pronoun_head .items span
+    {
+        width: calc(100% - 5.6rem);
+    }
+
+
+
+    .pronoun_catalog
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .pronoun_catalog .head .title
+    {
+        width: 66.8rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .pronoun_catalog .head .desc
+    {
+        width: 70.7rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: -.016rem;
+    }
+
+
+    .pronoun_catalog .item
+    {
+        border-radius: 2.4rem;
+    }
+
+
+    .pronoun_catalog .item .name
+    {
+        width: 26.8rem;
+
+        font-size: 2rem;
+    }
+
+
+    .pronoun_catalog .item .price
+    {
+        font-size: 2rem;
+    }
+
+
+    .pronoun_catalog .item .big-link
+    {
+        bottom: 1.2rem;
+
+        width: calc(100% - 2.4rem);
+        padding: .4rem .4rem .4rem 2.4rem;
+
+        font-size: 1.6rem;
+    }
+
+
+
+    .pronoun_small_wholesale
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .pronoun_small_wholesale .head .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .pronoun_small_wholesale .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .pronoun_small_wholesale .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .pronoun_small_wholesale .item .thumb
+    {
+        border-radius: 2rem;
+    }
+
+
+    .pronoun_small_wholesale .item .big-link
+    {
+        right: 4rem;
+        bottom: 4rem;
+    }
+
+
+    .pronoun_small_wholesale .item .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .pronoun_with_us
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .pronoun_with_us .head
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .pronoun_with_us .head .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .pronoun_with_us .item
+    {
+        padding-block: 4.8rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .pronoun_with_us .item .icon
+    {
+        height: 6rem;
+    }
+
+
+    .pronoun_with_us .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .pronoun_with_us .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .pronoun_with_us .big-link
+    {
+        width: 48rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .pronoun_with_us .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .pronoun_large_wholesale .data
+    {
+        padding-block: 4.8rem;
+    }
+
+
+    .pronoun_large_wholesale .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .pronoun_large_wholesale .btns .big-link
+    {
+        width: 40rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .pronoun_large_wholesale .btns .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .pronoun_form
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .pronoun_form .form__title
+    {
+        max-width: 68rem;
+    }
+
+
+    .pronoun_form .btn-common._size-l
+    {
+        height: 8rem !important;
+    }
+
+
+
+    .pronoun_contacts
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .pronoun_contacts .item
+    {
+        min-height: 24rem;
+    }
+
+
+    .pronoun_contacts .item.big
+    {
+        padding-block: 3.2rem;
+    }
+
+
+    .pronoun_contacts .item .desc
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .pronoun_contacts .item .val
+    {
+        font-size: 2.8rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1279px)
+{
+    .pronoun_head .container
+    {
+        min-height: 76rem;
+        padding-block: 12.2rem 4rem;
+    }
+
+
+    .pronoun_head .title
+    {
+        width: 82rem;
+        margin-top: 2.4rem;
+
+        font-size: 6.4rem;
+
+        letter-spacing: -.064rem;
+    }
+
+
+    .pronoun_head .big-link
+    {
+        width: 40rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .pronoun_head .items
+    {
+        bottom: 4rem;
+
+        width: 52.4rem;
+    }
+
+
+    .pronoun_head .items > *
+    {
+        width: 25.6rem;
+        padding: 1.6rem;
+    }
+
+
+    .pronoun_head .items .icon
+    {
+        width: 4rem;
+    }
+
+    .pronoun_head .items span
+    {
+        width: calc(100% - 5.2rem);
+    }
+
+
+
+    .pronoun_catalog .head .title
+    {
+        width: 61rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .pronoun_catalog .head .desc
+    {
+        width: 70rem;
+    }
+
+
+    .pronoun_catalog .grid_row > *
+    {
+        width: calc(50% - 2rem);
+    }
+
+
+    .pronoun_catalog .item .big-link
+    {
+        font-size: 1.8rem;
+    }
+
+
+
+    .pronoun_small_wholesale .head .title
+    {
+        width: calc(100% - 12rem);
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .pronoun_small_wholesale .swiper:not(.swiper-initialized) .swiper-slide
+    {
+        width: calc(100% / 2 - 2rem);
+    }
+
+
+    .pronoun_small_wholesale .item .thumb
+    {
+        border-radius: 2rem;
+    }
+
+
+    .pronoun_small_wholesale .item .big-link
+    {
+        right: 4rem;
+        bottom: 4rem;
+    }
+
+
+    .pronoun_small_wholesale .item .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .pronoun_with_us .head
+    {
+        margin-bottom: 3.2rem;
+    }
+
+
+    .pronoun_with_us .head .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .pronoun_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .pronoun_with_us .swiper-slide
+    {
+        width: 36rem;
+    }
+
+
+    .pronoun_with_us .big-link
+    {
+        width: 40rem;
+        margin-top: 3.2rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+
+    .pronoun_large_wholesale .data
+    {
+        padding-block: 4.8rem;
+    }
+
+
+    .pronoun_large_wholesale .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .pronoun_large_wholesale .btns .big-link
+    {
+        width: 42rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+
+    .pronoun_contacts .grid
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .pronoun_contacts .item
+    {
+        min-height: 1.6rem;
+    }
+
+
+    .pronoun_contacts .item.big
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .pronoun_contacts .item .desc
+    {
+        margin-top: 1.2rem;
+
+        font-size: 1.5rem;
+    }
+
+
+    .pronoun_contacts .item .val
+    {
+        margin-top: 1.2rem;
+
+        font-size: 2.5rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1023px)
+{
+    .pronoun_head .container
+    {
+        height: auto;
+        min-height: 0;
+    }
+
+
+    .pronoun_head .title
+    {
+        width: 100%;
+
+        font-size: 5.6rem;
+
+        letter-spacing: -.056rem;
+    }
+
+
+    .pronoun_head .items
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        justify-content: flex-start;
+
+        width: 100%;
+    }
+
+
+    .pronoun_head .big-link
+    {
+        margin-top: 2.4rem;
+    }
+
+
+
+    .pronoun_catalog .item .name
+    {
+        width: 23rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .pronoun_catalog .item .price
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .pronoun_catalog .item .price span
+    {
+        font-size: 1.2rem;
+    }
+
+
+    .pronoun_catalog .item .big-link
+    {
+        font-size: 1.6rem;
+    }
+
+
+
+    .pronoun_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .pronoun_with_us .swiper-slide
+    {
+        width: 32rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 767px)
+{
+    .pronoun_head
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .pronoun_head .title
+    {
+        font-size: 4rem;
+    }
+
+
+    .pronoun_head .items
+    {
+        width: 25.6rem;
+        margin-inline: auto;
+    }
+
+
+    .pronoun_head .items > *
+    {
+        padding: 1.2rem;
+    }
+
+
+    .pronoun_head .big-link
+    {
+        width: 100%;
+        height: 8rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .pronoun_head .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .pronoun_catalog
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .pronoun_catalog .head .title
+    {
+        width: 100%;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .pronoun_catalog .head .desc
+    {
+        width: 100%;
+
+        font-size: 1.4rem;
+
+        letter-spacing: -.014rem;
+    }
+
+
+    .pronoun_catalog .grid_row > *
+    {
+        width: calc(100% - 2rem);
+    }
+
+
+
+    .pronoun_small_wholesale
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .pronoun_small_wholesale .head
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .pronoun_small_wholesale .head .title
+    {
+        max-width: calc(100% - 10rem);
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .pronoun_small_wholesale .swiper:not(.swiper-initialized) .swiper-slide
+    {
+        width: calc(100% - 2rem);
+    }
+
+
+    .pronoun_small_wholesale .swiper-controls
+    {
+        align-self: flex-end;
+        gap: 0;
+    }
+
+
+    .pronoun_small_wholesale .item
+    {
+        padding: 2rem;
+    }
+
+
+    .pronoun_small_wholesale .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+
+    .pronoun_with_us
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .pronoun_with_us .head .title
+    {
+        max-width: calc(100% - 10rem);
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .pronoun_with_us .swiper-controls
+    {
+        align-self: flex-end;
+        gap: 0;
+    }
+
+
+    .pronoun_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .pronoun_with_us .swiper-slide
+    {
+        width: 28rem;
+    }
+
+
+    .pronoun_with_us .item
+    {
+        padding-block: 4rem;
+        padding-inline: 2rem;
+    }
+
+
+    .pronoun_with_us .item .icon
+    {
+        height: 4.8rem;
+    }
+
+
+    .pronoun_with_us .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+    .pronoun_with_us .big-link
+    {
+        width: 100%;
+        height: 8rem;
+        margin-top: 2.4rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .pronoun_with_us .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .pronoun_large_wholesale .data
+    {
+        padding-block: 4rem;
+        padding-inline: 2rem;
+    }
+
+
+    .pronoun_large_wholesale .title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .pronoun_large_wholesale .btns
+    {
+        gap: 1.2rem;
+    }
+
+
+    .pronoun_large_wholesale .btns .big-link
+    {
+        width: 100%;
+        height: 8rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .pronoun_large_wholesale .btns .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .pronoun_form .form__header
+    {
+        margin-bottom: 3.6rem !important;
+    }
+
+
+    .pronoun_form .form__title
+    {
+        max-width: 100% !important;
+
+        font-size: 3.6rem !important;
+    }
+
+
+
+    .pronoun_contacts
+    {
+        padding-block: 4rem;
+    }
+
+
+    .pronoun_contacts .grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .pronoun_contacts .item.big
+    {
+        grid-column: auto;
+    }
+
+
+    .pronoun_contacts .item .title
+    {
+        font-size: 3.6rem;
+    }
+
+
+    .pronoun_contacts .item .desc
+    {
+        font-size: 1.4rem;
+    }
+
+
+    .pronoun_contacts .item .val
+    {
+        font-size: 2.2rem;
+    }
+}
