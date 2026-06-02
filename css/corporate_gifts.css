@@ -2589,14 +2589,20 @@
 
     .corporate_gifts_head .items
     {
-        width: 25.6rem;
-        margin-inline: auto;
+        width: 100%;
     }
 
 
     .corporate_gifts_head .items > *
     {
+        width: 100%;
         padding: 1.2rem;
+    }
+
+
+    .corporate_gifts_head .items br
+    {
+        display: none;
     }
 
 
