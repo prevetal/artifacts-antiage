@@ -1,0 +1,2581 @@
+.disposable_patches_head
+{
+    position: relative;
+
+    margin-bottom: 5rem;
+
+    color: #fff;
+    background: #000;
+}
+
+
+.disposable_patches_head .container
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    min-height: 100vh;
+    padding-block: 21.5rem 5rem;
+
+    z-index: 3;
+}
+
+
+.disposable_patches_head .title
+{
+    width: 90.8rem;
+    margin-top: 4rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.disposable_patches_head .exp
+{
+    width: fit-content;
+    padding: 1.8rem 2.8rem;
+
+    font-size: 2rem;
+    line-height: 100%;
+
+    border-radius: 10rem;
+    background: rgba(0, 0, 0, .00);
+    box-shadow: .3rem .4rem 1.07rem 0 rgba(238, 242, 245, .5) inset;
+}
+
+
+.disposable_patches_head .grid
+{
+    position: relative;
+
+    display: grid;
+    overflow: hidden;
+
+    width: 85.6rem;
+    max-width: 100%;
+    min-height: 29.2rem;
+
+    border: .1rem solid #fff;
+    border-radius: 1.4rem;
+
+    anchor-name: --grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.disposable_patches_head .grid .item
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    padding: 1.6rem 2.4rem;
+}
+
+
+.disposable_patches_head .grid .item:nth-child(1),
+.disposable_patches_head .grid .item:nth-child(3)
+{
+    border-bottom: .1rem solid #fff;
+}
+
+
+.disposable_patches_head .grid .item.big_h
+{
+    border: none;
+    border-left: .1rem solid #fff;
+
+    grid-row: span 4;
+}
+
+
+.disposable_patches_head .grid .label
+{
+    font-size: 2.4rem;
+    line-height: 110%;
+
+    letter-spacing: .024rem;
+
+    color: rgba(255, 255, 255, .50);
+}
+
+
+.disposable_patches_head .grid .val
+{
+    font-size: 2rem;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.disposable_patches_head .grid .flag
+{
+    position: absolute;
+    top: 0;
+    right: 2.8rem;
+    bottom: 0;
+
+    display: block;
+
+    width: 6rem;
+    height: 6rem;
+    margin-block: auto;
+
+    border-radius: 50%;
+    background: #fff;
+}
+
+
+.disposable_patches_head .grid .flag img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+}
+
+
+.disposable_patches_head .grid .big-link
+{
+    gap: 1.2rem;
+
+    width: fit-content;
+    min-width: 0;
+    height: auto;
+    margin-top: auto;
+    padding: 0;
+
+    font-size: 2.4rem;
+    line-height: 110%;
+
+    letter-spacing: .024rem;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, .50);
+    border: none;
+    border-radius: 0;
+    background: none;
+
+    -webkit-backdrop-filter: blur(0);
+            backdrop-filter: blur(0);
+}
+
+
+.disposable_patches_head .grid .big-link:before
+{
+    display: none;
+}
+
+
+.disposable_patches_head .grid .big-link .big-link__icon
+{
+    width: 2.8rem;
+    height: 2.8rem;
+
+    color: #18181e;
+}
+
+
+.disposable_patches_head .grid .big-link .big-link__icon .svgsprite
+{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+
+.disposable_patches_head .grid .inci_info
+{
+    position: fixed;
+    top: anchor(top);
+    left: anchor(left);
+
+    overflow: hidden;
+    flex-direction: column;
+    gap: 2.1rem;
+
+    width: anchor-size(width);
+    height: anchor-size(height);
+    margin: 0;
+    padding: 2.8rem 3.2rem;
+
+    font-size: 2rem;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+
+    border: none;
+    border-radius: 1.4rem;
+    background: url('../assets/img/disposable_patches/bg_inci_info.svg') 100% 0/ auto 100% no-repeat #fff;
+
+    position-anchor: --grid;
+}
+
+
+.disposable_patches_head .grid .inci_info .close_btn
+{
+    position: absolute;
+    top: 2.3rem;
+    right: 2.4rem;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 2.3rem;
+
+    z-index: 3;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.disposable_patches_head .grid .inci_info .close_btn svg
+{
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.disposable_patches_head .grid .inci_info .text
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    height: 100%;
+
+    color: rgba(24, 24, 30, .50);
+
+    overscroll-behavior-y: contain;
+}
+
+
+.disposable_patches_head .grid .inci_info:popover-open
+{
+    display: flex;
+}
+
+
+
+.disposable_patches_head .bottom
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: auto;
+}
+
+
+.disposable_patches_head .data
+{
+    width: 67.7rem;
+    max-width: 100%;
+}
+
+
+.disposable_patches_head .items
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    font-size: 2rem;
+    font-weight: 300;
+
+    color: #18181e;
+}
+
+
+.disposable_patches_head .items > *
+{
+    padding: 1.2rem 2.6rem;
+
+    border: .1rem solid #ccc;
+    border-radius: 10rem;
+    background: #eef2f5;
+}
+
+
+.disposable_patches_head .desc
+{
+    width: 58.5rem;
+    max-width: 100%;
+    margin-top: 2.8rem;
+
+    font-size: 2rem;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+}
+
+
+.disposable_patches_head .btn
+{
+    min-width: 41.8rem;
+    height: 10.1rem;
+    margin-top: 2.4rem;
+    padding-inline: 3rem;
+
+    font-size: 2.4rem;
+    line-height: 1;
+
+    text-align: center;
+    letter-spacing: .024rem;
+
+    border-radius: 10rem;
+    background: #18181e;
+}
+
+
+.disposable_patches_head .bg
+{
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.disposable_patches_head .bg:before
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    content: '';
+    z-index: 1;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -1.83%, rgba(0, 0, 0, .7) 100%);
+
+    mix-blend-mode: multiply;
+}
+
+
+.disposable_patches_head .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.disposable_patches_advantages
+{
+    padding-block: 5rem;
+}
+
+
+.disposable_patches_advantages .grid_row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+}
+
+
+.disposable_patches_advantages .grid_row > *
+{
+    width: calc(33.333% - 2rem);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+.disposable_patches_advantages .item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    padding: 2.4rem 2.6rem 3rem 3.2rem;
+
+    border: .1rem solid rgba(24, 24, 30, .16);
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.disposable_patches_advantages .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+.disposable_patches_advantages .item .desc
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    min-height: 22rem;
+
+    font-size: 2rem;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.disposable_patches_advantages .item .thumb
+{
+    display: block;
+
+    margin-top: auto;
+
+    border-radius: 2.2rem;
+    background: #ddd;
+
+    aspect-ratio: 1 / .498;
+}
+
+
+.disposable_patches_advantages .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+
+.disposable_patches_ideas
+{
+    padding-block: 5rem;
+}
+
+
+.disposable_patches_ideas .container
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.disposable_patches_ideas .images
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    width: 79.2rem;
+}
+
+
+.disposable_patches_ideas .image
+{
+    display: block;
+
+    width: calc(50% - .5rem);
+
+    border-radius: 2.8rem;
+}
+
+
+.disposable_patches_ideas .image img
+{
+    display: block;
+
+    width: 100%;
+
+    border-radius: inherit;
+}
+
+
+.disposable_patches_ideas .data
+{
+    width: calc(100% - 79.2rem - 4.8rem);
+}
+
+
+.disposable_patches_ideas .title
+{
+    margin-bottom: 2.8rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.disposable_patches_ideas .items
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+
+.disposable_patches_ideas .items > *
+{
+    padding: 2rem 3.2rem;
+
+    font-size: 2rem;
+    line-height: 1;
+
+    border-radius: 10rem;
+    background: #fff;
+}
+
+
+
+.disposable_patches_form
+{
+    padding-block: 5rem;
+}
+
+
+.disposable_patches_form .form__header
+{
+    gap: 1.8rem !important;
+
+    margin-bottom: 4.8rem !important;
+}
+
+
+.disposable_patches_form .form__title
+{
+    font-size: 6rem !important;
+}
+
+
+.disposable_patches_form .btn-common._size-l
+{
+    height: 10.1rem !important;
+}
+
+
+.disposable_patches_form .form__footer
+{
+    gap: 1.8rem !important;
+
+    margin-top: 3.2rem !important;
+}
+
+
+
+.disposable_patches_contacts
+{
+    padding-block: 5rem;
+}
+
+
+.disposable_patches_contacts .grid
+{
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.disposable_patches_contacts .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    min-height: 28.8rem;
+    padding: 2.6rem 3.1rem 3.9rem;
+
+    border-radius: 2.8rem;
+    background: #fff;
+}
+
+
+.disposable_patches_contacts .item.big
+{
+    padding-block: 4.5rem 4.7rem;
+    padding-inline: 5rem;
+
+    background-image: url(../assets/img/contacts-xl.webp);
+
+    grid-column: span 2;
+}
+
+
+.disposable_patches_contacts .item .title
+{
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.disposable_patches_contacts .item .desc
+{
+    margin-top: auto;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 160%;
+
+    letter-spacing: .02rem;
+}
+
+
+.disposable_patches_contacts .item .label
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 160%;
+
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+
+    color: #6b6b79;
+}
+
+
+.disposable_patches_contacts .item .val
+{
+    margin-top: auto;
+
+    font-size: 3.6rem;
+    font-weight: 375;
+    line-height: 1;
+
+    letter-spacing: -.036rem;
+}
+
+
+.disposable_patches_contacts .item .val a
+{
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+
+.disposable_patches_cosmetics
+{
+    padding-block: 5rem;
+}
+
+
+.disposable_patches_cosmetics .title
+{
+    margin-bottom: 6rem;
+
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.disposable_patches_cosmetics .grid_row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+}
+
+
+.disposable_patches_cosmetics .grid_row > *
+{
+    width: calc(33.333% - 2rem);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+.disposable_patches_cosmetics .item
+{
+    position: relative;
+}
+
+
+.disposable_patches_cosmetics .front
+{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    height: 100%;
+
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.disposable_patches_cosmetics .back
+{
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding: 4rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    counter-reset: number;
+    transition: opacity .2s linear;
+    letter-spacing: .02rem;
+
+    opacity: 0;
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.disposable_patches_cosmetics .back > *:before
+{
+    margin-right: .8rem;
+
+    content: counter(number, decimal-leading-zero);
+    counter-increment: number;
+
+    color: rgba(24, 24, 30, .50);
+}
+
+
+.disposable_patches_cosmetics .item .info
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-direction: column;
+    gap: 2.1rem;
+
+    padding-block: 2.6rem .8rem;
+    padding-inline: 2.6rem;
+
+    text-align: center;
+}
+
+
+.disposable_patches_cosmetics .item .name
+{
+    min-width: 40.8rem;
+    max-width: 100%;
+
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+.disposable_patches_cosmetics .item .min
+{
+    padding: .8rem 1.6rem .7rem;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 110%;
+
+    letter-spacing: .014rem;
+    text-transform: uppercase;
+
+    border-radius: 10rem;
+    background: rgba(24, 24, 30, .10);
+}
+
+
+.disposable_patches_cosmetics .item .thumb
+{
+    display: block;
+
+    margin-top: 3.7rem;
+
+    aspect-ratio: 1 / .498;
+}
+
+
+.disposable_patches_cosmetics .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.disposable_patches_cosmetics .item .turn
+{
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 7.2rem;
+
+    z-index: 3;
+    transition: .2s linear;
+
+    border-radius: 50%;
+    background: #eef2f5;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.disposable_patches_cosmetics .item .turn img
+{
+    display: block;
+
+    width: 3.4rem;
+
+    transition: transform .2s linear;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.disposable_patches_cosmetics .item:hover .back
+{
+    opacity: 1;
+}
+
+
+.disposable_patches_cosmetics .item:hover .turn img
+{
+    transform: rotate(-180deg);
+}
+
+
+.disposable_patches_cosmetics .big-link
+{
+    width: 40.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: 4.2rem;
+    padding: 1.8rem 2rem 1.4rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: rgba(24, 24, 30, .64);
+    background: rgba(24, 24, 30, .16);
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.disposable_patches_cosmetics .big-link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+
+    color: #18181e;
+}
+
+
+
+.disposable_patches_confirmation
+{
+    padding-block: 5rem;
+}
+
+
+.disposable_patches_confirmation .container
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.disposable_patches_confirmation .data
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    width: 76.5rem;
+    max-width: 100%;
+    padding-block: 4rem 3.1rem;
+    padding-inline: 4rem 9.8rem;
+
+    border-radius: 3rem;
+    background: #fff;
+}
+
+.disposable_patches_confirmation .title
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.disposable_patches_confirmation .desc
+{
+    font-size: 2rem;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+}
+
+
+.disposable_patches_confirmation .big-link
+{
+    width: 40.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 1.8rem 2rem 1.4rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: rgba(24, 24, 30, .64);
+    background: rgba(24, 24, 30, .16);
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.disposable_patches_confirmation .big-link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+
+    color: #18181e;
+}
+
+
+.disposable_patches_confirmation .image
+{
+    display: block;
+
+    width: calc(100% - 76.5rem);
+
+    border-radius: 3rem;
+}
+
+
+.disposable_patches_confirmation .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+
+@media print,
+(max-width: 1899px)
+{
+    .disposable_patches_head .container
+    {
+        height: 100vh;
+        min-height: 90rem;
+        padding-block: 14.5rem 5rem;
+    }
+
+
+    .disposable_patches_head .title
+    {
+        width: 70rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .disposable_patches_head .exp
+    {
+        padding: 1.6rem 2.4rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .disposable_patches_head .data
+    {
+        width: 62rem;
+    }
+
+
+    .disposable_patches_head .items
+    {
+        gap: .8rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .disposable_patches_head .items > *
+    {
+        padding: 1rem 2.4rem;
+    }
+
+
+    .disposable_patches_head .desc
+    {
+        width: 53rem;
+        margin-top: 2.4rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .disposable_patches_head .btn
+    {
+        min-width: 40rem;
+        height: 9.6rem;
+        margin-top: 2.4rem;
+        padding-inline: 2.4rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .disposable_patches_head .grid
+    {
+        width: 68rem;
+        min-height: 25rem;
+    }
+
+
+    .disposable_patches_head .grid .item
+    {
+        gap: .8rem;
+
+        padding: 1.6rem 2rem;
+    }
+
+
+    .disposable_patches_head .grid .label
+    {
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .disposable_patches_head .grid .val
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .disposable_patches_head .grid .flag
+    {
+        right: 2rem;
+
+        width: 5.6rem;
+        height: 5.6rem;
+    }
+
+
+    .disposable_patches_head .grid .big-link
+    {
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .disposable_patches_head .grid .inci_info
+    {
+        gap: 2rem;
+
+        padding: 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .disposable_patches_head .grid .inci_info .close_btn
+    {
+        top: 2rem;
+        right: 2rem;
+    }
+
+
+
+    .disposable_patches_advantages .item
+    {
+        gap: 2rem;
+
+        padding: 2.4rem;
+    }
+
+
+    .disposable_patches_advantages .item .name
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .disposable_patches_advantages .item .desc
+    {
+        gap: 1.6rem;
+
+        min-height: 0;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .disposable_patches_ideas .images
+    {
+        gap: .8rem;
+
+        width: 66rem;
+    }
+
+
+    .disposable_patches_ideas .image
+    {
+        width: calc(50% - .4rem);
+
+        border-radius: 2.4rem;
+    }
+
+
+    .disposable_patches_ideas .data
+    {
+        width: calc(100% - 66rem - 4rem);
+    }
+
+
+    .disposable_patches_ideas .title
+    {
+        margin-bottom: 2.4rem;
+
+        font-size: 5.6rem;
+
+        letter-spacing: -.056rem;
+    }
+
+
+    .disposable_patches_ideas .items
+    {
+        gap: .8rem;
+    }
+
+
+    .disposable_patches_ideas .items > *
+    {
+        padding: 1.6rem 2.4rem;
+
+        font-size: 1.6rem;
+    }
+
+
+
+    .disposable_patches_form .form__header
+    {
+        gap: 1.2rem !important;
+    }
+
+
+    .disposable_patches_form .form__title
+    {
+        font-size: 4.8rem !important;
+    }
+
+
+    .disposable_patches_form .btn-common._size-l
+    {
+        height: 9rem !important;
+    }
+
+
+
+    .disposable_patches_contacts .item
+    {
+        min-height: 25rem;
+        padding: 2.4rem;
+    }
+
+
+    .disposable_patches_contacts .item.big
+    {
+        padding-block: 3.6rem;
+        padding-inline: 4rem;
+    }
+
+
+    .disposable_patches_contacts .item .title
+    {
+        font-size: 4.8rem;
+    }
+
+
+    .disposable_patches_contacts .item .desc
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .disposable_patches_contacts .item .val
+    {
+        font-size: 3rem;
+    }
+
+
+
+    .disposable_patches_cosmetics .title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 5.6rem;
+
+        letter-spacing: -.056rem;
+    }
+
+
+    .disposable_patches_cosmetics .front
+    {
+        border-radius: 3.2rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .info
+    {
+        gap: 2rem;
+
+        padding-block: 2.4rem .8rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .name
+    {
+        width: 100%;
+        min-width: 0;
+
+        font-size: 2.2rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .thumb
+    {
+        margin-top: 2rem;
+    }
+
+
+    .disposable_patches_cosmetics .big-link
+    {
+        width: 40rem;
+        height: 9.6rem;
+        margin-top: 4rem;
+        padding: 1.6rem 2rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .disposable_patches_cosmetics .big-link .big-link__icon
+    {
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+
+    .disposable_patches_cosmetics .back
+    {
+        gap: .8rem;
+
+        padding: 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+
+        border-radius: 3.2rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .turn
+    {
+        width: 6rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .turn img
+    {
+        width: 2.8rem;
+    }
+
+
+
+    .disposable_patches_confirmation .data
+    {
+        width: 66rem;
+        padding-block: 4rem 2.8rem;
+        padding-inline: 4rem 8rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .disposable_patches_confirmation .title
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .disposable_patches_confirmation .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .disposable_patches_confirmation .big-link
+    {
+        width: 40rem;
+        height: 9.6rem;
+        margin-top: 2rem;
+        padding: 1.6rem 2rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .disposable_patches_confirmation .big-link .big-link__icon
+    {
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+
+    .disposable_patches_confirmation .image
+    {
+        width: calc(100% - 66rem);
+
+        border-radius: 2.8rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .disposable_patches_head
+    {
+        margin-bottom: 3.4rem;
+    }
+
+
+    .disposable_patches_head .container
+    {
+        min-height: 82rem;
+        padding-block: 14rem 4.8rem;
+    }
+
+
+    .disposable_patches_head .title
+    {
+        width: 60rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .disposable_patches_head .exp
+    {
+        padding: 1.2rem 2.4rem;
+
+        font-size: 1.6rem;
+    }
+
+
+    .disposable_patches_head .data
+    {
+        width: 56.5rem;
+    }
+
+
+    .disposable_patches_head .items
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .disposable_patches_head .items > *
+    {
+        padding: .8rem 2.4rem;
+    }
+
+
+    .disposable_patches_head .desc
+    {
+        width: 48rem;
+
+        font-size: 1.6rem;
+    }
+
+
+    .disposable_patches_head .btn
+    {
+        min-width: 36rem;
+        height: 8rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .disposable_patches_head .grid
+    {
+        width: 60rem;
+        min-height: 24rem;
+    }
+
+
+    .disposable_patches_head .grid .label
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .disposable_patches_head .grid .val
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .disposable_patches_head .grid .flag
+    {
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+
+    .disposable_patches_head .grid .big-link
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .disposable_patches_head .grid .inci_info
+    {
+        gap: 1.6rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .disposable_patches_head .grid .inci_info .close_btn
+    {
+        top: 1.6rem;
+        right: 1.6rem;
+    }
+
+
+
+    .disposable_patches_advantages
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .disposable_patches_advantages .item .name
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .disposable_patches_advantages .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+
+    .disposable_patches_ideas .images
+    {
+        width: 52rem;
+    }
+
+
+    .disposable_patches_ideas .data
+    {
+        width: calc(100% - 52rem - 3.2rem);
+    }
+
+
+    .disposable_patches_ideas .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .disposable_patches_ideas .items > *
+    {
+        padding: 1.2rem 2.4rem;
+    }
+
+
+
+    .disposable_patches_form
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .disposable_patches_form .form__title
+    {
+        max-width: 68rem;
+    }
+
+
+    .disposable_patches_form .btn-common._size-l
+    {
+        height: 8rem !important;
+    }
+
+
+
+    .disposable_patches_contacts
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .disposable_patches_contacts .item
+    {
+        min-height: 24rem;
+    }
+
+
+    .disposable_patches_contacts .item.big
+    {
+        padding-block: 3.2rem;
+    }
+
+
+    .disposable_patches_contacts .item .desc
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .disposable_patches_contacts .item .val
+    {
+        font-size: 2.8rem;
+    }
+
+
+
+    .disposable_patches_cosmetics
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .disposable_patches_cosmetics .title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .disposable_patches_cosmetics .front
+    {
+        border-radius: 2.8rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .info
+    {
+        gap: 1.6rem;
+
+        padding-block: 2.4rem 0;
+    }
+
+
+    .disposable_patches_cosmetics .item .name
+    {
+        font-size: 2rem;
+    }
+
+
+    .disposable_patches_cosmetics .big-link
+    {
+        width: 36rem;
+        height: 8rem;
+        margin-top: 3.2rem;
+        padding: 1.2rem 1.22rem 1.2rem 4rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .disposable_patches_cosmetics .big-link .big-link__icon
+    {
+        width: 5.6rem;
+        height: 5.6rem;
+    }
+
+
+    .disposable_patches_cosmetics .back
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .turn
+    {
+        width: 5.6rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .turn img
+    {
+        width: 2.4rem;
+    }
+
+
+
+    .disposable_patches_confirmation
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .disposable_patches_confirmation .data
+    {
+        width: 52rem;
+        padding-block: 4rem 2.4rem;
+        padding-inline: 4rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .disposable_patches_confirmation .title
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .disposable_patches_confirmation .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .disposable_patches_confirmation .big-link
+    {
+        width: 36rem;
+        height: 8rem;
+        margin-top: 3.2rem;
+        padding: 1.2rem 1.22rem 1.2rem 4rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .disposable_patches_confirmation .big-link .big-link__icon
+    {
+        width: 5.6rem;
+        height: 5.6rem;
+    }
+
+
+    .disposable_patches_confirmation .image
+    {
+        width: calc(100% - 52rem);
+
+        border-radius: 2.4rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1279px)
+{
+    .disposable_patches_head .container
+    {
+        min-height: 68rem;
+        padding-block: 12.2rem 4rem;
+    }
+
+
+    .disposable_patches_head .title
+    {
+        width: 56rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .disposable_patches_head .exp
+    {
+        padding: 1rem 2rem;
+
+        font-size: 1.4rem;
+    }
+
+
+    .disposable_patches_head .data
+    {
+        width: 46rem;
+    }
+
+
+    .disposable_patches_head .items
+    {
+        font-size: 1.4rem;
+    }
+
+
+    .disposable_patches_head .items > *
+    {
+        padding: .8rem 2rem;
+    }
+
+
+    .disposable_patches_head .desc
+    {
+        width: 100%;
+
+        font-size: 1.4rem;
+    }
+
+
+    .disposable_patches_head .grid
+    {
+        width: calc(100% - 46rem - 4rem);
+        min-height: 0;
+    }
+
+
+    .disposable_patches_head .grid .label
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .disposable_patches_head .grid .flag
+    {
+        top: auto;
+        right: 1.6rem;
+        bottom: 1.6rem;
+
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-block: 0;
+    }
+
+
+    .disposable_patches_head .grid .big-link
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .disposable_patches_head .grid .inci_info
+    {
+        padding: 2rem;
+    }
+
+
+
+    .disposable_patches_advantages .item
+    {
+        padding: 2rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .disposable_patches_advantages .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .disposable_patches_advantages .item .thumb
+    {
+        border-radius: 1.6rem;
+    }
+
+
+
+    .disposable_patches_ideas .images
+    {
+        order: 2;
+
+        width: 50.6rem;
+        margin-top: 2.4rem;
+    }
+
+
+    .disposable_patches_ideas .image
+    {
+        border-radius: 2rem;
+    }
+
+
+    .disposable_patches_ideas .data
+    {
+        width: 100%;
+    }
+
+
+    .disposable_patches_ideas .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .disposable_patches_ideas .items > *
+    {
+        padding: 1rem 2rem;
+    }
+
+
+
+    .disposable_patches_contacts .grid
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .disposable_patches_contacts .item
+    {
+        min-height: 1.6rem;
+    }
+
+
+    .disposable_patches_contacts .item.big
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .disposable_patches_contacts .item .desc
+    {
+        margin-top: 1.2rem;
+
+        font-size: 1.5rem;
+    }
+
+
+    .disposable_patches_contacts .item .val
+    {
+        margin-top: 1.2rem;
+
+        font-size: 2.5rem;
+    }
+
+
+
+    .disposable_patches_cosmetics .title
+    {
+        margin-bottom: 3.2rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .disposable_patches_cosmetics .front
+    {
+        border-radius: 2.4rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .info
+    {
+        padding-block: 2rem 0;
+    }
+
+
+    .disposable_patches_cosmetics .item .name
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .min
+    {
+        font-size: 1.2rem;
+
+        letter-spacing: .012rem;
+    }
+
+
+    .disposable_patches_cosmetics .back
+    {
+        padding: 2rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .turn
+    {
+        right: 1.2rem;
+        bottom: 1.2rem;
+
+        width: 4.8rem;
+    }
+
+
+    .disposable_patches_cosmetics .item .turn img
+    {
+        width: 2rem;
+    }
+
+
+
+    .disposable_patches_confirmation .data
+    {
+        width: 48rem;
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+
+        border-radius: 2rem;
+    }
+
+
+    .disposable_patches_confirmation .title
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .disposable_patches_confirmation .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .disposable_patches_confirmation .image
+    {
+        width: calc(100% - 48rem);
+
+        border-radius: 2rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1023px)
+{
+    .disposable_patches_head .container
+    {
+        height: auto;
+        min-height: 0;
+    }
+
+
+    .disposable_patches_head .bottom
+    {
+        margin-top: 3.2rem;
+    }
+
+
+    .disposable_patches_head .data
+    {
+        width: 100%;
+    }
+
+
+    .disposable_patches_head .grid
+    {
+        width: 100%;
+        margin-top: 3.2rem;
+    }
+
+
+
+    .disposable_patches_advantages .grid_row
+    {
+        display: grid;
+        overflow: auto;
+        gap: 2rem;
+
+        width: calc(100% + 4.8rem);
+        margin-block: 0;
+        margin-inline: -2.4rem;
+        padding-inline: 2.4rem;
+
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 2.4rem;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+
+    .disposable_patches_advantages .grid_row::-webkit-scrollbar
+    {
+        display: none;
+
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+
+    .disposable_patches_advantages .grid_row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .disposable_patches_advantages .grid_row > *
+    {
+        width: 34rem;
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+    .disposable_patches_advantages .item
+    {
+        padding: 2rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .disposable_patches_advantages .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .disposable_patches_advantages .item .thumb
+    {
+        border-radius: 1.6rem;
+    }
+
+
+
+    .disposable_patches_cosmetics .grid_row
+    {
+        display: grid;
+        overflow: auto;
+        gap: 2rem;
+
+        width: calc(100% + 4.8rem);
+        margin-block: 0;
+        margin-inline: -2.4rem;
+        padding-inline: 2.4rem;
+
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 2.4rem;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+
+    .disposable_patches_cosmetics .grid_row::-webkit-scrollbar
+    {
+        display: none;
+
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+
+    .disposable_patches_cosmetics .grid_row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .disposable_patches_cosmetics .grid_row > *
+    {
+        width: 34rem;
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+    .disposable_patches_cosmetics .big-link
+    {
+        width: 32.2rem;
+        height: 6.8rem;
+        margin-top: 2.8rem;
+        padding: 1rem 1rem 1rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .disposable_patches_cosmetics .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .disposable_patches_confirmation .data
+    {
+        width: 32.2rem;
+    }
+
+
+    .disposable_patches_confirmation .big-link
+    {
+        width: 100%;
+        height: 6.8rem;
+        margin-top: 2rem;
+        padding: 1rem 1rem 1rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .disposable_patches_confirmation .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+    .disposable_patches_confirmation .image
+    {
+        width: calc(100% - 32.2rem);
+    }
+}
+
+
+
+@media print,
+(max-width: 767px)
+{
+    .disposable_patches_head
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .disposable_patches_head .title
+    {
+        width: 100%;
+
+        font-size: 4rem;
+
+        letter-spacing: -.04rem;
+    }
+
+
+    .disposable_patches_head .bottom
+    {
+        margin-top: 2.4rem;
+    }
+
+
+    .disposable_patches_head .btn
+    {
+        width: 100%;
+        min-width: 0;
+        height: 7.2rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .01.8rem;
+    }
+
+
+    .disposable_patches_head .grid
+    {
+        margin-top: 2.4rem;
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .disposable_patches_head .grid .item.big_h
+    {
+        gap: .8rem;
+
+        border-bottom: .1rem solid #fff;
+
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+
+
+    .disposable_patches_head .grid .item
+    {
+        gap: .4rem;
+
+        padding: 1.2rem 1.6rem;
+    }
+
+
+    .disposable_patches_head .grid .item:nth-child(1),
+    .disposable_patches_head .grid .item:nth-child(3)
+    {
+        border-bottom: none;
+    }
+
+
+    .disposable_patches_head .grid .item:nth-child(3),
+    .disposable_patches_head .grid .item:nth-child(4)
+    {
+        border-left: .1rem solid #fff;
+    }
+
+
+    .disposable_patches_head .grid .label,
+    .disposable_patches_head .grid .val
+    {
+        font-size: 1.2rem;
+
+        letter-spacing: .012rem;
+    }
+
+
+    .disposable_patches_head .grid .item.big_h .label,
+    .disposable_patches_head .grid .item.big_h .val
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .disposable_patches_head .grid .flag
+    {
+        display: none;
+    }
+
+
+    .disposable_patches_head .grid .big-link
+    {
+        position: absolute;
+        right: 1.6rem;
+        bottom: 1.2rem;
+    }
+
+
+
+    .disposable_patches_form .form__header
+    {
+        margin-bottom: 3.6rem !important;
+    }
+
+
+    .disposable_patches_form .form__title
+    {
+        max-width: 100% !important;
+
+        font-size: 3.6rem !important;
+    }
+
+
+
+    .disposable_patches_advantages
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .disposable_patches_advantages .grid_row
+    {
+        gap: 1.2rem;
+
+        width: calc(100% + 3.2rem);
+        margin-inline: -1.6rem;
+        padding-inline: 1.6rem;
+
+        scroll-padding: 0 1.6rem;
+    }
+
+
+    .disposable_patches_advantages .grid_row > *
+    {
+        width: 32rem;
+    }
+
+
+    .disposable_patches_advantages .item
+    {
+        padding: 1.6rem;
+
+        border-radius: 2rem;
+    }
+
+
+    .disposable_patches_advantages .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+
+    .disposable_patches_ideas
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .disposable_patches_ideas .title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .disposable_patches_ideas .items > *
+    {
+        padding: .8rem 1.6rem;
+    }
+
+
+
+    .disposable_patches_contacts
+    {
+        padding-block: 4rem;
+    }
+
+
+    .disposable_patches_contacts .grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .disposable_patches_contacts .item.big
+    {
+        grid-column: auto;
+    }
+
+
+    .disposable_patches_contacts .item .title
+    {
+        font-size: 3.6rem;
+    }
+
+
+    .disposable_patches_contacts .item .desc
+    {
+        font-size: 1.4rem;
+    }
+
+
+    .disposable_patches_contacts .item .val
+    {
+        font-size: 2.2rem;
+    }
+
+
+
+    .disposable_patches_cosmetics
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .disposable_patches_cosmetics .title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .disposable_patches_cosmetics .grid_row
+    {
+        gap: 1.2rem;
+
+        width: calc(100% + 3.2rem);
+        margin-inline: -1.6rem;
+        padding-inline: 1.6rem;
+
+        scroll-padding: 0 1.6rem;
+    }
+
+
+    .disposable_patches_cosmetics .grid_row > *
+    {
+        width: 32rem;
+    }
+
+
+    .disposable_patches_cosmetics .big-link
+    {
+        width: 100%;
+    }
+
+
+
+    .disposable_patches_confirmation
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .disposable_patches_confirmation .data
+    {
+        width: 100%;
+    }
+
+
+    .disposable_patches_confirmation .image
+    {
+        width: 100%;
+    }
+}
