@@ -1,0 +1,2387 @@
+.contract_manufacturing_head
+{
+    position: relative;
+
+    margin-bottom: 5rem;
+
+    color: #fff;
+    background: #000;
+}
+
+
+.contract_manufacturing_head .container
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+
+    min-height: 100vh;
+    padding-block: 21.8rem 7rem;
+
+    z-index: 3;
+}
+
+
+.contract_manufacturing_head .title
+{
+    width: 115.2rem;
+    max-width: 100%;
+    margin-top: 4rem;
+
+    font-size: 9.6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.096rem;
+}
+
+
+.contract_manufacturing_head .desc
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 65.8rem;
+    max-width: 100%;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 130%;
+
+    letter-spacing: .02rem;
+}
+
+
+.contract_manufacturing_head .big-link
+{
+    width: 53.4rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 2rem 2.2rem 2rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.contract_manufacturing_head .big-link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+.contract_manufacturing_head .items
+{
+    position: absolute;
+    right: 50%;
+    bottom: 7rem;
+
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1.6rem;
+
+    width: 99.2rem;
+    margin-right: -92.3rem;
+
+    color: #18181e;
+}
+
+
+.contract_manufacturing_head .items > *
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.1rem;
+
+    width: 32rem;
+    max-width: 100%;
+    padding: 2.2rem 3rem 2.3rem 2.5rem;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 120%;
+
+    border-radius: 3rem;
+    background: #fff;
+}
+
+
+.contract_manufacturing_head .items .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 5.6rem;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.contract_manufacturing_head .items .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.contract_manufacturing_head .items span
+{
+    width: calc(100% - 8.7rem);
+
+    opacity: .8;
+}
+
+
+.contract_manufacturing_head .bg
+{
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.contract_manufacturing_head .bg:before
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    content: '';
+    z-index: 1;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -1.83%, rgba(0, 0, 0, .7) 100%);
+
+    mix-blend-mode: multiply;
+}
+
+
+.contract_manufacturing_head .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.contract_manufacturing_cooperation
+{
+    padding-block: 5rem;
+}
+
+
+.contract_manufacturing_cooperation .block_title
+{
+    margin-bottom: 6rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    text-align: center;
+    letter-spacing: -.06rem;
+}
+
+
+.contract_manufacturing_cooperation .grid_row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: 2.8rem;
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+
+    counter-reset: number;
+}
+
+
+.contract_manufacturing_cooperation .grid_row > *
+{
+    width: calc(33.333% - 2rem);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+.contract_manufacturing_cooperation .product
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    text-decoration: none;
+
+    color: currentColor;
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.contract_manufacturing_cooperation .product .info
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding-block: 8rem 6.5rem;
+    padding-inline: 4rem;
+
+    text-align: center;
+}
+
+
+.contract_manufacturing_cooperation .product .number
+{
+    position: absolute;
+    top: 2.6rem;
+    left: 3.5rem;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 160%;
+
+    white-space: nowrap;
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+}
+
+
+.contract_manufacturing_cooperation .product .number:before
+{
+    content: counter(number, decimal-leading-zero);
+    counter-increment: number;
+}
+
+
+.contract_manufacturing_cooperation .product .sticker
+{
+    position: absolute;
+    top: 1.7rem;
+    right: 3rem;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    min-width: 17.6rem;
+    height: 4.5rem;
+    padding-inline: 2rem;
+
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 120%;
+
+    text-align: center;
+    white-space: nowrap;
+
+    border-radius: 2rem;
+}
+
+
+.contract_manufacturing_cooperation .product .sticker.new
+{
+    background: linear-gradient(90deg, #ffe6e6 .42%, #ff5491 154.59%);
+}
+
+
+.contract_manufacturing_cooperation .product .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 90%;
+}
+
+
+.contract_manufacturing_cooperation .product .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 130%;
+
+    letter-spacing: .02rem;
+}
+
+
+.contract_manufacturing_cooperation .product .thumb
+{
+    display: block;
+
+    background: #ddd;
+
+    aspect-ratio: 1 / .652;
+}
+
+
+.contract_manufacturing_cooperation .product .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.contract_manufacturing_cooperation .product .big-link
+{
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+
+    width: 9rem;
+    min-width: 0;
+    height: 9rem;
+    padding: 0;
+
+    z-index: 2;
+
+    border: none;
+    background: none;
+}
+
+
+.contract_manufacturing_cooperation .product .big-link:before
+{
+    display: none;
+}
+
+
+
+
+
+
+
+.contract_manufacturing_with_us
+{
+    padding-block: 5rem;
+}
+
+
+.contract_manufacturing_with_us .swiper
+{
+    overflow: visible;
+}
+
+
+.contract_manufacturing_with_us .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.contract_manufacturing_with_us .swiper:not(.swiper-initialized) .swiper-slide
+{
+    width: calc(100% / 3 - 2rem);
+}
+
+
+.contract_manufacturing_with_us .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+
+
+.contract_manufacturing_with_us .swiper-button-next,
+.contract_manufacturing_with_us .swiper-button-prev
+{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+
+    opacity: 1;
+    color: #18181e;
+    border-radius: 0;
+    background: none;
+}
+
+
+.contract_manufacturing_with_us .swiper-button-next:hover,
+.contract_manufacturing_with_us .swiper-button-prev:hover
+{
+    color: #18181e;
+    background: none;
+}
+
+
+.contract_manufacturing_with_us .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 5.2rem;
+}
+
+
+.contract_manufacturing_with_us .head .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.contract_manufacturing_with_us .item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    padding-block: 7.3rem 6.2rem;
+    padding-inline: 4rem;
+
+    border-radius: 3.4rem;
+    background: rgba(255, 255, 255, .9);
+}
+
+
+.contract_manufacturing_with_us .item .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    height: 8rem;
+    margin-bottom: 2.4rem;
+}
+
+
+.contract_manufacturing_with_us .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.contract_manufacturing_with_us .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.contract_manufacturing_with_us .item .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.contract_manufacturing_with_us .big-link
+{
+    width: 53.4rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: 5rem;
+    padding: 2rem 2.2rem 2rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.contract_manufacturing_with_us .big-link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+
+.contract_manufacturing_steps
+{
+    padding-block: 5rem;
+}
+
+
+.contract_manufacturing_steps .title
+{
+    margin-bottom: 5.1rem;
+
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.contract_manufacturing_steps .accordion
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    width: calc(100% - 45.7rem);
+    margin-left: auto;
+}
+
+
+.contract_manufacturing_steps .accordion_item
+{
+    overflow: hidden;
+
+    border: 1px solid rgba(24, 24, 30, .50);
+    border-radius: 1.8rem;
+    background: #fff;
+}
+
+
+.contract_manufacturing_steps .accordion_item:before
+{
+    position: absolute;
+    top: 14.2rem;
+    right: -7.7rem;
+
+    display: block;
+
+    width: 35.8rem;
+    height: 8.4rem;
+
+    content: '';
+    z-index: 1;
+    transition: opacity .2s linear;
+    transform: rotate(75.81deg);
+    pointer-events: none;
+
+    opacity: 0;
+    border-radius: 35.8rem;
+    background: #fac3ff;
+
+    filter: blur(9.37rem);
+}
+
+
+.contract_manufacturing_steps .accordion_item:after
+{
+    position: absolute;
+    top: 25.6rem;
+    right: 11.2rem;
+
+    display: block;
+
+    width: 23.2rem;
+    height: 6.1rem;
+
+    content: '';
+    z-index: 1;
+    transition: opacity .2s linear;
+    transform: rotate(167.4deg);
+    pointer-events: none;
+
+    opacity: 0;
+    border-radius: 35.8rem;
+    background: #56baff;
+
+    filter: blur(8.95rem);
+}
+
+
+.contract_manufacturing_steps .accordion_item[data-open]:before,
+.contract_manufacturing_steps .accordion_item[data-open]:after
+{
+    opacity: 1;
+}
+
+
+.contract_manufacturing_steps .accordion-item-visible
+{
+    cursor: pointer;
+}
+
+
+.contract_manufacturing_steps .accordion-item-title
+{
+    transition: color .2s linear;
+
+    color: #aeaebe;
+}
+
+
+.contract_manufacturing_steps .accordion-item-visible .arr
+{
+    display: block;
+
+    width: 2.6rem;
+    height: 1.6rem;
+
+    transition: transform .2s linear;
+}
+
+
+.contract_manufacturing_steps .accordion_item[data-open] .accordion-item-visible .arr
+{
+    transform: rotate(180deg);
+}
+
+
+.contract_manufacturing_steps .accordion_item[data-open] .accordion-item-title
+{
+    color: #18181e;
+}
+
+
+.contract_manufacturing_steps .accordion-item-title span
+{
+    margin-right: 1rem;
+}
+
+
+.contract_manufacturing_steps .accordion-item-content
+{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.contract_manufacturing_steps .text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    width: 86.3rem;
+    max-width: 100%;
+}
+
+
+.contract_manufacturing_steps .rte > :not(:last-child)
+{
+    margin-bottom: 0;
+}
+
+
+
+.contract_manufacturing_confirmation
+{
+    padding-block: 5rem;
+}
+
+
+.contract_manufacturing_confirmation .container
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.contract_manufacturing_confirmation .data
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    width: 76.5rem;
+    max-width: 100%;
+    padding-block: 4rem 3.1rem;
+    padding-inline: 4rem 9.8rem;
+
+    border-radius: 3rem;
+    background: #fff;
+}
+
+.contract_manufacturing_confirmation .title
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.contract_manufacturing_confirmation .desc
+{
+    font-size: 2rem;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+}
+
+
+.contract_manufacturing_confirmation .big-link
+{
+    width: 40.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 1.8rem 2rem 1.4rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: rgba(24, 24, 30, .64);
+    background: rgba(24, 24, 30, .16);
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.contract_manufacturing_confirmation .big-link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+
+    color: #18181e;
+}
+
+
+.contract_manufacturing_confirmation .images
+{
+    overflow: hidden;
+
+    width: calc(100% - 76.5rem);
+    margin-bottom: -3.1rem;
+
+    border-radius: 3rem;
+}
+
+
+.contract_manufacturing_confirmation .images .swiper
+{
+    height: 100%;
+    padding-bottom: 3.1rem;
+}
+
+
+.contract_manufacturing_confirmation .images .swiper-pagination
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.7rem;
+
+    width: 100%;
+    height: 1.9rem;
+
+    pointer-events: none;
+}
+
+
+.contract_manufacturing_confirmation .images .swiper-pagination-bullet
+{
+    display: block;
+
+    width: 1.9rem;
+    height: 1.9rem;
+
+    cursor: pointer;
+    transition: background .2s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+    border-radius: 50%;
+    background: rgba(24, 24, 30, .16);
+}
+
+
+.contract_manufacturing_confirmation .images .swiper-pagination-bullet:hover,
+.contract_manufacturing_confirmation .images .swiper-pagination-bullet.active
+{
+    background: #6b6b79;
+}
+
+
+.contract_manufacturing_confirmation .image
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 3rem;
+}
+
+
+.contract_manufacturing_confirmation .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+
+.contract_manufacturing_form
+{
+    padding-block: 5rem;
+}
+
+
+.contract_manufacturing_form .form__header
+{
+    gap: 1.8rem !important;
+
+    margin-bottom: 4.8rem !important;
+}
+
+
+.contract_manufacturing_form .form__title
+{
+    max-width: 100% !important;
+
+    font-size: 6rem !important;
+}
+
+
+.contract_manufacturing_form .btn-common._size-l
+{
+    height: 10.1rem !important;
+}
+
+
+.contract_manufacturing_form .form__footer
+{
+    gap: 1.8rem !important;
+
+    margin-top: 3.2rem !important;
+}
+
+
+
+.contract_manufacturing_contacts
+{
+    padding-block: 5rem;
+}
+
+
+.contract_manufacturing_contacts .grid
+{
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.contract_manufacturing_contacts .item
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    min-height: 28.8rem;
+    padding: 2.6rem 3.1rem 3.9rem;
+
+    border-radius: 2.8rem;
+    background: #fff;
+}
+
+
+.contract_manufacturing_contacts .item.big
+{
+    padding-block: 4.5rem 4.7rem;
+    padding-inline: 5rem;
+
+    background-image: url(../assets/img/contacts-xl.webp);
+
+    grid-column: span 2;
+}
+
+
+.contract_manufacturing_contacts .item .title
+{
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.contract_manufacturing_contacts .item .desc
+{
+    margin-top: auto;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 160%;
+
+    letter-spacing: .02rem;
+}
+
+
+.contract_manufacturing_contacts .item .label
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 160%;
+
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+
+    color: #6b6b79;
+}
+
+
+.contract_manufacturing_contacts .item .val
+{
+    margin-top: auto;
+
+    font-size: 3.6rem;
+    font-weight: 375;
+    line-height: 1;
+
+    letter-spacing: -.036rem;
+}
+
+
+.contract_manufacturing_contacts .item .val a
+{
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+
+@media print,
+(max-width: 1899px)
+{
+    .contract_manufacturing_head .container
+    {
+        gap: 2.4rem;
+
+        height: 100vh;
+        min-height: 65rem;
+        padding-block: 14.5rem 5rem;
+    }
+
+
+    .contract_manufacturing_head .title
+    {
+        width: 100%;
+
+        font-size: 8rem;
+
+        letter-spacing: -.08rem;
+    }
+
+
+    .contract_manufacturing_head .desc
+    {
+        width: 64rem;
+        margin-bottom: 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .contract_manufacturing_head .items
+    {
+        right: 3.4rem;
+        bottom: 5rem;
+
+        gap: 1.2rem;
+
+        width: 53.2rem;
+        margin-right: 0;
+    }
+
+
+    .contract_manufacturing_head .items > *
+    {
+        gap: 1.2rem;
+
+        width: 26rem;
+        padding: 1.6rem 2rem 1.6rem 1.2rem;
+
+        font-size: 1.8rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .contract_manufacturing_head .items .icon
+    {
+        width: 4.8rem;
+    }
+
+
+    .contract_manufacturing_head .items span
+    {
+        width: calc(100% - 6rem);
+    }
+
+
+
+    .contract_manufacturing_cooperation .block_title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .info
+    {
+        gap: 1.6rem;
+
+        padding-block: 7.6rem 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .number
+    {
+        top: 2.4rem;
+        left: 2.4rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .sticker
+    {
+        top: 1.6rem;
+        right: 2.6rem;
+
+        min-width: 16rem;
+        height: 4rem;
+
+        font-size: 1.8rem;
+
+        border-radius: 1.8rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .name
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .01.8rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .big-link
+    {
+        right: 2.4rem;
+        bottom: 2.4rem;
+
+        width: 6.8rem;
+        height: 6.8rem;
+    }
+
+
+
+    .contract_manufacturing_with_us .head
+    {
+        margin-bottom: 4.8rem;
+    }
+
+
+    .contract_manufacturing_with_us .head .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .contract_manufacturing_with_us .item
+    {
+        padding-block: 6rem 5.2rem;
+        padding-inline: 3.2rem;
+
+        border-radius: 3.2rem;
+    }
+
+
+    .contract_manufacturing_with_us .item .icon
+    {
+        height: 6.8rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .contract_manufacturing_with_us .item .name
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .contract_manufacturing_with_us .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .contract_manufacturing_with_us .big-link
+    {
+        width: 50rem;
+        height: 9.6rem;
+        margin-top: 4rem;
+        padding: 1.6rem 2rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .contract_manufacturing_with_us .big-link .big-link__icon
+    {
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+
+
+    .contract_manufacturing_steps .title
+    {
+        margin-bottom: 4.8rem;
+
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .contract_manufacturing_steps .accordion
+    {
+        width: calc(100% - 44rem);
+    }
+
+
+    .contract_manufacturing_steps .accordion-item-visible .arr
+    {
+        width: 2.2rem;
+        height: 1.2rem;
+    }
+
+
+    .contract_manufacturing_steps .text
+    {
+        width: calc(100% - 22rem);
+    }
+
+
+
+    .contract_manufacturing_confirmation .data
+    {
+        width: 66rem;
+        padding-block: 4rem 2.8rem;
+        padding-inline: 4rem 8rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .contract_manufacturing_confirmation .title
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .contract_manufacturing_confirmation .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .contract_manufacturing_confirmation .big-link
+    {
+        width: 40rem;
+        height: 9.6rem;
+        margin-top: 2rem;
+        padding: 1.6rem 2rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .contract_manufacturing_confirmation .big-link .big-link__icon
+    {
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+
+    .contract_manufacturing_confirmation .images
+    {
+        width: calc(100% - 66rem);
+
+        border-radius: 2.8rem;
+    }
+
+
+    .contract_manufacturing_confirmation .image
+    {
+        border-radius: 2.8rem;
+    }
+
+
+
+    .contract_manufacturing_form .form__header
+    {
+        gap: 1.2rem !important;
+    }
+
+
+    .contract_manufacturing_form .form__title
+    {
+        font-size: 4.8rem !important;
+    }
+
+
+    .contract_manufacturing_form .btn-common._size-l
+    {
+        height: 9rem !important;
+    }
+
+
+
+    .contract_manufacturing_contacts .item
+    {
+        min-height: 25rem;
+        padding: 2.4rem;
+    }
+
+
+    .contract_manufacturing_contacts .item.big
+    {
+        padding-block: 3.6rem;
+        padding-inline: 4rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .title
+    {
+        font-size: 4.8rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .desc
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .val
+    {
+        font-size: 3rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .contract_manufacturing_head
+    {
+        margin-bottom: 3.4rem;
+    }
+
+
+    .contract_manufacturing_head .container
+    {
+        min-height: 76rem;
+        padding-block: 14rem 4.8rem;
+    }
+
+
+    .contract_manufacturing_head .title
+    {
+        font-size: 7.2rem;
+
+        letter-spacing: -.072rem;
+    }
+
+
+    .contract_manufacturing_head .desc
+    {
+        width: 52rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .contract_manufacturing_head .big-link
+    {
+        width: 48rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .contract_manufacturing_head .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+    .contract_manufacturing_head .items
+    {
+        bottom: 4.8rem;
+
+        width: 51.2rem;
+    }
+
+
+    .contract_manufacturing_head .items > *
+    {
+        width: 25rem;
+        padding: 2rem;
+
+        font-size: 1.6rem;
+    }
+
+
+    .contract_manufacturing_head .items .icon
+    {
+        width: 4.4rem;
+    }
+
+
+    .contract_manufacturing_head .items span
+    {
+        width: calc(100% - 5.6rem);
+    }
+
+
+
+    .contract_manufacturing_cooperation
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .contract_manufacturing_cooperation .block_title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product
+    {
+        border-radius: 2.4rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .info
+    {
+        padding-block: 7.2rem 2.4rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .sticker
+    {
+        top: 1.6rem;
+        right: 2.4rem;
+
+        min-width: 14rem;
+        height: 3.6rem;
+
+        font-size: 1.6rem;
+
+        border-radius: 1.6rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .name
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .desc
+    {
+        font-size: 1.4rem;
+        line-height: 130%;
+    }
+
+
+    .contract_manufacturing_cooperation .product .big-link
+    {
+        right: 2rem;
+        bottom: 2rem;
+
+        width: 6rem;
+        height: 6rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .big-link__icon
+    {
+        width: 6rem;
+        height: 6rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .big-link .big-link__icon .svgsprite
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+
+    .contract_manufacturing_with_us
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .contract_manufacturing_with_us .head
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .contract_manufacturing_with_us .head .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .contract_manufacturing_with_us .item
+    {
+        padding-block: 4.8rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .contract_manufacturing_with_us .item .icon
+    {
+        height: 6rem;
+    }
+
+
+    .contract_manufacturing_with_us .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .contract_manufacturing_with_us .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .contract_manufacturing_with_us .big-link
+    {
+        width: 48rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .contract_manufacturing_with_us .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .contract_manufacturing_steps
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .contract_manufacturing_steps .title
+    {
+        margin-bottom: 4rem;
+
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .contract_manufacturing_steps .accordion
+    {
+        width: calc(100% - 40rem);
+    }
+
+
+    .contract_manufacturing_steps .text
+    {
+        width: calc(100% - 20rem);
+    }
+
+
+
+    .contract_manufacturing_confirmation
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .contract_manufacturing_confirmation .data
+    {
+        width: 52rem;
+        padding-block: 4rem 2.4rem;
+        padding-inline: 4rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .contract_manufacturing_confirmation .title
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .contract_manufacturing_confirmation .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .contract_manufacturing_confirmation .big-link
+    {
+        width: 36rem;
+        height: 8rem;
+        margin-top: 3.2rem;
+        padding: 1.2rem 1.22rem 1.2rem 4rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .contract_manufacturing_confirmation .big-link .big-link__icon
+    {
+        width: 5.6rem;
+        height: 5.6rem;
+    }
+
+
+    .contract_manufacturing_confirmation .images
+    {
+        width: calc(100% - 52rem);
+
+        border-radius: 2.4rem;
+    }
+
+
+    .contract_manufacturing_confirmation .image
+    {
+        border-radius: 2.4rem;
+    }
+
+
+    .contract_manufacturing_confirmation .images .swiper-pagination
+    {
+        gap: 1.2rem;
+
+        height: 1.6rem;
+    }
+
+
+    .contract_manufacturing_confirmation .images .swiper-pagination-bullet
+    {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+
+
+    .contract_manufacturing_form
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .contract_manufacturing_form .form__title
+    {
+        max-width: 68rem;
+    }
+
+
+    .contract_manufacturing_form .btn-common._size-l
+    {
+        height: 8rem !important;
+    }
+
+
+
+    .contract_manufacturing_contacts
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .contract_manufacturing_contacts .item
+    {
+        min-height: 24rem;
+    }
+
+
+    .contract_manufacturing_contacts .item.big
+    {
+        padding-block: 3.2rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .desc
+    {
+        font-size: 1.6rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .val
+    {
+        font-size: 2.8rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1279px)
+{
+    .contract_manufacturing_head .container
+    {
+        min-height: 72rem;
+        padding-block: 12.2rem 4rem;
+    }
+
+
+    .contract_manufacturing_head .title
+    {
+        font-size: 6.4rem;
+
+        letter-spacing: -.064rem;
+    }
+
+
+    .contract_manufacturing_head .desc
+    {
+        width: 50rem;
+    }
+
+
+    .contract_manufacturing_head .big-link
+    {
+        width: 40rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .contract_manufacturing_head .items
+    {
+        bottom: 4rem;
+
+        width: 47.2rem;
+    }
+
+
+    .contract_manufacturing_head .items > *
+    {
+        width: 23rem;
+        padding: 1.6rem;
+    }
+
+
+    .contract_manufacturing_head .items .icon
+    {
+        width: 4rem;
+    }
+
+    .contract_manufacturing_head .items span
+    {
+        width: calc(100% - 5.2rem);
+    }
+
+
+
+    .contract_manufacturing_cooperation .block_title
+    {
+        margin-bottom: 3.2rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .contract_manufacturing_cooperation .grid_row
+    {
+        display: grid;
+        overflow: auto;
+        gap: 2rem;
+
+        width: calc(100% + 4.8rem);
+        margin-inline: -2.4rem;
+        margin-bottom: 0;
+        padding-inline: 2.4rem;
+
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 2.4rem;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+
+    .contract_manufacturing_cooperation .grid_row::-webkit-scrollbar
+    {
+        display: none;
+
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+
+    .contract_manufacturing_cooperation .grid_row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .contract_manufacturing_cooperation .grid_row > *
+    {
+        width: 40rem;
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+    .contract_manufacturing_cooperation .product
+    {
+        border-radius: 2.4rem;
+    }
+
+
+
+    .contract_manufacturing_with_us .head
+    {
+        margin-bottom: 3.2rem;
+    }
+
+
+    .contract_manufacturing_with_us .head .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .contract_manufacturing_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .contract_manufacturing_with_us .swiper-slide
+    {
+        width: 36rem;
+    }
+
+
+    .contract_manufacturing_with_us .big-link
+    {
+        width: 40rem;
+        margin-top: 3.2rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+
+    .contract_manufacturing_steps .title
+    {
+        margin-bottom: 3.2rem;
+
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .contract_manufacturing_steps .accordion
+    {
+        width: 100%;
+    }
+
+
+    .contract_manufacturing_steps .text
+    {
+        width: calc(100% - 22rem);
+    }
+
+
+
+    .contract_manufacturing_confirmation .data
+    {
+        width: 48rem;
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+
+        border-radius: 2rem;
+    }
+
+
+    .contract_manufacturing_confirmation .title
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .contract_manufacturing_confirmation .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .contract_manufacturing_confirmation .images
+    {
+        width: calc(100% - 48rem);
+
+        border-radius: 2rem;
+    }
+
+
+    .contract_manufacturing_confirmation .image
+    {
+        border-radius: 2rem;
+    }
+
+
+
+    .contract_manufacturing_contacts .grid
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .contract_manufacturing_contacts .item
+    {
+        min-height: 1.6rem;
+    }
+
+
+    .contract_manufacturing_contacts .item.big
+    {
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .desc
+    {
+        margin-top: 1.2rem;
+
+        font-size: 1.5rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .val
+    {
+        margin-top: 1.2rem;
+
+        font-size: 2.5rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1023px)
+{
+    .contract_manufacturing_head .container
+    {
+        height: auto;
+        min-height: 0;
+    }
+
+
+    .contract_manufacturing_head .title
+    {
+        font-size: 5.6rem;
+
+        letter-spacing: -.056rem;
+    }
+
+
+    .contract_manufacturing_head .desc
+    {
+        width: 100%;
+    }
+
+
+    .contract_manufacturing_head .items
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        justify-content: flex-start;
+
+        width: 100%;
+    }
+
+
+    .contract_manufacturing_head .items > *
+    {
+        width: 23.2rem;
+    }
+
+
+    .contract_manufacturing_head .big-link
+    {
+        margin-top: 2.4rem;
+    }
+
+
+
+    .contract_manufacturing_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .contract_manufacturing_with_us .swiper-slide
+    {
+        width: 32rem;
+    }
+
+
+
+    .contract_manufacturing_confirmation .data
+    {
+        width: 32.2rem;
+    }
+
+
+    .contract_manufacturing_confirmation .big-link
+    {
+        width: 100%;
+        height: 6.8rem;
+        margin-top: 2rem;
+        padding: 1rem 1rem 1rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .contract_manufacturing_confirmation .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+    .contract_manufacturing_confirmation .images
+    {
+        width: calc(100% - 32.2rem);
+    }
+}
+
+
+
+@media print,
+(max-width: 767px)
+{
+    .contract_manufacturing_head
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .contract_manufacturing_head .title
+    {
+        font-size: 4rem;
+    }
+
+
+    .contract_manufacturing_head .items
+    {
+        width: 100%;
+    }
+
+
+    .contract_manufacturing_head .items > *
+    {
+        width: 100%;
+        padding: 1.2rem;
+    }
+
+
+    .contract_manufacturing_head .items br
+    {
+        display: none;
+    }
+
+
+    .contract_manufacturing_head .big-link
+    {
+        width: 100%;
+        height: 8rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .contract_manufacturing_head .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .contract_manufacturing_cooperation
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .contract_manufacturing_cooperation .head .block_title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .contract_manufacturing_cooperation .grid_row > *
+    {
+        width: 30rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .info
+    {
+        padding-block: 6.8rem 2.4rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .big-link
+    {
+        right: 1.6rem;
+        bottom: 1.6rem;
+
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .big-link .big-link__icon
+    {
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+
+    .contract_manufacturing_cooperation .product .big-link .big-link__icon .svgsprite
+    {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+
+
+    .contract_manufacturing_with_us
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .contract_manufacturing_with_us .head .title
+    {
+        max-width: calc(100% - 10rem);
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .contract_manufacturing_with_us .swiper-controls
+    {
+        align-self: flex-end;
+        gap: 0;
+    }
+
+
+    .contract_manufacturing_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .contract_manufacturing_with_us .swiper-slide
+    {
+        width: 28rem;
+    }
+
+
+    .contract_manufacturing_with_us .item
+    {
+        padding-block: 4rem;
+        padding-inline: 2rem;
+    }
+
+
+    .contract_manufacturing_with_us .item .icon
+    {
+        height: 4.8rem;
+    }
+
+
+    .contract_manufacturing_with_us .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+    .contract_manufacturing_with_us .big-link
+    {
+        width: 100%;
+        height: 8rem;
+        margin-top: 2.4rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .contract_manufacturing_with_us .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .contract_manufacturing_steps
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .contract_manufacturing_steps .title
+    {
+        margin-bottom: 2.4rem;
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .contract_manufacturing_steps .accordion-item-visible .arr
+    {
+        width: 2rem;
+        height: 1rem;
+    }
+
+
+    .contract_manufacturing_steps .text
+    {
+        width: 100%;
+    }
+
+
+
+    .contract_manufacturing_confirmation
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .contract_manufacturing_confirmation .data
+    {
+        width: 100%;
+    }
+
+
+    .contract_manufacturing_confirmation .images
+    {
+        width: 100%;
+    }
+
+
+
+    .contract_manufacturing_form .form__header
+    {
+        margin-bottom: 3.6rem !important;
+    }
+
+
+    .contract_manufacturing_form .form__title
+    {
+        max-width: 100% !important;
+
+        font-size: 3.6rem !important;
+    }
+
+
+
+    .contract_manufacturing_contacts
+    {
+        padding-block: 4rem;
+    }
+
+
+    .contract_manufacturing_contacts .grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .contract_manufacturing_contacts .item.big
+    {
+        grid-column: auto;
+    }
+
+
+    .contract_manufacturing_contacts .item .title
+    {
+        font-size: 3.6rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .desc
+    {
+        font-size: 1.4rem;
+    }
+
+
+    .contract_manufacturing_contacts .item .val
+    {
+        font-size: 2.2rem;
+    }
+}

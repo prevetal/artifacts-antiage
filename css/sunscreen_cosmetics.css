@@ -1,0 +1,2743 @@
+.sunscreen_cosmetics_head
+{
+    position: relative;
+
+    margin-bottom: 5rem;
+
+    color: #fff;
+    background: #000;
+}
+
+
+.sunscreen_cosmetics_head .container
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+
+    min-height: 100vh;
+    padding-block: 21.8rem 5.7rem;
+
+    z-index: 3;
+}
+
+
+.sunscreen_cosmetics_head .title
+{
+    width: 145.3rem;
+    max-width: 100%;
+    margin-top: 4rem;
+
+    font-size: 9.6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.096rem;
+}
+
+
+.sunscreen_cosmetics_head .desc
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+
+    width: 67rem;
+    max-width: 100%;
+
+    font-size: 2.4rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .024rem;
+}
+
+
+.sunscreen_cosmetics_head .big-link
+{
+    width: 46.4rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 2rem 2.2rem 2rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.sunscreen_cosmetics_head .big-link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+.sunscreen_cosmetics_head .items
+{
+    position: absolute;
+    right: 50%;
+    bottom: 5.7rem;
+
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1.6rem;
+
+    width: 65.6rem;
+    margin-right: -92.3rem;
+
+    color: #18181e;
+}
+
+
+.sunscreen_cosmetics_head .items > *
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.1rem;
+
+    width: 32rem;
+    max-width: 100%;
+    padding: 2.1rem 2.7rem 2.1rem 2.5rem;
+
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 120%;
+
+    border-radius: 3rem;
+    background: #fff;
+}
+
+
+.sunscreen_cosmetics_head .items .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 5.6rem;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.sunscreen_cosmetics_head .items .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.sunscreen_cosmetics_head .items span
+{
+    width: calc(100% - 7.7rem);
+
+    opacity: .8;
+}
+
+
+.sunscreen_cosmetics_head .bg
+{
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.sunscreen_cosmetics_head .bg:before
+{
+    position: absolute;
+    inset: 0;
+
+    display: block;
+
+    content: '';
+    z-index: 1;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -1.83%, rgba(0, 0, 0, .7) 100%);
+
+    mix-blend-mode: multiply;
+}
+
+
+.sunscreen_cosmetics_head .bg img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.sunscreen_cosmetics_catalog
+{
+    padding-block: 5rem;
+}
+
+
+.sunscreen_cosmetics_catalog .head
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 4.6rem;
+}
+
+
+.sunscreen_cosmetics_catalog .head .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.sunscreen_cosmetics_catalog .head .desc
+{
+    width: 78.5rem;
+    max-width: 100%;
+    margin-top: 2.1rem;
+
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 120%;
+
+    letter-spacing: -.02rem;
+}
+
+
+.sunscreen_cosmetics_catalog .head .tabs
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .6rem;
+
+    margin-top: 4rem;
+}
+
+
+.sunscreen_cosmetics_catalog .head .tabs .btn
+{
+    min-width: 41.8rem;
+    height: 8.1rem;
+    padding: 0 3rem;
+
+    font-size: 2.4rem;
+    line-height: 1;
+
+    transition: .2s linear;
+    text-align: center;
+    letter-spacing: .024rem;
+
+    border-radius: 10rem;
+    background: #fff;
+}
+
+
+.sunscreen_cosmetics_catalog .head .tabs .btn:hover,
+.sunscreen_cosmetics_catalog .head .tabs .btn.active
+{
+    color: #fff;
+    background: #18181e;
+}
+
+
+.sunscreen_cosmetics_catalog .tab_content
+{
+    position: relative;
+
+    visibility: hidden;
+    overflow: hidden;
+
+    height: 0;
+
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.sunscreen_cosmetics_catalog .tab_content.active
+{
+    visibility: visible;
+    overflow: visible;
+
+    height: auto;
+
+    transition: opacity .5s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+.sunscreen_cosmetics_catalog .tab_content > .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.sunscreen_cosmetics_catalog .grid_row
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: 3.2rem;
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+
+    counter-reset: number;
+}
+
+
+.sunscreen_cosmetics_catalog .grid_row > *
+{
+    width: calc(33.333% - 2rem);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+
+.sunscreen_cosmetics_catalog .item
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+
+    padding: 2.6rem;
+
+    text-decoration: none;
+
+    color: currentColor;
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.sunscreen_cosmetics_catalog .item .top
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.4rem;
+}
+
+
+.sunscreen_cosmetics_catalog .item .thumb
+{
+    display: block;
+
+    width: 11rem;
+
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.sunscreen_cosmetics_catalog .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.sunscreen_cosmetics_catalog .item .thumb + *
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    width: calc(100% - 11rem - 2.4rem);
+}
+
+
+.sunscreen_cosmetics_catalog .item .name
+{
+    font-size: 3.2rem;
+    font-weight: 375;
+    line-height: 100%;
+
+    letter-spacing: .032rem;
+}
+
+
+.sunscreen_cosmetics_catalog .item .desc
+{
+    font-size: 1.6rem;
+    line-height: 120%;
+
+    color: #6b6b79;
+}
+
+
+.sunscreen_cosmetics_catalog .item ol
+{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+
+    width: 38rem;
+    max-width: 100%;
+    margin-top: auto;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+
+    counter-reset: li;
+}
+
+
+.sunscreen_cosmetics_catalog .item ol li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 2.2rem;
+
+    list-style-type: none;
+}
+
+
+.sunscreen_cosmetics_catalog .item ol li:before
+{
+    position: absolute;
+    top: .4rem;
+    left: 0;
+
+    font-size: 1rem;
+    line-height: 160%;
+
+    content: counter(li, decimal-leading-zero);
+    counter-increment: li;
+    letter-spacing: .01rem;
+    text-transform: uppercase;
+
+    color: rgba(24, 24, 30, .50);
+}
+
+
+.sunscreen_cosmetics_catalog .item .big-link
+{
+    position: absolute;
+    right: 2.6rem;
+    bottom: 2.6rem;
+
+    min-width: 0;
+    height: auto;
+    padding: 0;
+
+    z-index: 2;
+
+    border: none;
+    border-radius: 50%;
+    background: none;
+}
+
+
+.sunscreen_cosmetics_catalog .item .big-link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+
+.sunscreen_cosmetics_catalog .product
+{
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    text-decoration: none;
+
+    color: currentColor;
+    border-radius: 3.4rem;
+    background: #fff;
+}
+
+
+.sunscreen_cosmetics_catalog .product .info
+{
+    position: relative;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-direction: column;
+    gap: 2.6rem;
+
+    padding-block: 2.6rem 2.3rem;
+    padding-inline: 3.2rem;
+}
+
+
+.sunscreen_cosmetics_catalog .product .number
+{
+    position: absolute;
+    top: 2.6rem;
+    left: 3.2rem;
+
+    font-size: 1.2rem;
+    line-height: 160%;
+
+    white-space: nowrap;
+    letter-spacing: .012rem;
+    text-transform: uppercase;
+}
+
+
+.sunscreen_cosmetics_catalog .product .number:before
+{
+    content: counter(number, decimal-leading-zero);
+    counter-increment: number;
+}
+
+
+.sunscreen_cosmetics_catalog .product .name
+{
+    width: 38.4rem;
+    max-width: 100%;
+
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 100%;
+
+    text-align: center;
+}
+
+
+.sunscreen_cosmetics_catalog .product .desc
+{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 140%;
+
+    color: #6b6b79;
+}
+
+
+.sunscreen_cosmetics_catalog .product .desc li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 1.6rem;
+
+    list-style-type: none;
+}
+
+
+.sunscreen_cosmetics_catalog .product .desc li:before
+{
+    position: absolute;
+    top: .5lh;
+    left: 0;
+
+    display: block;
+
+    width: .4rem;
+
+    content: '';
+    transform: translateY(-50%);
+
+    border-radius: 50%;
+    background: currentColor;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.sunscreen_cosmetics_catalog .product .desc b
+{
+    font-weight: 400;
+}
+
+
+.sunscreen_cosmetics_catalog .product .icons
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: .8rem;
+
+    width: 100%;
+}
+
+
+.sunscreen_cosmetics_catalog .product .icons .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 5.6rem;
+
+    border: 1px solid;
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.sunscreen_cosmetics_catalog .product .icons .icon img
+{
+    display: block;
+
+    width: 3.2rem;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.sunscreen_cosmetics_catalog .product .thumb
+{
+    display: block;
+
+    background: #ddd;
+
+    aspect-ratio: 1 / .346;
+}
+
+
+.sunscreen_cosmetics_catalog .product .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    min-height: 160px;
+
+    object-fit: cover;
+}
+
+
+.sunscreen_cosmetics_catalog .product .big-link
+{
+    position: absolute;
+    right: 0;
+    bottom: 1.1rem;
+    left: 0;
+
+    width: calc(100% - 4.2rem);
+    min-width: 0;
+    height: 4.7rem;
+    margin-inline: auto;
+    padding: .5rem .5rem .5rem 4.8rem;
+
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 1;
+
+    z-index: 2;
+
+    border: .1rem solid #fff;
+    border-radius: 3rem;
+    background: rgba(24, 24, 30, .06);
+}
+
+
+.sunscreen_cosmetics_catalog .product .big-link:before
+{
+    display: none;
+}
+
+
+.sunscreen_cosmetics_catalog .product .big-link span:not(.big-link__icon)
+{
+    margin-inline: auto;
+
+    text-align: center;
+}
+
+
+.sunscreen_cosmetics_catalog .product .big-link__icon
+{
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+
+.sunscreen_cosmetics_catalog .product .big-link__icon .svgsprite
+{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+
+.sunscreen_cosmetics_catalog .text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 79.7rem;
+    max-width: 100%;
+    margin-top: 3.2rem;
+    padding-inline: 3.2rem;
+
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+
+    border-left: .1rem solid #000;
+}
+
+
+.sunscreen_cosmetics_catalog .text li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 1.6rem;
+
+    list-style-type: none;
+}
+
+
+.sunscreen_cosmetics_catalog .text li:before
+{
+    position: absolute;
+    top: .5lh;
+    left: 0;
+
+    display: block;
+
+    width: .4rem;
+
+    content: '';
+    transform: translateY(-50%);
+
+    border-radius: 50%;
+    background: currentColor;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.sunscreen_cosmetics_catalog .big-link.action_link
+{
+    width: 47.3rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: 2.4rem;
+    padding: 2rem 2.2rem 2rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.sunscreen_cosmetics_catalog .big-link.action_link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+
+.sunscreen_cosmetics_with_us
+{
+    padding-block: 5rem;
+}
+
+
+.sunscreen_cosmetics_with_us .swiper
+{
+    overflow: visible;
+}
+
+
+.sunscreen_cosmetics_with_us .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.sunscreen_cosmetics_with_us .swiper:not(.swiper-initialized) .swiper-slide
+{
+    width: calc(100% / 3 - 2rem);
+}
+
+
+.sunscreen_cosmetics_with_us .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+
+
+.sunscreen_cosmetics_with_us .swiper-button-next,
+.sunscreen_cosmetics_with_us .swiper-button-prev
+{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+
+    opacity: 1;
+    color: #18181e;
+    border-radius: 0;
+    background: none;
+}
+
+
+.sunscreen_cosmetics_with_us .swiper-button-next:hover,
+.sunscreen_cosmetics_with_us .swiper-button-prev:hover
+{
+    color: #18181e;
+    background: none;
+}
+
+
+.sunscreen_cosmetics_with_us .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 5.2rem;
+}
+
+
+.sunscreen_cosmetics_with_us .head .title
+{
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1;
+
+    letter-spacing: -.06rem;
+}
+
+
+.sunscreen_cosmetics_with_us .item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    padding-block: 7.3rem 6.2rem;
+    padding-inline: 4rem;
+
+    border-radius: 3.4rem;
+    background: rgba(255, 255, 255, .9);
+}
+
+
+.sunscreen_cosmetics_with_us .item .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    height: 8rem;
+    margin-bottom: 2.4rem;
+}
+
+
+.sunscreen_cosmetics_with_us .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.sunscreen_cosmetics_with_us .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.sunscreen_cosmetics_with_us .item .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.sunscreen_cosmetics_with_us .big-link
+{
+    width: 53.4rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: 5rem;
+    padding: 2rem 2.2rem 2rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: #fff;
+    background: #a19f9f;
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.sunscreen_cosmetics_with_us .big-link .big-link__icon
+{
+    width: 6rem;
+    height: 6rem;
+
+    color: #18181e;
+}
+
+
+
+.sunscreen_cosmetics_advantages
+{
+    padding-block: 5rem;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper
+{
+    overflow: visible;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper:not(.swiper-initialized) .swiper-slide
+{
+    width: calc(100% / 3 - 2rem);
+}
+
+
+.sunscreen_cosmetics_advantages .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.2rem;
+
+    margin-left: auto;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper-button-next,
+.sunscreen_cosmetics_advantages .swiper-button-prev
+{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+
+    opacity: 1;
+    color: #18181e;
+    border-radius: 0;
+    background: none;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper-button-next:hover,
+.sunscreen_cosmetics_advantages .swiper-button-prev:hover
+{
+    color: #18181e;
+    background: none;
+}
+
+
+.sunscreen_cosmetics_advantages .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 2.8rem;
+}
+
+
+.sunscreen_cosmetics_advantages .item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    padding: 3.2rem;
+
+    opacity: .9;
+    border: .1rem solid rgba(24, 24, 30, .16);
+    border-radius: 3.4rem;
+    background: rgba(255, 255, 255, .9);
+}
+
+
+.sunscreen_cosmetics_advantages .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.sunscreen_cosmetics_advantages .item .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.sunscreen_cosmetics_advantages .item .thumb
+{
+    display: block;
+
+    margin-top: auto;
+
+    border-radius: 2.2rem;
+    background: #ddd;
+
+    aspect-ratio: 1 / .623;
+}
+
+
+.sunscreen_cosmetics_advantages .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+
+.sunscreen_cosmetics_confirmation
+{
+    padding-block: 5rem;
+}
+
+
+.sunscreen_cosmetics_confirmation .container
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.sunscreen_cosmetics_confirmation .data
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    width: 76.5rem;
+    max-width: 100%;
+    padding-block: 4rem 3.1rem;
+    padding-inline: 4rem 9.8rem;
+
+    border-radius: 3rem;
+    background: #fff;
+}
+
+.sunscreen_cosmetics_confirmation .title
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.sunscreen_cosmetics_confirmation .desc
+{
+    font-size: 2rem;
+    line-height: 120%;
+
+    letter-spacing: .02rem;
+}
+
+
+.sunscreen_cosmetics_confirmation .big-link
+{
+    width: 40.1rem;
+    min-width: 0;
+    max-width: 100%;
+    height: 10.1rem;
+    margin-top: auto;
+    padding: 1.8rem 2rem 1.4rem 4.4rem;
+
+    font-size: 2.8rem;
+    line-height: 1;
+
+    letter-spacing: .028rem;
+
+    color: rgba(24, 24, 30, .64);
+    background: rgba(24, 24, 30, .16);
+
+            backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
+}
+
+
+.sunscreen_cosmetics_confirmation .big-link .big-link__icon
+{
+    width: 6.5rem;
+    height: 6.5rem;
+
+    color: #18181e;
+}
+
+
+.sunscreen_cosmetics_confirmation .image
+{
+    width: calc(100% - 76.5rem);
+
+    border-radius: 3rem;
+}
+
+
+.sunscreen_cosmetics_confirmation .image img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+
+.sunscreen_cosmetics_form
+{
+    padding-block: 5rem;
+}
+
+
+.sunscreen_cosmetics_form .form__header
+{
+    gap: 1.8rem !important;
+
+    margin-bottom: 4.8rem !important;
+}
+
+
+.sunscreen_cosmetics_form .form__title
+{
+    max-width: 100% !important;
+
+    font-size: 6rem !important;
+}
+
+
+.sunscreen_cosmetics_form .btn-common._size-l
+{
+    height: 10.1rem !important;
+}
+
+
+.sunscreen_cosmetics_form .form__footer
+{
+    gap: 1.8rem !important;
+
+    margin-top: 3.2rem !important;
+}
+
+
+
+@media print,
+(max-width: 1899px)
+{
+    .sunscreen_cosmetics_head .container
+    {
+        gap: 2.4rem;
+
+        height: 100vh;
+        min-height: 65rem;
+        padding-block: 14.5rem 5rem;
+    }
+
+
+    .sunscreen_cosmetics_head .title
+    {
+        width: 100%;
+
+        font-size: 8rem;
+
+        letter-spacing: -.08rem;
+    }
+
+
+    .sunscreen_cosmetics_head .desc
+    {
+        width: 64rem;
+        margin-bottom: 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items
+    {
+        right: 3.4rem;
+        bottom: 5rem;
+
+        gap: 1.2rem;
+
+        width: 63.2rem;
+        margin-right: 0;
+    }
+
+
+    .sunscreen_cosmetics_head .items > *
+    {
+        gap: 1.2rem;
+
+        width: 31rem;
+        padding: 1.6rem 2rem 1.6rem 1.2rem;
+
+        font-size: 1.8rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items .icon
+    {
+        width: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items span
+    {
+        width: calc(100% - 6rem);
+    }
+
+
+
+    .sunscreen_cosmetics_catalog .head
+    {
+        margin-bottom: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .desc
+    {
+        margin-top: 2rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: -.018rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .tabs
+    {
+        gap: .8rem;
+
+        margin-top: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .tabs .btn
+    {
+        min-width: 38rem;
+        height: 8.8rem;
+        padding: 1.2rem 2.8rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .tab_content > .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item
+    {
+        gap: 2.4rem;
+
+        padding: 2.4rem;
+
+        border-radius: 3.2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .thumb
+    {
+        width: 10rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .thumb + *
+    {
+        width: calc(100% - 10rem - 2.4rem);
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .name
+    {
+        font-size: 2.8rem;
+
+        letter-spacing: .028rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item ol
+    {
+        gap: .4rem;
+
+        width: calc(100% - 6rem);
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .big-link
+    {
+        right: 2.4rem;
+        bottom: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .big-link .big-link__icon
+    {
+        width: 6rem;
+        height: 6rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .info
+    {
+        gap: 2rem;
+
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .number
+    {
+        top: 2.4rem;
+        left: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .name
+    {
+        width: 28.8rem;
+
+        font-size: 2.2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .big-link
+    {
+        bottom: 1.2rem;
+
+        width: calc(100% - 4rem);
+        height: 4.6rem;
+        padding: .4rem .4rem .4rem 4rem;
+
+        font-size: 1.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .text
+    {
+        width: 72rem;
+        padding-inline: 2.8rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .sunscreen_cosmetics_with_us .head
+    {
+        margin-bottom: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .head .title
+    {
+        font-size: 5.2rem;
+
+        letter-spacing: -.052rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item
+    {
+        padding-block: 6rem 5.2rem;
+        padding-inline: 3.2rem;
+
+        border-radius: 3.2rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item .icon
+    {
+        height: 6.8rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item .name
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .big-link
+    {
+        width: 50rem;
+        height: 9.6rem;
+        margin-top: 4rem;
+        padding: 1.6rem 2rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .big-link .big-link__icon
+    {
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+
+
+    .sunscreen_cosmetics_advantages .item
+    {
+        padding: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .name
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
+    .sunscreen_cosmetics_confirmation .data
+    {
+        width: 66rem;
+        padding-block: 4rem 2.8rem;
+        padding-inline: 4rem 8rem;
+
+        border-radius: 2.8rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .title
+    {
+        font-size: 3.2rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .big-link
+    {
+        width: 40rem;
+        height: 9.6rem;
+        margin-top: 2rem;
+        padding: 1.6rem 2rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .big-link .big-link__icon
+    {
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .image
+    {
+        width: calc(100% - 66rem);
+
+        border-radius: 2.8rem;
+    }
+
+
+
+    .sunscreen_cosmetics_form .form__header
+    {
+        gap: 1.2rem !important;
+    }
+
+
+    .sunscreen_cosmetics_form .form__title
+    {
+        font-size: 4.8rem !important;
+    }
+
+
+    .sunscreen_cosmetics_form .btn-common._size-l
+    {
+        height: 9rem !important;
+    }
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .sunscreen_cosmetics_head
+    {
+        margin-bottom: 3.4rem;
+    }
+
+
+    .sunscreen_cosmetics_head .container
+    {
+        min-height: 76rem;
+        padding-block: 14rem 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_head .title
+    {
+        font-size: 7.2rem;
+
+        letter-spacing: -.072rem;
+    }
+
+
+    .sunscreen_cosmetics_head .desc
+    {
+        width: 52rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .sunscreen_cosmetics_head .big-link
+    {
+        width: 48rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .sunscreen_cosmetics_head .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items
+    {
+        bottom: 4.8rem;
+
+        width: 59.2rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items > *
+    {
+        width: 29rem;
+        padding: 2rem;
+
+        font-size: 1.6rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items .icon
+    {
+        width: 4.4rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items span
+    {
+        width: calc(100% - 5.6rem);
+    }
+
+
+
+    .sunscreen_cosmetics_catalog
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: -.016rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .tabs
+    {
+        gap: .8rem;
+
+        margin-top: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .tabs .btn
+    {
+        min-width: 32rem;
+        height: 8rem;
+        padding: 1.2rem 2.4rem;
+
+        font-size: 2rem;
+
+        letter-spacing: .02rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .tab_content > .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item
+    {
+        border-radius: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .top
+    {
+        gap: 2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .thumb
+    {
+        width: 8.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .thumb + *
+    {
+        width: calc(100% - 8.8rem - 2rem);
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .name
+    {
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .desc
+    {
+        font-size: 1.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item ol
+    {
+        width: calc(100% - 5.2rem);
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .big-link .big-link__icon .svgsprite
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product
+    {
+        border-radius: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .name
+    {
+        width: 26.8rem;
+
+        font-size: 2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .big-link
+    {
+        bottom: 1.2rem;
+
+        width: calc(100% - 2.4rem);
+        padding: .4rem .4rem .4rem 2.4rem;
+
+        font-size: 1.6rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .text
+    {
+        width: 64rem;
+        margin-top: 3.2rem;
+        padding-inline: 2.4rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .big-link.action_link
+    {
+        width: 48rem;
+        height: 9.2rem;
+        margin-top: 3.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .big-link.action_link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .sunscreen_cosmetics_with_us
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .head
+    {
+        margin-bottom: 4rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .head .title
+    {
+        font-size: 4.8rem;
+
+        letter-spacing: -.048rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item
+    {
+        padding-block: 4.8rem;
+        padding-inline: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item .icon
+    {
+        height: 6rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .big-link
+    {
+        width: 48rem;
+        height: 9.2rem;
+        padding: 1.6rem 1.6rem 1.6rem 4rem;
+
+        font-size: 2.4rem;
+
+        letter-spacing: .024rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .big-link .big-link__icon
+    {
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+
+
+
+    .sunscreen_cosmetics_advantages
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .thumb
+    {
+        border-radius: 2rem;
+    }
+
+
+
+    .sunscreen_cosmetics_confirmation
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .data
+    {
+        width: 52rem;
+        padding-block: 4rem 2.4rem;
+        padding-inline: 4rem;
+
+        border-radius: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .title
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .big-link
+    {
+        width: 36rem;
+        height: 8rem;
+        margin-top: 3.2rem;
+        padding: 1.2rem 1.22rem 1.2rem 4rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .big-link .big-link__icon
+    {
+        width: 5.6rem;
+        height: 5.6rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .image
+    {
+        width: calc(100% - 52rem);
+
+        border-radius: 2.4rem;
+    }
+
+
+
+    .sunscreen_cosmetics_form
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .sunscreen_cosmetics_form .form__title
+    {
+        max-width: 68rem;
+    }
+
+
+    .sunscreen_cosmetics_form .btn-common._size-l
+    {
+        height: 8rem !important;
+    }
+}
+
+
+
+@media print,
+(max-width: 1279px)
+{
+    .sunscreen_cosmetics_head .container
+    {
+        min-height: 72rem;
+        padding-block: 12.2rem 4rem;
+    }
+
+
+    .sunscreen_cosmetics_head .title
+    {
+        font-size: 6.4rem;
+
+        letter-spacing: -.064rem;
+    }
+
+
+    .sunscreen_cosmetics_head .desc
+    {
+        width: 50rem;
+    }
+
+
+    .sunscreen_cosmetics_head .big-link
+    {
+        width: 40rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items
+    {
+        bottom: 4rem;
+
+        width: 47.2rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items > *
+    {
+        width: 23rem;
+        padding: 1.6rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items .icon
+    {
+        width: 4rem;
+    }
+
+    .sunscreen_cosmetics_head .items span
+    {
+        width: calc(100% - 5.2rem);
+    }
+
+
+
+    .sunscreen_cosmetics_catalog .head
+    {
+        margin-bottom: 3.2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .tabs
+    {
+        gap: .8rem;
+
+        margin-top: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .tabs .btn
+    {
+        min-width: 30rem;
+        height: 7.2rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .tab_content > .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .grid_row > *
+    {
+        width: calc(50% - 2rem);
+    }
+
+
+    .sunscreen_cosmetics_catalog .item ol
+    {
+        width: calc(100% - 6rem);
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .big-link
+    {
+        font-size: 1.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .text
+    {
+        gap: 1.6rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .big-link.action_link
+    {
+        width: 40rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+
+    .sunscreen_cosmetics_with_us .head
+    {
+        margin-bottom: 3.2rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .head .title
+    {
+        font-size: 4.4rem;
+
+        letter-spacing: -.044rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .sunscreen_cosmetics_with_us .swiper-slide
+    {
+        width: 36rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .big-link
+    {
+        width: 40rem;
+        margin-top: 3.2rem;
+
+        font-size: 2.2rem;
+
+        letter-spacing: .022rem;
+    }
+
+
+
+    .sunscreen_cosmetics_advantages .swiper:not(.swiper-initialized) .swiper-slide
+    {
+        width: calc(100% / 2 - 2rem);
+    }
+
+
+
+    .sunscreen_cosmetics_confirmation .data
+    {
+        width: 48rem;
+        padding-block: 2.4rem;
+        padding-inline: 2.4rem;
+
+        border-radius: 2rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .title
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .desc
+    {
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .image
+    {
+        width: calc(100% - 48rem);
+
+        border-radius: 2rem;
+    }
+}
+
+
+
+@media print,
+(max-width: 1023px)
+{
+    .sunscreen_cosmetics_head .container
+    {
+        height: auto;
+        min-height: 0;
+    }
+
+
+    .sunscreen_cosmetics_head .title
+    {
+        font-size: 5.6rem;
+
+        letter-spacing: -.056rem;
+    }
+
+
+    .sunscreen_cosmetics_head .desc
+    {
+        width: 100%;
+    }
+
+
+    .sunscreen_cosmetics_head .items
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        justify-content: flex-start;
+
+        width: 100%;
+    }
+
+
+    .sunscreen_cosmetics_head .items > *
+    {
+        width: 23.2rem;
+    }
+
+
+    .sunscreen_cosmetics_head .big-link
+    {
+        margin-top: 2.4rem;
+    }
+
+
+
+    .sunscreen_cosmetics_catalog .product .icons .icon
+    {
+        width: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .icons .icon img
+    {
+        width: 2.8rem;
+    }
+
+
+
+    .sunscreen_cosmetics_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .sunscreen_cosmetics_with_us .swiper-slide
+    {
+        width: 32rem;
+    }
+
+
+
+    .sunscreen_cosmetics_confirmation .data
+    {
+        width: 32.2rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .big-link
+    {
+        width: 100%;
+        height: 6.8rem;
+        margin-top: 2rem;
+        padding: 1rem 1rem 1rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .image
+    {
+        width: calc(100% - 32.2rem);
+    }
+}
+
+
+
+@media print,
+(max-width: 767px)
+{
+    .sunscreen_cosmetics_head
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_head .title
+    {
+        font-size: 4rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items
+    {
+        gap: .8rem;
+
+        width: 21.4rem;
+        margin-inline: auto;
+    }
+
+
+    .sunscreen_cosmetics_head .items > *
+    {
+        width: 100%;
+        padding: 1.2rem;
+
+        font-size: 1.4rem;
+    }
+
+
+    .sunscreen_cosmetics_head .items br
+    {
+        display: none;
+    }
+
+
+    .sunscreen_cosmetics_head .big-link
+    {
+        width: 24.5rem;
+        height: 5.7rem;
+        margin-inline: auto;
+        margin-top: 0;
+        padding: .6rem .6rem .6rem 2rem;
+
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .sunscreen_cosmetics_head .big-link .big-link__icon
+    {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+
+
+    .sunscreen_cosmetics_catalog
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .title br
+    {
+        display: none;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .tabs
+    {
+        width: 24.9rem;
+        margin-inline: auto;
+        margin-top: 4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .head .tabs .btn
+    {
+        min-width: 100%;
+        height: 5.7rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .tab_content > .title
+    {
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .tab_content > .title br
+    {
+        display: none;
+    }
+
+
+    .sunscreen_cosmetics_catalog .grid_row > *
+    {
+        width: calc(100% - 2rem);
+    }
+
+
+    .sunscreen_cosmetics_catalog .item
+    {
+        gap: 2rem;
+
+        padding: 2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .top
+    {
+        gap: 1.6rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .thumb
+    {
+        width: 8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .thumb + *
+    {
+        width: calc(100% - 8rem - 1.6rem);
+    }
+
+
+    .sunscreen_cosmetics_catalog .item ol
+    {
+        width: 100%;
+
+        font-size: 1.4rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item ol li:before
+    {
+        top: .2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .big-link
+    {
+        display: none;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .big-link .big-link__icon
+    {
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .item .big-link .big-link__icon .svgsprite
+    {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .name
+    {
+        width: 21rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .text
+    {
+        width: 100%;
+        margin-top: 2.4rem;
+        padding-inline: 2rem;
+
+        font-size: 1.4rem;
+
+        letter-spacing: .014rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .big-link.action_link
+    {
+        width: 100%;
+        height: 8rem;
+        margin-top: 2.4rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .big-link.action_link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .sunscreen_cosmetics_with_us
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .head .title
+    {
+        max-width: calc(100% - 10rem);
+
+        font-size: 3.2rem;
+
+        letter-spacing: -.032rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .swiper-controls
+    {
+        align-self: flex-end;
+        gap: 0;
+    }
+
+
+    .sunscreen_cosmetics_with_us .swiper:not(.swiper-initialized) .swiper-slide,
+    .sunscreen_cosmetics_with_us .swiper-slide
+    {
+        width: 28rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item
+    {
+        padding-block: 4rem;
+        padding-inline: 2rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item .icon
+    {
+        height: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .big-link
+    {
+        width: 100%;
+        height: 8rem;
+        margin-top: 2.4rem;
+        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+    .sunscreen_cosmetics_with_us .big-link .big-link__icon
+    {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+
+
+    .sunscreen_cosmetics_advantages
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .head
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .swiper:not(.swiper-initialized) .swiper-slide
+    {
+        width: calc(100% - 2rem);
+    }
+
+
+    .sunscreen_cosmetics_advantages .swiper-controls
+    {
+        align-self: flex-end;
+        gap: 0;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item
+    {
+        padding: 2rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .big-link__icon .svgsprite
+    {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+
+
+    .sunscreen_cosmetics_confirmation
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .sunscreen_cosmetics_confirmation .image
+    {
+        width: 100%;
+        min-height: 200px;
+    }
+
+
+
+    .sunscreen_cosmetics_form .form__header
+    {
+        margin-bottom: 3.6rem !important;
+    }
+
+
+    .sunscreen_cosmetics_form .form__title
+    {
+        max-width: 100% !important;
+
+        font-size: 3.6rem !important;
+    }
+}
