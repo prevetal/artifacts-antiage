@@ -877,6 +877,7 @@
     width: 7.2rem;
 
     z-index: 3;
+    cursor: pointer;
     transition: .2s linear;
 
     border-radius: 50%;
@@ -898,13 +899,13 @@
 }
 
 
-.disposable_patches_cosmetics .item:hover .back
+.disposable_patches_cosmetics .item.upside_down .back
 {
     opacity: 1;
 }
 
 
-.disposable_patches_cosmetics .item:hover .turn img
+.disposable_patches_cosmetics .item.upside_down .turn img
 {
     transform: rotate(-180deg);
 }
