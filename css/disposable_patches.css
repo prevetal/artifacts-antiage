@@ -780,6 +780,7 @@
     counter-reset: number;
     transition: opacity .2s linear;
     letter-spacing: .02rem;
+    pointer-events: none;
 
     opacity: 0;
     border-radius: 3.4rem;
@@ -822,6 +823,17 @@
     font-size: 2.4rem;
     font-weight: 300;
     line-height: 1;
+}
+
+
+.disposable_patches_cosmetics .item .name a
+{
+    display: inline-block;
+
+    vertical-align: top;
+    text-decoration: none;
+
+    color: currentColor;
 }
 
 
@@ -901,6 +913,8 @@
 
 .disposable_patches_cosmetics .item.upside_down .back
 {
+    pointer-events: auto;
+
     opacity: 1;
 }
 
