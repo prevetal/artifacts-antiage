@@ -225,6 +225,7 @@
 .sunscreen_cosmetics_catalog .head .desc
 {
     width: 78.5rem;
+    max-width: 100%;
     margin-top: 2.1rem;
 
     font-size: 2rem;
@@ -512,6 +513,8 @@
 
 .sunscreen_cosmetics_catalog .product .info
 {
+    position: relative;
+
     display: flex;
     align-content: center;
     align-items: center;
@@ -605,6 +608,46 @@
 .sunscreen_cosmetics_catalog .product .desc b
 {
     font-weight: 400;
+}
+
+
+.sunscreen_cosmetics_catalog .product .icons
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: .8rem;
+
+    width: 100%;
+}
+
+
+.sunscreen_cosmetics_catalog .product .icons .icon
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 5.6rem;
+
+    border: 1px solid;
+    border-radius: 50%;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.sunscreen_cosmetics_catalog .product .icons .icon img
+{
+    display: block;
+
+    width: 3.2rem;
+
+    aspect-ratio: 1 / 1;
 }
 
 
@@ -930,6 +973,137 @@
     height: 6rem;
 
     color: #18181e;
+}
+
+
+
+.sunscreen_cosmetics_advantages
+{
+    padding-block: 5rem;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper
+{
+    overflow: visible;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper:not(.swiper-initialized) .swiper-wrapper
+{
+    gap: 2rem;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper:not(.swiper-initialized) .swiper-slide
+{
+    width: calc(100% / 3 - 2rem);
+}
+
+
+.sunscreen_cosmetics_advantages .swiper-controls
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.2rem;
+
+    margin-left: auto;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper-button-next,
+.sunscreen_cosmetics_advantages .swiper-button-prev
+{
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+
+    opacity: 1;
+    color: #18181e;
+    border-radius: 0;
+    background: none;
+}
+
+
+.sunscreen_cosmetics_advantages .swiper-button-next:hover,
+.sunscreen_cosmetics_advantages .swiper-button-prev:hover
+{
+    color: #18181e;
+    background: none;
+}
+
+
+.sunscreen_cosmetics_advantages .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 2.8rem;
+}
+
+
+.sunscreen_cosmetics_advantages .item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    padding: 3.2rem;
+
+    opacity: .9;
+    border: .1rem solid rgba(24, 24, 30, .16);
+    border-radius: 3.4rem;
+    background: rgba(255, 255, 255, .9);
+}
+
+
+.sunscreen_cosmetics_advantages .item .name
+{
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.sunscreen_cosmetics_advantages .item .desc
+{
+    font-size: 2rem;
+    font-weight: 375;
+    line-height: 110%;
+
+    letter-spacing: .02rem;
+}
+
+
+.sunscreen_cosmetics_advantages .item .thumb
+{
+    display: block;
+
+    margin-top: auto;
+
+    border-radius: 2.2rem;
+    background: #ddd;
+
+    aspect-ratio: 1 / .623;
+}
+
+
+.sunscreen_cosmetics_advantages .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
 }
 
 
@@ -1361,6 +1535,27 @@
 
 
 
+    .sunscreen_cosmetics_advantages .item
+    {
+        padding: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .name
+    {
+        font-size: 2.8rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .desc
+    {
+        font-size: 1.8rem;
+
+        letter-spacing: .018rem;
+    }
+
+
+
     .sunscreen_cosmetics_confirmation .data
     {
         width: 66rem;
@@ -1514,10 +1709,6 @@
     {
         width: calc(100% - 5.6rem);
     }
-
-
-
-
 
 
 
@@ -1760,6 +1951,33 @@
 
 
 
+    .sunscreen_cosmetics_advantages
+    {
+        padding-block: 3.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .name
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .desc
+    {
+        font-size: 1.6rem;
+
+        letter-spacing: .016rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .thumb
+    {
+        border-radius: 2rem;
+    }
+
+
+
     .sunscreen_cosmetics_confirmation
     {
         padding-block: 3.4rem;
@@ -1941,49 +2159,9 @@
     }
 
 
-    .sunscreen_cosmetics_catalog .grid_row
-    {
-        display: grid;
-        overflow: auto;
-        gap: 2rem;
-
-        width: calc(100% + 4.8rem);
-        margin-inline: -2.4rem;
-        margin-bottom: 0;
-        padding-inline: 2.4rem;
-
-        grid-auto-flow: column;
-        grid-auto-columns: max-content;
-        scroll-padding: 0 2.4rem;
-        scroll-snap-type: x mandatory;
-        scrollbar-color: transparent transparent;
-        scrollbar-width: thin;
-    }
-
-
-    .sunscreen_cosmetics_catalog .grid_row::-webkit-scrollbar
-    {
-        display: none;
-
-        width: 0;
-        height: 0;
-
-        background-color: transparent;
-    }
-
-
-    .sunscreen_cosmetics_catalog .grid_row::-webkit-scrollbar-thumb
-    {
-        background-color: transparent;
-    }
-
-
     .sunscreen_cosmetics_catalog .grid_row > *
     {
-        width: 40rem;
-        margin: 0;
-
-        scroll-snap-align: start;
+        width: calc(50% - 2rem);
     }
 
 
@@ -2045,6 +2223,13 @@
         font-size: 2.2rem;
 
         letter-spacing: .022rem;
+    }
+
+
+
+    .sunscreen_cosmetics_advantages .swiper:not(.swiper-initialized) .swiper-slide
+    {
+        width: calc(100% / 2 - 2rem);
     }
 
 
@@ -2132,6 +2317,19 @@
 
 
 
+    .sunscreen_cosmetics_catalog .product .icons .icon
+    {
+        width: 4.8rem;
+    }
+
+
+    .sunscreen_cosmetics_catalog .product .icons .icon img
+    {
+        width: 2.8rem;
+    }
+
+
+
     .sunscreen_cosmetics_with_us .swiper:not(.swiper-initialized) .swiper-slide,
     .sunscreen_cosmetics_with_us .swiper-slide
     {
@@ -2191,7 +2389,10 @@
 
     .sunscreen_cosmetics_head .items
     {
-        width: 100%;
+        gap: .8rem;
+
+        width: 21.4rem;
+        margin-inline: auto;
     }
 
 
@@ -2199,6 +2400,8 @@
     {
         width: 100%;
         padding: 1.2rem;
+
+        font-size: 1.4rem;
     }
 
 
@@ -2210,20 +2413,22 @@
 
     .sunscreen_cosmetics_head .big-link
     {
-        width: 100%;
-        height: 8rem;
-        padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+        width: 24.5rem;
+        height: 5.7rem;
+        margin-inline: auto;
+        margin-top: 0;
+        padding: .6rem .6rem .6rem 2rem;
 
-        font-size: 1.8rem;
+        font-size: 1.6rem;
 
-        letter-spacing: .018rem;
+        letter-spacing: .016rem;
     }
 
 
     .sunscreen_cosmetics_head .big-link .big-link__icon
     {
-        width: 5.2rem;
-        height: 5.2rem;
+        width: 4.5rem;
+        height: 4.5rem;
     }
 
 
@@ -2250,6 +2455,8 @@
 
     .sunscreen_cosmetics_catalog .head .tabs
     {
+        width: 24.9rem;
+        margin-inline: auto;
         margin-top: 4rem;
     }
 
@@ -2257,11 +2464,11 @@
     .sunscreen_cosmetics_catalog .head .tabs .btn
     {
         min-width: 100%;
-        height: 6.4rem;
+        height: 5.7rem;
 
-        font-size: 1.6rem;
+        font-size: 1.4rem;
 
-        letter-spacing: .016rem;
+        letter-spacing: .014rem;
     }
 
 
@@ -2281,7 +2488,7 @@
 
     .sunscreen_cosmetics_catalog .grid_row > *
     {
-        width: 30rem;
+        width: calc(100% - 2rem);
     }
 
 
@@ -2454,6 +2661,51 @@
 
 
 
+    .sunscreen_cosmetics_advantages
+    {
+        padding-block: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .head
+    {
+        margin-bottom: 2.4rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .swiper:not(.swiper-initialized) .swiper-slide
+    {
+        width: calc(100% - 2rem);
+    }
+
+
+    .sunscreen_cosmetics_advantages .swiper-controls
+    {
+        align-self: flex-end;
+        gap: 0;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item
+    {
+        padding: 2rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .name
+    {
+        font-size: 2.2rem;
+    }
+
+
+    .sunscreen_cosmetics_advantages .item .big-link__icon .svgsprite
+    {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+
+
     .sunscreen_cosmetics_confirmation
     {
         padding-block: 2.4rem;
@@ -2462,6 +2714,8 @@
 
     .sunscreen_cosmetics_confirmation .data
     {
+        order: 2;
+
         width: 100%;
     }
 
@@ -2469,6 +2723,7 @@
     .sunscreen_cosmetics_confirmation .image
     {
         width: 100%;
+        min-height: 200px;
     }
 
 

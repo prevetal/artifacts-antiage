@@ -44,6 +44,56 @@ document.addEventListener('DOMContentLoaded', function() {
 	})
 
 
+
+	// Sunscreen cosmetics advantages slider
+	const sunscreenCosmeticsAdvantagesSliders = [],
+		sunscreenCosmeticsAdvantages = document.querySelectorAll('.sunscreen_cosmetics_advantages .swiper')
+
+	sunscreenCosmeticsAdvantages.forEach((el, i) => {
+		el.classList.add('sunscreen_cosmetics_advantages_s' + i)
+
+		let options = {
+			loop: false,
+			loopAdditionalSlides: 1,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			lazy: true,
+			navigation: {
+				nextEl: el.querySelector('.swiper-button-next'),
+				prevEl: el.querySelector('.swiper-button-prev')
+			},
+			breakpoints: {
+				0: {
+					spaceBetween: 12,
+					slidesPerView: 'auto'
+				},
+				768: {
+					spaceBetween: 12,
+					slidesPerView: 2
+				},
+				1280: {
+					spaceBetween: 20,
+					slidesPerView: 3
+				}
+			},
+			on: {
+				init: swiper => setHeight(swiper.el.querySelectorAll('.item')),
+				resize: swiper => {
+					let items = swiper.el.querySelectorAll('.item')
+
+					items.forEach(el => el.style.height = 'auto')
+
+					setHeight(items)
+				}
+			}
+		}
+
+		sunscreenCosmeticsAdvantagesSliders.push(new Swiper('.sunscreen_cosmetics_advantages_s' + i, options))
+	})
+
+
 	// Tabs
 	const locationHash = window.location.hash
 
